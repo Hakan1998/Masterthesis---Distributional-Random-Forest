@@ -1,0 +1,23 @@
+# Virtuelle Umgebung ausschließen
+new_enviroment/
+
+# Python Cache-Dateien
+__pycache__/
+*.pyc
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Logs und temporäre Dateien
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Konfigurationsdateien, falls vorhanden
+config.json
+config.yaml
+.env
+
+# IP-Adress-Dateien (falls du konkrete Dateien hast, in denen die IPs gespeichert sind)
+ip_address.txt
