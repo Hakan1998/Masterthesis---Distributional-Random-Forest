@@ -21,3 +21,9 @@ config.yaml
 
 # IP-Adress-Dateien (falls du konkrete Dateien hast, in denen die IPs gespeichert sind)
 ip_address.txt
+
+echo "m5.csv" >> .gitignore
+echo "yaz.csv" >> .gitignore
+echo "bakery.csv" >> .gitignore
+echo "air.csv" >> .gitignore
+echo "wage.csv" >> .gitignore
