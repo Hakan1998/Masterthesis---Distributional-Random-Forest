@@ -10,6 +10,11 @@ from dddex.crossValidation import QuantileCrossValidation, groupedTimeSeriesSpli
 import scripts.config as config
 from Wrapper.wrapper import MLPRegressorWrapper, DeepLearningNewsvendorWrapper
 import scripts.globals as globals  # Import the globals module
+from sklearn.neural_network import MLPRegressor
+from lightgbm import LGBMRegressor
+from dddex.levelSetKDEx_univariate import LevelSetKDEx
+from collections import OrderedDict
+import math
 
 bin_sizes = config.bin_sizes 
 n_splits = config.n_splits
@@ -37,9 +42,9 @@ def pinball_loss_scorer(tau):
 
 def get_grid(estimator_name, n_features):
 
-    bin_sizes = config.bin_sizes
-
     kernel_bandwidth_values = np.arange(1.0, np.sqrt(n_features / 2) + 0.5, 0.5).tolist()
+
+    sqrt_n_features = math.sqrt(n_features)
 
     layer1_values = [
         int(0.5 * n_features),
@@ -82,11 +87,10 @@ def get_grid(estimator_name, n_features):
             'max_iter': Categorical([500, 1000]),  # Diskrete Werte für max_iter
             'early_stopping': Categorical([True])  # Diskret, da True oder False
         },
-        
         "DRF": {
             "min_node_size": Categorical([1, 2, 4, 8, 16, 32, 64, 128]),  # Kontinuierlicher Bereich für min_node_size
             "num_trees": Categorical([50, 100, 250, 500]),  # Kontinuierlicher Bereich für Anzahl der Bäume
-            "num_features": Categorical([5, 15, 30, 50])  # Kontinuierlicher Bereich für num_features
+            "num_features": Categorical([n_features, int(sqrt_n_features)])  # Quadratwurzel von n_features als Option
         },
         "LevelSetKDEx_groupsplit": {"binSize": bin_sizes, "weightsByDistance": [True, False]},
         "LGBM": {
@@ -129,7 +133,7 @@ def train_and_evaluate_model(model_name, model, param_grid, X_train_scaled, X_te
 
         # Perform cross-validation for LevelSetKDEx
         CV = QuantileCrossValidation(estimator=model, parameterGrid=param_grid, cvFolds=cvFolds, 
-                                     probs=[tau], refitPerProb=True, n_jobs=n_jobs)
+                                     probs=[tau], refitPerProb=True, n_jobs=4)
         CV.fit(X=X_train_scaled, y=y_train.to_numpy())
     
         fold_scores_raw = CV.cvResults_raw
@@ -201,6 +205,9 @@ def bayesian_search_model(model_name, model, param_grid, X_train, y_train, tau, 
         n_iter = 80  # Higher number of iterations for LGBM
     else: 
         n_iter = min(max_combinations, 50)  # Dynamically set n_iter to the smaller of max_combinations or 50
+
+    if model_name == "DRF":
+        n_jobs = 14
 
     # Create Bayesian search object with optimized settings
     bayes_search = BayesSearchCV(
@@ -338,3 +345,24 @@ def create_cv_folds(X_train_scaled_withID, kFolds=5, testLength=None, groupFeatu
         timeFeature=timeFeature
     )
 
+
+# Load the result table from the CSV file
+dataset_name = config.dataset_name  # Replace this with the actual dataset name
+#filename = f"results_LGM_MLP_Models_{dataset_name}.csv"
+
+filename = f"results_basic_Models_{dataset_name}.csv"
+
+#result_table = pd.read_csv(filename)
+
+# Function to fetch the pre-tuned parameters for a given model from the result table
+def get_pre_tuned_params(column, cu, co, model_name):
+    """Fetch the pre-tuned parameters for DLNW or RF models from the result table."""
+    params_row = result_table[
+        (result_table['Variable'] == column) &
+        (result_table['cu'] == cu) &
+        (result_table['co'] == co) &
+        (result_table['Model'] == model_name)
+    ]['Best Params'].values
+    if params_row.size > 0:
+        return eval(params_row[0])  # Convert the string representation of the dictionary into a Python dict
+    return None

@@ -4,14 +4,33 @@ from drf import drf
 from ddop2.newsvendor import (
     DeepLearningNewsvendor
 )
+import numpy as np
+import pandas as pd
+
+############################
+
+# # The DRFWrapper class is a wrapper for the DRF model, which allows it to be used in Scikit-learn pipelines and GridSearchCV.
+# Since the DRF is not compatible with Scikit-learn, we need to create a wrapper class to use it in our Bayesian optimization framework.
+# Further: DRF doesnt run with n_jobs, so we need to set the number of threads in the model itself!
+
+# important:
+#  
+# the number of threads should be set to the number of threads should be uses similiar to the n_jobs parameter in GridSearchCV etc.
+# if dont set and pass the num_threads argument in the initialisating it will use the default value num_thread = NULL 
+# which means it will use all available threads and all available kernels
+
+# The python package doesnt contain the passed arguments
+# for an overview of all arguments see the source R Package: https://github.com/lorismichel/drf/blob/master/r-package/drf/R/drf.R
+############################
 
 class DRFWrapper(BaseEstimator, RegressorMixin):
-    def __init__(self, min_node_size=10, num_trees=100, num_features=None, splitting_rule="FourierMMD", seed=42):
+    def __init__(self, min_node_size=10, num_trees=100, num_features=None, splitting_rule="FourierMMD", seed=42, num_threads=1):
         self.min_node_size = min_node_size
         self.num_trees = num_trees
         self.num_features = num_features  # Replace mtry with num_features
         self.splitting_rule = splitting_rule
         self.seed = seed
+        self.num_threads = num_threads  # Number of threads for parallel processing
         self.model = None
 
     def fit(self, X, y):
@@ -21,13 +40,17 @@ class DRFWrapper(BaseEstimator, RegressorMixin):
         if isinstance(y, np.ndarray):
             y = pd.DataFrame(y)
         assert X.shape[0] == y.shape[0], "X and y must have the same number of rows"
+        
+        # Pass the num_threads argument to the model if applicable
         self.model = drf(
             min_node_size=self.min_node_size, 
             num_trees=self.num_trees, 
             num_features=self.num_features,  # Corrected syntax here
             splitting_rule=self.splitting_rule, 
-            seed=self.seed
+            seed=self.seed,
+            num_threads=self.num_threads  # Use the number of threads if specified
         )
+        
         self.model.fit(X, y)
         return self
     
@@ -43,7 +66,8 @@ class DRFWrapper(BaseEstimator, RegressorMixin):
             'num_trees': self.num_trees, 
             'num_features': self.num_features,  # Return num.features in get_params
             'splitting_rule': self.splitting_rule, 
-            'seed': self.seed
+            'seed': self.seed,
+            'num_threads': self.num_threads  # Return num_threads in get_params
         }
     
     def set_params(self, **params):
