@@ -15,6 +15,9 @@ from lightgbm import LGBMRegressor
 from dddex.levelSetKDEx_univariate import LevelSetKDEx
 from collections import OrderedDict
 import math
+import os
+from itertools import product
+
 
 bin_sizes = config.bin_sizes 
 n_splits = config.n_splits
@@ -111,14 +114,17 @@ def train_and_evaluate_model(model_name, model, param_grid, X_train_scaled, X_te
                              y_train, y_test, tau, cu, co, timeseries, column):
     
     
+    # take best params from estimatior calculations 
     
     if timeseries and ("LS_KDEx_MLP" in model_name or "LS_KDEx_LGBM" in model_name):
 
         point_forecast_model = model.estimator
+
         if isinstance(point_forecast_model, LGBMRegressor):
             lgbm_params = get_pre_tuned_params(column, cu, co, 'LGBM')
             lgbm_params['n_jobs'] = n_jobs  # Set n_jobs for LightGBM
             point_forecast_model.set_params(**lgbm_params)
+
         elif isinstance(point_forecast_model, MLPRegressor):
             mlp_params = get_pre_tuned_params(column, cu, co, 'MLP')
             point_forecast_model.set_params(**mlp_params)
@@ -127,11 +133,11 @@ def train_and_evaluate_model(model_name, model, param_grid, X_train_scaled, X_te
         point_forecast_model.fit(X_train_scaled, y_train)
         model.estimator = point_forecast_model
 
-        # Step 2: Continue with LevelSetKDEx time series cross-validation
-        print("Performing LevelSetKDEx TimeSeries cross-validation...")
-        # Perform time series split using groupedTimeSeriesSplit
 
-        # Perform cross-validation for LevelSetKDEx
+    # run CV for levelset models and save the results
+
+        print("Performing LevelSetKDEx TimeSeries cross-validation...")
+
         CV = QuantileCrossValidation(estimator=model, parameterGrid=param_grid, cvFolds=cvFolds, 
                                      probs=[tau], refitPerProb=True, n_jobs=4)
         CV.fit(X=X_train_scaled, y=y_train.to_numpy())
@@ -159,8 +165,10 @@ def train_and_evaluate_model(model_name, model, param_grid, X_train_scaled, X_te
         best_params = CV.bestParams_perProb[tau]
 
 
+    # else run the CV for non Levelset models 
+
     else:
-        # Perform Bayesian search for all models since param_grid is always available
+       
         model, best_params = bayesian_search_model(model_name, model, param_grid, X_train_scaled, y_train, tau, cu, co, n_points, n_initial_points, n_jobs, column)
 
         # Conditionally pass 'quantile' only for DRF
@@ -176,10 +184,10 @@ def train_and_evaluate_model(model_name, model, param_grid, X_train_scaled, X_te
 
 
 
-
-from itertools import product
-
 # Function to calculate the number of hyperparameter combinations
+# to set Dynamically se iterations for bayes if we have less than than out aimed iterations (50)
+# otherweise models with less 50 param combinations /e.g. knnw runs still 50 iteration although they have less
+
 def calculate_n_iter(param_grid):
     param_values = []
     # Convert Categorical objects to lists
@@ -202,12 +210,10 @@ def bayesian_search_model(model_name, model, param_grid, X_train, y_train, tau, 
     max_combinations = calculate_n_iter(param_grid)
 
     if model_name == "LGBM":
-        n_iter = 80  # Higher number of iterations for LGBM
+        n_iter = 80  # Higher number of iterations for LGBM since we have more params here
     else: 
         n_iter = min(max_combinations, 50)  # Dynamically set n_iter to the smaller of max_combinations or 50
 
-    if model_name == "DRF":
-        n_jobs = 14
 
     # Create Bayesian search object with optimized settings
     bayes_search = BayesSearchCV(
@@ -262,16 +268,17 @@ def bayesian_search_model(model_name, model, param_grid, X_train, y_train, tau, 
 
     
     # Define the preprocessing function
+
 def preprocess_per_instance(column, X_train_features, X_test_features, y_train, y_test):
     """Preprocess training and test data for the given column."""
-    # Drop irrelevant columns
+
     drop_columns = ['label', 'id', 'demand', 'dayIndex']
 
     # Check if 'scalingValue' exists in the DataFrame for this column and add it to drop_columns if it exists
     if 'scalingValue' in X_train_features.get_group(column).columns:
         drop_columns.append('scalingValue')
 
-    # Now safely drop the columns (without errors)
+
     X_train = X_train_features.get_group(column).drop(columns=drop_columns, errors='ignore')
     X_test = X_test_features.get_group(column).drop(columns=drop_columns, errors='ignore')
     
@@ -283,11 +290,9 @@ def preprocess_per_instance(column, X_train_features, X_test_features, y_train, 
 
     # Scale the features
     scaler = StandardScaler()
+
     X_train_scaled = scaler.fit_transform(X_train)
-
     X_test_scaled = scaler.transform(X_test)
-
-
 
     # Retain the id and dayIndex columns for later
     X_train_scaled_withID = pd.DataFrame(
@@ -298,39 +303,29 @@ def preprocess_per_instance(column, X_train_features, X_test_features, y_train, 
     return X_train_scaled, X_test_scaled, y_train_col, y_test_col, X_train_scaled_withID
 
 def append_result(table_rows, column, cu, co, model_name, pinball_loss_value, best_params, delta, tau):
-    """Append model evaluation results to the table_rows and print the result."""
+    """Append model evaluation results to the table_rows."""
     result_row = [column, cu, co, model_name, pinball_loss_value, best_params, delta, tau]
     table_rows.append(result_row)
-    # Print the result row after appending
+
 
 
 def evaluate_and_append_models(models, X_train_scaled, X_test_scaled, y_train_col, y_test_col, 
                                saa_pinball_loss, tau, cu, co, column, table_rows, timeseries):
     """Evaluate models, calculate pinball loss, and append results to table_rows, with debug prints."""
+    
     for model_name, model, param_grid in models:
-        # Check if model is LevelSetKDEx_DL to compare different versions
-        print(f"Evaluating model: {model_name}, cu: {cu}, co: {co}")
-        if ("LevelSetKDEx_DL" in model_name or "LevelSetKDEx_RF" in model_name) and get_grid("LevelSetKDEx_manual", X_train_scaled.shape[1]):
-            # Evaluate models for time series datasets
-            pinball_loss_value, best_params = train_and_evaluate_model(
-                model_name, model, param_grid, X_train_scaled, X_test_scaled, 
-                y_train_col, y_test_col, tau, cu, co, timeseries, column
-            )
-            # Calculate delta (improvement) compared to SAA
-            delta = 1 - (pinball_loss_value / saa_pinball_loss)
-            # Append result to table_rows
-            append_result(table_rows, column, cu, co, model_name, pinball_loss_value, best_params, delta, tau)
 
-        else:
-            # Evaluate models for time series datasets
-            pinball_loss_value, best_params = train_and_evaluate_model(
-                model_name, model, param_grid, X_train_scaled, X_test_scaled, 
-                y_train_col, y_test_col, tau, cu, co, timeseries, column
-            )
-            # Calculate delta (improvement) compared to SAA
-            delta = 1 - (pinball_loss_value / saa_pinball_loss)
-            # Append result to table_rows
-            append_result(table_rows, column, cu, co, model_name, pinball_loss_value, best_params, delta, tau)
+        print(f"Evaluating model: {model_name}, cu: {cu}, co: {co}")
+
+        # Evaluate models for time series datasets
+        pinball_loss_value, best_params = train_and_evaluate_model(
+            model_name, model, param_grid, X_train_scaled, X_test_scaled, 
+            y_train_col, y_test_col, tau, cu, co, timeseries, column
+        )
+
+        delta = 1 - (pinball_loss_value / saa_pinball_loss)
+
+        append_result(table_rows, column, cu, co, model_name, pinball_loss_value, best_params, delta, tau)
 
 def create_cv_folds(X_train_scaled_withID, kFolds=5, testLength=None, groupFeature='id', timeFeature='dayIndex'):
     global cvFolds
@@ -345,14 +340,15 @@ def create_cv_folds(X_train_scaled_withID, kFolds=5, testLength=None, groupFeatu
         timeFeature=timeFeature
     )
 
+#only set up the results table when we have the parameter results from the estimator models
 
-# Load the result table from the CSV file
-dataset_name = config.dataset_name  # Replace this with the actual dataset name
-#filename = f"results_LGM_MLP_Models_{dataset_name}.csv"
-
-filename = f"results_basic_Models_{dataset_name}.csv"
-
-#result_table = pd.read_csv(filename)
+levelset_calculations = config.levelset_calculations
+if levelset_calculations == True :
+# Define the folder where results are stored
+        results_folder = "results"
+        dataset_name = config.dataset_name  # Get the dataset name from config.py
+        filename = os.path.join(results_folder, f"results_basic_Models_{dataset_name}.csv")
+        result_table = pd.read_csv(filename)
 
 # Function to fetch the pre-tuned parameters for a given model from the result table
 def get_pre_tuned_params(column, cu, co, model_name):

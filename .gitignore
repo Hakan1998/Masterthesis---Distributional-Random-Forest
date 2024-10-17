@@ -27,3 +27,11 @@ echo "yaz.csv" >> .gitignore
 echo "bakery.csv" >> .gitignore
 echo "air.csv" >> .gitignore
 echo "wage.csv" >> .gitignore
+
+
+# Oder spezifische Dateien ignorieren
+m5.csv
+bakery.csv
+air.csv
+yaz.csv
+wage.csv
