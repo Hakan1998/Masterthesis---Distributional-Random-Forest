@@ -1,33 +1,26 @@
-from sklearn.base import BaseEstimator, RegressorMixin
-import numpy as np
-import pandas as pd
-from sklearn.metrics import make_scorer
-from sklearn.model_selection import GridSearchCV, KFold
-from skopt.space import Real, Integer, Categorical
-from skopt import BayesSearchCV
-from sklearn.preprocessing import StandardScaler
-from dddex.crossValidation import QuantileCrossValidation, groupedTimeSeriesSplit
-import scripts.config as config
-from Wrapper.wrapper import MLPRegressorWrapper, DeepLearningNewsvendorWrapper
-import scripts.globals as globals  # Import the globals module
-from sklearn.neural_network import MLPRegressor
-from lightgbm import LGBMRegressor
-from dddex.levelSetKDEx_univariate import LevelSetKDEx
-from collections import OrderedDict
 import math
 import os
 from itertools import product
 
+import numpy as np
+import pandas as pd
+from sklearn.base import BaseEstimator, RegressorMixin
+from sklearn.metrics import make_scorer
 
-bin_sizes = config.bin_sizes 
-n_splits = config.n_splits
+from sklearn.preprocessing import StandardScaler
+from skopt import BayesSearchCV
+from skopt.space import Categorical
 
-n_jobs = config.n_jobs
-n_iter = config.n_iter
-n_points = config.n_points
-n_initial_points = config.n_initial_points
-
-
+import scripts.config as config
+import scripts.globals as globals
+from dddex.crossValidation import QuantileCrossValidation, groupedTimeSeriesSplit
+from dddex.levelSetKDEx_univariate import LevelSetKDEx
+from lightgbm import LGBMRegressor
+from sklearn.neural_network import MLPRegressor
+from Wrapper.wrapper import DeepLearningNewsvendorWrapper, MLPRegressorWrapper
+from scripts.get_grids import get_grid
+from scripts.config import *
+from collections import OrderedDict
 
 # Pinball loss function for quantile regression
 def pinball_loss(y_true, y_pred, tau):
@@ -43,78 +36,13 @@ def pinball_loss_scorer(tau):
 
 
 
-def get_grid(estimator_name, n_features):
-
-    kernel_bandwidth_values = np.arange(1.0, np.sqrt(n_features / 2) + 0.5, 0.5).tolist()
-
-    sqrt_n_features = math.sqrt(n_features)
-
-    layer1_values = [
-        int(0.5 * n_features),
-        int(1 * n_features),
-        int(2 * n_features),
-        int(3 * n_features)
-    ]
-    
-    layer2_values = [
-        int(0.25 * n_features),
-        int(0.5 * n_features),
-        int(1 * n_features),
-        int(2 * n_features)
-    ]
-
-    grids = {
-
-        "DTW": {
-            "max_depth": Categorical([None, 2, 4, 6, 8, 10]),  # Diskrete Werte bleiben unverändert
-            "min_samples_split": Categorical([2, 4, 8, 16, 32, 64])  # Diskrete Werte mit kleineren Abstufungen
-        },
-        "RFW": {
-            "max_depth": Categorical([None, 2, 4, 8, 10]),  # Diskrete Werte bleiben unverändert
-            "min_samples_split": Categorical ([2, 4 ,8, 16, 32, 64]),  # Diskrete Werte mit feineren Abstufungen
-            "n_estimators": Categorical([10, 20, 50, 100]),  # Diskrete Werte für n_estimators mit kleineren Schritten
-            "max_features": Categorical([None, 'sqrt'])  # Diskrete Wahl bleibt unverändert
-        },
-        "KNNW": {
-            "n_neighbors": Categorical([1, 2, 4, 8, 16, 32, 64, 128])  # Kontinuierlicher Bereich für Anzahl der Nachbarn
-        },
-        "GKW": {
-            "kernel_bandwidth": Categorical(kernel_bandwidth_values)  # Kontinuierlicher Bereich für Kernel-Bandbreite
-        },
-        "MLP": {    
-            'layer1': Categorical(layer1_values),  # Kontinuierlicher Bereich für Layergrößen
-            'layer2': Categorical(layer2_values),  # Kontinuierlicher Bereich für Layergrößen
-            'solver': Categorical(['adam']),  # Solver bleibt diskret
-            'alpha': Categorical([0.0001, 0.001]),  # Kontinuierlicher Bereich für alpha
-            'learning_rate_init': Categorical([0.0005, 0.001]),  # Lernrate als kontinuierlicher Bereich
-            'max_iter': Categorical([500, 1000]),  # Diskrete Werte für max_iter
-            'early_stopping': Categorical([True])  # Diskret, da True oder False
-        },
-        "DRF": {
-            "min_node_size": Categorical([1, 2, 4, 8, 16, 32, 64, 128]),  # Kontinuierlicher Bereich für min_node_size
-            "num_trees": Categorical([50, 100, 250, 500]),  # Kontinuierlicher Bereich für Anzahl der Bäume
-            "num_features": Categorical([n_features, int(sqrt_n_features)])  # Quadratwurzel von n_features als Option
-        },
-        "LevelSetKDEx_groupsplit": {"binSize": bin_sizes, "weightsByDistance": [True, False]},
-        "LGBM": {
-            'num_leaves': Categorical([31, 63, 127]),  # Diskrete Werte mit kleineren Schritten für num_leaves
-            'min_data_in_leaf': Categorical([20, 50, 100, 500]),  # Diskrete Werte für min_data_in_leaf
-            'max_depth': Categorical([3,5,7, -1]),  # Diskrete Werte für max_depth
-            'learning_rate': Categorical([0.01, 0.05, 0.1]),  # Diskrete Werte für learning_rate
-            'n_estimators': Categorical([100, 200, 500])  # Diskrete Werte für n_estimators
-        }
-    }
-
-    return grids.get(estimator_name, None)
-
-
 
 # Modify the train_and_evaluate_model function
 def train_and_evaluate_model(model_name, model, param_grid, X_train_scaled, X_test_scaled, 
                              y_train, y_test, tau, cu, co, timeseries, column):
     
     
-    # take best params from estimatior calculations 
+    # get best params from estimatior calculations 
     
     if timeseries and ("LS_KDEx_MLP" in model_name or "LS_KDEx_LGBM" in model_name):
 
@@ -185,8 +113,8 @@ def train_and_evaluate_model(model_name, model, param_grid, X_train_scaled, X_te
 
 
 # Function to calculate the number of hyperparameter combinations
-# to set Dynamically se iterations for bayes if we have less than than out aimed iterations (50)
-# otherweise models with less 50 param combinations /e.g. knnw runs still 50 iteration although they have less
+# to set dynamically the iterations for bayesopt if we have less than than our aimed iterations (50)
+# otherweise models with less 50 param combinations run iteration on same params double /e.g. knnw would still run 50 iteration although it has less
 
 def calculate_n_iter(param_grid):
     param_values = []
@@ -312,12 +240,12 @@ def append_result(table_rows, column, cu, co, model_name, pinball_loss_value, be
 def evaluate_and_append_models(models, X_train_scaled, X_test_scaled, y_train_col, y_test_col, 
                                saa_pinball_loss, tau, cu, co, column, table_rows, timeseries):
     """Evaluate models, calculate pinball loss, and append results to table_rows, with debug prints."""
-    
+
     for model_name, model, param_grid in models:
 
         print(f"Evaluating model: {model_name}, cu: {cu}, co: {co}")
 
-        # Evaluate models for time series datasets
+
         pinball_loss_value, best_params = train_and_evaluate_model(
             model_name, model, param_grid, X_train_scaled, X_test_scaled, 
             y_train_col, y_test_col, tau, cu, co, timeseries, column
@@ -327,11 +255,16 @@ def evaluate_and_append_models(models, X_train_scaled, X_test_scaled, y_train_co
 
         append_result(table_rows, column, cu, co, model_name, pinball_loss_value, best_params, delta, tau)
 
+# we set each testlenth per fold to 20% of the trainset
+# so each fold has an 80/20 split
+
 def create_cv_folds(X_train_scaled_withID, kFolds=5, testLength=None, groupFeature='id', timeFeature='dayIndex'):
     global cvFolds
     if testLength is None:
-        testLength = int(0.2 * (len(X_train_scaled_withID)/kFolds ))
-    print(f"Test length for column: {testLength} (20% of {len(X_train_scaled_withID)/kFolds})")
+       testLength = int((1/6) * (len(X_train_scaled_withID) / kFolds))
+       
+    print(f"Test length for column: {testLength} 1/6 % of: {int(len(X_train_scaled_withID)/kFolds)}")
+
     cvFolds = groupedTimeSeriesSplit(
         data=X_train_scaled_withID, 
         kFolds=kFolds, 
@@ -345,11 +278,11 @@ def create_cv_folds(X_train_scaled_withID, kFolds=5, testLength=None, groupFeatu
 levelset_calculations = config.levelset_calculations
 if levelset_calculations == True :
 # Define the folder where results are stored
-        results_folder = "results"
-        dataset_name = config.dataset_name  # Get the dataset name from config.py
-        filename = os.path.join(results_folder, f"results_basic_Models_{dataset_name}.csv")
-        result_table = pd.read_csv(filename)
-
+    results_folder = "results"
+    dataset_name = config.dataset_name  # Get the dataset name from config.py
+    filename = os.path.join(results_folder, f"results_basic_Models_{dataset_name}.csv")
+    result_table = pd.read_csv(filename)
+    print("correct Datafile is loaded")
 # Function to fetch the pre-tuned parameters for a given model from the result table
 def get_pre_tuned_params(column, cu, co, model_name):
     """Fetch the pre-tuned parameters for DLNW or RF models from the result table."""

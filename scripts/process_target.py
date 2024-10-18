@@ -1,20 +1,10 @@
-import sys
-import os
-from lightgbm import LGBMRegressor
-from sklearn.neural_network import MLPRegressor
-from sklearn.model_selection import GridSearchCV
-from sklearn.ensemble import RandomForestRegressor
-import sys
-import os
-import numpy as np
-import pandas as pd
-from sklearn.preprocessing import StandardScaler
-from scripts.cv_and_evaluation import preprocess_per_instance, create_cv_folds, append_result, evaluate_and_append_models, pinball_loss, get_grid, train_and_evaluate_model
 # Standard library imports
 import os
+import sys
 import random
 import warnings
 import logging
+from itertools import product
 
 # Third-party library imports
 import numpy as np
@@ -27,14 +17,16 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import make_scorer
 from sklearn.model_selection import GridSearchCV, KFold
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
+from lightgbm import LGBMRegressor
+from sklearn.neural_network import MLPRegressor
 import tensorflow as tf
 import gdown
 import rpy2.robjects as ro
-from rpy2.rinterface import RRuntimeWarning
 from rpy2.rinterface_lib.callbacks import logger as rpy2_logger
 from pulp import LpSolverDefault
-from lightgbm import LGBMRegressor
-from sklearn.neural_network import MLPRegressor
+from joblib import Parallel, delayed
+from threadpoolctl import threadpool_limits
+
 # Custom or external package imports
 from ddop2.newsvendor import (
     DecisionTreeWeightedNewsvendor, KNeighborsWeightedNewsvendor, 
@@ -42,30 +34,30 @@ from ddop2.newsvendor import (
     RandomForestWeightedNewsvendor, GaussianWeightedNewsvendor, 
     LinearRegressionNewsvendor
 )
-
 from dddex.levelSetKDEx_univariate import LevelSetKDEx
 from dddex.loadData import loadDataYaz
 from dddex.crossValidation import QuantileCrossValidation, groupedTimeSeriesSplit
-from joblib import Parallel, delayed
-import pandas as pd
-from threadpoolctl import threadpool_limits  # Importiere threadpool_limits
+
 from Wrapper.wrapper import MLPRegressorWrapper, DeepLearningNewsvendorWrapper
-from scripts.config import n_jobs, timeseries
-import scripts.config as config  # Import the entire config module
+
+from scripts.cv_and_evaluation import (
+    preprocess_per_instance, create_cv_folds, append_result, 
+    evaluate_and_append_models, pinball_loss, get_grid, train_and_evaluate_model
+)
+import scripts.globals as globals  # Import the globals module
+from scripts.config import *
 
 # Add the WorkingFolder to the sys.path
 sys.path.append('/root/WorkingFolder')
 
-n_jobs = config.n_jobs
-n_points = config.n_points
-n_initial_points = config.n_initial_points
+
 
 # Now you can import your module
 from scripts.cv_and_evaluation import preprocess_per_instance, create_cv_folds, append_result, evaluate_and_append_models
 # Function to process one column within a combination of cu and co
 def process_column(column, cu, co, tau, y_train, X_train_features, X_test_features, y_test, random_state):
     table_rows = []
-    n_jobs = config.n_jobs
+
     # Preprocess data for this specific column
     X_train_scaled, X_test_scaled, y_train_col, y_test_col, X_train_scaled_withID = preprocess_per_instance(
         column, X_train_features, X_test_features, y_train, y_test

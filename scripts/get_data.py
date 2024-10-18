@@ -47,6 +47,7 @@ def get_dataset_settings(data):
 
 
 def preprocess_data(data, demand_columns, bool_columns, drop_columns):
+    
     # 1. Rückskalierung der 'demand_'-Spalten und der Target-Spalte 'demand'
     for col in demand_columns:
         if col in data.columns:
