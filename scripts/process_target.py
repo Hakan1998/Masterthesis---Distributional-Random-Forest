@@ -47,8 +47,6 @@ from scripts.cv_and_evaluation import (
 import scripts.globals as globals  # Import the globals module
 from scripts.config import *
 
-# Add the WorkingFolder to the sys.path
-sys.path.append('/root/WorkingFolder')
 
 
 

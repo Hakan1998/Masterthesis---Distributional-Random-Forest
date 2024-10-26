@@ -57,7 +57,7 @@ def get_grid(estimator_name, n_features):
         "DRF": {
             "min_node_size": Categorical([1, 2, 4, 8, 16, 32, 64, 128]),  # Kontinuierlicher Bereich für min_node_size
             "num_trees": Categorical([50, 100, 250, 500]),  # Kontinuierlicher Bereich für Anzahl der Bäume
-            "num_features": Categorical([n_features, int(sqrt_n_features)])  # Quadratwurzel von n_features als Option
+            "num_features": Categorical([n_features, int(sqrt_n_features)])  # R Wrapper from drf doesnt accept "sqrt" etc. so we have to calculate it 
         },
         "LevelSetKDEx_groupsplit": {"binSize": bin_sizes, "weightsByDistance": [True, False]},
         "LGBM": {

@@ -142,6 +142,9 @@ def bayesian_search_model(model_name, model, param_grid, X_train, y_train, tau, 
     else: 
         n_iter = min(max_combinations, 50)  # Dynamically set n_iter to the smaller of max_combinations or 50
 
+    if model_name == "DRF":
+        n_jobs = -1
+
 
     # Create Bayesian search object with optimized settings
     bayes_search = BayesSearchCV(
@@ -255,16 +258,15 @@ def evaluate_and_append_models(models, X_train_scaled, X_test_scaled, y_train_co
 
         append_result(table_rows, column, cu, co, model_name, pinball_loss_value, best_params, delta, tau)
 
-# we set each testlenth per fold to 20% of the trainset
-# so each fold has an 80/20 split
+# we set each testlenth/moving window per fold to 6% of the trainset
+# with 5 Folds resulting in at least 70% train data in our shortest fold
 
 def create_cv_folds(X_train_scaled_withID, kFolds=5, testLength=None, groupFeature='id', timeFeature='dayIndex'):
     global cvFolds
     if testLength is None:
-       testLength = int((1/6) * (len(X_train_scaled_withID) / kFolds))
-       
-    print(f"Test length for column: {testLength} 1/6 % of: {int(len(X_train_scaled_withID)/kFolds)}")
+       testLength = int( 0.06 * (len(X_train_scaled_withID)))
 
+    print(f"Test length for column: {testLength} 6 % of: {int(len(X_train_scaled_withID))}")
     cvFolds = groupedTimeSeriesSplit(
         data=X_train_scaled_withID, 
         kFolds=kFolds, 
@@ -282,7 +284,7 @@ if levelset_calculations == True :
     dataset_name = config.dataset_name  # Get the dataset name from config.py
     filename = os.path.join(results_folder, f"results_basic_Models_{dataset_name}.csv")
     result_table = pd.read_csv(filename)
-    print("correct Datafile is loaded")
+
 # Function to fetch the pre-tuned parameters for a given model from the result table
 def get_pre_tuned_params(column, cu, co, model_name):
     """Fetch the pre-tuned parameters for DLNW or RF models from the result table."""

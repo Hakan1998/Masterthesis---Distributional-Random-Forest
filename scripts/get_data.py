@@ -53,7 +53,8 @@ def preprocess_data(data, demand_columns, bool_columns, drop_columns):
         if col in data.columns:
             data[col] = data[col] * data['scalingValue']
 
-
+    data["dayCount"] = data["dayIndex"]
+    
     data.drop(columns=drop_columns, inplace=True, errors='ignore')
     data[bool_columns] = data[bool_columns].astype(int)
 
