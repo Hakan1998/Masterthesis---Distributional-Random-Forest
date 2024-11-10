@@ -45,6 +45,7 @@ def get_dataset_settings(data):
         }
     }
 
+from dddex.crossValidation import groupedTimeSeriesSplit
 
 def preprocess_data(data, demand_columns, bool_columns, drop_columns):
     
@@ -61,7 +62,7 @@ def preprocess_data(data, demand_columns, bool_columns, drop_columns):
     # 4. Pivot für das Zielvariable (demand) für 'y'
     y = data.pivot_table(index=['dayIndex', 'label'], columns='id', values='demand').reset_index().set_index('dayIndex')
     
-    # 5. Aufteilung in Trainings- und Testdaten basierend auf dem 'label'
+    #5. Aufteilung in Trainings- und Testdaten basierend auf dem 'label'
     train_data = data[data['label'] == 'train']
     test_data = data[data['label'] == 'test']
 
@@ -75,3 +76,7 @@ def preprocess_data(data, demand_columns, bool_columns, drop_columns):
 
 
     return y, train_data, test_data, X_train_features, X_test_features, y_train, y_test
+
+
+
+    

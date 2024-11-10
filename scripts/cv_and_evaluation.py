@@ -143,7 +143,7 @@ def bayesian_search_model(model_name, model, param_grid, X_train, y_train, tau, 
         n_iter = min(max_combinations, 50)  # Dynamically set n_iter to the smaller of max_combinations or 50
 
     if model_name == "DRF":
-        n_jobs = -1
+        n_jobs = 10
 
 
     # Create Bayesian search object with optimized settings
