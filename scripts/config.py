@@ -13,5 +13,5 @@ timeseries = True
 
 bin_sizes = [20,100,400]
 dataset_name = "yaz"
-levelset_calculations = False
+levelset_calculations = True
 n_jobs = 1 # 12 for basic results 1 for levelsets & DRF

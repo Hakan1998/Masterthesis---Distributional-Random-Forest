@@ -1,44 +1,14 @@
-import math
-import os
-from itertools import product
+# train_and_evaluation_singleID.py
 
-import numpy as np
-import pandas as pd
-from sklearn.base import BaseEstimator, RegressorMixin
-from sklearn.metrics import make_scorer
-
-from sklearn.preprocessing import StandardScaler
-from skopt import BayesSearchCV
-from skopt.space import Categorical
-
+from scripts.shared_imports import *
 import scripts.config as config
-import scripts.globals as globals
-from dddex.crossValidation import QuantileCrossValidation, groupedTimeSeriesSplit
-from dddex.levelSetKDEx_univariate import LevelSetKDEx
-from lightgbm import LGBMRegressor
-from sklearn.neural_network import MLPRegressor
-from Wrapper.wrapper import DeepLearningNewsvendorWrapper, MLPRegressorWrapper
-from scripts.get_grids import get_grid
 from scripts.config import *
-from collections import OrderedDict
-
-# Pinball loss function for quantile regression
-def pinball_loss(y_true, y_pred, tau):
-    y_true = y_true.flatten() if y_true.ndim > 1 else y_true
-    y_pred = y_pred.flatten() if y_pred.ndim > 1 else y_pred
-    loss = (y_true - y_pred) * ((y_true > y_pred) * tau - (y_true <= y_pred) * (1 - tau))
-    return loss.mean()
-
-# Scorer for GridSearchCV using pinball loss
-def pinball_loss_scorer(tau):
-    return make_scorer(lambda y_true, y_pred: pinball_loss(y_true, y_pred, tau), greater_is_better=False)
-
-
+from scripts.utils import *
 
 
 
 # Modify the train_and_evaluate_model function
-def train_and_evaluate_model(model_name, model, param_grid, X_train_scaled, X_test_scaled, 
+def train_and_evaluate_singleID(model_name, model, param_grid, X_train_scaled, X_test_scaled, 
                              y_train, y_test, tau, cu, co, timeseries, column):
     
     
@@ -49,12 +19,12 @@ def train_and_evaluate_model(model_name, model, param_grid, X_train_scaled, X_te
         point_forecast_model = model.estimator
 
         if isinstance(point_forecast_model, LGBMRegressor):
-            lgbm_params = get_pre_tuned_params(column, cu, co, 'LGBM')
+            lgbm_params = get_pre_tuned_params_singleID(column, cu, co, 'LGBM')
             lgbm_params['n_jobs'] = n_jobs  # Set n_jobs for LightGBM
             point_forecast_model.set_params(**lgbm_params)
 
         elif isinstance(point_forecast_model, MLPRegressor):
-            mlp_params = get_pre_tuned_params(column, cu, co, 'MLP')
+            mlp_params = get_pre_tuned_params_singleID(column, cu, co, 'MLP')
             point_forecast_model.set_params(**mlp_params)
 
 
@@ -97,7 +67,7 @@ def train_and_evaluate_model(model_name, model, param_grid, X_train_scaled, X_te
 
     else:
        
-        model, best_params = bayesian_search_model(model_name, model, param_grid, X_train_scaled, y_train, tau, cu, co, n_points, n_initial_points, n_jobs, column)
+        model, best_params = bayesian_search_model_singleID(model_name, model, param_grid, X_train_scaled, y_train, tau, cu, co, n_points, n_initial_points, n_jobs, column)
 
         # Conditionally pass 'quantile' only for DRF
         if model_name == 'DRF':
@@ -112,25 +82,7 @@ def train_and_evaluate_model(model_name, model, param_grid, X_train_scaled, X_te
 
 
 
-# Function to calculate the number of hyperparameter combinations
-# to set dynamically the iterations for bayesopt if we have less than than our aimed iterations (50)
-# otherweise models with less 50 param combinations run iteration on same params double /e.g. knnw would still run 50 iteration although it has less
-
-def calculate_n_iter(param_grid):
-    param_values = []
-    # Convert Categorical objects to lists
-    for key, value in param_grid.items():
-        if isinstance(value, Categorical):
-            param_values.append(value.categories)  # Use .categories to get the list of values from Categorical
-        else:
-            param_values.append(value)
-    
-    # Calculate the total number of combinations in the grid
-    total_combinations = len(list(product(*param_values)))
-    return total_combinations
-
-
-def bayesian_search_model(model_name, model, param_grid, X_train, y_train, tau, cu, co, n_points, n_initial_points, n_jobs, column):
+def bayesian_search_model_singleID(model_name, model, param_grid, X_train, y_train, tau, cu, co, n_points, n_initial_points, n_jobs, column):
 
 
     scorer = pinball_loss_scorer(tau)
@@ -200,7 +152,7 @@ def bayesian_search_model(model_name, model, param_grid, X_train, y_train, tau, 
     
     # Define the preprocessing function
 
-def preprocess_per_instance(column, X_train_features, X_test_features, y_train, y_test):
+def preprocess_per_instance_singleID(column, X_train_features, X_test_features, y_train, y_test):
     """Preprocess training and test data for the given column."""
 
     drop_columns = ['label', 'id', 'demand', 'dayIndex']
@@ -215,6 +167,8 @@ def preprocess_per_instance(column, X_train_features, X_test_features, y_train, 
     
     # Extract corresponding target data
     y_train_col, y_test_col = y_train[column], y_test[column]
+
+    # dropna because we may have targets with different lenths in the data, its easier for implementation reasons to drop them here when we prepare each ID Data
     y_train_col = y_train_col.dropna()
     y_test_col = y_test_col.dropna()
 
@@ -233,14 +187,11 @@ def preprocess_per_instance(column, X_train_features, X_test_features, y_train, 
     
     return X_train_scaled, X_test_scaled, y_train_col, y_test_col, X_train_scaled_withID
 
-def append_result(table_rows, column, cu, co, model_name, pinball_loss_value, best_params, delta, tau):
-    """Append model evaluation results to the table_rows."""
-    result_row = [column, cu, co, model_name, pinball_loss_value, best_params, delta, tau]
-    table_rows.append(result_row)
 
 
 
-def evaluate_and_append_models(models, X_train_scaled, X_test_scaled, y_train_col, y_test_col, 
+
+def evaluate_and_append_models_singleID(models, X_train_scaled, X_test_scaled, y_train_col, y_test_col, 
                                saa_pinball_loss, tau, cu, co, column, table_rows, timeseries):
     """Evaluate models, calculate pinball loss, and append results to table_rows, with debug prints."""
 
@@ -249,7 +200,7 @@ def evaluate_and_append_models(models, X_train_scaled, X_test_scaled, y_train_co
         print(f"Evaluating model: {model_name}, cu: {cu}, co: {co}")
 
 
-        pinball_loss_value, best_params = train_and_evaluate_model(
+        pinball_loss_value, best_params = train_and_evaluate_singleID(
             model_name, model, param_grid, X_train_scaled, X_test_scaled, 
             y_train_col, y_test_col, tau, cu, co, timeseries, column
         )
@@ -261,7 +212,7 @@ def evaluate_and_append_models(models, X_train_scaled, X_test_scaled, y_train_co
 # we set each testlenth/moving window per fold to 6% of the trainset
 # with 5 Folds resulting in at least 70% train data in our shortest fold
 
-def create_cv_folds(X_train_scaled_withID, kFolds=5, testLength=None, groupFeature='id', timeFeature='dayIndex'):
+def create_cv_folds_singleID(X_train_scaled_withID, kFolds=5, testLength=None, groupFeature='id', timeFeature='dayIndex'):
     global cvFolds
     if testLength is None:
        testLength = int( 0.06 * (len(X_train_scaled_withID)))
@@ -286,7 +237,7 @@ if levelset_calculations == True :
     result_table = pd.read_csv(filename)
 
 # Function to fetch the pre-tuned parameters for a given model from the result table
-def get_pre_tuned_params(column, cu, co, model_name):
+def get_pre_tuned_params_singleID(column, cu, co, model_name):
     """Fetch the pre-tuned parameters for DLNW or RF models from the result table."""
     params_row = result_table[
         (result_table['Variable'] == column) &

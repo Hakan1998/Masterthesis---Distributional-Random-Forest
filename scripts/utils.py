@@ -1,9 +1,17 @@
-from skopt.space import Real, Integer, Categorical
-import math
-import numpy as np
-import sys
-import os
+from scripts.shared_imports import *
 import scripts.config as config
+
+
+# Pinball loss function for quantile regression
+def pinball_loss(y_true, y_pred, tau):
+    y_true = y_true.flatten() if y_true.ndim > 1 else y_true
+    y_pred = y_pred.flatten() if y_pred.ndim > 1 else y_pred
+    loss = (y_true - y_pred) * ((y_true > y_pred) * tau - (y_true <= y_pred) * (1 - tau))
+    return loss.mean()
+
+# Scorer for GridSearchCV using pinball loss
+def pinball_loss_scorer(tau):
+    return make_scorer(lambda y_true, y_pred: pinball_loss(y_true, y_pred, tau), greater_is_better=False)
 
 def get_grid(estimator_name, n_features):
 
@@ -70,3 +78,25 @@ def get_grid(estimator_name, n_features):
     }
 
     return grids.get(estimator_name, None)
+
+def append_result(table_rows, column, cu, co, model_name, pinball_loss_value, best_params, delta, tau):
+    """Append model evaluation results to the table_rows."""
+    result_row = [column, cu, co, model_name, pinball_loss_value, best_params, delta, tau]
+    table_rows.append(result_row)
+
+# Function to calculate the number of hyperparameter combinations
+# to set dynamically the iterations for bayesopt if we have less than than our aimed iterations (50)
+# otherweise models with less 50 param combinations run iteration on same params double /e.g. knnw would still run 50 iteration although it has less
+
+def calculate_n_iter(param_grid):
+    param_values = []
+    # Convert Categorical objects to lists
+    for key, value in param_grid.items():
+        if isinstance(value, Categorical):
+            param_values.append(value.categories)  # Use .categories to get the list of values from Categorical
+        else:
+            param_values.append(value)
+    
+    # Calculate the total number of combinations in the grid
+    total_combinations = len(list(product(*param_values)))
+    return total_combinations
