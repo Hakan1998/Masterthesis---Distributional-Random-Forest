@@ -12,6 +12,6 @@ timeseries = True
 ######################################################################
 
 bin_sizes = [20,100,400]
-dataset_name = "yaz"
+dataset_name = "wage"
 levelset_calculations = True
 n_jobs = 1 # 12 for basic results 1 for levelsets & DRF

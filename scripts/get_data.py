@@ -126,8 +126,20 @@ def get_dataset_settings_alldata(data):
     }
 
 
-def preprocess_data_alldata(data, demand_columns, bool_columns, drop_columns):
+def preprocess_data_alldata(data,dataset_name, bool_columns, drop_columns,sample_size):
     # 1. Rückskalierung der 'demand_'-Spalten und der Target-Spalte 'demand'
+
+    unique_ids = data['id'].drop_duplicates()
+    if sample_size > len(unique_ids):
+        print(f"Warnung: sample_size ({sample_size}) ist größer als die Anzahl der verfügbaren eindeutigen IDs ({len(unique_ids)}). "
+              f"Die Stichprobengröße wird auf {len(unique_ids)} reduziert.")
+        sample_size = len(unique_ids)
+    # 1. Filteriere die Daten basierend auf einer zufälligen Auswahl von IDs
+    if sample_size > 0:
+        sampled_ids = data['id'].drop_duplicates().sample(sample_size, random_state=42)
+        data = data[data['id'].isin(sampled_ids)]
+        dataset_name = f"{dataset_name}_random_{sample_size}"
+
 
     data = data.reset_index()
     data.drop(columns=drop_columns, inplace=True, errors='ignore')
@@ -157,4 +169,4 @@ def preprocess_data_alldata(data, demand_columns, bool_columns, drop_columns):
     X_test_features = test_data.groupby('dummyID')                        #####
     display(train_data)
 
-    return y, train_data, test_data, X_train_features, X_test_features, y_train, y_test   
+    return y, train_data, test_data, X_train_features, X_test_features, y_train, y_test, data, dataset_name

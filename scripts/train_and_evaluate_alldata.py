@@ -131,22 +131,28 @@ def train_and_evaluate_model_alldata(model_name, model, param_grid, X_train_scal
 def create_cv_folds_alldata(X_train_scaled_withID, kFolds=5, testLength=None, groupFeature='id_for_CV', timeFeature='dayIndex'):   ###########
     global cvFolds_FULLDATA
 
-    amount_groups = X_train_scaled_withID[groupFeature].nunique()
-    datapoints_per_group = len(X_train_scaled_withID) / amount_groups
+        # Prüfe, ob die Zahl 16 in der groupFeature-Spalte vorhanden ist
+    if 16 in X_train_scaled_withID[groupFeature].values:
+        print("Wage Dataset, no time series split using basic KFold Cross Validation")
+        kf = KFold(n_splits=5)  # Anzahl der gewünschten Folds
+        cvFolds_FULLDATA = list(kf.split(X_train_scaled_withID))  # list() um die Folds zu erstellen
+    else:
+        amount_groups = X_train_scaled_withID[groupFeature].nunique()
+        datapoints_per_group = len(X_train_scaled_withID) / amount_groups
 
-    # Wenn keine Testlänge angegeben wurde, setze sie auf 6% der Datenpunkte pro Gruppe
-    if testLength is None:
-        testLength = int(0.06 * datapoints_per_group)
+        # Wenn keine Testlänge angegeben wurde, setze sie auf 6% der Datenpunkte pro Gruppe
+        if testLength is None:
+            testLength = int(0.06 * datapoints_per_group)
 
-    print(f"Test length for column: {testLength} (6% of {int(datapoints_per_group)} Datapoints per Group)")
+        print(f"Test length for column: {testLength} (6% of {int(datapoints_per_group)} Datapoints per Group)")
 
 
-    cvFolds_FULLDATA = groupedTimeSeriesSplit(
-        data=X_train_scaled_withID,
-        kFolds=kFolds,
-        testLength=testLength,
-        groupFeature=groupFeature,
-        timeFeature=timeFeature
+        cvFolds_FULLDATA = groupedTimeSeriesSplit(
+            data=X_train_scaled_withID,
+            kFolds=kFolds,
+            testLength=testLength,
+            groupFeature=groupFeature,
+            timeFeature=timeFeature
     )
 
 
