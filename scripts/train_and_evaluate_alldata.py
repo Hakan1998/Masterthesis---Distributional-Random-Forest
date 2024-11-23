@@ -168,9 +168,6 @@ def bayesian_search_model_alldata(model_name, model, param_grid, X_train, y_trai
     else: 
         n_iter = min(max_combinations, 50)  # Dynamically set n_iter to the smaller of max_combinations or 50
 
-    if model_name == "DRF":
-        n_jobs = 10
-
 
     # Create Bayesian search object with optimized settings
     bayes_search = BayesSearchCV(
@@ -190,7 +187,11 @@ def bayesian_search_model_alldata(model_name, model, param_grid, X_train, y_trai
     )
     
     # Fit the model with Bayesian optimization
-    bayes_search.fit(X_train, y_train)
+    try:
+        bayes_search.fit(X_train, y_train)
+    except Exception as e:
+        print(f"Bayesian search failed: {e}")
+        raise
     
     best_model = bayes_search.best_estimator_
 

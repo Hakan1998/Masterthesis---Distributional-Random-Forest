@@ -217,7 +217,7 @@ def create_cv_folds_singleID(X_train_scaled_withID, kFolds=5, testLength=None, g
     if testLength is None:
        testLength = int( 0.06 * (len(X_train_scaled_withID)))
 
-    print(f"Test length for column: {testLength} 6 % of: {int(len(X_train_scaled_withID))}")
+    print(f"Test length for column: {testLength} 6 % of the actual ID: {int(len(X_train_scaled_withID))}")
     cvFolds = groupedTimeSeriesSplit(
         data=X_train_scaled_withID, 
         kFolds=kFolds, 
