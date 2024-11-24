@@ -1,0 +1,201 @@
+Variable,cu,co,Model,Pinball Loss,Best Params,delta C,sl
+pollutant_max_NO2_Location 3,9.0,1.0,SAA,0.025721559039280473,N/A,,0.9
+pollutant_max_O3_Location 1,9.0,1.0,SAA,0.017306571087216248,N/A,,0.9
+pollutant_max_O3_Location 2,9.0,1.0,SAA,0.025440176624912235,N/A,,0.9
+pollutant_max_O3_Location 5,9.0,1.0,SAA,0.020777013019321663,N/A,,0.9
+pollutant_max_O3_Location 6,9.0,1.0,SAA,0.026010071345221587,N/A,,0.9
+pollutant_max_PM10_Location 4,9.0,1.0,SAA,0.03914378721558311,N/A,,0.9
+pollutant_max_PM2.5_Location 3,9.0,1.0,SAA,0.03502484419934175,N/A,,0.9
+pollutant_max_SO2_Location 1,9.0,1.0,SAA,0.04910653029110936,N/A,,0.9
+pollutant_max_SO2_Location 2,9.0,1.0,SAA,0.04886424956492664,N/A,,0.9
+pollutant_max_SO2_Location 6,9.0,1.0,SAA,0.04930675885712408,N/A,,0.9
+pollutant_max_NO2_Location 3,9.0,1.0,DRF,0.031916473725910714,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 250)])",-0.2408452254845721,0.9
+pollutant_max_O3_Location 1,9.0,1.0,DRF,0.025158422939068094,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 250)])",-0.45369194234274013,0.9
+pollutant_max_O3_Location 2,9.0,1.0,DRF,0.02936735579943095,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 250)])",-0.15436917881588275,0.9
+pollutant_max_O3_Location 5,9.0,1.0,DRF,0.024255787515039436,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 250)])",-0.16743381218862763,0.9
+pollutant_max_O3_Location 6,9.0,1.0,DRF,0.025112586458791615,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 250)])",0.03450528353106008,0.9
+pollutant_max_PM10_Location 4,9.0,1.0,DRF,0.017099032674635306,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 250)])",0.5631737782431999,0.9
+pollutant_max_PM2.5_Location 3,9.0,1.0,DRF,0.01266577459482641,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 250)])",0.6383774179625202,0.9
+pollutant_max_SO2_Location 1,9.0,1.0,DRF,0.00409628653714017,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 250)])",0.9165836699751154,0.9
+pollutant_max_SO2_Location 2,9.0,1.0,DRF,0.006779559297133721,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 250)])",0.8612572717785091,0.9
+pollutant_max_SO2_Location 6,9.0,1.0,DRF,0.003966062008794897,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 250)])",0.9195635223096426,0.9
+pollutant_max_NO2_Location 3,9.0,1.0,LS_KDEx_LGBM,0.03924251602360937,"{'binSize': 400, 'weightsByDistance': False}",-0.525666308316711,0.9
+pollutant_max_O3_Location 1,9.0,1.0,LS_KDEx_LGBM,0.026172520908004777,"{'binSize': 400, 'weightsByDistance': False}",-0.512288065389076,0.9
+pollutant_max_O3_Location 2,9.0,1.0,LS_KDEx_LGBM,0.021665917740116253,"{'binSize': 400, 'weightsByDistance': False}",0.148358202871125,0.9
+pollutant_max_O3_Location 5,9.0,1.0,LS_KDEx_LGBM,0.01937925040115134,"{'binSize': 400, 'weightsByDistance': False}",0.06727447380768692,0.9
+pollutant_max_O3_Location 6,9.0,1.0,LS_KDEx_LGBM,0.018980398645187625,"{'binSize': 400, 'weightsByDistance': False}",0.27026733632260536,0.9
+pollutant_max_PM10_Location 4,9.0,1.0,LS_KDEx_LGBM,0.0175966817849892,"{'binSize': 400, 'weightsByDistance': False}",0.5504604169219484,0.9
+pollutant_max_PM2.5_Location 3,9.0,1.0,LS_KDEx_LGBM,0.012746928264791253,"{'binSize': 400, 'weightsByDistance': False}",0.6360603863862209,0.9
+pollutant_max_SO2_Location 1,9.0,1.0,LS_KDEx_LGBM,0.0041110231023102324,"{'binSize': 400, 'weightsByDistance': False}",0.9162835761773516,0.9
+pollutant_max_SO2_Location 2,9.0,1.0,LS_KDEx_LGBM,0.006889495737039132,"{'binSize': 400, 'weightsByDistance': False}",0.8590074379862325,0.9
+pollutant_max_SO2_Location 6,9.0,1.0,LS_KDEx_LGBM,0.004241573394367131,"{'binSize': 400, 'weightsByDistance': False}",0.9139758221249562,0.9
+pollutant_max_NO2_Location 3,9.0,1.0,LS_KDEx_MLP,0.04265689623340701,"{'binSize': 400, 'weightsByDistance': False}",-0.6584102141034247,0.9
+pollutant_max_O3_Location 1,9.0,1.0,LS_KDEx_MLP,0.01764068352124216,"{'binSize': 400, 'weightsByDistance': False}",-0.019305524609245728,0.9
+pollutant_max_O3_Location 2,9.0,1.0,LS_KDEx_MLP,0.01830514248049619,"{'binSize': 400, 'weightsByDistance': False}",0.2804632314316984,0.9
+pollutant_max_O3_Location 5,9.0,1.0,LS_KDEx_MLP,0.017112852380075788,"{'binSize': 400, 'weightsByDistance': False}",0.17635646836426266,0.9
+pollutant_max_O3_Location 6,9.0,1.0,LS_KDEx_MLP,0.015308755901293063,"{'binSize': 400, 'weightsByDistance': False}",0.41142968436703287,0.9
+pollutant_max_PM10_Location 4,9.0,1.0,LS_KDEx_MLP,0.023454679208231372,"{'binSize': 400, 'weightsByDistance': False}",0.4008071043546323,0.9
+pollutant_max_PM2.5_Location 3,9.0,1.0,LS_KDEx_MLP,0.0131184397680129,"{'binSize': 400, 'weightsByDistance': False}",0.6254533012809391,0.9
+pollutant_max_SO2_Location 1,9.0,1.0,LS_KDEx_MLP,0.006796072875580246,"{'binSize': 400, 'weightsByDistance': False}",0.8616055169181712,0.9
+pollutant_max_SO2_Location 2,9.0,1.0,LS_KDEx_MLP,0.010352291248108976,"{'binSize': 400, 'weightsByDistance': False}",0.7881418145109599,0.9
+pollutant_max_SO2_Location 6,9.0,1.0,LS_KDEx_MLP,0.004965912086918639,"{'binSize': 400, 'weightsByDistance': False}",0.8992853677259879,0.9
+pollutant_max_NO2_Location 3,7.5,2.5,SAA,0.046745152740117896,N/A,,0.75
+pollutant_max_O3_Location 1,7.5,2.5,SAA,0.030310633213859017,N/A,,0.75
+pollutant_max_O3_Location 2,7.5,2.5,SAA,0.03500974577836899,N/A,,0.75
+pollutant_max_O3_Location 5,7.5,2.5,SAA,0.032164773198440993,N/A,,0.75
+pollutant_max_O3_Location 6,7.5,2.5,SAA,0.03459185990962417,N/A,,0.75
+pollutant_max_PM10_Location 4,7.5,2.5,SAA,0.06705590255136064,N/A,,0.75
+pollutant_max_PM2.5_Location 3,7.5,2.5,SAA,0.05546713796432473,N/A,,0.75
+pollutant_max_SO2_Location 1,7.5,2.5,SAA,0.09050826121164438,N/A,,0.75
+pollutant_max_SO2_Location 2,7.5,2.5,SAA,0.08999922155440378,N/A,,0.75
+pollutant_max_SO2_Location 6,7.5,2.5,SAA,0.09100883262668119,N/A,,0.75
+pollutant_max_NO2_Location 3,7.5,2.5,DRF,0.05441317902284019,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 100)])",-0.1640389609026005,0.75
+pollutant_max_O3_Location 1,7.5,2.5,DRF,0.046057347670250895,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 100)])",-0.5195112337406387,0.75
+pollutant_max_O3_Location 2,7.5,2.5,DRF,0.04996039334146252,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 100)])",-0.4270424486295723,0.75
+pollutant_max_O3_Location 5,7.5,2.5,DRF,0.043637865059539344,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 100)])",-0.35669742765835655,0.75
+pollutant_max_O3_Location 6,7.5,2.5,DRF,0.04246339627537236,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 100)])",-0.22755458614580482,0.75
+pollutant_max_PM10_Location 4,7.5,2.5,DRF,0.02777110042254752,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 100)])",0.5858515154385314,0.75
+pollutant_max_PM2.5_Location 3,7.5,2.5,DRF,0.019477875424955098,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 100)])",0.6488393643551098,0.75
+pollutant_max_SO2_Location 1,7.5,2.5,DRF,0.005671273712737131,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 100)])",0.9373397120128578,0.75
+pollutant_max_SO2_Location 2,7.5,2.5,DRF,0.008842091932770513,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 100)])",0.9017536843090854,0.75
+pollutant_max_SO2_Location 6,7.5,2.5,DRF,0.00541996784680156,"OrderedDict([('min_node_size', 1), ('num_features', 27), ('num_trees', 100)])",0.9404456942214137,0.75
+pollutant_max_NO2_Location 3,7.5,2.5,LS_KDEx_LGBM,0.053941281732199434,"{'binSize': 400, 'weightsByDistance': False}",-0.1539438545016376,0.75
+pollutant_max_O3_Location 1,7.5,2.5,LS_KDEx_LGBM,0.03248577981021437,"{'binSize': 400, 'weightsByDistance': False}",-0.07176183291877924,0.75
+pollutant_max_O3_Location 2,7.5,2.5,LS_KDEx_LGBM,0.03568327217337547,"{'binSize': 400, 'weightsByDistance': False}",-0.01923825437837423,0.75
+pollutant_max_O3_Location 5,7.5,2.5,LS_KDEx_LGBM,0.03571493345245814,"{'binSize': 400, 'weightsByDistance': False}",-0.11037417338883082,0.75
+pollutant_max_O3_Location 6,7.5,2.5,LS_KDEx_LGBM,0.031375299762242605,"{'binSize': 400, 'weightsByDistance': False}",0.0929860422592268,0.75
+pollutant_max_PM10_Location 4,7.5,2.5,LS_KDEx_LGBM,0.027014841815137865,"{'binSize': 400, 'weightsByDistance': False}",0.5971295473288696,0.75
+pollutant_max_PM2.5_Location 3,7.5,2.5,LS_KDEx_LGBM,0.019406841400339717,"{'binSize': 400, 'weightsByDistance': False}",0.6501200149749609,0.75
+pollutant_max_SO2_Location 1,7.5,2.5,LS_KDEx_LGBM,0.005695800799592159,"{'binSize': 400, 'weightsByDistance': False}",0.9370687192158834,0.75
+pollutant_max_SO2_Location 2,7.5,2.5,LS_KDEx_LGBM,0.008958809980822074,"{'binSize': 400, 'weightsByDistance': False}",0.9004568058912982,0.75
+pollutant_max_SO2_Location 6,7.5,2.5,LS_KDEx_LGBM,0.005721404082212711,"{'binSize': 400, 'weightsByDistance': False}",0.937133529602759,0.75
+pollutant_max_NO2_Location 3,7.5,2.5,LS_KDEx_MLP,0.05945781895562542,"{'binSize': 400, 'weightsByDistance': False}",-0.27195688687090724,0.75
+pollutant_max_O3_Location 1,7.5,2.5,LS_KDEx_MLP,0.032941393500780465,"{'binSize': 400, 'weightsByDistance': False}",-0.08679331336827945,0.75
+pollutant_max_O3_Location 2,7.5,2.5,LS_KDEx_MLP,0.032334264537655276,"{'binSize': 400, 'weightsByDistance': False}",0.0764210416622556,0.75
+pollutant_max_O3_Location 5,7.5,2.5,LS_KDEx_MLP,0.030894960715568985,"{'binSize': 400, 'weightsByDistance': False}",0.03947835960284507,0.75
+pollutant_max_O3_Location 6,7.5,2.5,LS_KDEx_MLP,0.027768369081321766,"{'binSize': 400, 'weightsByDistance': False}",0.1972571248302254,0.75
+pollutant_max_PM10_Location 4,7.5,2.5,LS_KDEx_MLP,0.03511946612356977,"{'binSize': 400, 'weightsByDistance': False}",0.4762658500246053,0.75
+pollutant_max_PM2.5_Location 3,7.5,2.5,LS_KDEx_MLP,0.020701183594798944,"{'binSize': 400, 'weightsByDistance': False}",0.6267847169595536,0.75
+pollutant_max_SO2_Location 1,7.5,2.5,LS_KDEx_MLP,0.007912083769352547,"{'binSize': 400, 'weightsByDistance': False}",0.9125816399140523,0.75
+pollutant_max_SO2_Location 2,7.5,2.5,LS_KDEx_MLP,0.01101513026428366,"{'binSize': 400, 'weightsByDistance': False}",0.8776086051185997,0.75
+pollutant_max_SO2_Location 6,7.5,2.5,LS_KDEx_MLP,0.006276281339519027,"{'binSize': 400, 'weightsByDistance': False}",0.931036569106821,0.75
+pollutant_max_NO2_Location 3,5.0,5.0,SAA,0.0806952934138429,N/A,,0.5
+pollutant_max_O3_Location 1,5.0,5.0,SAA,0.10002186025054116,N/A,,0.5
+pollutant_max_O3_Location 2,5.0,5.0,SAA,0.05979362693502472,N/A,,0.5
+pollutant_max_O3_Location 5,5.0,5.0,SAA,0.0858414911065698,N/A,,0.5
+pollutant_max_O3_Location 6,5.0,5.0,SAA,0.05456632757700504,N/A,,0.5
+pollutant_max_PM10_Location 4,5.0,5.0,SAA,0.044634492746149626,N/A,,0.5
+pollutant_max_PM2.5_Location 3,5.0,5.0,SAA,0.02110459560818276,N/A,,0.5
+pollutant_max_SO2_Location 1,5.0,5.0,SAA,0.06598650889479195,N/A,,0.5
+pollutant_max_SO2_Location 2,5.0,5.0,SAA,0.06586081602879928,N/A,,0.5
+pollutant_max_SO2_Location 6,5.0,5.0,SAA,0.06696522244909198,N/A,,0.5
+pollutant_max_NO2_Location 3,5.0,5.0,DRF,0.05957512589185522,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.2617273775023491,0.5
+pollutant_max_O3_Location 1,5.0,5.0,DRF,0.06176821983273594,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.3824527990379808,0.5
+pollutant_max_O3_Location 2,5.0,5.0,DRF,0.05792375197201038,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.03127214485661256,0.5
+pollutant_max_O3_Location 5,5.0,5.0,DRF,0.05169699031165291,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.3977622051383922,0.5
+pollutant_max_O3_Location 6,5.0,5.0,DRF,0.05107135305312126,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.06405002277185701,0.5
+pollutant_max_PM10_Location 4,5.0,5.0,DRF,0.031416927313627885,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.2961289491446488,0.5
+pollutant_max_PM2.5_Location 3,5.0,5.0,DRF,0.02114991102425507,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",-0.002147182391627478,0.5
+pollutant_max_SO2_Location 1,5.0,5.0,DRF,0.005656504065040653,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.9142778704347079,0.5
+pollutant_max_SO2_Location 2,5.0,5.0,DRF,0.008113965634996997,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.876801319445405,0.5
+pollutant_max_SO2_Location 6,5.0,5.0,DRF,0.005124082923276431,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.9234814320646536,0.5
+pollutant_max_NO2_Location 3,5.0,5.0,LS_KDEx_LGBM,0.058025244685279725,"{'binSize': 400, 'weightsByDistance': False}",0.28093396491293054,0.5
+pollutant_max_O3_Location 1,5.0,5.0,LS_KDEx_LGBM,0.045146953405017905,"{'binSize': 400, 'weightsByDistance': False}",0.5486291367513969,0.5
+pollutant_max_O3_Location 2,5.0,5.0,LS_KDEx_LGBM,0.04530322693035307,"{'binSize': 400, 'weightsByDistance': False}",0.2423402082703191,0.5
+pollutant_max_O3_Location 5,5.0,5.0,LS_KDEx_LGBM,0.043275415668620344,"{'binSize': 400, 'weightsByDistance': False}",0.4958683136701909,0.5
+pollutant_max_O3_Location 6,5.0,5.0,LS_KDEx_LGBM,0.03948864611258526,"{'binSize': 400, 'weightsByDistance': False}",0.2763184207905849,0.5
+pollutant_max_PM10_Location 4,5.0,5.0,LS_KDEx_LGBM,0.030761017557622235,"{'binSize': 400, 'weightsByDistance': False}",0.31082408099561476,0.5
+pollutant_max_PM2.5_Location 3,5.0,5.0,LS_KDEx_LGBM,0.02187015469571714,"{'binSize': 400, 'weightsByDistance': False}",-0.03627452057112879,0.5
+pollutant_max_SO2_Location 1,5.0,5.0,LS_KDEx_LGBM,0.006443553623655053,"{'binSize': 400, 'weightsByDistance': False}",0.9023504390279448,0.5
+pollutant_max_SO2_Location 2,5.0,5.0,LS_KDEx_LGBM,0.008437679715293637,"{'binSize': 400, 'weightsByDistance': False}",0.8718861954032873,0.5
+pollutant_max_SO2_Location 6,5.0,5.0,LS_KDEx_LGBM,0.005456440515527582,"{'binSize': 400, 'weightsByDistance': False}",0.9185182947809117,0.5
+pollutant_max_NO2_Location 3,5.0,5.0,LS_KDEx_MLP,0.06208651916881899,"{'binSize': 100, 'weightsByDistance': False}",0.2306054474526722,0.5
+pollutant_max_O3_Location 1,5.0,5.0,LS_KDEx_MLP,0.04452675459116793,"{'binSize': 100, 'weightsByDistance': False}",0.5548297694160611,0.5
+pollutant_max_O3_Location 2,5.0,5.0,LS_KDEx_MLP,0.04099972317068539,"{'binSize': 100, 'weightsByDistance': False}",0.31431282442126973,0.5
+pollutant_max_O3_Location 5,5.0,5.0,LS_KDEx_MLP,0.041207404238125085,"{'binSize': 100, 'weightsByDistance': False}",0.5199593610627378,0.5
+pollutant_max_O3_Location 6,5.0,5.0,LS_KDEx_MLP,0.03605497879134061,"{'binSize': 100, 'weightsByDistance': False}",0.33924490812655217,0.5
+pollutant_max_PM10_Location 4,5.0,5.0,LS_KDEx_MLP,0.04077316290104828,"{'binSize': 100, 'weightsByDistance': False}",0.08650999725844188,0.5
+pollutant_max_PM2.5_Location 3,5.0,5.0,LS_KDEx_MLP,0.022400892666577056,"{'binSize': 100, 'weightsByDistance': False}",-0.061422501641855254,0.5
+pollutant_max_SO2_Location 1,5.0,5.0,LS_KDEx_MLP,0.006684273793232985,"{'binSize': 100, 'weightsByDistance': False}",0.8987024180368398,0.5
+pollutant_max_SO2_Location 2,5.0,5.0,LS_KDEx_MLP,0.008868851195529413,"{'binSize': 100, 'weightsByDistance': False}",0.8653394881768351,0.5
+pollutant_max_SO2_Location 6,5.0,5.0,LS_KDEx_MLP,0.005752698091474366,"{'binSize': 100, 'weightsByDistance': False}",0.9140942435329374,0.5
+pollutant_max_NO2_Location 3,2.5,7.5,SAA,0.07121051516081617,N/A,,0.25
+pollutant_max_O3_Location 1,2.5,7.5,SAA,0.08177151994638227,N/A,,0.25
+pollutant_max_O3_Location 2,2.5,7.5,SAA,0.06014335734685914,N/A,,0.25
+pollutant_max_O3_Location 5,2.5,7.5,SAA,0.07415334547553121,N/A,,0.25
+pollutant_max_O3_Location 6,2.5,7.5,SAA,0.05830305898535104,N/A,,0.25
+pollutant_max_PM10_Location 4,2.5,7.5,SAA,0.028470764020952406,N/A,,0.25
+pollutant_max_PM2.5_Location 3,2.5,7.5,SAA,0.035413564822914946,N/A,,0.25
+pollutant_max_SO2_Location 1,2.5,7.5,SAA,0.006485772357723577,N/A,,0.25
+pollutant_max_SO2_Location 2,2.5,7.5,SAA,0.008083459056240049,N/A,,0.25
+pollutant_max_SO2_Location 6,2.5,7.5,SAA,0.006676340752846711,N/A,,0.25
+pollutant_max_NO2_Location 3,2.5,7.5,DRF,0.040128727456716834,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.436477501025048,0.25
+pollutant_max_O3_Location 1,2.5,7.5,DRF,0.054355845768262974,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.3352716715562557,0.25
+pollutant_max_O3_Location 2,2.5,7.5,DRF,0.04331617429701069,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.2797845646162155,0.25
+pollutant_max_O3_Location 5,2.5,7.5,DRF,0.04052816706747382,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.45345463771628314,0.25
+pollutant_max_O3_Location 6,2.5,7.5,DRF,0.03922325148344075,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.3272522545807449,0.25
+pollutant_max_PM10_Location 4,2.5,7.5,DRF,0.0231799547978476,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.1858330608624046,0.25
+pollutant_max_PM2.5_Location 3,2.5,7.5,DRF,0.014792155054779339,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.5823025688391634,0.25
+pollutant_max_SO2_Location 1,2.5,7.5,DRF,0.003576422764227645,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.44857411469758657,0.25
+pollutant_max_SO2_Location 2,2.5,7.5,DRF,0.004783551657333718,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.4082296175371801,0.25
+pollutant_max_SO2_Location 6,2.5,7.5,DRF,0.0031882294423818233,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.5224585502136929,0.25
+pollutant_max_NO2_Location 3,2.5,7.5,LS_KDEx_LGBM,0.04116599750360719,"{'binSize': 400, 'weightsByDistance': False}",0.4219112527041663,0.25
+pollutant_max_O3_Location 1,2.5,7.5,LS_KDEx_LGBM,0.03896898245421296,"{'binSize': 400, 'weightsByDistance': False}",0.5234406492656002,0.25
+pollutant_max_O3_Location 2,2.5,7.5,LS_KDEx_LGBM,0.0376414046889592,"{'binSize': 400, 'weightsByDistance': False}",0.37413861896878386,0.25
+pollutant_max_O3_Location 5,2.5,7.5,LS_KDEx_LGBM,0.03785504051652386,"{'binSize': 400, 'weightsByDistance': False}",0.48950326821039924,0.25
+pollutant_max_O3_Location 6,2.5,7.5,LS_KDEx_LGBM,0.03187844610950618,"{'binSize': 400, 'weightsByDistance': False}",0.4532285841551502,0.25
+pollutant_max_PM10_Location 4,2.5,7.5,LS_KDEx_LGBM,0.022403063969239096,"{'binSize': 400, 'weightsByDistance': False}",0.21312038016429502,0.25
+pollutant_max_PM2.5_Location 3,2.5,7.5,LS_KDEx_LGBM,0.015767997335180025,"{'binSize': 400, 'weightsByDistance': False}",0.5547469616790153,0.25
+pollutant_max_SO2_Location 1,2.5,7.5,LS_KDEx_LGBM,0.004233900829107301,"{'binSize': 400, 'weightsByDistance': False}",0.347201752453528,0.25
+pollutant_max_SO2_Location 2,2.5,7.5,LS_KDEx_LGBM,0.005225178076331648,"{'binSize': 400, 'weightsByDistance': False}",0.3535962711040075,0.25
+pollutant_max_SO2_Location 6,2.5,7.5,LS_KDEx_LGBM,0.0034098224230964124,"{'binSize': 400, 'weightsByDistance': False}",0.4892677666815456,0.25
+pollutant_max_NO2_Location 3,2.5,7.5,LS_KDEx_MLP,0.04219874366131761,"{'binSize': 400, 'weightsByDistance': False}",0.40740853277048594,0.25
+pollutant_max_O3_Location 1,2.5,7.5,LS_KDEx_MLP,0.03780202379814465,"{'binSize': 400, 'weightsByDistance': False}",0.5377116161845652,0.25
+pollutant_max_O3_Location 2,2.5,7.5,LS_KDEx_MLP,0.0333537967794493,"{'binSize': 400, 'weightsByDistance': False}",0.44542841885112794,0.25
+pollutant_max_O3_Location 5,2.5,7.5,LS_KDEx_MLP,0.03486938679956509,"{'binSize': 400, 'weightsByDistance': False}",0.5297665051259064,0.25
+pollutant_max_O3_Location 6,2.5,7.5,LS_KDEx_MLP,0.029454703849346144,"{'binSize': 400, 'weightsByDistance': False}",0.49480002658613853,0.25
+pollutant_max_PM10_Location 4,2.5,7.5,LS_KDEx_MLP,0.032759857402621134,"{'binSize': 400, 'weightsByDistance': False}",-0.15064904399868828,0.25
+pollutant_max_PM2.5_Location 3,2.5,7.5,LS_KDEx_MLP,0.016283933180981675,"{'binSize': 400, 'weightsByDistance': False}",0.5401780853633554,0.25
+pollutant_max_SO2_Location 1,2.5,7.5,LS_KDEx_MLP,0.004194290160723386,"{'binSize': 400, 'weightsByDistance': False}",0.35330906954688,0.25
+pollutant_max_SO2_Location 2,2.5,7.5,LS_KDEx_MLP,0.005313495306344814,"{'binSize': 400, 'weightsByDistance': False}",0.3426705981465884,0.25
+pollutant_max_SO2_Location 6,2.5,7.5,LS_KDEx_MLP,0.003583456466194465,"{'binSize': 400, 'weightsByDistance': False}",0.46326039984305445,0.25
+pollutant_max_NO2_Location 3,1.0,9.0,SAA,0.02964274264969231,N/A,,0.1
+pollutant_max_O3_Location 1,1.0,9.0,SAA,0.03387881225048809,N/A,,0.1
+pollutant_max_O3_Location 2,1.0,9.0,SAA,0.025237064284510488,N/A,,0.1
+pollutant_max_O3_Location 5,1.0,9.0,SAA,0.03082295920396802,N/A,,0.1
+pollutant_max_O3_Location 6,1.0,9.0,SAA,0.024477372518480017,N/A,,0.1
+pollutant_max_PM10_Location 4,1.0,9.0,SAA,0.012458689800001343,N/A,,0.1
+pollutant_max_PM2.5_Location 3,1.0,9.0,SAA,0.015323962514531829,N/A,,0.1
+pollutant_max_SO2_Location 1,1.0,9.0,SAA,0.0020563685636856423,N/A,,0.1
+pollutant_max_SO2_Location 2,1.0,9.0,SAA,0.0027562651915179013,N/A,,0.1
+pollutant_max_SO2_Location 6,1.0,9.0,SAA,0.0019178228198888016,N/A,,0.1
+pollutant_max_NO2_Location 3,1.0,9.0,DRF,0.01936283007602772,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.34679357086316354,0.1
+pollutant_max_O3_Location 1,1.0,9.0,DRF,0.04037562724014337,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",-0.19176631523030085,0.1
+pollutant_max_O3_Location 2,1.0,9.0,DRF,0.023762584315875922,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.05842517782623169,0.1
+pollutant_max_O3_Location 5,1.0,9.0,DRF,0.022508776294330648,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.2697399316729796,0.1
+pollutant_max_O3_Location 6,1.0,9.0,DRF,0.019510612673539363,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.20291229547578404,0.1
+pollutant_max_PM10_Location 4,1.0,9.0,DRF,0.01211890679625157,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.027272771792563266,0.1
+pollutant_max_PM2.5_Location 3,1.0,9.0,DRF,0.007343630424274167,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.5207747071091993,0.1
+pollutant_max_SO2_Location 1,1.0,9.0,DRF,0.0015992411924119247,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.2222983658408031,0.1
+pollutant_max_SO2_Location 2,1.0,9.0,DRF,0.0020937797961713446,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.24035618828887784,0.1
+pollutant_max_SO2_Location 6,1.0,9.0,DRF,0.0014748725418790975,"OrderedDict([('min_node_size', 2), ('num_features', 27), ('num_trees', 100)])",0.23096517228603375,0.1
+pollutant_max_NO2_Location 3,1.0,9.0,LS_KDEx_LGBM,0.02108826681933676,"{'binSize': 400, 'weightsByDistance': False}",0.28858584144690624,0.1
+pollutant_max_O3_Location 1,1.0,9.0,LS_KDEx_LGBM,0.024276993641769322,"{'binSize': 400, 'weightsByDistance': False}",0.28341662445915394,0.1
+pollutant_max_O3_Location 2,1.0,9.0,LS_KDEx_LGBM,0.021436828434089568,"{'binSize': 400, 'weightsByDistance': False}",0.15058153387331008,0.1
+pollutant_max_O3_Location 5,1.0,9.0,LS_KDEx_LGBM,0.022226357912252838,"{'binSize': 400, 'weightsByDistance': False}",0.2789025295990558,0.1
+pollutant_max_O3_Location 6,1.0,9.0,LS_KDEx_LGBM,0.017351209741556867,"{'binSize': 400, 'weightsByDistance': False}",0.29113266840805785,0.1
+pollutant_max_PM10_Location 4,1.0,9.0,LS_KDEx_LGBM,0.012004942822512164,"{'binSize': 400, 'weightsByDistance': False}",0.03642011999440986,0.1
+pollutant_max_PM2.5_Location 3,1.0,9.0,LS_KDEx_LGBM,0.007743114912082952,"{'binSize': 400, 'weightsByDistance': False}",0.4947054389659269,0.1
+pollutant_max_SO2_Location 1,1.0,9.0,LS_KDEx_LGBM,0.001764989133059649,"{'binSize': 400, 'weightsByDistance': False}",0.14169611215207067,0.1
+pollutant_max_SO2_Location 2,1.0,9.0,LS_KDEx_LGBM,0.002317340020713162,"{'binSize': 400, 'weightsByDistance': False}",0.15924634979082664,0.1
+pollutant_max_SO2_Location 6,1.0,9.0,LS_KDEx_LGBM,0.0015557216283332276,"{'binSize': 400, 'weightsByDistance': False}",0.1888084695835297,0.1
+pollutant_max_NO2_Location 3,1.0,9.0,LS_KDEx_MLP,0.02048753944056389,"{'binSize': 400, 'weightsByDistance': False}",0.3088514216555954,0.1
+pollutant_max_O3_Location 1,1.0,9.0,LS_KDEx_MLP,0.022378500116727776,"{'binSize': 400, 'weightsByDistance': False}",0.33945440733668664,0.1
+pollutant_max_O3_Location 2,1.0,9.0,LS_KDEx_MLP,0.01885492276177909,"{'binSize': 400, 'weightsByDistance': False}",0.25288763585107255,0.1
+pollutant_max_O3_Location 5,1.0,9.0,LS_KDEx_MLP,0.02111220387784876,"{'binSize': 400, 'weightsByDistance': False}",0.31504941695764044,0.1
+pollutant_max_O3_Location 6,1.0,9.0,LS_KDEx_MLP,0.016585598542985303,"{'binSize': 400, 'weightsByDistance': False}",0.32241099282762287,0.1
+pollutant_max_PM10_Location 4,1.0,9.0,LS_KDEx_MLP,0.019146259185661135,"{'binSize': 400, 'weightsByDistance': False}",-0.5367795083604272,0.1
+pollutant_max_PM2.5_Location 3,1.0,9.0,LS_KDEx_MLP,0.008214943021962172,"{'binSize': 400, 'weightsByDistance': False}",0.4639152233521924,0.1
+pollutant_max_SO2_Location 1,1.0,9.0,LS_KDEx_MLP,0.00181528455284553,"{'binSize': 400, 'weightsByDistance': False}",0.11723774380601115,0.1
+pollutant_max_SO2_Location 2,1.0,9.0,LS_KDEx_MLP,0.002254634424342613,"{'binSize': 400, 'weightsByDistance': False}",0.1819965541483458,0.1
+pollutant_max_SO2_Location 6,1.0,9.0,LS_KDEx_MLP,0.0015943367736663528,"{'binSize': 400, 'weightsByDistance': False}",0.16867358280845002,0.1
