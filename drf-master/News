@@ -1,5 +1,0 @@
-
-
-New Features:
-- Based on the grf implementation, it is now possible to have missing values in the covariates X.
-They are handled via the MIA approach of Twala et al., 2008.
