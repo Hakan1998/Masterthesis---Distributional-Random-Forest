@@ -38,3 +38,4 @@ wage.csvvenv/
 venv/
 master.zip
 drf-master/
+drf-master/applications/wage_data/data/datasets/wage_data.Rdata
