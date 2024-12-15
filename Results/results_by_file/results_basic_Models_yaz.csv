@@ -1,0 +1,316 @@
+Variable,cu,co,Model,Pinball Loss,Best Params,delta C,sl
+calamari,9.0,1.0,SAA,0.5118421052631579,,,0.9
+calamari,9.0,1.0,MLP,0.494511955928237,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 28), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.0338583894461178,0.9
+calamari,9.0,1.0,RFW,0.4736842105263157,"OrderedDict([('max_depth', 8), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 10)])",0.0745501285347044,0.9
+calamari,9.0,1.0,KNNW,0.375,"OrderedDict([('n_neighbors', 32)])",0.2673521850899742,0.9
+calamari,9.0,1.0,DTW,0.3986842105263157,"OrderedDict([('max_depth', 4), ('min_samples_split', 64)])",0.2210796915167097,0.9
+calamari,9.0,1.0,GKW,0.4184210526315789,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1825192802056555,0.9
+chicken,9.0,1.0,SAA,2.4618421052631576,,,0.9
+chicken,9.0,1.0,MLP,5.178921573774247,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 114), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.1036773896677865,0.9
+chicken,9.0,1.0,RFW,2.494736842105263,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",-0.0133618385889897,0.9
+chicken,9.0,1.0,KNNW,2.318421052631579,"OrderedDict([('n_neighbors', 8)])",0.0582576162479956,0.9
+chicken,9.0,1.0,DTW,2.3039473684210527,"OrderedDict([('max_depth', 4), ('min_samples_split', 32)])",0.0641368252271511,0.9
+chicken,9.0,1.0,GKW,1.91578947368421,"OrderedDict([('kernel_bandwidth', 2.5)])",0.2218065205772315,0.9
+fish,9.0,1.0,SAA,0.4078947368421051,,,0.9
+fish,9.0,1.0,MLP,0.7161250575242439,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 114), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.7556614313497598,0.9
+fish,9.0,1.0,RFW,0.3999999999999999,"OrderedDict([('max_depth', 4), ('max_features', 'sqrt'), ('min_samples_split', 2), ('n_estimators', 10)])",0.0193548387096773,0.9
+fish,9.0,1.0,KNNW,0.3657894736842104,"OrderedDict([('n_neighbors', 32)])",0.1032258064516128,0.9
+fish,9.0,1.0,DTW,0.3921052631578947,"OrderedDict([('max_depth', 2), ('min_samples_split', 16)])",0.0387096774193547,0.9
+fish,9.0,1.0,GKW,0.376315789473684,"OrderedDict([('kernel_bandwidth', 3.0)])",0.0774193548387097,0.9
+koefte,9.0,1.0,SAA,2.3881578947368425,,,0.9
+koefte,9.0,1.0,MLP,5.852080224836983,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 114), ('layer2', 114), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-1.450457835193447,0.9
+koefte,9.0,1.0,RFW,1.9328947368421048,"OrderedDict([('max_depth', 4), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 50)])",0.190633608815427,0.9
+koefte,9.0,1.0,KNNW,1.8644736842105265,"OrderedDict([('n_neighbors', 32)])",0.2192837465564738,0.9
+koefte,9.0,1.0,DTW,2.389473684210527,"OrderedDict([('max_depth', 4), ('min_samples_split', 16)])",-0.000550964187328,0.9
+koefte,9.0,1.0,GKW,1.7921052631578942,"OrderedDict([('kernel_bandwidth', 2.5)])",0.2495867768595044,0.9
+lamb,9.0,1.0,SAA,2.0618421052631577,,,0.9
+lamb,9.0,1.0,MLP,3.4201028991677416,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 171), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.6587608189964798,0.9
+lamb,9.0,1.0,RFW,1.7342105263157896,"OrderedDict([('max_depth', 4), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 10)])",0.1589023611997445,0.9
+lamb,9.0,1.0,KNNW,1.794736842105263,"OrderedDict([('n_neighbors', 32)])",0.1295469049138481,0.9
+lamb,9.0,1.0,DTW,2.1144736842105263,"OrderedDict([('max_depth', 4), ('min_samples_split', 32)])",-0.0255264837268667,0.9
+lamb,9.0,1.0,GKW,1.7671052631578943,"OrderedDict([('kernel_bandwidth', 3.0)])",0.142948308870453,0.9
+shrimp,9.0,1.0,SAA,0.8394736842105261,,,0.9
+shrimp,9.0,1.0,MLP,1.2982137209319746,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 171), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.5464614857496879,0.9
+shrimp,9.0,1.0,RFW,1.0434210526315788,"OrderedDict([('max_depth', 10), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 250)])",-0.2429467084639498,0.9
+shrimp,9.0,1.0,KNNW,0.7289473684210526,"OrderedDict([('n_neighbors', 32)])",0.1316614420062695,0.9
+shrimp,9.0,1.0,DTW,0.8776315789473683,"OrderedDict([('max_depth', 4), ('min_samples_split', 64)])",-0.0454545454545456,0.9
+shrimp,9.0,1.0,GKW,0.8302631578947367,"OrderedDict([('kernel_bandwidth', 4.0)])",0.0109717868338558,0.9
+steak,9.0,1.0,SAA,1.988157894736842,,,0.9
+steak,9.0,1.0,MLP,3.778455016656185,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 114), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.9004803525206488,0.9
+steak,9.0,1.0,RFW,1.5052631578947366,"OrderedDict([('max_depth', 4), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 250)])",0.2428855062872271,0.9
+steak,9.0,1.0,KNNW,1.359210526315789,"OrderedDict([('n_neighbors', 32)])",0.3163467902051624,0.9
+steak,9.0,1.0,DTW,2.35,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",-0.1819986763732628,0.9
+steak,9.0,1.0,GKW,1.5249999999999997,"OrderedDict([('kernel_bandwidth', 3.0)])",0.2329583057577764,0.9
+calamari,7.5,2.5,SAA,0.805921052631579,,,0.75
+calamari,7.5,2.5,MLP,0.6299421417958108,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 28), ('layer2', 114), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",0.218357505690096,0.75
+calamari,7.5,2.5,RFW,0.7105263157894737,"OrderedDict([('max_depth', 4), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 50)])",0.1183673469387756,0.75
+calamari,7.5,2.5,KNNW,0.6414473684210527,"OrderedDict([('n_neighbors', 32)])",0.2040816326530612,0.75
+calamari,7.5,2.5,DTW,0.6513157894736842,"OrderedDict([('max_depth', 4), ('min_samples_split', 4)])",0.1918367346938776,0.75
+calamari,7.5,2.5,GKW,0.6644736842105263,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1755102040816326,0.75
+chicken,7.5,2.5,SAA,4.016447368421052,,,0.75
+chicken,7.5,2.5,MLP,5.136122967424773,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 114), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.278772630710181,0.75
+chicken,7.5,2.5,RFW,3.398026315789474,"OrderedDict([('max_depth', 4), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 100)])",0.1539721539721538,0.75
+chicken,7.5,2.5,KNNW,3.463815789473684,"OrderedDict([('n_neighbors', 32)])",0.1375921375921375,0.75
+chicken,7.5,2.5,DTW,3.697368421052632,"OrderedDict([('max_depth', 4), ('min_samples_split', 32)])",0.0794430794430793,0.75
+chicken,7.5,2.5,GKW,3.256578947368421,"OrderedDict([('kernel_bandwidth', 2.5)])",0.189189189189189,0.75
+fish,7.5,2.5,SAA,0.7171052631578947,,,0.75
+fish,7.5,2.5,MLP,0.7880778028410247,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 114), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.0989708810260161,0.75
+fish,7.5,2.5,RFW,0.6907894736842105,"OrderedDict([('max_depth', 4), ('max_features', 'sqrt'), ('min_samples_split', 64), ('n_estimators', 20)])",0.036697247706422,0.75
+fish,7.5,2.5,KNNW,0.7335526315789473,"OrderedDict([('n_neighbors', 32)])",-0.0229357798165137,0.75
+fish,7.5,2.5,DTW,0.694078947368421,"OrderedDict([('max_depth', 2), ('min_samples_split', 16)])",0.0321100917431192,0.75
+fish,7.5,2.5,GKW,0.7335526315789473,"OrderedDict([('kernel_bandwidth', 3.0)])",-0.0229357798165137,0.75
+koefte,7.5,2.5,SAA,4.358552631578948,,,0.75
+koefte,7.5,2.5,MLP,5.12691206905985,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 114), ('layer2', 114), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.1762877501842976,0.75
+koefte,7.5,2.5,RFW,3.884868421052632,"OrderedDict([('max_depth', 4), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 50)])",0.1086792452830189,0.75
+koefte,7.5,2.5,KNNW,3.473684210526316,"OrderedDict([('n_neighbors', 32)])",0.2030188679245284,0.75
+koefte,7.5,2.5,DTW,3.9375,"OrderedDict([('max_depth', 4), ('min_samples_split', 32)])",0.0966037735849058,0.75
+koefte,7.5,2.5,GKW,3.411184210526316,"OrderedDict([('kernel_bandwidth', 2.5)])",0.2173584905660377,0.75
+lamb,7.5,2.5,SAA,3.7401315789473686,,,0.75
+lamb,7.5,2.5,MLP,3.6714160856996094,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 171), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.018372480164748,0.75
+lamb,7.5,2.5,RFW,3.036184210526316,"OrderedDict([('max_depth', 8), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.1882145998240985,0.75
+lamb,7.5,2.5,KNNW,3.144736842105264,"OrderedDict([('n_neighbors', 32)])",0.1591908531222514,0.75
+lamb,7.5,2.5,DTW,3.269736842105264,"OrderedDict([('max_depth', 4), ('min_samples_split', 32)])",0.1257695690413367,0.75
+lamb,7.5,2.5,GKW,3.0526315789473686,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1838170624450308,0.75
+shrimp,7.5,2.5,SAA,1.375,,,0.75
+shrimp,7.5,2.5,MLP,1.3953998746701608,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 171), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.0148362724873896,0.75
+shrimp,7.5,2.5,RFW,1.7861842105263157,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 10)])",-0.2990430622009568,0.75
+shrimp,7.5,2.5,KNNW,1.1414473684210529,"OrderedDict([('n_neighbors', 32)])",0.1698564593301434,0.75
+shrimp,7.5,2.5,DTW,1.5921052631578947,"OrderedDict([('max_depth', 4), ('min_samples_split', 32)])",-0.1578947368421053,0.75
+shrimp,7.5,2.5,GKW,1.1842105263157894,"OrderedDict([('kernel_bandwidth', 2.5)])",0.138755980861244,0.75
+steak,7.5,2.5,SAA,3.233552631578948,,,0.75
+steak,7.5,2.5,MLP,3.6741498534506327,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 114), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.1362579404364112,0.75
+steak,7.5,2.5,RFW,2.569078947368421,"OrderedDict([('max_depth', 8), ('max_features', 'sqrt'), ('min_samples_split', 32), ('n_estimators', 50)])",0.2054933875890131,0.75
+steak,7.5,2.5,KNNW,2.648026315789474,"OrderedDict([('n_neighbors', 32)])",0.1810783316378432,0.75
+steak,7.5,2.5,DTW,2.4901315789473686,"OrderedDict([('max_depth', 8), ('min_samples_split', 64)])",0.229908443540183,0.75
+steak,7.5,2.5,GKW,2.733552631578948,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1546286876907426,0.75
+calamari,5.0,5.0,SAA,0.8355263157894737,,,0.5
+calamari,5.0,5.0,MLP,0.8212497130412595,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 171), ('layer2', 14), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.0170869576199098,0.5
+calamari,5.0,5.0,RFW,0.7960526315789473,"OrderedDict([('max_depth', 10), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.047244094488189,0.5
+calamari,5.0,5.0,KNNW,0.7368421052631579,"OrderedDict([('n_neighbors', 32)])",0.1181102362204724,0.5
+calamari,5.0,5.0,DTW,0.7368421052631579,"OrderedDict([('max_depth', 2), ('min_samples_split', 16)])",0.1181102362204724,0.5
+calamari,5.0,5.0,GKW,0.7368421052631579,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1181102362204724,0.5
+chicken,5.0,5.0,SAA,4.769736842105263,,,0.5
+chicken,5.0,5.0,MLP,5.064791956842318,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 114), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.0618598309517688,0.5
+chicken,5.0,5.0,RFW,4.717105263157895,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 10)])",0.0110344827586206,0.5
+chicken,5.0,5.0,KNNW,4.375000000000001,"OrderedDict([('n_neighbors', 32)])",0.0827586206896549,0.5
+chicken,5.0,5.0,DTW,4.171052631578948,"OrderedDict([('max_depth', 4), ('min_samples_split', 32)])",0.1255172413793102,0.5
+chicken,5.0,5.0,GKW,4.322368421052632,"OrderedDict([('kernel_bandwidth', 2.5)])",0.0937931034482757,0.5
+fish,5.0,5.0,SAA,0.8289473684210527,,,0.5
+fish,5.0,5.0,MLP,0.919824839689095,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 114), ('layer2', 114), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.1096299653392256,0.5
+fish,5.0,5.0,RFW,0.8289473684210527,"OrderedDict([('max_depth', 4), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 10)])",0.0,0.5
+fish,5.0,5.0,KNNW,0.8421052631578947,"OrderedDict([('n_neighbors', 32)])",-0.0158730158730158,0.5
+fish,5.0,5.0,DTW,0.8289473684210527,"OrderedDict([('max_depth', 2), ('min_samples_split', 16)])",0.0,0.5
+fish,5.0,5.0,GKW,0.8421052631578947,"OrderedDict([('kernel_bandwidth', 3.0)])",-0.0158730158730158,0.5
+koefte,5.0,5.0,SAA,4.572368421052632,,,0.5
+koefte,5.0,5.0,MLP,3.661277207309412,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 114), ('layer2', 57), ('learning_rate_init', 0.0005), ('max_iter', 500), ('solver', 'adam')])",0.1992602366747762,0.5
+koefte,5.0,5.0,RFW,4.25,"OrderedDict([('max_depth', 4), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 100)])",0.0705035971223022,0.5
+koefte,5.0,5.0,KNNW,4.210526315789474,"OrderedDict([('n_neighbors', 32)])",0.0791366906474819,0.5
+koefte,5.0,5.0,DTW,4.151315789473684,"OrderedDict([('max_depth', 4), ('min_samples_split', 32)])",0.0920863309352518,0.5
+koefte,5.0,5.0,GKW,4.065789473684211,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1107913669064748,0.5
+lamb,5.0,5.0,SAA,4.098684210526316,,,0.5
+lamb,5.0,5.0,MLP,4.090271396586059,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 171), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.0020525645568525,0.5
+lamb,5.0,5.0,RFW,3.782894736842105,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 250)])",0.0770465489566613,0.5
+lamb,5.0,5.0,KNNW,4.1118421052631575,"OrderedDict([('n_neighbors', 32)])",-0.0032102728731941,0.5
+lamb,5.0,5.0,DTW,3.9342105263157903,"OrderedDict([('max_depth', 4), ('min_samples_split', 32)])",0.0401284109149275,0.5
+lamb,5.0,5.0,GKW,4.032894736842105,"OrderedDict([('kernel_bandwidth', 2.5)])",0.0160513643659711,0.5
+shrimp,5.0,5.0,SAA,1.513157894736842,,,0.5
+shrimp,5.0,5.0,MLP,1.553217334093425,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 171), ('layer2', 114), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.0264740642704375,0.5
+shrimp,5.0,5.0,RFW,2.0789473684210527,"OrderedDict([('max_depth', 8), ('max_features', 'sqrt'), ('min_samples_split', 32), ('n_estimators', 10)])",-0.3739130434782609,0.5
+shrimp,5.0,5.0,KNNW,1.3684210526315792,"OrderedDict([('n_neighbors', 32)])",0.0956521739130432,0.5
+shrimp,5.0,5.0,DTW,2.0,"OrderedDict([('max_depth', 4), ('min_samples_split', 32)])",-0.3217391304347827,0.5
+shrimp,5.0,5.0,GKW,1.3355263157894737,"OrderedDict([('kernel_bandwidth', 3.0)])",0.117391304347826,0.5
+steak,5.0,5.0,SAA,3.401315789473684,,,0.5
+steak,5.0,5.0,MLP,2.8936983486990457,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 28), ('layer2', 114), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",0.1492414912915765,0.5
+steak,5.0,5.0,RFW,2.888157894736842,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 32), ('n_estimators', 20)])",0.1508704061895551,0.5
+steak,5.0,5.0,KNNW,3.3092105263157894,"OrderedDict([('n_neighbors', 4)])",0.0270793036750482,0.5
+steak,5.0,5.0,DTW,2.875,"OrderedDict([('max_depth', 8), ('min_samples_split', 64)])",0.1547388781431334,0.5
+steak,5.0,5.0,GKW,2.973684210526316,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1257253384912958,0.5
+calamari,2.5,7.5,SAA,0.5888157894736842,,,0.25
+calamari,2.5,7.5,MLP,1.0540616783658696,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 57), ('layer2', 14), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.7901382694034882,0.25
+calamari,2.5,7.5,RFW,0.618421052631579,"OrderedDict([('max_depth', 10), ('max_features', 'sqrt'), ('min_samples_split', 8), ('n_estimators', 100)])",-0.0502793296089385,0.25
+calamari,2.5,7.5,KNNW,0.5986842105263158,"OrderedDict([('n_neighbors', 32)])",-0.0167597765363129,0.25
+calamari,2.5,7.5,DTW,0.6743421052631579,"OrderedDict([('max_depth', 4), ('min_samples_split', 4)])",-0.1452513966480446,0.25
+calamari,2.5,7.5,GKW,0.5888157894736842,"OrderedDict([('kernel_bandwidth', 4.0)])",0.0,0.25
+chicken,2.5,7.5,SAA,3.7335526315789473,,,0.25
+chicken,2.5,7.5,MLP,4.07042528016622,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 114), ('layer2', 57), ('learning_rate_init', 0.0005), ('max_iter', 500), ('solver', 'adam')])",-0.0902284450841681,0.25
+chicken,2.5,7.5,RFW,3.092105263157896,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 250)])",0.1718061674008808,0.25
+chicken,2.5,7.5,KNNW,3.608552631578948,"OrderedDict([('n_neighbors', 8)])",0.0334801762114534,0.25
+chicken,2.5,7.5,DTW,3.171052631578948,"OrderedDict([('max_depth', 4), ('min_samples_split', 32)])",0.1506607929515417,0.25
+chicken,2.5,7.5,GKW,3.4473684210526314,"OrderedDict([('kernel_bandwidth', 2.5)])",0.0766519823788546,0.25
+fish,2.5,7.5,SAA,0.6513157894736842,,,0.25
+fish,2.5,7.5,MLP,0.9274998343917368,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 114), ('layer2', 14), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.4240401497731716,0.25
+fish,2.5,7.5,RFW,0.6513157894736841,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",2.220446049250313e-16,0.25
+fish,2.5,7.5,KNNW,0.631578947368421,"OrderedDict([('n_neighbors', 32)])",0.0303030303030302,0.25
+fish,2.5,7.5,DTW,0.6381578947368421,"OrderedDict([('max_depth', 2), ('min_samples_split', 16)])",0.0202020202020201,0.25
+fish,2.5,7.5,GKW,0.6414473684210525,"OrderedDict([('kernel_bandwidth', 4.0)])",0.0151515151515152,0.25
+koefte,2.5,7.5,SAA,3.075657894736842,,,0.25
+koefte,2.5,7.5,MLP,2.77141704335184,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 114), ('layer2', 14), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.0989189506107386,0.25
+koefte,2.5,7.5,RFW,2.8651315789473686,"OrderedDict([('max_depth', 8), ('max_features', 'sqrt'), ('min_samples_split', 32), ('n_estimators', 50)])",0.0684491978609624,0.25
+koefte,2.5,7.5,KNNW,3.075657894736842,"OrderedDict([('n_neighbors', 32)])",0.0,0.25
+koefte,2.5,7.5,DTW,2.835526315789474,"OrderedDict([('max_depth', 4), ('min_samples_split', 64)])",0.0780748663101603,0.25
+koefte,2.5,7.5,GKW,2.898026315789474,"OrderedDict([('kernel_bandwidth', 2.5)])",0.057754010695187,0.25
+lamb,2.5,7.5,SAA,3.3651315789473686,,,0.25
+lamb,2.5,7.5,MLP,5.067638052029659,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 57), ('layer2', 57), ('learning_rate_init', 0.0005), ('max_iter', 500), ('solver', 'adam')])",-0.5059256772404852,0.25
+lamb,2.5,7.5,RFW,3.335526315789474,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 250)])",0.0087976539589442,0.25
+lamb,2.5,7.5,KNNW,3.25,"OrderedDict([('n_neighbors', 128)])",0.0342130987292278,0.25
+lamb,2.5,7.5,DTW,3.098684210526316,"OrderedDict([('max_depth', 4), ('min_samples_split', 32)])",0.0791788856304985,0.25
+lamb,2.5,7.5,GKW,3.375,"OrderedDict([('kernel_bandwidth', 2.5)])",-0.002932551319648,0.25
+shrimp,2.5,7.5,SAA,1.138157894736842,,,0.25
+shrimp,2.5,7.5,MLP,2.1378521257705123,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 57), ('layer2', 28), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.8783440642607971,0.25
+shrimp,2.5,7.5,RFW,1.131578947368421,"OrderedDict([('max_depth', 8), ('max_features', 'sqrt'), ('min_samples_split', 4), ('n_estimators', 250)])",0.0057803468208091,0.25
+shrimp,2.5,7.5,KNNW,1.0953947368421053,"OrderedDict([('n_neighbors', 128)])",0.03757225433526,0.25
+shrimp,2.5,7.5,DTW,1.552631578947368,"OrderedDict([('max_depth', 4), ('min_samples_split', 64)])",-0.3641618497109824,0.25
+shrimp,2.5,7.5,GKW,1.1480263157894737,"OrderedDict([('kernel_bandwidth', 2.5)])",-0.0086705202312138,0.25
+steak,2.5,7.5,SAA,2.3980263157894743,,,0.25
+steak,2.5,7.5,MLP,2.505560467512704,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 28), ('layer2', 114), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.0448427738324579,0.25
+steak,2.5,7.5,RFW,2.1546052631578947,"OrderedDict([('max_depth', 8), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 10)])",0.1015089163237313,0.25
+steak,2.5,7.5,KNNW,2.253289473684211,"OrderedDict([('n_neighbors', 32)])",0.0603566529492455,0.25
+steak,2.5,7.5,DTW,2.148026315789474,"OrderedDict([('max_depth', 8), ('min_samples_split', 64)])",0.104252400548697,0.25
+steak,2.5,7.5,GKW,2.1842105263157894,"OrderedDict([('kernel_bandwidth', 2.5)])",0.0891632373113857,0.25
+calamari,1.0,9.0,SAA,0.306578947368421,,,0.1
+calamari,1.0,9.0,MLP,1.1795455018540566,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 57), ('layer2', 14), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-2.847444555403789,0.1
+calamari,1.0,9.0,RFW,0.3513157894736842,"OrderedDict([('max_depth', 8), ('max_features', 'sqrt'), ('min_samples_split', 2), ('n_estimators', 50)])",-0.1459227467811159,0.1
+calamari,1.0,9.0,KNNW,0.3171052631578948,"OrderedDict([('n_neighbors', 128)])",-0.0343347639484978,0.1
+calamari,1.0,9.0,DTW,0.4078947368421053,"OrderedDict([('max_depth', 4), ('min_samples_split', 2)])",-0.3304721030042918,0.1
+calamari,1.0,9.0,GKW,0.3355263157894737,"OrderedDict([('kernel_bandwidth', 3.0)])",-0.094420600858369,0.1
+chicken,1.0,9.0,SAA,2.214473684210527,,,0.1
+chicken,1.0,9.0,MLP,3.1738708381082823,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 57), ('layer2', 28), ('learning_rate_init', 0.0005), ('max_iter', 500), ('solver', 'adam')])",-0.4332393564838348,0.1
+chicken,1.0,9.0,RFW,1.965789473684211,"OrderedDict([('max_depth', 8), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 20)])",0.1122994652406417,0.1
+chicken,1.0,9.0,KNNW,2.2342105263157896,"OrderedDict([('n_neighbors', 32)])",-0.0089126559714793,0.1
+chicken,1.0,9.0,DTW,1.9013157894736843,"OrderedDict([('max_depth', 2), ('min_samples_split', 16)])",0.1414141414141415,0.1
+chicken,1.0,9.0,GKW,2.090789473684211,"OrderedDict([('kernel_bandwidth', 2.5)])",0.0558526440879382,0.1
+fish,1.0,9.0,SAA,0.3184210526315789,,,0.1
+fish,1.0,9.0,MLP,0.883568439457661,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 114), ('layer2', 14), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-1.7748430330075302,0.1
+fish,1.0,9.0,RFW,0.3184210526315789,"OrderedDict([('max_depth', 4), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",2.220446049250313e-16,0.1
+fish,1.0,9.0,KNNW,0.3342105263157894,"OrderedDict([('n_neighbors', 128)])",-0.0495867768595039,0.1
+fish,1.0,9.0,DTW,0.3013157894736842,"OrderedDict([('max_depth', 2), ('min_samples_split', 16)])",0.0537190082644628,0.1
+fish,1.0,9.0,GKW,0.306578947368421,"OrderedDict([('kernel_bandwidth', 4.0)])",0.0371900826446282,0.1
+koefte,1.0,9.0,SAA,1.6407894736842108,,,0.1
+koefte,1.0,9.0,MLP,2.1458430119544083,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 114), ('layer2', 14), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.3078112983844026,0.1
+koefte,1.0,9.0,RFW,1.623684210526316,"OrderedDict([('max_depth', 8), ('max_features', 'sqrt'), ('min_samples_split', 32), ('n_estimators', 500)])",0.0104250200481155,0.1
+koefte,1.0,9.0,KNNW,1.5763157894736846,"OrderedDict([('n_neighbors', 32)])",0.0392943063352044,0.1
+koefte,1.0,9.0,DTW,1.4552631578947373,"OrderedDict([('max_depth', 2), ('min_samples_split', 16)])",0.1130713712910985,0.1
+koefte,1.0,9.0,GKW,1.515789473684211,"OrderedDict([('kernel_bandwidth', 2.5)])",0.0761828388131514,0.1
+lamb,1.0,9.0,SAA,2.0644736842105265,,,0.1
+lamb,1.0,9.0,MLP,4.008047491929988,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 171), ('layer2', 14), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.9414379183344744,0.1
+lamb,1.0,9.0,RFW,1.9671052631578951,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 100)])",0.0471637985978329,0.1
+lamb,1.0,9.0,KNNW,2.127631578947369,"OrderedDict([('n_neighbors', 32)])",-0.0305927342256218,0.1
+lamb,1.0,9.0,DTW,1.8157894736842108,"OrderedDict([('max_depth', 4), ('min_samples_split', 32)])",0.1204588910133842,0.1
+lamb,1.0,9.0,GKW,2.106578947368421,"OrderedDict([('kernel_bandwidth', 2.5)])",-0.020395156150414,0.1
+shrimp,1.0,9.0,SAA,0.6105263157894738,,,0.1
+shrimp,1.0,9.0,MLP,1.6627498763972182,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 57), ('layer2', 14), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-1.723469625133374,0.1
+shrimp,1.0,9.0,RFW,0.6210526315789474,"OrderedDict([('max_depth', 8), ('max_features', 'sqrt'), ('min_samples_split', 32), ('n_estimators', 20)])",-0.0172413793103447,0.1
+shrimp,1.0,9.0,KNNW,0.6131578947368422,"OrderedDict([('n_neighbors', 128)])",-0.0043103448275862,0.1
+shrimp,1.0,9.0,DTW,0.7907894736842106,"OrderedDict([('max_depth', 2), ('min_samples_split', 16)])",-0.295258620689655,0.1
+shrimp,1.0,9.0,GKW,0.6026315789473685,"OrderedDict([('kernel_bandwidth', 4.5)])",0.0129310344827586,0.1
+steak,1.0,9.0,SAA,1.243421052631579,,,0.1
+steak,1.0,9.0,MLP,3.8103970724983176,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 28), ('layer2', 28), ('learning_rate_init', 0.0005), ('max_iter', 500), ('solver', 'adam')])",-2.06444632285579,0.1
+steak,1.0,9.0,RFW,1.268421052631579,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",-0.0201058201058199,0.1
+steak,1.0,9.0,KNNW,1.253947368421053,"OrderedDict([('n_neighbors', 128)])",-0.0084656084656087,0.1
+steak,1.0,9.0,DTW,1.3052631578947371,"OrderedDict([('max_depth', 4), ('min_samples_split', 16)])",-0.0497354497354498,0.1
+steak,1.0,9.0,GKW,1.25,"OrderedDict([('kernel_bandwidth', 2.5)])",-0.0052910052910053,0.1
+calamari,9.0,1.0,SAA,0.5118421052631579,,,0.9
+chicken,9.0,1.0,SAA,2.4618421052631576,,,0.9
+fish,9.0,1.0,SAA,0.4078947368421051,,,0.9
+koefte,9.0,1.0,SAA,2.3881578947368425,,,0.9
+lamb,9.0,1.0,SAA,2.0618421052631577,,,0.9
+shrimp,9.0,1.0,SAA,0.8394736842105261,,,0.9
+steak,9.0,1.0,SAA,1.988157894736842,,,0.9
+calamari,7.5,2.5,SAA,0.805921052631579,,,0.75
+chicken,7.5,2.5,SAA,4.016447368421052,,,0.75
+fish,7.5,2.5,SAA,0.7171052631578947,,,0.75
+koefte,7.5,2.5,SAA,4.358552631578948,,,0.75
+lamb,7.5,2.5,SAA,3.7401315789473686,,,0.75
+shrimp,7.5,2.5,SAA,1.375,,,0.75
+steak,7.5,2.5,SAA,3.233552631578948,,,0.75
+calamari,5.0,5.0,SAA,0.8355263157894737,,,0.5
+chicken,5.0,5.0,SAA,4.769736842105263,,,0.5
+fish,5.0,5.0,SAA,0.8289473684210527,,,0.5
+koefte,5.0,5.0,SAA,4.572368421052632,,,0.5
+lamb,5.0,5.0,SAA,4.098684210526316,,,0.5
+shrimp,5.0,5.0,SAA,1.513157894736842,,,0.5
+steak,5.0,5.0,SAA,3.401315789473684,,,0.5
+calamari,2.5,7.5,SAA,0.5888157894736842,,,0.25
+chicken,2.5,7.5,SAA,3.7335526315789473,,,0.25
+fish,2.5,7.5,SAA,0.6513157894736842,,,0.25
+koefte,2.5,7.5,SAA,3.075657894736842,,,0.25
+lamb,2.5,7.5,SAA,3.3651315789473686,,,0.25
+shrimp,2.5,7.5,SAA,1.138157894736842,,,0.25
+steak,2.5,7.5,SAA,2.3980263157894743,,,0.25
+calamari,1.0,9.0,SAA,0.306578947368421,,,0.1
+chicken,1.0,9.0,SAA,2.214473684210527,,,0.1
+fish,1.0,9.0,SAA,0.3184210526315789,,,0.1
+koefte,1.0,9.0,SAA,1.6407894736842108,,,0.1
+lamb,1.0,9.0,SAA,2.0644736842105265,,,0.1
+shrimp,1.0,9.0,SAA,0.6105263157894738,,,0.1
+steak,1.0,9.0,SAA,1.243421052631579,,,0.1
+calamari,9.0,1.0,SAA,0.5118421052631579,,,0.9
+chicken,9.0,1.0,SAA,2.4618421052631576,,,0.9
+fish,9.0,1.0,SAA,0.4078947368421051,,,0.9
+koefte,9.0,1.0,SAA,2.3881578947368425,,,0.9
+lamb,9.0,1.0,SAA,2.0618421052631577,,,0.9
+shrimp,9.0,1.0,SAA,0.8394736842105261,,,0.9
+steak,9.0,1.0,SAA,1.988157894736842,,,0.9
+calamari,7.5,2.5,SAA,0.805921052631579,,,0.75
+chicken,7.5,2.5,SAA,4.016447368421052,,,0.75
+fish,7.5,2.5,SAA,0.7171052631578947,,,0.75
+koefte,7.5,2.5,SAA,4.358552631578948,,,0.75
+lamb,7.5,2.5,SAA,3.7401315789473686,,,0.75
+shrimp,7.5,2.5,SAA,1.375,,,0.75
+steak,7.5,2.5,SAA,3.233552631578948,,,0.75
+calamari,5.0,5.0,SAA,0.8355263157894737,,,0.5
+chicken,5.0,5.0,SAA,4.769736842105263,,,0.5
+fish,5.0,5.0,SAA,0.8289473684210527,,,0.5
+koefte,5.0,5.0,SAA,4.572368421052632,,,0.5
+lamb,5.0,5.0,SAA,4.098684210526316,,,0.5
+shrimp,5.0,5.0,SAA,1.513157894736842,,,0.5
+steak,5.0,5.0,SAA,3.401315789473684,,,0.5
+calamari,2.5,7.5,SAA,0.5888157894736842,,,0.25
+chicken,2.5,7.5,SAA,3.7335526315789473,,,0.25
+fish,2.5,7.5,SAA,0.6513157894736842,,,0.25
+koefte,2.5,7.5,SAA,3.075657894736842,,,0.25
+lamb,2.5,7.5,SAA,3.3651315789473686,,,0.25
+shrimp,2.5,7.5,SAA,1.138157894736842,,,0.25
+steak,2.5,7.5,SAA,2.3980263157894743,,,0.25
+calamari,1.0,9.0,SAA,0.306578947368421,,,0.1
+chicken,1.0,9.0,SAA,2.214473684210527,,,0.1
+fish,1.0,9.0,SAA,0.3184210526315789,,,0.1
+koefte,1.0,9.0,SAA,1.6407894736842108,,,0.1
+lamb,1.0,9.0,SAA,2.0644736842105265,,,0.1
+shrimp,1.0,9.0,SAA,0.6105263157894738,,,0.1
+steak,1.0,9.0,SAA,1.243421052631579,,,0.1
+calamari,9.0,1.0,LGBM,0.3937757510158214,"OrderedDict([('learning_rate', 0.05), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 10), ('num_leaves', 127)])",0.2306694838765443,0.9
+chicken,9.0,1.0,LGBM,4.739937690561729,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 100), ('num_leaves', 63)])",-0.9253621832319159,0.9
+fish,9.0,1.0,LGBM,0.6037278398933543,"OrderedDict([('learning_rate', 0.01), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 100), ('num_leaves', 63)])",-0.4801069623191916,0.9
+koefte,9.0,1.0,LGBM,6.526228445390297,"OrderedDict([('learning_rate', 0.05), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 20), ('num_leaves', 31)])",-1.732745795314945,0.9
+lamb,9.0,1.0,LGBM,1.9695895963273802,"OrderedDict([('learning_rate', 0.01), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 127)])",0.044742761194123126,0.9
+shrimp,9.0,1.0,LGBM,0.7150411916007788,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 127)])",0.14822679370440117,0.9
+steak,9.0,1.0,LGBM,2.518250424614874,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 50), ('n_estimators', 20), ('num_leaves', 31)])",-0.26662496539199476,0.9
+calamari,7.5,2.5,LGBM,0.5863353636974794,"OrderedDict([('learning_rate', 0.01), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 31)])",0.27246550790190316,0.75
+chicken,7.5,2.5,LGBM,4.417214381906843,"OrderedDict([('learning_rate', 0.01), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 500), ('num_leaves', 63)])",-0.09978146773110597,0.75
+fish,7.5,2.5,LGBM,0.7059864871935275,"OrderedDict([('learning_rate', 0.01), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 100), ('num_leaves', 63)])",0.015505082078750565,0.75
+koefte,7.5,2.5,LGBM,5.518053195204929,"OrderedDict([('learning_rate', 0.01), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 63)])",-0.26602880856022515,0.75
+lamb,7.5,2.5,LGBM,2.555817980143628,"OrderedDict([('learning_rate', 0.05), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 100), ('num_leaves', 127)])",0.3166502498120819,0.75
+shrimp,7.5,2.5,LGBM,1.213643252876098,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 127)])",0.11735036154465595,0.75
+steak,7.5,2.5,LGBM,2.7303394277191715,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 50), ('n_estimators', 20), ('num_leaves', 31)])",0.15562239468298256,0.75
+calamari,5.0,5.0,LGBM,0.8789277771791747,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 50), ('num_leaves', 31)])",-0.05194505615145317,0.5
+chicken,5.0,5.0,LGBM,3.978821303907619,"OrderedDict([('learning_rate', 0.05), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 50), ('num_leaves', 31)])",0.165819533525575,0.5
+fish,5.0,5.0,LGBM,0.8791913071287917,"OrderedDict([('learning_rate', 0.1), ('max_depth', 8), ('min_data_in_leaf', 50), ('n_estimators', 10), ('num_leaves', 31)])",-0.060611735583939064,0.5
+koefte,5.0,5.0,LGBM,3.9207254751175027,"OrderedDict([('learning_rate', 0.01), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 127)])",0.14251759393113617,0.5
+lamb,5.0,5.0,LGBM,3.5343298157875056,"OrderedDict([('learning_rate', 0.01), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 127)])",0.13769160192664398,0.5
+shrimp,5.0,5.0,LGBM,1.5171286997862317,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 20), ('num_leaves', 127)])",-0.002624184206553082,0.5
+steak,5.0,5.0,LGBM,2.888777483402548,"OrderedDict([('learning_rate', 0.05), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 100), ('num_leaves', 31)])",0.15068824472497622,0.5
+calamari,2.5,7.5,LGBM,1.17036297047306,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 63)])",-0.9876555476190518,0.25
+chicken,2.5,7.5,LGBM,3.2974519307067576,"OrderedDict([('learning_rate', 0.01), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 100), ('num_leaves', 63)])",0.1168058264891152,0.25
+fish,2.5,7.5,LGBM,0.9417985408956758,"OrderedDict([('learning_rate', 0.01), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 127)])",-0.445993719354977,0.25
+koefte,2.5,7.5,LGBM,2.6973254043405395,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 250), ('num_leaves', 31)])",0.12300863858874433,0.25
+lamb,2.5,7.5,LGBM,4.900459790009257,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 20), ('n_estimators', 10), ('num_leaves', 63)])",-0.4562461155061721,0.25
+shrimp,2.5,7.5,LGBM,2.0388816055174743,"OrderedDict([('learning_rate', 0.05), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 20), ('num_leaves', 127)])",-0.7913873065818273,0.25
+steak,2.5,7.5,LGBM,2.4734817284883577,"OrderedDict([('learning_rate', 0.05), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 100), ('num_leaves', 31)])",-0.031465631633004865,0.25
+calamari,1.0,9.0,LGBM,1.3419179048183587,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 127)])",-3.37707127751911,0.1
+chicken,1.0,9.0,LGBM,2.9095515066151476,"OrderedDict([('learning_rate', 0.05), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 20), ('num_leaves', 31)])",-0.3138794682278738,0.1
+fish,1.0,9.0,LGBM,0.9762900485596503,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 50), ('num_leaves', 31)])",-2.066034863245183,0.1
+koefte,1.0,9.0,LGBM,1.8145567225725345,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 100), ('num_leaves', 127)])",-0.10590465850451158,0.1
+lamb,1.0,9.0,LGBM,4.104451883342836,"OrderedDict([('learning_rate', 0.01), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 100), ('num_leaves', 63)])",-0.9881347554751787,0.1
+shrimp,1.0,9.0,LGBM,2.241782610936872,"OrderedDict([('learning_rate', 0.01), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 50), ('num_leaves', 127)])",-2.6718853110172893,0.1
+steak,1.0,9.0,LGBM,2.3251022378886064,"OrderedDict([('learning_rate', 0.05), ('max_depth', 2), ('min_data_in_leaf', 50), ('n_estimators', 100), ('num_leaves', 127)])",-0.8699234929051225,0.1

@@ -89,10 +89,8 @@ def bayesian_search_model_singleID(model_name, model, param_grid, X_train, y_tra
 
     max_combinations = calculate_n_iter(param_grid)
 
-    if model_name == "LGBM":
-        n_iter = 80  # Higher number of iterations for LGBM since we have more params here
-    else: 
-        n_iter = min(max_combinations, 50)  # Dynamically set n_iter to the smaller of max_combinations or 50
+
+    n_iter = min(max_combinations, 50)  # Dynamically set n_iter to the smaller of max_combinations or 50
 
     if model_name == "DRF":
         n_jobs = 10
@@ -214,8 +212,14 @@ def evaluate_and_append_models_singleID(models, X_train_scaled, X_test_scaled, y
 
 def create_cv_folds_singleID(X_train_scaled_withID, kFolds=5, testLength=None, groupFeature='id', timeFeature='dayIndex'):
     global cvFolds
-    if testLength is None:
-       testLength = int( 0.06 * (len(X_train_scaled_withID)))
+
+    if X_train_scaled_withID[groupFeature].apply(lambda x: isinstance(x, float) and 15 <= x <= 25).all():
+        print("Wage Dataset, no time series split using basic KFold Cross Validation")
+        kf = KFold(n_splits=5)  # Anzahl der gewünschten Folds
+        cvFolds = list(kf.split(X_train_scaled_withID))  # list() um die Folds zu erstellen
+    else:   
+        if testLength is None:
+            testLength = int( 0.06 * (len(X_train_scaled_withID)))
 
     print(f"Test length for column: {testLength} 6 % of the actual ID: {int(len(X_train_scaled_withID))}")
     cvFolds = groupedTimeSeriesSplit(
@@ -225,6 +229,7 @@ def create_cv_folds_singleID(X_train_scaled_withID, kFolds=5, testLength=None, g
         groupFeature=groupFeature, 
         timeFeature=timeFeature
     )
+
 
 #only set up the results table when we have the parameter results from the estimator models
 

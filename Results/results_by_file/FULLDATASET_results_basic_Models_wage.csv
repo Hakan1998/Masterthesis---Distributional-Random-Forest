@@ -1,0 +1,211 @@
+Variable,cu,co,Model,Pinball Loss,Best Params,delta C,sl
+16,9.0,1.0,SAA,0.1217812419717737,N/A,,0.9
+18,9.0,1.0,SAA,0.11212233329352672,N/A,,0.9
+19,9.0,1.0,SAA,0.11636662406213116,N/A,,0.9
+20,9.0,1.0,SAA,0.09860000252644074,N/A,,0.9
+21,9.0,1.0,SAA,0.13244063578425125,N/A,,0.9
+22,9.0,1.0,SAA,0.13037336286752454,N/A,,0.9
+16,9.0,1.0,MLP,0.16787113552707078,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 234), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.3784646371563507,0.9
+18,9.0,1.0,MLP,0.1949338472271344,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 234), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.7385817927710634,0.9
+19,9.0,1.0,MLP,0.1882840890014734,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 234), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.6180248462045579,0.9
+20,9.0,1.0,MLP,0.18661686132322816,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 234), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.89266588784503,0.9
+21,9.0,1.0,MLP,0.2653236900459536,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 234), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-1.003340504029079,0.9
+22,9.0,1.0,MLP,0.31312079731914777,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 234), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-1.4017237143550343,0.9
+16,9.0,1.0,LGBM,0.14814894125268815,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 127)])",-0.21651691881271762,0.9
+18,9.0,1.0,LGBM,0.17215218923937817,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 127)])",-0.5353960641248732,0.9
+19,9.0,1.0,LGBM,0.16746686076645118,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 127)])",-0.43913138424499,0.9
+20,9.0,1.0,LGBM,0.14328914410554955,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 127)])",-0.4532367183979016,0.9
+21,9.0,1.0,LGBM,0.23591467530378696,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 127)])",-0.7812861883878088,0.9
+22,9.0,1.0,LGBM,0.28231045817521155,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 127)])",-1.1653998329557078,0.9
+16,9.0,1.0,RFW,0.08605368666526271,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 500)])",0.29337486404344504,0.9
+18,9.0,1.0,RFW,0.08950358788350656,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 500)])",0.2017327391038698,0.9
+19,9.0,1.0,RFW,0.09053218519077944,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 500)])",0.2220090088508373,0.9
+20,9.0,1.0,RFW,0.08087223880049942,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 500)])",0.17979475934787548,0.9
+21,9.0,1.0,RFW,0.094828028091587,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 500)])",0.28399597653650677,0.9
+22,9.0,1.0,RFW,0.0879361029791894,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 500)])",0.32550560141228124,0.9
+16,9.0,1.0,KNNW,0.09601788971637795,"OrderedDict([('n_neighbors', 32)])",0.21155435630527686,0.9
+18,9.0,1.0,KNNW,0.09983485985359655,"OrderedDict([('n_neighbors', 32)])",0.10958988346918008,0.9
+19,9.0,1.0,KNNW,0.0972037540867113,"OrderedDict([('n_neighbors', 32)])",0.16467668568943206,0.9
+20,9.0,1.0,KNNW,0.08694812721044112,"OrderedDict([('n_neighbors', 32)])",0.11817317461908816,0.9
+21,9.0,1.0,KNNW,0.10427766036478178,"OrderedDict([('n_neighbors', 32)])",0.21264603007001248,0.9
+22,9.0,1.0,KNNW,0.09885611805448553,"OrderedDict([('n_neighbors', 32)])",0.24174604474277794,0.9
+16,9.0,1.0,DTW,0.09216673130987653,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.24317793267998689,0.9
+18,9.0,1.0,DTW,0.09341830660736669,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.16681802935008927,0.9
+19,9.0,1.0,DTW,0.09412567114716998,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.1911282817922617,0.9
+20,9.0,1.0,DTW,0.08441886442286518,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.1438249263713023,0.9
+21,9.0,1.0,DTW,0.10796919806386053,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.18477288013216153,0.9
+22,9.0,1.0,DTW,0.10906924218642566,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.16340853846614745,0.9
+16,9.0,1.0,GKW,0.10340091129946521,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1509290788524612,0.9
+18,9.0,1.0,GKW,0.10092220651533797,"OrderedDict([('kernel_bandwidth', 2.5)])",0.09989202373150563,0.9
+19,9.0,1.0,GKW,0.10137861013709994,"OrderedDict([('kernel_bandwidth', 2.5)])",0.12879993766106623,0.9
+20,9.0,1.0,GKW,0.09071939722085687,"OrderedDict([('kernel_bandwidth', 2.5)])",0.07992500105129918,0.9
+21,9.0,1.0,GKW,0.10671724699251534,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1942258026731304,0.9
+22,9.0,1.0,GKW,0.09198057448861774,"OrderedDict([('kernel_bandwidth', 2.5)])",0.29448337861713847,0.9
+16,7.5,2.5,SAA,0.21696920907113917,N/A,,0.75
+18,7.5,2.5,SAA,0.2023261536179372,N/A,,0.75
+19,7.5,2.5,SAA,0.20669770544153968,N/A,,0.75
+20,7.5,2.5,SAA,0.1720677060283406,N/A,,0.75
+21,7.5,2.5,SAA,0.23069635827077814,N/A,,0.75
+22,7.5,2.5,SAA,0.24210705436573393,N/A,,0.75
+16,7.5,2.5,MLP,0.1768442088508888,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 234), ('layer2', 19), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.18493407609323176,0.75
+18,7.5,2.5,MLP,0.19146534333387086,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 234), ('layer2', 19), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.05367971510285008,0.75
+19,7.5,2.5,MLP,0.19566309363858428,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 234), ('layer2', 19), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.053385265111597024,0.75
+20,7.5,2.5,MLP,0.1732478751857866,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 234), ('layer2', 19), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.006858748714018592,0.75
+21,7.5,2.5,MLP,0.2448189167739593,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 234), ('layer2', 19), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.061217084695393886,0.75
+22,7.5,2.5,MLP,0.2625516947276283,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 234), ('layer2', 19), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.08444462890788018,0.75
+16,7.5,2.5,LGBM,0.16215240178815224,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.2526478642645269,0.75
+18,7.5,2.5,LGBM,0.17458532878459712,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.1371094361123698,0.75
+19,7.5,2.5,LGBM,0.17700791652829284,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.14363869618109526,0.75
+20,7.5,2.5,LGBM,0.15353491931885357,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.10770636243871679,0.75
+21,7.5,2.5,LGBM,0.22612405614222209,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.01981956786326622,0.75
+22,7.5,2.5,LGBM,0.2547275818237535,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",-0.05212787992106427,0.75
+16,7.5,2.5,RFW,0.15436279955839768,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.28854974298318203,0.75
+18,7.5,2.5,RFW,0.1551702159639893,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.23306891773860772,0.75
+19,7.5,2.5,RFW,0.15613737402147368,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.24461002753785277,0.75
+20,7.5,2.5,RFW,0.1364566868117252,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.20695934198570665,0.75
+21,7.5,2.5,RFW,0.16822548736212484,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.2707926183877102,0.75
+22,7.5,2.5,RFW,0.16236076355078857,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.3293844164262901,0.75
+16,7.5,2.5,KNNW,0.16934627045705575,"OrderedDict([('n_neighbors', 32)])",0.21949169109276223,0.75
+18,7.5,2.5,KNNW,0.1636374187536216,"OrderedDict([('n_neighbors', 32)])",0.19121964299965655,0.75
+19,7.5,2.5,KNNW,0.17023492711446708,"OrderedDict([('n_neighbors', 32)])",0.1764063043137427,0.75
+20,7.5,2.5,KNNW,0.1461328959806879,"OrderedDict([('n_neighbors', 32)])",0.15072444822028996,0.75
+21,7.5,2.5,KNNW,0.1769824655951328,"OrderedDict([('n_neighbors', 32)])",0.23283372602093289,0.75
+22,7.5,2.5,KNNW,0.17871723679024454,"OrderedDict([('n_neighbors', 32)])",0.26182557026913766,0.75
+16,7.5,2.5,DTW,0.16479686278531863,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.24045967862985773,0.75
+18,7.5,2.5,DTW,0.16829223616939307,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.16821313923069048,0.75
+19,7.5,2.5,DTW,0.1655126824244566,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.19925244418705668,0.75
+20,7.5,2.5,DTW,0.14302154556120514,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.1688065770014472,0.75
+21,7.5,2.5,DTW,0.1857813337416857,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.19469325335588417,0.75
+22,7.5,2.5,DTW,0.18445977121775398,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.2381065818135819,0.75
+16,7.5,2.5,GKW,0.17729093242756433,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1828751499507253,0.75
+18,7.5,2.5,GKW,0.16816107210857836,"OrderedDict([('kernel_bandwidth', 2.5)])",0.16886141953686573,0.75
+19,7.5,2.5,GKW,0.17664989994014985,"OrderedDict([('kernel_bandwidth', 2.5)])",0.14537077437411738,0.75
+20,7.5,2.5,GKW,0.14888899424696742,"OrderedDict([('kernel_bandwidth', 2.5)])",0.13470692622330593,0.75
+21,7.5,2.5,GKW,0.18258452981176942,"OrderedDict([('kernel_bandwidth', 2.5)])",0.20855044622133923,0.75
+22,7.5,2.5,GKW,0.17844216286850892,"OrderedDict([('kernel_bandwidth', 2.5)])",0.26296173675737256,0.75
+16,5.0,5.0,SAA,0.2626433518807723,N/A,,0.5
+18,5.0,5.0,SAA,0.2442462632622439,N/A,,0.5
+19,5.0,5.0,SAA,0.24981479389826727,N/A,,0.5
+20,5.0,5.0,SAA,0.2128908942642896,N/A,,0.5
+21,5.0,5.0,SAA,0.28974728656545656,N/A,,0.5
+22,5.0,5.0,SAA,0.31295024127109866,N/A,,0.5
+16,5.0,5.0,MLP,0.2000515300609051,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 234), ('layer2', 19), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.23831489116953153,0.5
+18,5.0,5.0,MLP,0.19290504849234097,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 234), ('layer2', 19), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.2102026621990879,0.5
+19,5.0,5.0,MLP,0.207382687292729,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 234), ('layer2', 19), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.1698542586025471,0.5
+20,5.0,5.0,MLP,0.18185914470181785,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 234), ('layer2', 19), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.145763630096588,0.5
+21,5.0,5.0,MLP,0.2251912126169592,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 234), ('layer2', 19), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.22280130631668071,0.5
+22,5.0,5.0,MLP,0.2126175404708379,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 234), ('layer2', 19), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.32060272710684956,0.5
+16,5.0,5.0,LGBM,0.18905602420267714,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 127)])",0.28017967007784894,0.5
+18,5.0,5.0,LGBM,0.1833044299020565,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 127)])",0.24950978797474987,0.5
+19,5.0,5.0,LGBM,0.19252060960228856,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 127)])",0.22934664277452987,0.5
+20,5.0,5.0,LGBM,0.17022292162218472,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 127)])",0.20042178313711945,0.5
+21,5.0,5.0,LGBM,0.2139891288756269,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 127)])",0.26146287196624085,0.5
+22,5.0,5.0,LGBM,0.20762885205003648,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 127)])",0.3365435629424094,0.5
+16,5.0,5.0,RFW,0.18848110507511007,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.28236864277961393,0.5
+18,5.0,5.0,RFW,0.18041768020118407,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.2613288007298108,0.5
+19,5.0,5.0,RFW,0.19485591244367365,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.21999850608116778,0.5
+20,5.0,5.0,RFW,0.16736637320786146,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.21383968165361045,0.5
+21,5.0,5.0,RFW,0.21605376456739608,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.2543372290784591,0.5
+22,5.0,5.0,RFW,0.20718398309028804,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.3379650955091891,0.5
+16,5.0,5.0,KNNW,0.20773966797609764,"OrderedDict([('n_neighbors', 32)])",0.209042732326986,0.5
+18,5.0,5.0,KNNW,0.19559361696644495,"OrderedDict([('n_neighbors', 32)])",0.19919504866103632,0.5
+19,5.0,5.0,KNNW,0.21527917408022462,"OrderedDict([('n_neighbors', 32)])",0.13824489446412325,0.5
+20,5.0,5.0,KNNW,0.1781368241553935,"OrderedDict([('n_neighbors', 32)])",0.1632482696312566,0.5
+21,5.0,5.0,KNNW,0.2249329794310968,"OrderedDict([('n_neighbors', 32)])",0.22369254222409296,0.5
+22,5.0,5.0,KNNW,0.2213616783629348,"OrderedDict([('n_neighbors', 32)])",0.29266174244238286,0.5
+16,5.0,5.0,DTW,0.20665345034208008,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.2131784457430661,0.5
+18,5.0,5.0,DTW,0.20454458452376087,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.16254774262751315,0.5
+19,5.0,5.0,DTW,0.20794126037753524,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.16761830981788972,0.5
+20,5.0,5.0,DTW,0.1804521535860891,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.1523726075288594,0.5
+21,5.0,5.0,DTW,0.23100267245518963,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.2027443114536156,0.5
+22,5.0,5.0,DTW,0.2233287774016696,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.28637608172282214,0.5
+16,5.0,5.0,GKW,0.20873288157808367,"OrderedDict([('kernel_bandwidth', 2.5)])",0.2052611266062483,0.5
+18,5.0,5.0,GKW,0.20007571013093087,"OrderedDict([('kernel_bandwidth', 2.5)])",0.18084433530877697,0.5
+19,5.0,5.0,GKW,0.22076494201740565,"OrderedDict([('kernel_bandwidth', 2.5)])",0.11628555470054214,0.5
+20,5.0,5.0,GKW,0.18101676560848806,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1497204883560307,0.5
+21,5.0,5.0,GKW,0.23457434713890146,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1904174499114456,0.5
+22,5.0,5.0,GKW,0.231318988912446,"OrderedDict([('kernel_bandwidth', 2.5)])",0.26084419052400776,0.5
+16,2.5,7.5,SAA,0.21075821233152056,N/A,,0.25
+18,2.5,7.5,SAA,0.19188380486539028,N/A,,0.25
+19,2.5,7.5,SAA,0.20209636717661933,N/A,,0.25
+20,2.5,7.5,SAA,0.17442913350555783,N/A,,0.25
+21,2.5,7.5,SAA,0.23007688818306765,N/A,,0.25
+22,2.5,7.5,SAA,0.2450450277518074,N/A,,0.25
+16,2.5,7.5,MLP,0.24795131507357906,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 39), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.17647285166546256,0.25
+18,2.5,7.5,MLP,0.22573652452663281,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 39), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.1764230164447218,0.25
+19,2.5,7.5,MLP,0.24784017278490564,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 39), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.2263465011635224,0.25
+20,2.5,7.5,MLP,0.20615328507884034,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 39), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.181874156774801,0.25
+21,2.5,7.5,MLP,0.22544296190138466,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 39), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.02014077258379754,0.25
+22,2.5,7.5,MLP,0.1747795873166129,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 39), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.2867450161296988,0.25
+16,2.5,7.5,LGBM,0.21358244719668082,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 500), ('num_leaves', 63)])",-0.013400355003570397,0.25
+18,2.5,7.5,LGBM,0.19148983952859652,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 500), ('num_leaves', 63)])",0.0020531453244327924,0.25
+19,2.5,7.5,LGBM,0.20688864864396747,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 500), ('num_leaves', 63)])",-0.0237128531022035,0.25
+20,2.5,7.5,LGBM,0.19012637724357573,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 500), ('num_leaves', 63)])",-0.08999209835275446,0.25
+21,2.5,7.5,LGBM,0.201067574088992,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 500), ('num_leaves', 63)])",0.12608530271408014,0.25
+22,2.5,7.5,LGBM,0.16375520437914914,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 500), ('num_leaves', 63)])",0.3317342290862242,0.25
+16,2.5,7.5,RFW,0.15450647694432226,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.2669017485245836,0.25
+18,2.5,7.5,RFW,0.14939486958207177,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.22143054393321637,0.25
+19,2.5,7.5,RFW,0.1561508355911092,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.22734466842423084,0.25
+20,2.5,7.5,RFW,0.1415270953048654,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.18862696580238458,0.25
+21,2.5,7.5,RFW,0.18395496057978364,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.2004631059099935,0.25
+22,2.5,7.5,RFW,0.17294517447417898,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.2942310396546972,0.25
+16,2.5,7.5,KNNW,0.16536937337879415,"OrderedDict([('n_neighbors', 32)])",0.2153597643983155,0.25
+18,2.5,7.5,KNNW,0.15878004579208232,"OrderedDict([('n_neighbors', 32)])",0.1725198178998525,0.25
+19,2.5,7.5,KNNW,0.18072207231265455,"OrderedDict([('n_neighbors', 32)])",0.10576288511552023,0.25
+20,2.5,7.5,KNNW,0.15208957329169448,"OrderedDict([('n_neighbors', 32)])",0.12807241407956405,0.25
+21,2.5,7.5,KNNW,0.19286418944236428,"OrderedDict([('n_neighbors', 32)])",0.16174027315205153,0.25
+22,2.5,7.5,KNNW,0.18597041236908537,"OrderedDict([('n_neighbors', 32)])",0.24107657243531355,0.25
+16,2.5,7.5,DTW,0.1720048969609187,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.1838757073420384,0.25
+18,2.5,7.5,DTW,0.1678363247564037,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.1253231356646085,0.25
+19,2.5,7.5,DTW,0.17286956774411338,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.14461813362020304,0.25
+20,2.5,7.5,DTW,0.15100737106648723,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.13427666564842689,0.25
+21,2.5,7.5,DTW,0.19318774229540603,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.16033399173197116,0.25
+22,2.5,7.5,DTW,0.18238020727025456,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.2557277781005317,0.25
+16,2.5,7.5,GKW,0.16872676338870352,"OrderedDict([('kernel_bandwidth', 2.5)])",0.19942970894392476,0.25
+18,2.5,7.5,GKW,0.16300643734414758,"OrderedDict([('kernel_bandwidth', 2.5)])",0.15049403226864644,0.25
+19,2.5,7.5,GKW,0.1795690689512722,"OrderedDict([('kernel_bandwidth', 2.5)])",0.11146810078807456,0.25
+20,2.5,7.5,GKW,0.1542612306167764,"OrderedDict([('kernel_bandwidth', 2.5)])",0.11562233030377811,0.25
+21,2.5,7.5,GKW,0.19863870731343378,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1366420639548077,0.25
+22,2.5,7.5,GKW,0.1959346006159464,"OrderedDict([('kernel_bandwidth', 2.5)])",0.20041388958768125,0.25
+16,1.0,9.0,SAA,0.11777906899814791,N/A,,0.1
+18,1.0,9.0,SAA,0.10831830466547408,N/A,,0.1
+19,1.0,9.0,SAA,0.11751357432958397,N/A,,0.1
+20,1.0,9.0,SAA,0.10011107508517536,N/A,,0.1
+21,1.0,9.0,SAA,0.13371789315489407,N/A,,0.1
+22,1.0,9.0,SAA,0.1357855408521699,N/A,,0.1
+16,1.0,9.0,MLP,0.27072440342679654,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 39), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.2985782255678529,0.1
+18,1.0,9.0,MLP,0.23744950140211826,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 39), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.1921456593642947,0.1
+19,1.0,9.0,MLP,0.26660006073276615,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 39), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.2686745957113632,0.1
+20,1.0,9.0,MLP,0.21750203475371027,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 39), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.172607122325454,0.1
+21,1.0,9.0,MLP,0.22333925992385417,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 39), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.6702271824246129,0.1
+22,1.0,9.0,MLP,0.1515739217173885,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 39), ('layer2', 78), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.11627438949782931,0.1
+16,1.0,9.0,LGBM,0.22996310715266616,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 31)])",-0.9524955419394796,0.1
+18,1.0,9.0,LGBM,0.19445667056473484,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 31)])",-0.7952336972526208,0.1
+19,1.0,9.0,LGBM,0.21757435843812598,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 31)])",-0.8514827727723346,0.1
+20,1.0,9.0,LGBM,0.19715669913881984,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 31)])",-0.9693795014295594,0.1
+21,1.0,9.0,LGBM,0.19206358244746685,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 31)])",-0.4363341951924653,0.1
+22,1.0,9.0,LGBM,0.1329472459248615,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 250), ('num_leaves', 31)])",0.02090277734651036,0.1
+16,1.0,9.0,RFW,0.08846571858756447,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 32), ('n_estimators', 500)])",0.24888420888302654,0.1
+18,1.0,9.0,RFW,0.08510173605609281,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 32), ('n_estimators', 500)])",0.21433652124710034,0.1
+19,1.0,9.0,RFW,0.09101765467016451,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 32), ('n_estimators', 500)])",0.2254711407646216,0.1
+20,1.0,9.0,RFW,0.08814505058409884,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 32), ('n_estimators', 500)])",0.1195274797608129,0.1
+21,1.0,9.0,RFW,0.11470987179745315,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 32), ('n_estimators', 500)])",0.14215017084828507,0.1
+22,1.0,9.0,RFW,0.1043195713366031,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 32), ('n_estimators', 500)])",0.23173284370405745,0.1
+16,1.0,9.0,KNNW,0.09859014463902672,"OrderedDict([('n_neighbors', 128)])",0.1629230433076605,0.1
+18,1.0,9.0,KNNW,0.09589837860824608,"OrderedDict([('n_neighbors', 128)])",0.11466137783069263,0.1
+19,1.0,9.0,KNNW,0.10493832574762552,"OrderedDict([('n_neighbors', 128)])",0.10701102960828446,0.1
+20,1.0,9.0,KNNW,0.09258904950341452,"OrderedDict([('n_neighbors', 128)])",0.07513679755572533,0.1
+21,1.0,9.0,KNNW,0.11738184804463077,"OrderedDict([('n_neighbors', 128)])",0.12216798159794673,0.1
+22,1.0,9.0,KNNW,0.11109123650871378,"OrderedDict([('n_neighbors', 128)])",0.18186254728212103,0.1
+16,1.0,9.0,DTW,0.09963334052907268,"OrderedDict([('max_depth', 8), ('min_samples_split', 64)])",0.15406581681640374,0.1
+18,1.0,9.0,DTW,0.09561994363632612,"OrderedDict([('max_depth', 8), ('min_samples_split', 64)])",0.11723190340141565,0.1
+19,1.0,9.0,DTW,0.09845472389825234,"OrderedDict([('max_depth', 8), ('min_samples_split', 64)])",0.16218424586319102,0.1
+20,1.0,9.0,DTW,0.0925672610693093,"OrderedDict([('max_depth', 8), ('min_samples_split', 64)])",0.07535444015008042,0.1
+21,1.0,9.0,DTW,0.11979597524532429,"OrderedDict([('max_depth', 8), ('min_samples_split', 64)])",0.10411409857799003,0.1
+22,1.0,9.0,DTW,0.10790024391761088,"OrderedDict([('max_depth', 8), ('min_samples_split', 64)])",0.20536278575432287,0.1
+16,1.0,9.0,GKW,0.09970946079471792,"OrderedDict([('kernel_bandwidth', 2.5)])",0.15341951975961143,0.1
+18,1.0,9.0,GKW,0.09479786193322726,"OrderedDict([('kernel_bandwidth', 2.5)])",0.12482140275369724,0.1
+19,1.0,9.0,GKW,0.10627684351870298,"OrderedDict([('kernel_bandwidth', 2.5)])",0.0956207048844071,0.1
+20,1.0,9.0,GKW,0.09503140285923704,"OrderedDict([('kernel_bandwidth', 2.5)])",0.05074036235867496,0.1
+21,1.0,9.0,GKW,0.12046452527006701,"OrderedDict([('kernel_bandwidth', 2.5)])",0.0991143935350135,0.1
+22,1.0,9.0,GKW,0.11349198638827261,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1641820942346751,0.1

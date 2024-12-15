@@ -1,0 +1,246 @@
+Variable,cu,co,Model,Pinball Loss,Best Params,delta C,sl
+calamari,9.0,1.0,SAA,0.036284688995215295,N/A,,0.9
+chicken,9.0,1.0,SAA,0.026739273035962345,N/A,,0.9
+fish,9.0,1.0,SAA,0.025798620883760195,N/A,,0.9
+koefte,9.0,1.0,SAA,0.030629590942785903,N/A,,0.9
+lamb,9.0,1.0,SAA,0.02432715311004785,N/A,,0.9
+shrimp,9.0,1.0,SAA,0.0258652312599681,N/A,,0.9
+steak,9.0,1.0,SAA,0.027869354650484294,N/A,,0.9
+calamari,9.0,1.0,MLP,0.015877211180279276,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",0.5624266978732286,0.9
+chicken,9.0,1.0,MLP,0.06504032200891086,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-1.4323893144528062,0.9
+fish,9.0,1.0,MLP,0.04647526942055932,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.8014633274375815,0.9
+koefte,9.0,1.0,MLP,0.09029834218856152,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-1.9480753548825707,0.9
+lamb,9.0,1.0,MLP,0.045591680173058084,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.8741066809920863,0.9
+shrimp,9.0,1.0,MLP,0.043346142708837666,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.6758459367005529,0.9
+steak,9.0,1.0,MLP,0.03903608256894396,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.40068125216762485,0.9
+calamari,9.0,1.0,LGBM,0.016477273197391562,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 100), ('num_leaves', 31)])",0.5458890883820349,0.9
+chicken,9.0,1.0,LGBM,0.04820734902051086,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 100), ('num_leaves', 31)])",-0.802866852650614,0.9
+fish,9.0,1.0,LGBM,0.03662236451497867,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 100), ('num_leaves', 31)])",-0.4195473734811863,0.9
+koefte,9.0,1.0,LGBM,0.06586985477669513,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 100), ('num_leaves', 31)])",-1.1505300184953748,0.9
+lamb,9.0,1.0,LGBM,0.03740718613832481,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 100), ('num_leaves', 31)])",-0.5376721628341508,0.9
+shrimp,9.0,1.0,LGBM,0.039873452377940925,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 100), ('num_leaves', 31)])",-0.5415849940477238,0.9
+steak,9.0,1.0,LGBM,0.03189428559656976,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 20), ('n_estimators', 100), ('num_leaves', 31)])",-0.1444213903250724,0.9
+calamari,9.0,1.0,RFW,0.018686946863729615,"OrderedDict([('max_depth', 8), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 20)])",0.48499084927546765,0.9
+chicken,9.0,1.0,RFW,0.020178323976198294,"OrderedDict([('max_depth', 8), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 20)])",0.24536751806752788,0.9
+fish,9.0,1.0,RFW,0.02203788550442132,"OrderedDict([('max_depth', 8), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 20)])",0.14577272933632646,0.9
+koefte,9.0,1.0,RFW,0.022667203973565198,"OrderedDict([('max_depth', 8), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 20)])",0.2599573394268937,0.9
+lamb,9.0,1.0,RFW,0.01867162792000309,"OrderedDict([('max_depth', 8), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 20)])",0.2324778885741816,0.9
+shrimp,9.0,1.0,RFW,0.020070820712577722,"OrderedDict([('max_depth', 8), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 20)])",0.22402314864891437,0.9
+steak,9.0,1.0,RFW,0.018712521373495383,"OrderedDict([('max_depth', 8), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 20)])",0.32856280282865424,0.9
+calamari,9.0,1.0,KNNW,0.01568421052631579,"OrderedDict([('n_neighbors', 32)])",0.5677457638293661,0.9
+chicken,9.0,1.0,KNNW,0.022911553542068374,"OrderedDict([('n_neighbors', 32)])",0.14314972171255258,0.9
+fish,9.0,1.0,KNNW,0.02140999369965854,"OrderedDict([('n_neighbors', 32)])",0.1701109219704151,0.9
+koefte,9.0,1.0,KNNW,0.024153558600451933,"OrderedDict([('n_neighbors', 32)])",0.21143058535880477,0.9
+lamb,9.0,1.0,KNNW,0.019086125776567285,"OrderedDict([('n_neighbors', 32)])",0.2154394026202705,0.9
+shrimp,9.0,1.0,KNNW,0.023188302784401992,"OrderedDict([('n_neighbors', 32)])",0.10349524613411132,0.9
+steak,9.0,1.0,KNNW,0.016655395106480664,"OrderedDict([('n_neighbors', 32)])",0.40237600348627955,0.9
+calamari,9.0,1.0,DTW,0.015947368421052627,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.5604931759741543,0.9
+chicken,9.0,1.0,DTW,0.018533177062946635,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.30689300946884823,0.9
+fish,9.0,1.0,DTW,0.021672645022137657,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.1599300939462145,0.9
+koefte,9.0,1.0,DTW,0.024727651961114656,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.19268748945082836,0.9
+lamb,9.0,1.0,DTW,0.02092409922052249,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.13988705847047078,0.9
+shrimp,9.0,1.0,DTW,0.02214927536911487,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.1436660609566811,0.9
+steak,9.0,1.0,DTW,0.021179596697201,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.24003993049645456,0.9
+calamari,9.0,1.0,GKW,0.016353016688061616,"OrderedDict([('kernel_bandwidth', 2.0)])",0.549313577133925,0.9
+chicken,9.0,1.0,GKW,0.01977468295697028,"OrderedDict([('kernel_bandwidth', 2.0)])",0.26046295535503927,0.9
+fish,9.0,1.0,GKW,0.023520661150976018,"OrderedDict([('kernel_bandwidth', 2.0)])",0.08829773277602271,0.9
+koefte,9.0,1.0,GKW,0.025054268865754077,"OrderedDict([('kernel_bandwidth', 2.0)])",0.18202404620571544,0.9
+lamb,9.0,1.0,GKW,0.016732201270017774,"OrderedDict([('kernel_bandwidth', 2.0)])",0.3122006017585811,0.9
+shrimp,9.0,1.0,GKW,0.021951518722703046,"OrderedDict([('kernel_bandwidth', 2.0)])",0.15131171640913765,0.9
+steak,9.0,1.0,GKW,0.017369288298311095,"OrderedDict([('kernel_bandwidth', 2.0)])",0.37676029760490837,0.9
+calamari,7.5,2.5,SAA,0.060657894736842084,N/A,,0.75
+chicken,7.5,2.5,SAA,0.04530984719864178,N/A,,0.75
+fish,7.5,2.5,SAA,0.043627450980392155,N/A,,0.75
+koefte,7.5,2.5,SAA,0.05699592290585621,N/A,,0.75
+lamb,7.5,2.5,SAA,0.044574860446570976,N/A,,0.75
+shrimp,7.5,2.5,SAA,0.038377192982456135,N/A,,0.75
+steak,7.5,2.5,SAA,0.04289955070603337,N/A,,0.75
+calamari,7.5,2.5,MLP,0.02373748294153307,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",0.6086662248250512,0.75
+chicken,7.5,2.5,MLP,0.058890078181307405,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.2997191962075898,0.75
+fish,7.5,2.5,MLP,0.049103636327065325,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.1255215517664412,0.75
+koefte,7.5,2.5,MLP,0.07808947733383152,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.3700888300873184,0.75
+lamb,7.5,2.5,MLP,0.04708657743509011,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.05634828608223619,0.75
+shrimp,7.5,2.5,MLP,0.0444794790163179,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",-0.15900813893948373,0.75
+steak,7.5,2.5,MLP,0.03681876156711519,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.0005), ('max_iter', 1000), ('solver', 'adam')])",0.14174482107251973,0.75
+calamari,7.5,2.5,LGBM,0.02387687792040659,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 100), ('n_estimators', 100), ('num_leaves', 127)])",0.6063681731126027,0.75
+chicken,7.5,2.5,LGBM,0.04372662207398863,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 100), ('n_estimators', 100), ('num_leaves', 127)])",0.034942186357684535,0.75
+fish,7.5,2.5,LGBM,0.03960520524244832,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 100), ('n_estimators', 100), ('num_leaves', 127)])",0.09219529556635297,0.75
+koefte,7.5,2.5,LGBM,0.05998438224453153,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 100), ('n_estimators', 100), ('num_leaves', 127)])",-0.0524328616208487,0.75
+lamb,7.5,2.5,LGBM,0.034783237913671015,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 100), ('n_estimators', 100), ('num_leaves', 127)])",0.21966692514128117,0.75
+shrimp,7.5,2.5,LGBM,0.04166885582545447,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 100), ('n_estimators', 100), ('num_leaves', 127)])",-0.08577132893755679,0.75
+steak,7.5,2.5,LGBM,0.033804133218302244,"OrderedDict([('learning_rate', 0.1), ('max_depth', 2), ('min_data_in_leaf', 100), ('n_estimators', 100), ('num_leaves', 127)])",0.21201661411460782,0.75
+calamari,7.5,2.5,RFW,0.029885248970223977,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 50)])",0.5073147675190839,0.75
+chicken,7.5,2.5,RFW,0.03347110602381661,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 50)])",0.2612840675211999,0.75
+fish,7.5,2.5,RFW,0.03814822549225663,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 50)])",0.1255912359078255,0.75
+koefte,7.5,2.5,RFW,0.040904120930448,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 50)])",0.2823325100286219,0.75
+lamb,7.5,2.5,RFW,0.032378394257673644,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 50)])",0.2736175967060279,0.75
+shrimp,7.5,2.5,RFW,0.03657536009254041,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 50)])",0.04695061701723269,0.75
+steak,7.5,2.5,RFW,0.03087245797526497,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 50)])",0.2803547480761126,0.75
+calamari,7.5,2.5,KNNW,0.025921052631578952,"OrderedDict([('n_neighbors', 32)])",0.5726681127982645,0.75
+chicken,7.5,2.5,KNNW,0.03717750238017509,"OrderedDict([('n_neighbors', 32)])",0.17948294512700247,0.75
+fish,7.5,2.5,KNNW,0.04149930520802174,"OrderedDict([('n_neighbors', 32)])",0.04877997051276006,0.75
+koefte,7.5,2.5,KNNW,0.04737219022707527,"OrderedDict([('n_neighbors', 32)])",0.16884949287823747,0.75
+lamb,7.5,2.5,KNNW,0.03707569877202744,"OrderedDict([('n_neighbors', 32)])",0.16823746837148934,0.75
+shrimp,7.5,2.5,KNNW,0.03481900583134943,"OrderedDict([('n_neighbors', 32)])",0.09271619090883765,0.75
+steak,7.5,2.5,KNNW,0.029819839203284296,"OrderedDict([('n_neighbors', 32)])",0.30489157316301574,0.75
+calamari,7.5,2.5,DTW,0.029371756856931063,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.5157801472610062,0.75
+chicken,7.5,2.5,DTW,0.03546259010519131,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.21733150081657415,0.75
+fish,7.5,2.5,DTW,0.03751039387198783,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.1402111966420766,0.75
+koefte,7.5,2.5,DTW,0.04250294815788538,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.2542809030728356,0.75
+lamb,7.5,2.5,DTW,0.03488481003889327,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.21738823880991265,0.75
+shrimp,7.5,2.5,DTW,0.03847031482195472,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.00242648907493459,0.75
+steak,7.5,2.5,DTW,0.034880778985372375,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.18691971334639734,0.75
+calamari,7.5,2.5,GKW,0.028026315789473687,"OrderedDict([('kernel_bandwidth', 2.0)])",0.5379609544468544,0.75
+chicken,7.5,2.5,GKW,0.035573635758840844,"OrderedDict([('kernel_bandwidth', 2.0)])",0.21488069463392034,0.75
+fish,7.5,2.5,GKW,0.041793180187752944,"OrderedDict([('kernel_bandwidth', 2.0)])",0.04204395974139319,0.75
+koefte,7.5,2.5,GKW,0.04569787182925535,"OrderedDict([('kernel_bandwidth', 2.0)])",0.19822560107084441,0.75
+lamb,7.5,2.5,GKW,0.0331236486038061,"OrderedDict([('kernel_bandwidth', 2.0)])",0.25689843396123935,0.75
+shrimp,7.5,2.5,GKW,0.03840268023831233,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.0006641250668815157,0.75
+steak,7.5,2.5,GKW,0.030782578642385615,"OrderedDict([('kernel_bandwidth', 2.0)])",0.28244985936283085,0.75
+calamari,5.0,5.0,SAA,0.07849179400113183,N/A,,0.5
+chicken,5.0,5.0,SAA,0.0558149405772496,N/A,,0.5
+fish,5.0,5.0,SAA,0.05575252172176171,N/A,,0.5
+koefte,5.0,5.0,SAA,0.06495751532397555,N/A,,0.5
+lamb,5.0,5.0,SAA,0.05527232211761076,N/A,,0.5
+shrimp,5.0,5.0,SAA,0.046151669496321455,N/A,,0.5
+steak,5.0,5.0,SAA,0.046100080058525526,N/A,,0.5
+calamari,5.0,5.0,MLP,0.03769872128491551,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.5197113053069993,0.5
+chicken,5.0,5.0,MLP,0.04592371033252465,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.17721474111461577,0.5
+fish,5.0,5.0,MLP,0.05217760766316254,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.06412111861845682,0.5
+koefte,5.0,5.0,MLP,0.056362049248611296,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.13232442824351232,0.5
+lamb,5.0,5.0,MLP,0.048435441848911166,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.12369446418682739,0.5
+shrimp,5.0,5.0,MLP,0.046552595504258436,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.008687139865415583,0.5
+steak,5.0,5.0,MLP,0.03353950285616192,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.27246324055007176,0.5
+calamari,5.0,5.0,LGBM,0.034781122777441664,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 50), ('num_leaves', 63)])",0.5568820509193595,0.5
+chicken,5.0,5.0,LGBM,0.039765462456197616,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 50), ('num_leaves', 63)])",0.28754806428287805,0.5
+fish,5.0,5.0,LGBM,0.04675740291962488,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 50), ('num_leaves', 63)])",0.16134012461405478,0.5
+koefte,5.0,5.0,LGBM,0.05079585435794485,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 50), ('num_leaves', 63)])",0.21801420352055378,0.5
+lamb,5.0,5.0,LGBM,0.03921719590161534,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 50), ('num_leaves', 63)])",0.2904731627130239,0.5
+shrimp,5.0,5.0,LGBM,0.046708873600784954,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 50), ('num_leaves', 63)])",-0.012073324985738765,0.5
+steak,5.0,5.0,LGBM,0.03537641325770478,"OrderedDict([('learning_rate', 0.1), ('max_depth', 4), ('min_data_in_leaf', 20), ('n_estimators', 50), ('num_leaves', 63)])",0.2326170971331657,0.5
+calamari,5.0,5.0,RFW,0.032754086354405944,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 500)])",0.5827068705560019,0.5
+chicken,5.0,5.0,RFW,0.04008040166842992,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 500)])",0.28190550318767427,0.5
+fish,5.0,5.0,RFW,0.04660578789083408,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 500)])",0.16405955369293035,0.5
+koefte,5.0,5.0,RFW,0.05203687670816671,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 500)])",0.19890906466121994,0.5
+lamb,5.0,5.0,RFW,0.03991385464612253,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 500)])",0.2778690469853581,0.5
+shrimp,5.0,5.0,RFW,0.04615819236321078,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 500)])",-0.0001413354481107909,0.5
+steak,5.0,5.0,RFW,0.035140525177605554,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 500)])",0.23773396634032884,0.5
+calamari,5.0,5.0,KNNW,0.030526315789473693,"OrderedDict([('n_neighbors', 32)])",0.611089080356177,0.5
+chicken,5.0,5.0,KNNW,0.04482165475747939,"OrderedDict([('n_neighbors', 32)])",0.1969595543070617,0.5
+fish,5.0,5.0,KNNW,0.0506929255392773,"OrderedDict([('n_neighbors', 32)])",0.09075098356509881,0.5
+koefte,5.0,5.0,KNNW,0.05546982304885852,"OrderedDict([('n_neighbors', 32)])",0.14605996285105993,0.5
+lamb,5.0,5.0,KNNW,0.045520058212629166,"OrderedDict([('n_neighbors', 32)])",0.17644027844949806,0.5
+shrimp,5.0,5.0,KNNW,0.04656095159776566,"OrderedDict([('n_neighbors', 32)])",-0.008868197096896457,0.5
+steak,5.0,5.0,KNNW,0.036385853806289094,"OrderedDict([('n_neighbors', 32)])",0.2107203770558297,0.5
+calamari,5.0,5.0,DTW,0.03004385964912281,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.6172356609827316,0.5
+chicken,5.0,5.0,DTW,0.04409320456327671,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.21001072280547628,0.5
+fish,5.0,5.0,DTW,0.04897732413187693,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.12152271109272972,0.5
+koefte,5.0,5.0,DTW,0.05571540724598804,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.142279273335695,0.5
+lamb,5.0,5.0,DTW,0.040572112208034805,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.2659596945881201,0.5
+shrimp,5.0,5.0,DTW,0.04608804146759676,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.001378672308479878,0.5
+steak,5.0,5.0,DTW,0.043225493353440815,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.06235535169213002,0.5
+calamari,5.0,5.0,GKW,0.03078947368421053,"OrderedDict([('kernel_bandwidth', 2.0)])",0.60773640001442,0.5
+chicken,5.0,5.0,GKW,0.04508479188686658,"OrderedDict([('kernel_bandwidth', 2.0)])",0.19224509744899154,0.5
+fish,5.0,5.0,GKW,0.05437801180415638,"OrderedDict([('kernel_bandwidth', 2.0)])",0.024653771258364876,0.5
+koefte,5.0,5.0,GKW,0.05323279022180548,"OrderedDict([('kernel_bandwidth', 2.0)])",0.18049836179375112,0.5
+lamb,5.0,5.0,GKW,0.04770089190283958,"OrderedDict([('kernel_bandwidth', 2.0)])",0.1369841165468021,0.5
+shrimp,5.0,5.0,GKW,0.04633643035924362,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.004003340831189028,0.5
+steak,5.0,5.0,GKW,0.034283407180421555,"OrderedDict([('kernel_bandwidth', 2.0)])",0.25632651533581563,0.5
+calamari,2.5,7.5,SAA,0.05900119617224875,N/A,,0.25
+chicken,2.5,7.5,SAA,0.04742887276843135,N/A,,0.25
+fish,2.5,7.5,SAA,0.041610962566844906,N/A,,0.25
+koefte,2.5,7.5,SAA,0.04897988408922436,N/A,,0.25
+lamb,2.5,7.5,SAA,0.04676285885167466,N/A,,0.25
+shrimp,2.5,7.5,SAA,0.037071371610845304,N/A,,0.25
+steak,2.5,7.5,SAA,0.029167639164429923,N/A,,0.25
+calamari,2.5,7.5,MLP,0.05104825292797814,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.13479291540213345,0.25
+chicken,2.5,7.5,MLP,0.041558910045999764,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.12376348793047076,0.25
+fish,2.5,7.5,MLP,0.05699913336627664,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.3698104982481909,0.25
+koefte,2.5,7.5,MLP,0.03972042542771919,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.18904615300104932,0.25
+lamb,2.5,7.5,MLP,0.05535404809508708,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.18371822113490732,0.25
+shrimp,2.5,7.5,MLP,0.051364823311495125,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.38556576354105676,0.25
+steak,2.5,7.5,MLP,0.03137570862686331,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 192), ('layer2', 128), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.07570271457301003,0.25
+calamari,2.5,7.5,LGBM,0.048910010772899526,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 50), ('num_leaves', 63)])",0.17103357311416034,0.25
+chicken,2.5,7.5,LGBM,0.03650151589980245,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 50), ('num_leaves', 63)])",0.23039461473143308,0.25
+fish,2.5,7.5,LGBM,0.05561244075546547,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 50), ('num_leaves', 63)])",-0.3364853232156846,0.25
+koefte,2.5,7.5,LGBM,0.04281687634994138,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 50), ('num_leaves', 63)])",0.12582732388782547,0.25
+lamb,2.5,7.5,LGBM,0.0440681344121914,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 50), ('num_leaves', 63)])",0.057625314312594766,0.25
+shrimp,2.5,7.5,LGBM,0.052336238842317105,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 50), ('num_leaves', 63)])",-0.411769690954894,0.25
+steak,2.5,7.5,LGBM,0.03715424805521078,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 50), ('num_leaves', 63)])",-0.273817460705581,0.25
+calamari,2.5,7.5,RFW,0.02526315789473685,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.5718195641155596,0.25
+chicken,2.5,7.5,RFW,0.033015812889978506,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.3038878859471055,0.25
+fish,2.5,7.5,RFW,0.036421666331091646,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.12470983403513058,0.25
+koefte,2.5,7.5,RFW,0.03822452213962308,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.2195873295659242,0.25
+lamb,2.5,7.5,RFW,0.034198875712274104,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.26867440203456716,0.25
+shrimp,2.5,7.5,RFW,0.03925815878456568,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",-0.058988569311005046,0.25
+steak,2.5,7.5,RFW,0.026907881185238996,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.07747483320304893,0.25
+calamari,2.5,7.5,KNNW,0.022665275994865217,"OrderedDict([('n_neighbors', 128)])",0.6158505680343165,0.25
+chicken,2.5,7.5,KNNW,0.03843444498548887,"OrderedDict([('n_neighbors', 128)])",0.18964034475070157,0.25
+fish,2.5,7.5,KNNW,0.03467419569544811,"OrderedDict([('n_neighbors', 128)])",0.16670527292545567,0.25
+koefte,2.5,7.5,KNNW,0.038715734484324894,"OrderedDict([('n_neighbors', 128)])",0.20955847070200784,0.25
+lamb,2.5,7.5,KNNW,0.03746023653539354,"OrderedDict([('n_neighbors', 128)])",0.1989318562790986,0.25
+shrimp,2.5,7.5,KNNW,0.03677038734030227,"OrderedDict([('n_neighbors', 128)])",0.008119048674610774,0.25
+steak,2.5,7.5,KNNW,0.026441567877481257,"OrderedDict([('n_neighbors', 128)])",0.09346218497769687,0.25
+calamari,2.5,7.5,DTW,0.02631578947368421,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.5539787126203747,0.25
+chicken,2.5,7.5,DTW,0.03570879294898738,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.2471085466582047,0.25
+fish,2.5,7.5,DTW,0.03924022551171282,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.05697385758196949,0.25
+koefte,2.5,7.5,DTW,0.04050611450710715,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.1730050966776675,0.25
+lamb,2.5,7.5,DTW,0.03656131244850969,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.21815489158870427,0.25
+shrimp,2.5,7.5,DTW,0.03967402347455943,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.07020651652804544,0.25
+steak,2.5,7.5,DTW,0.029833945545587492,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.022844028527688742,0.25
+calamari,2.5,7.5,GKW,0.024342105263157898,"OrderedDict([('kernel_bandwidth', 2.5)])",0.5874303091738464,0.25
+chicken,2.5,7.5,GKW,0.03838528801204428,"OrderedDict([('kernel_bandwidth', 2.5)])",0.19067678037683577,0.25
+fish,2.5,7.5,GKW,0.03731729111658503,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1031860640897796,0.25
+koefte,2.5,7.5,GKW,0.038903304030377554,"OrderedDict([('kernel_bandwidth', 2.5)])",0.20572894865350788,0.25
+lamb,2.5,7.5,GKW,0.03812956693345953,"OrderedDict([('kernel_bandwidth', 2.5)])",0.18461856546450128,0.25
+shrimp,2.5,7.5,GKW,0.03684751479431163,"OrderedDict([('kernel_bandwidth', 2.5)])",0.006038536121177329,0.25
+steak,2.5,7.5,GKW,0.026152052690381577,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1033880890067328,0.25
+calamari,1.0,9.0,SAA,0.026294117647058822,N/A,,0.1
+chicken,1.0,9.0,SAA,0.027188821199107833,N/A,,0.1
+fish,1.0,9.0,SAA,0.019814241486068113,N/A,,0.1
+koefte,1.0,9.0,SAA,0.02683796276108665,N/A,,0.1
+lamb,1.0,9.0,SAA,0.02653655361666198,N/A,,0.1
+shrimp,1.0,9.0,SAA,0.021093911248710007,N/A,,0.1
+steak,1.0,9.0,SAA,0.01582439779506155,N/A,,0.1
+calamari,1.0,9.0,MLP,0.03154692451376691,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 128), ('layer2', 16), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.19977117837592284,0.1
+chicken,1.0,9.0,MLP,0.042236741206871,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 128), ('layer2', 16), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.5534598170904499,0.1
+fish,1.0,9.0,MLP,0.06357976709641426,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 128), ('layer2', 16), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-2.208791370647157,0.1
+koefte,1.0,9.0,MLP,0.04022172470158216,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 128), ('layer2', 16), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.4986877006887096,0.1
+lamb,1.0,9.0,MLP,0.051272374380389035,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 128), ('layer2', 16), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.9321414197582814,0.1
+shrimp,1.0,9.0,MLP,0.05383478610826635,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 128), ('layer2', 16), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.552148128126717,0.1
+steak,1.0,9.0,MLP,0.029904888178733647,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 128), ('layer2', 16), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.8897962858382082,0.1
+calamari,1.0,9.0,LGBM,0.048666321812048975,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 31)])",-0.8508444537020865,0.1
+chicken,1.0,9.0,LGBM,0.03340266139683473,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 31)])",-0.2285439354734069,0.1
+fish,1.0,9.0,LGBM,0.059026886434520934,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 31)])",-1.9790131747422284,0.1
+koefte,1.0,9.0,LGBM,0.03678043936403479,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 31)])",-0.3704631641178109,0.1
+lamb,1.0,9.0,LGBM,0.04943438512650127,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 31)])",-0.8628788741979676,0.1
+shrimp,1.0,9.0,LGBM,0.05634045736255701,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 31)])",-1.6709345980585981,0.1
+steak,1.0,9.0,LGBM,0.03566881752676123,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 50), ('n_estimators', 500), ('num_leaves', 31)])",-1.2540394894453866,0.1
+calamari,1.0,9.0,RFW,0.013814241486068113,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 250)])",0.4746261627222418,0.1
+chicken,1.0,9.0,RFW,0.019564044304004994,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 250)])",0.2804379358437591,0.1
+fish,1.0,9.0,RFW,0.018692586652123797,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 250)])",0.05660851740062722,0.1
+koefte,1.0,9.0,RFW,0.020720054458206138,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 250)])",0.2279572543319529,0.1
+lamb,1.0,9.0,RFW,0.02165722282696923,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 250)])",0.1838720604106283,0.1
+shrimp,1.0,9.0,RFW,0.02550991453750371,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 250)])",-0.2093496666752006,0.1
+steak,1.0,9.0,RFW,0.015410057895764936,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 250)])",0.026183612461127548,0.1
+calamari,1.0,9.0,KNNW,0.012210526315789474,"OrderedDict([('n_neighbors', 128)])",0.535617567408454,0.1
+chicken,1.0,9.0,KNNW,0.022503903874038837,"OrderedDict([('n_neighbors', 128)])",0.17231042459548507,0.1
+fish,1.0,9.0,KNNW,0.016548616879357648,"OrderedDict([('n_neighbors', 128)])",0.1648119918699188,0.1
+koefte,1.0,9.0,KNNW,0.02093349164586917,"OrderedDict([('n_neighbors', 128)])",0.22000444548565323,0.1
+lamb,1.0,9.0,KNNW,0.024045674811116725,"OrderedDict([('n_neighbors', 128)])",0.09386594964544537,0.1
+shrimp,1.0,9.0,KNNW,0.020959671132180325,"OrderedDict([('n_neighbors', 128)])",0.006363927246441414,0.1
+steak,1.0,9.0,KNNW,0.01531874217359183,"OrderedDict([('n_neighbors', 128)])",0.03195417784729371,0.1
+calamari,1.0,9.0,DTW,0.017789473684210532,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.3234428352761095,0.1
+chicken,1.0,9.0,DTW,0.02006732274504945,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.2619274444414701,0.1
+fish,1.0,9.0,DTW,0.024454010707870677,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.23416335291284818,0.1
+koefte,1.0,9.0,DTW,0.020867556821884858,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.222461220039343,0.1
+lamb,1.0,9.0,DTW,0.02272013513247972,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.14381741273991122,0.1
+shrimp,1.0,9.0,DTW,0.024849073135557835,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.17802112858882313,0.1
+steak,1.0,9.0,DTW,0.015876993036271447,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.0033236804263294673,0.1
+calamari,1.0,9.0,GKW,0.014343653250773995,"OrderedDict([('kernel_bandwidth', 2.5)])",0.45449193453432235,0.1
+chicken,1.0,9.0,GKW,0.02286021765492271,"OrderedDict([('kernel_bandwidth', 2.5)])",0.15920526721206885,0.1
+fish,1.0,9.0,GKW,0.016424037346434172,"OrderedDict([('kernel_bandwidth', 2.5)])",0.1710993651721504,0.1
+koefte,1.0,9.0,GKW,0.02102756995330511,"OrderedDict([('kernel_bandwidth', 2.5)])",0.21649902637938823,0.1
+lamb,1.0,9.0,GKW,0.023394510550216206,"OrderedDict([('kernel_bandwidth', 2.5)])",0.11840433810036743,0.1
+shrimp,1.0,9.0,GKW,0.021207583680169385,"OrderedDict([('kernel_bandwidth', 2.5)])",-0.005388874074566452,0.1
+steak,1.0,9.0,GKW,0.015091449083177078,"OrderedDict([('kernel_bandwidth', 2.5)])",0.046317636941180074,0.1

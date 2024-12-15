@@ -1,0 +1,141 @@
+Variable,cu,co,Model,Pinball Loss,Best Params,delta C,sl
+calamari,9.0,1.0,SAA,0.036284688995215295,N/A,,0.9
+chicken,9.0,1.0,SAA,0.026739273035962345,N/A,,0.9
+fish,9.0,1.0,SAA,0.025798620883760195,N/A,,0.9
+koefte,9.0,1.0,SAA,0.030629590942785903,N/A,,0.9
+lamb,9.0,1.0,SAA,0.02432715311004785,N/A,,0.9
+shrimp,9.0,1.0,SAA,0.0258652312599681,N/A,,0.9
+steak,9.0,1.0,SAA,0.027869354650484294,N/A,,0.9
+calamari,9.0,1.0,DRF,0.01940369850515374,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 500)])",0.4652372931262434,0.9
+chicken,9.0,1.0,DRF,0.018095494437678127,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 500)])",0.32326154068059276,0.9
+fish,9.0,1.0,DRF,0.022294716962275682,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 500)])",0.13581748951899064,0.9
+koefte,9.0,1.0,DRF,0.02016942079645505,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 500)])",0.34150538170326117,0.9
+lamb,9.0,1.0,DRF,0.01822205669691929,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 500)])",0.25095811192995576,0.9
+shrimp,9.0,1.0,DRF,0.019931852636677863,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 500)])",0.22939592395887032,0.9
+steak,9.0,1.0,DRF,0.019084516935562238,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 500)])",0.31521496730350007,0.9
+calamari,9.0,1.0,LS_KDEx_LGBM,0.015527980292286692,"{'binSize': 100, 'weightsByDistance': False}",0.5720514431215243,0.9
+chicken,9.0,1.0,LS_KDEx_LGBM,0.01899644704555553,"{'binSize': 100, 'weightsByDistance': False}",0.289567557801339,0.9
+fish,9.0,1.0,LS_KDEx_LGBM,0.021181504039725605,"{'binSize': 100, 'weightsByDistance': False}",0.17896758376495192,0.9
+koefte,9.0,1.0,LS_KDEx_LGBM,0.02261612069191431,"{'binSize': 100, 'weightsByDistance': False}",0.2616251149367368,0.9
+lamb,9.0,1.0,LS_KDEx_LGBM,0.018733716259974116,"{'binSize': 100, 'weightsByDistance': False}",0.22992566474058473,0.9
+shrimp,9.0,1.0,LS_KDEx_LGBM,0.020231304918410926,"{'binSize': 100, 'weightsByDistance': False}",0.2178185180302975,0.9
+steak,9.0,1.0,LS_KDEx_LGBM,0.019151479560363414,"{'binSize': 100, 'weightsByDistance': False}",0.3128122340633168,0.9
+calamari,9.0,1.0,LS_KDEx_MLP,0.017206078576723495,"{'binSize': 1000, 'weightsByDistance': False}",0.5258033332188023,0.9
+chicken,9.0,1.0,LS_KDEx_MLP,0.029486198458435954,"{'binSize': 1000, 'weightsByDistance': False}",-0.10272999639067226,0.9
+fish,9.0,1.0,LS_KDEx_MLP,0.029610604805302403,"{'binSize': 1000, 'weightsByDistance': False}",-0.14775921312684548,0.9
+koefte,9.0,1.0,LS_KDEx_MLP,0.0321349147516679,"{'binSize': 1000, 'weightsByDistance': False}",-0.04914606308957392,0.9
+lamb,9.0,1.0,LS_KDEx_MLP,0.02148253756991711,"{'binSize': 1000, 'weightsByDistance': False}",0.11693170702147748,0.9
+shrimp,9.0,1.0,LS_KDEx_MLP,0.026672844082036073,"{'binSize': 1000, 'weightsByDistance': False}",-0.03122387787492631,0.9
+steak,9.0,1.0,LS_KDEx_MLP,0.02264672114845685,"{'binSize': 1000, 'weightsByDistance': False}",0.18739700174351503,0.9
+calamari,7.5,2.5,SAA,0.060657894736842084,N/A,,0.75
+chicken,7.5,2.5,SAA,0.04530984719864178,N/A,,0.75
+fish,7.5,2.5,SAA,0.043627450980392155,N/A,,0.75
+koefte,7.5,2.5,SAA,0.05699592290585621,N/A,,0.75
+lamb,7.5,2.5,SAA,0.044574860446570976,N/A,,0.75
+shrimp,7.5,2.5,SAA,0.038377192982456135,N/A,,0.75
+steak,7.5,2.5,SAA,0.04289955070603337,N/A,,0.75
+calamari,7.5,2.5,DRF,0.029002649476865722,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 250)])",0.521865214698092,0.75
+chicken,7.5,2.5,DRF,0.03350995927266992,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 250)])",0.26042656630997363,0.75
+fish,7.5,2.5,DRF,0.040567248236768265,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 250)])",0.07014397299991837,0.75
+koefte,7.5,2.5,DRF,0.040105754005737876,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 250)])",0.296339949227893,0.75
+lamb,7.5,2.5,DRF,0.029382756595021396,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 250)])",0.3408222414910167,0.75
+shrimp,7.5,2.5,DRF,0.03562896235107715,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 250)])",0.07161103816621817,0.75
+steak,7.5,2.5,DRF,0.03218497447232324,"OrderedDict([('min_node_size', 2), ('num_features', 64), ('num_trees', 250)])",0.24975963751068464,0.75
+calamari,7.5,2.5,LS_KDEx_LGBM,0.028470471595536295,"{'binSize': 400, 'weightsByDistance': False}",0.5306386461473407,0.75
+chicken,7.5,2.5,LS_KDEx_LGBM,0.036046835027237975,"{'binSize': 400, 'weightsByDistance': False}",0.20443706487894475,0.75
+fish,7.5,2.5,LS_KDEx_LGBM,0.0384656910618852,"{'binSize': 400, 'weightsByDistance': False}",0.11831449700847396,0.75
+koefte,7.5,2.5,LS_KDEx_LGBM,0.04194557704239509,"{'binSize': 400, 'weightsByDistance': False}",0.2640600431774871,0.75
+lamb,7.5,2.5,LS_KDEx_LGBM,0.031083121084923275,"{'binSize': 400, 'weightsByDistance': False}",0.3026759753475703,0.75
+shrimp,7.5,2.5,LS_KDEx_LGBM,0.035766775775304294,"{'binSize': 400, 'weightsByDistance': False}",0.06802001408349945,0.75
+steak,7.5,2.5,LS_KDEx_LGBM,0.032482519076553244,"{'binSize': 400, 'weightsByDistance': False}",0.2428237932108478,0.75
+calamari,7.5,2.5,LS_KDEx_MLP,0.031289465713351984,"{'binSize': 1000, 'weightsByDistance': False}",0.48416499040894756,0.75
+chicken,7.5,2.5,LS_KDEx_MLP,0.045840905648947446,"{'binSize': 1000, 'weightsByDistance': False}",-0.011720596804872585,0.75
+fish,7.5,2.5,LS_KDEx_MLP,0.050066808688610916,"{'binSize': 1000, 'weightsByDistance': False}",-0.14759876095243007,0.75
+koefte,7.5,2.5,LS_KDEx_MLP,0.049706273862757756,"{'binSize': 1000, 'weightsByDistance': False}",0.1278977279680027,0.75
+lamb,7.5,2.5,LS_KDEx_MLP,0.04208626330318174,"{'binSize': 1000, 'weightsByDistance': False}",0.05582961154465427,0.75
+shrimp,7.5,2.5,LS_KDEx_MLP,0.04734968953505982,"{'binSize': 1000, 'weightsByDistance': False}",-0.23379762445641616,0.75
+steak,7.5,2.5,LS_KDEx_MLP,0.03634188407183337,"{'binSize': 1000, 'weightsByDistance': False}",0.15286096302350627,0.75
+calamari,5.0,5.0,SAA,0.07849179400113183,N/A,,0.5
+chicken,5.0,5.0,SAA,0.0558149405772496,N/A,,0.5
+fish,5.0,5.0,SAA,0.05575252172176171,N/A,,0.5
+koefte,5.0,5.0,SAA,0.06495751532397555,N/A,,0.5
+lamb,5.0,5.0,SAA,0.05527232211761076,N/A,,0.5
+shrimp,5.0,5.0,SAA,0.046151669496321455,N/A,,0.5
+steak,5.0,5.0,SAA,0.046100080058525526,N/A,,0.5
+calamari,5.0,5.0,DRF,0.03352941176470589,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.5728290811620078,0.5
+chicken,5.0,5.0,DRF,0.04157729905381216,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.25508656600166235,0.5
+fish,5.0,5.0,DRF,0.04973785540038946,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.1078815116451417,0.5
+koefte,5.0,5.0,DRF,0.05282038048489145,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.1868472766938537,0.5
+lamb,5.0,5.0,DRF,0.04111277206833613,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.25617794778271397,0.5
+shrimp,5.0,5.0,DRF,0.043450143208463785,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.05853583017344577,0.5
+steak,5.0,5.0,DRF,0.03638376328946257,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.21076572441366215,0.5
+calamari,5.0,5.0,LS_KDEx_LGBM,0.031163075275597685,"{'binSize': 100, 'weightsByDistance': False}",0.602976646512267,0.5
+chicken,5.0,5.0,LS_KDEx_LGBM,0.04067736899935313,"{'binSize': 100, 'weightsByDistance': False}",0.27121002766177993,0.5
+fish,5.0,5.0,LS_KDEx_LGBM,0.04611930286069642,"{'binSize': 100, 'weightsByDistance': False}",0.17278534788329025,0.5
+koefte,5.0,5.0,LS_KDEx_LGBM,0.04968207842925793,"{'binSize': 100, 'weightsByDistance': False}",0.23516042475657184,0.5
+lamb,5.0,5.0,LS_KDEx_LGBM,0.04176937917633885,"{'binSize': 100, 'weightsByDistance': False}",0.2442984557902197,0.5
+shrimp,5.0,5.0,LS_KDEx_LGBM,0.047911793595696174,"{'binSize': 100, 'weightsByDistance': False}",-0.038137820767567554,0.5
+steak,5.0,5.0,LS_KDEx_LGBM,0.03542027100518262,"{'binSize': 100, 'weightsByDistance': False}",0.2316657376686666,0.5
+calamari,5.0,5.0,LS_KDEx_MLP,0.0366340823801839,"{'binSize': 400, 'weightsByDistance': False}",0.5332750022294606,0.5
+chicken,5.0,5.0,LS_KDEx_MLP,0.05060431404249479,"{'binSize': 400, 'weightsByDistance': False}",0.0933554077253409,0.5
+fish,5.0,5.0,LS_KDEx_MLP,0.06432756525071169,"{'binSize': 400, 'weightsByDistance': False}",-0.15380548294738228,0.5
+koefte,5.0,5.0,LS_KDEx_MLP,0.05650681109862344,"{'binSize': 400, 'weightsByDistance': False}",0.13009586624741154,0.5
+lamb,5.0,5.0,LS_KDEx_MLP,0.05510872570282162,"{'binSize': 400, 'weightsByDistance': False}",0.0029598252528821867,0.5
+shrimp,5.0,5.0,LS_KDEx_MLP,0.05338415727709251,"{'binSize': 400, 'weightsByDistance': False}",-0.15671129256434635,0.5
+steak,5.0,5.0,LS_KDEx_MLP,0.04313802202562067,"{'binSize': 400, 'weightsByDistance': False}",0.06425277416317776,0.5
+calamari,2.5,7.5,SAA,0.05900119617224875,N/A,,0.25
+chicken,2.5,7.5,SAA,0.04742887276843135,N/A,,0.25
+fish,2.5,7.5,SAA,0.041610962566844906,N/A,,0.25
+koefte,2.5,7.5,SAA,0.04897988408922436,N/A,,0.25
+lamb,2.5,7.5,SAA,0.04676285885167466,N/A,,0.25
+shrimp,2.5,7.5,SAA,0.037071371610845304,N/A,,0.25
+steak,2.5,7.5,SAA,0.029167639164429923,N/A,,0.25
+calamari,2.5,7.5,DRF,0.02355263157894737,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.6008109477952353,0.25
+chicken,2.5,7.5,DRF,0.03813004804079446,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.19605831184388145,0.25
+fish,2.5,7.5,DRF,0.03534748566393725,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.15052468187549972,0.25
+koefte,2.5,7.5,DRF,0.03778302594633555,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.2286011563949808,0.25
+lamb,2.5,7.5,DRF,0.03666768916345182,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.2158800795358412,0.25
+shrimp,2.5,7.5,DRF,0.03820099479186336,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",-0.03047157771436715,0.25
+steak,2.5,7.5,DRF,0.02817625524260766,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.033989172597529316,0.25
+calamari,2.5,7.5,LS_KDEx_LGBM,0.025415368671820183,"{'binSize': 100, 'weightsByDistance': False}",0.5692397727391446,0.25
+chicken,2.5,7.5,LS_KDEx_LGBM,0.03254090707929915,"{'binSize': 100, 'weightsByDistance': False}",0.3139008966504814,0.25
+fish,2.5,7.5,LS_KDEx_LGBM,0.04017519735313456,"{'binSize': 100, 'weightsByDistance': False}",0.03450449413189849,0.25
+koefte,2.5,7.5,LS_KDEx_LGBM,0.040498437456366325,"{'binSize': 100, 'weightsByDistance': False}",0.17316183552839326,0.25
+lamb,2.5,7.5,LS_KDEx_LGBM,0.03608970977643755,"{'binSize': 100, 'weightsByDistance': False}",0.2282398753483158,0.25
+shrimp,2.5,7.5,LS_KDEx_LGBM,0.04175061443895097,"{'binSize': 100, 'weightsByDistance': False}",-0.12622254383317033,0.25
+steak,2.5,7.5,LS_KDEx_LGBM,0.029070630273762683,"{'binSize': 100, 'weightsByDistance': False}",0.003325908213563711,0.25
+calamari,2.5,7.5,LS_KDEx_MLP,0.030921840339952423,"{'binSize': 1000, 'weightsByDistance': False}",0.47591163661023317,0.25
+chicken,2.5,7.5,LS_KDEx_MLP,0.037046557784739,"{'binSize': 1000, 'weightsByDistance': False}",0.21890284077345434,0.25
+fish,2.5,7.5,LS_KDEx_MLP,0.052326760422718076,"{'binSize': 1000, 'weightsByDistance': False}",-0.25752343120299215,0.25
+koefte,2.5,7.5,LS_KDEx_MLP,0.03930285112921278,"{'binSize': 1000, 'weightsByDistance': False}",0.19757157739253495,0.25
+lamb,2.5,7.5,LS_KDEx_MLP,0.04089613438775857,"{'binSize': 1000, 'weightsByDistance': False}",0.12545692474714887,0.25
+shrimp,2.5,7.5,LS_KDEx_MLP,0.0453213568839382,"{'binSize': 1000, 'weightsByDistance': False}",-0.22254329728332323,0.25
+steak,2.5,7.5,LS_KDEx_MLP,0.033464282517120275,"{'binSize': 1000, 'weightsByDistance': False}",-0.14730857470048964,0.25
+calamari,1.0,9.0,SAA,0.026294117647058822,N/A,,0.1
+chicken,1.0,9.0,SAA,0.027188821199107833,N/A,,0.1
+fish,1.0,9.0,SAA,0.019814241486068113,N/A,,0.1
+koefte,1.0,9.0,SAA,0.02683796276108665,N/A,,0.1
+lamb,1.0,9.0,SAA,0.02653655361666198,N/A,,0.1
+shrimp,1.0,9.0,SAA,0.021093911248710007,N/A,,0.1
+steak,1.0,9.0,SAA,0.01582439779506155,N/A,,0.1
+calamari,1.0,9.0,DRF,0.012632348826740657,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.519575100549013,0.1
+chicken,1.0,9.0,DRF,0.022354870997560422,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.17779182724207365,0.1
+fish,1.0,9.0,DRF,0.01778050369337713,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.10264020422487308,0.1
+koefte,1.0,9.0,DRF,0.02056687774553828,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.23366471856951243,0.1
+lamb,1.0,9.0,DRF,0.023364376094685457,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",0.11953992096338961,0.1
+shrimp,1.0,9.0,DRF,0.022210154937442054,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",-0.05291781479360824,0.1
+steak,1.0,9.0,DRF,0.017283738810488673,"OrderedDict([('min_node_size', 8), ('num_features', 64), ('num_trees', 250)])",-0.09222095111148887,0.1
+calamari,1.0,9.0,LS_KDEx_LGBM,0.01501748960281451,"{'binSize': 100, 'weightsByDistance': False}",0.4288650486625354,0.1
+chicken,1.0,9.0,LS_KDEx_LGBM,0.01868502401899235,"{'binSize': 100, 'weightsByDistance': False}",0.31276814532858543,0.1
+fish,1.0,9.0,LS_KDEx_LGBM,0.025921785754464143,"{'binSize': 100, 'weightsByDistance': False}",-0.30824012479561214,0.1
+koefte,1.0,9.0,LS_KDEx_LGBM,0.020051307525464912,"{'binSize': 100, 'weightsByDistance': False}",0.2528752012973935,0.1
+lamb,1.0,9.0,LS_KDEx_LGBM,0.024905616832825803,"{'binSize': 100, 'weightsByDistance': False}",0.06146000748236313,0.1
+shrimp,1.0,9.0,LS_KDEx_LGBM,0.028330046717012697,"{'binSize': 100, 'weightsByDistance': False}",-0.34304379984272537,0.1
+steak,1.0,9.0,LS_KDEx_LGBM,0.016603635106918806,"{'binSize': 100, 'weightsByDistance': False}",-0.04924277826865797,0.1
+calamari,1.0,9.0,LS_KDEx_MLP,0.018071377331420373,"{'binSize': 1000, 'weightsByDistance': False}",0.3127216674851312,0.1
+chicken,1.0,9.0,LS_KDEx_MLP,0.019527731631805486,"{'binSize': 1000, 'weightsByDistance': False}",0.28177350945813484,0.1
+fish,1.0,9.0,LS_KDEx_MLP,0.032095390017367664,"{'binSize': 1000, 'weightsByDistance': False}",-0.6198142149390242,0.1
+koefte,1.0,9.0,LS_KDEx_MLP,0.020351773405668478,"{'binSize': 1000, 'weightsByDistance': False}",0.2416796465945893,0.1
+lamb,1.0,9.0,LS_KDEx_MLP,0.022566016866543564,"{'binSize': 1000, 'weightsByDistance': False}",0.1496251852247069,0.1
+shrimp,1.0,9.0,LS_KDEx_MLP,0.02700519771451585,"{'binSize': 1000, 'weightsByDistance': False}",-0.28023662355018897,0.1
+steak,1.0,9.0,LS_KDEx_MLP,0.017957921165898963,"{'binSize': 1000, 'weightsByDistance': False}",-0.13482493289591346,0.1

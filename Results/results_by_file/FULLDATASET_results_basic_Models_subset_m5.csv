@@ -1,0 +1,841 @@
+Variable,cu,co,Model,Pinball Loss,Best Params,delta C,sl
+CA_1_FOODS_3_228,9.0,1.0,SAA,0.026239426691729312,N/A,,0.9
+CA_1_FOODS_3_252,9.0,1.0,SAA,0.02262544115390517,N/A,,0.9
+CA_1_FOODS_3_377,9.0,1.0,SAA,0.02647690655209452,N/A,,0.9
+CA_1_FOODS_3_555,9.0,1.0,SAA,0.021455424274973146,N/A,,0.9
+CA_1_FOODS_3_586,9.0,1.0,SAA,0.020247046186895806,N/A,,0.9
+CA_1_FOODS_3_694,9.0,1.0,SAA,0.0259577515216613,N/A,,0.9
+CA_3_FOODS_3_228,9.0,1.0,SAA,0.02649727767695099,N/A,,0.9
+CA_3_FOODS_3_252,9.0,1.0,SAA,0.03615599557900965,N/A,,0.9
+CA_3_FOODS_3_377,9.0,1.0,SAA,0.01723545877681216,N/A,,0.9
+CA_3_FOODS_3_555,9.0,1.0,SAA,0.030068474758324394,N/A,,0.9
+CA_3_FOODS_3_586,9.0,1.0,SAA,0.024704440856161216,N/A,,0.9
+CA_3_FOODS_3_694,9.0,1.0,SAA,0.024125655046707672,N/A,,0.9
+TX_2_FOODS_3_228,9.0,1.0,SAA,0.02402159244264507,N/A,,0.9
+TX_2_FOODS_3_252,9.0,1.0,SAA,0.02124614720029888,N/A,,0.9
+TX_2_FOODS_3_377,9.0,1.0,SAA,0.030368890977443604,N/A,,0.9
+TX_2_FOODS_3_555,9.0,1.0,SAA,0.018370703544575723,N/A,,0.9
+TX_2_FOODS_3_586,9.0,1.0,SAA,0.016713574170507638,N/A,,0.9
+TX_2_FOODS_3_694,9.0,1.0,SAA,0.02017695570645742,N/A,,0.9
+WI_1_FOODS_3_228,9.0,1.0,SAA,0.03761785415920754,N/A,,0.9
+WI_1_FOODS_3_252,9.0,1.0,SAA,0.05967537892349923,N/A,,0.9
+WI_1_FOODS_3_377,9.0,1.0,SAA,0.03939312567132115,N/A,,0.9
+WI_1_FOODS_3_555,9.0,1.0,SAA,0.06546805325000814,N/A,,0.9
+WI_1_FOODS_3_586,9.0,1.0,SAA,0.022050078612680764,N/A,,0.9
+WI_1_FOODS_3_694,9.0,1.0,SAA,0.018598862019914647,N/A,,0.9
+CA_1_FOODS_3_228,9.0,1.0,MLP,0.04850528913560013,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.8485651270303491,0.9
+CA_1_FOODS_3_252,9.0,1.0,MLP,0.03508187959959942,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.5505500803702235,0.9
+CA_1_FOODS_3_377,9.0,1.0,MLP,0.0248639151174423,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.060920690696195434,0.9
+CA_1_FOODS_3_555,9.0,1.0,MLP,0.03180007882770002,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.48214635236989856,0.9
+CA_1_FOODS_3_586,9.0,1.0,MLP,0.014568601928692141,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.2804579100470882,0.9
+CA_1_FOODS_3_694,9.0,1.0,MLP,0.030423862858830104,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.17205308916844797,0.9
+CA_3_FOODS_3_228,9.0,1.0,MLP,0.030370358827536182,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.14616902150496158,0.9
+CA_3_FOODS_3_252,9.0,1.0,MLP,0.07528454960430368,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.0822148138553844,0.9
+CA_3_FOODS_3_377,9.0,1.0,MLP,0.032971266272662426,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.9129903473773813,0.9
+CA_3_FOODS_3_555,9.0,1.0,MLP,0.04784334647370441,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.5911464368660428,0.9
+CA_3_FOODS_3_586,9.0,1.0,MLP,0.021975178387692227,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.11047659343353722,0.9
+CA_3_FOODS_3_694,9.0,1.0,MLP,0.02633208597952155,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.09145579378226998,0.9
+TX_2_FOODS_3_228,9.0,1.0,MLP,0.023039326281583818,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.040890967716089244,0.9
+TX_2_FOODS_3_252,9.0,1.0,MLP,0.05018232097028051,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.3619492276498284,0.9
+TX_2_FOODS_3_377,9.0,1.0,MLP,0.015863431097615583,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.47764206768702566,0.9
+TX_2_FOODS_3_555,9.0,1.0,MLP,0.042796668179026706,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.3296150893286383,0.9
+TX_2_FOODS_3_586,9.0,1.0,MLP,0.02822917970898029,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.6889971840249949,0.9
+TX_2_FOODS_3_694,9.0,1.0,MLP,0.038707352265341013,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.9183940743326873,0.9
+WI_1_FOODS_3_228,9.0,1.0,MLP,0.06743414637020416,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.7926101282866138,0.9
+WI_1_FOODS_3_252,9.0,1.0,MLP,0.08756469145951387,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.46735040546231477,0.9
+WI_1_FOODS_3_377,9.0,1.0,MLP,0.028592711348527054,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.2741700268444801,0.9
+WI_1_FOODS_3_555,9.0,1.0,MLP,0.11057310889738746,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.6889628361963507,0.9
+WI_1_FOODS_3_586,9.0,1.0,MLP,0.05267835510850503,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.3890325306237354,0.9
+WI_1_FOODS_3_694,9.0,1.0,MLP,0.03674458365636963,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.9756361231684785,0.9
+CA_1_FOODS_3_228,9.0,1.0,LGBM,0.037963138396405256,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-0.4467975555415342,0.9
+CA_1_FOODS_3_252,9.0,1.0,LGBM,0.03957379696399862,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-0.749083993315558,0.9
+CA_1_FOODS_3_377,9.0,1.0,LGBM,0.01993711583381408,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",0.24699980359915186,0.9
+CA_1_FOODS_3_555,9.0,1.0,LGBM,0.03802659689438253,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-0.7723535273426851,0.9
+CA_1_FOODS_3_586,9.0,1.0,LGBM,0.02296996157151369,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-0.13448457416866066,0.9
+CA_1_FOODS_3_694,9.0,1.0,LGBM,0.02429990180898122,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",0.06386723100021319,0.9
+CA_3_FOODS_3_228,9.0,1.0,LGBM,0.02657841977737268,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-0.0030622806392019974,0.9
+CA_3_FOODS_3_252,9.0,1.0,LGBM,0.07731741836661576,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-1.1384397560747122,0.9
+CA_3_FOODS_3_377,9.0,1.0,LGBM,0.038385103975849856,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-1.2271007968462966,0.9
+CA_3_FOODS_3_555,9.0,1.0,LGBM,0.06508074447475125,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-1.1644178827771694,0.9
+CA_3_FOODS_3_586,9.0,1.0,LGBM,0.05704715067745042,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-1.309186069403511,0.9
+CA_3_FOODS_3_694,9.0,1.0,LGBM,0.027686592773051483,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-0.14759962867121224,0.9
+TX_2_FOODS_3_228,9.0,1.0,LGBM,0.020513284554448875,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",0.14604809804232477,0.9
+TX_2_FOODS_3_252,9.0,1.0,LGBM,0.04776396551262075,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-1.2481236274193197,0.9
+TX_2_FOODS_3_377,9.0,1.0,LGBM,0.013192013493445879,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",0.5656076639991825,0.9
+TX_2_FOODS_3_555,9.0,1.0,LGBM,0.038469757534455536,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-1.094081886472683,0.9
+TX_2_FOODS_3_586,9.0,1.0,LGBM,0.037112489345758407,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-1.2204998743623725,0.9
+TX_2_FOODS_3_694,9.0,1.0,LGBM,0.03975395251778108,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-0.9702651428757534,0.9
+WI_1_FOODS_3_228,9.0,1.0,LGBM,0.045628028572091285,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-0.2129354422765002,0.9
+WI_1_FOODS_3_252,9.0,1.0,LGBM,0.07712653570410118,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-0.29243478793780997,0.9
+WI_1_FOODS_3_377,9.0,1.0,LGBM,0.02961872707267265,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",0.24812447431061369,0.9
+WI_1_FOODS_3_555,9.0,1.0,LGBM,0.11554856495186229,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-0.7649610644539506,0.9
+WI_1_FOODS_3_586,9.0,1.0,LGBM,0.04630594257739144,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-1.100035260226301,0.9
+WI_1_FOODS_3_694,9.0,1.0,LGBM,0.03174634635492586,"OrderedDict([('learning_rate', 0.01), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 100), ('num_leaves', 127)])",-0.7068972456988822,0.9
+CA_1_FOODS_3_228,9.0,1.0,RFW,0.025220419238685867,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.03883497398838509,0.9
+CA_1_FOODS_3_252,9.0,1.0,RFW,0.014299470570938843,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.36799152451130246,0.9
+CA_1_FOODS_3_377,9.0,1.0,RFW,0.015375663874889945,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.4192802001005055,0.9
+CA_1_FOODS_3_555,9.0,1.0,RFW,0.019727948329973193,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.08051464855043589,0.9
+CA_1_FOODS_3_586,9.0,1.0,RFW,0.01288052455289629,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.36383191730788067,0.9
+CA_1_FOODS_3_694,9.0,1.0,RFW,0.01549430660778214,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.40309519509606184,0.9
+CA_3_FOODS_3_228,9.0,1.0,RFW,0.015638718580856536,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.4097990453389073,0.9
+CA_3_FOODS_3_252,9.0,1.0,RFW,0.01957552379834282,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.4585815302591921,0.9
+CA_3_FOODS_3_377,9.0,1.0,RFW,0.01869457119125137,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",-0.08465759068753287,0.9
+CA_3_FOODS_3_555,9.0,1.0,RFW,0.015839586467730656,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.47321616427033764,0.9
+CA_3_FOODS_3_586,9.0,1.0,RFW,0.014463036037747337,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.4145572400542594,0.9
+CA_3_FOODS_3_694,9.0,1.0,RFW,0.015033476513741687,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.37686763386790434,0.9
+TX_2_FOODS_3_228,9.0,1.0,RFW,0.012990230782762175,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.45922690954905776,0.9
+TX_2_FOODS_3_252,9.0,1.0,RFW,0.016502013121252608,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.22329385343708508,0.9
+TX_2_FOODS_3_377,9.0,1.0,RFW,0.014401663698236195,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.5257757779520831,0.9
+TX_2_FOODS_3_555,9.0,1.0,RFW,0.010482783934319981,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.429374933361482,0.9
+TX_2_FOODS_3_586,9.0,1.0,RFW,0.011830373806210026,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.2921697247088171,0.9
+TX_2_FOODS_3_694,9.0,1.0,RFW,0.023362542985688895,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",-0.15788245390319022,0.9
+WI_1_FOODS_3_228,9.0,1.0,RFW,0.02636586880590714,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.2991128974470306,0.9
+WI_1_FOODS_3_252,9.0,1.0,RFW,0.04942092487242607,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.1718372674971842,0.9
+WI_1_FOODS_3_377,9.0,1.0,RFW,0.0285286523685017,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.27579617300408765,0.9
+WI_1_FOODS_3_555,9.0,1.0,RFW,0.039615851891993556,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.3948826958286158,0.9
+WI_1_FOODS_3_586,9.0,1.0,RFW,0.015750882234064456,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.28567682180478526,0.9
+WI_1_FOODS_3_694,9.0,1.0,RFW,0.01338597030330403,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 4), ('n_estimators', 500)])",0.28028014353937014,0.9
+CA_1_FOODS_3_228,9.0,1.0,KNNW,0.024440732158118685,"OrderedDict([('n_neighbors', 32)])",0.06854930767895084,0.9
+CA_1_FOODS_3_252,9.0,1.0,KNNW,0.016404066121381542,"OrderedDict([('n_neighbors', 32)])",0.2749725404337503,0.9
+CA_1_FOODS_3_377,9.0,1.0,KNNW,0.0170659938814798,"OrderedDict([('n_neighbors', 32)])",0.3554385272349819,0.9
+CA_1_FOODS_3_555,9.0,1.0,KNNW,0.019239166698507983,"OrderedDict([('n_neighbors', 32)])",0.10329591007204342,0.9
+CA_1_FOODS_3_586,9.0,1.0,KNNW,0.011349220347892557,"OrderedDict([('n_neighbors', 32)])",0.4394629101385691,0.9
+CA_1_FOODS_3_694,9.0,1.0,KNNW,0.01450625248960372,"OrderedDict([('n_neighbors', 32)])",0.441159128228094,0.9
+CA_3_FOODS_3_228,9.0,1.0,KNNW,0.015223695126712367,"OrderedDict([('n_neighbors', 32)])",0.4254619167932523,0.9
+CA_3_FOODS_3_252,9.0,1.0,KNNW,0.026864298705101475,"OrderedDict([('n_neighbors', 32)])",0.25698910305494294,0.9
+CA_3_FOODS_3_377,9.0,1.0,KNNW,0.016163733324725194,"OrderedDict([('n_neighbors', 32)])",0.06218142876062094,0.9
+CA_3_FOODS_3_555,9.0,1.0,KNNW,0.016126915371649706,"OrderedDict([('n_neighbors', 32)])",0.46366034521970545,0.9
+CA_3_FOODS_3_586,9.0,1.0,KNNW,0.01319419296284057,"OrderedDict([('n_neighbors', 32)])",0.4659181707587615,0.9
+CA_3_FOODS_3_694,9.0,1.0,KNNW,0.019128904050394198,"OrderedDict([('n_neighbors', 32)])",0.2071135886938481,0.9
+TX_2_FOODS_3_228,9.0,1.0,KNNW,0.015347014647476965,"OrderedDict([('n_neighbors', 32)])",0.3611158509112117,0.9
+TX_2_FOODS_3_252,9.0,1.0,KNNW,0.023063061701511085,"OrderedDict([('n_neighbors', 32)])",-0.08551736388170394,0.9
+TX_2_FOODS_3_377,9.0,1.0,KNNW,0.016107410256019562,"OrderedDict([('n_neighbors', 32)])",0.46960821625052795,0.9
+TX_2_FOODS_3_555,9.0,1.0,KNNW,0.01851854852703539,"OrderedDict([('n_neighbors', 32)])",-0.008047867197950698,0.9
+TX_2_FOODS_3_586,9.0,1.0,KNNW,0.013644992365338218,"OrderedDict([('n_neighbors', 32)])",0.18359818036911357,0.9
+TX_2_FOODS_3_694,9.0,1.0,KNNW,0.0194497587353951,"OrderedDict([('n_neighbors', 32)])",0.03604096582467042,0.9
+WI_1_FOODS_3_228,9.0,1.0,KNNW,0.02864541740609287,"OrderedDict([('n_neighbors', 32)])",0.2385153792967888,0.9
+WI_1_FOODS_3_252,9.0,1.0,KNNW,0.053658742633897916,"OrderedDict([('n_neighbors', 32)])",0.10082275803081753,0.9
+WI_1_FOODS_3_377,9.0,1.0,KNNW,0.03081722840651411,"OrderedDict([('n_neighbors', 32)])",0.21770035047131175,0.9
+WI_1_FOODS_3_555,9.0,1.0,KNNW,0.053562343129215165,"OrderedDict([('n_neighbors', 32)])",0.1818552642053931,0.9
+WI_1_FOODS_3_586,9.0,1.0,KNNW,0.024307483445477895,"OrderedDict([('n_neighbors', 32)])",-0.10237627141605388,0.9
+WI_1_FOODS_3_694,9.0,1.0,KNNW,0.01249208285916097,"OrderedDict([('n_neighbors', 32)])",0.32834154875792243,0.9
+CA_1_FOODS_3_228,9.0,1.0,DTW,0.02479693956940824,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.05497403351330632,0.9
+CA_1_FOODS_3_252,9.0,1.0,DTW,0.016588604891271494,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.2668162897496349,0.9
+CA_1_FOODS_3_377,9.0,1.0,DTW,0.015078304922010887,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.43051107982182,0.9
+CA_1_FOODS_3_555,9.0,1.0,DTW,0.019192657680689475,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.10546361448200736,0.9
+CA_1_FOODS_3_586,9.0,1.0,DTW,0.013388840761961058,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.3387262201917375,0.9
+CA_1_FOODS_3_694,9.0,1.0,DTW,0.016164034556623973,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.37729450321861036,0.9
+CA_3_FOODS_3_228,9.0,1.0,DTW,0.014985642614685237,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.43444595337728986,0.9
+CA_3_FOODS_3_252,9.0,1.0,DTW,0.018347082437559392,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.492557675601366,0.9
+CA_3_FOODS_3_377,9.0,1.0,DTW,0.021344404100542867,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.23840069341575676,0.9
+CA_3_FOODS_3_555,9.0,1.0,DTW,0.016935112134146117,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.4367818031921401,0.9
+CA_3_FOODS_3_586,9.0,1.0,DTW,0.01461099845543329,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.4085679355989411,0.9
+CA_3_FOODS_3_694,9.0,1.0,DTW,0.01612079029285604,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.33179885637733275,0.9
+TX_2_FOODS_3_228,9.0,1.0,DTW,0.014615077813835576,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.39158580561504697,0.9
+TX_2_FOODS_3_252,9.0,1.0,DTW,0.01629003102523861,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.23327129047616457,0.9
+TX_2_FOODS_3_377,9.0,1.0,DTW,0.013520959835481145,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.554775976326439,0.9
+TX_2_FOODS_3_555,9.0,1.0,DTW,0.010328825899682386,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.43775556147754857,0.9
+TX_2_FOODS_3_586,9.0,1.0,DTW,0.01244480381632994,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.25540738986340006,0.9
+TX_2_FOODS_3_694,9.0,1.0,DTW,0.02455823958691577,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.21714295973084607,0.9
+WI_1_FOODS_3_228,9.0,1.0,DTW,0.02811740506033984,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.25255159581031883,0.9
+WI_1_FOODS_3_252,9.0,1.0,DTW,0.051041126102519443,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.1446870212931275,0.9
+WI_1_FOODS_3_377,9.0,1.0,DTW,0.025175116164874386,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.3609261581595622,0.9
+WI_1_FOODS_3_555,9.0,1.0,DTW,0.04071394844551768,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.3781096821370259,0.9
+WI_1_FOODS_3_586,9.0,1.0,DTW,0.014711741436266865,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.3328032205832454,0.9
+WI_1_FOODS_3_694,9.0,1.0,DTW,0.013453103692969662,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.27667060067627725,0.9
+CA_1_FOODS_3_228,9.0,1.0,GKW,0.020124504713527332,"OrderedDict([('kernel_bandwidth', 2.0)])",0.23304327682317116,0.9
+CA_1_FOODS_3_252,9.0,1.0,GKW,0.018839947622039693,"OrderedDict([('kernel_bandwidth', 2.0)])",0.16731136891941212,0.9
+CA_1_FOODS_3_377,9.0,1.0,GKW,0.018178364730903007,"OrderedDict([('kernel_bandwidth', 2.0)])",0.31342565661376465,0.9
+CA_1_FOODS_3_555,9.0,1.0,GKW,0.02036848069548733,"OrderedDict([('kernel_bandwidth', 2.0)])",0.050660549311704384,0.9
+CA_1_FOODS_3_586,9.0,1.0,GKW,0.011441682878110593,"OrderedDict([('kernel_bandwidth', 2.0)])",0.4348961931288613,0.9
+CA_1_FOODS_3_694,9.0,1.0,GKW,0.016014757659284,"OrderedDict([('kernel_bandwidth', 2.0)])",0.3830452670016523,0.9
+CA_3_FOODS_3_228,9.0,1.0,GKW,0.01395464884456626,"OrderedDict([('kernel_bandwidth', 2.0)])",0.4733553757975334,0.9
+CA_3_FOODS_3_252,9.0,1.0,GKW,0.032255906873339034,"OrderedDict([('kernel_bandwidth', 2.0)])",0.10786838097565232,0.9
+CA_3_FOODS_3_377,9.0,1.0,GKW,0.01541857411021271,"OrderedDict([('kernel_bandwidth', 2.0)])",0.10541550939414546,0.9
+CA_3_FOODS_3_555,9.0,1.0,GKW,0.017196087274095058,"OrderedDict([('kernel_bandwidth', 2.0)])",0.4281024424315252,0.9
+CA_3_FOODS_3_586,9.0,1.0,GKW,0.016048703766133102,"OrderedDict([('kernel_bandwidth', 2.0)])",0.35037170605986,0.9
+CA_3_FOODS_3_694,9.0,1.0,GKW,0.017922030810941864,"OrderedDict([('kernel_bandwidth', 2.0)])",0.25713806417921037,0.9
+TX_2_FOODS_3_228,9.0,1.0,GKW,0.015416696790052049,"OrderedDict([('kernel_bandwidth', 2.0)])",0.3582150381219905,0.9
+TX_2_FOODS_3_252,9.0,1.0,GKW,0.0214378740272026,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.009024075052112224,0.9
+TX_2_FOODS_3_377,9.0,1.0,GKW,0.016799969306556736,"OrderedDict([('kernel_bandwidth', 2.0)])",0.4468033317701704,0.9
+TX_2_FOODS_3_555,9.0,1.0,GKW,0.014188795073731244,"OrderedDict([('kernel_bandwidth', 2.0)])",0.2276400825203705,0.9
+TX_2_FOODS_3_586,9.0,1.0,GKW,0.012860687339951412,"OrderedDict([('kernel_bandwidth', 2.0)])",0.23052441035352778,0.9
+TX_2_FOODS_3_694,9.0,1.0,GKW,0.01958545274270653,"OrderedDict([('kernel_bandwidth', 2.0)])",0.029315768560744027,0.9
+WI_1_FOODS_3_228,9.0,1.0,GKW,0.03134171367083929,"OrderedDict([('kernel_bandwidth', 2.0)])",0.1668394072082412,0.9
+WI_1_FOODS_3_252,9.0,1.0,GKW,0.0668138048034898,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.11962095605863965,0.9
+WI_1_FOODS_3_377,9.0,1.0,GKW,0.028445820588677725,"OrderedDict([('kernel_bandwidth', 2.0)])",0.27789886930991226,0.9
+WI_1_FOODS_3_555,9.0,1.0,GKW,0.05566465530603115,"OrderedDict([('kernel_bandwidth', 2.0)])",0.14974323287940083,0.9
+WI_1_FOODS_3_586,9.0,1.0,GKW,0.024171884543584855,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.09622668327739481,0.9
+WI_1_FOODS_3_694,9.0,1.0,GKW,0.012204673845567652,"OrderedDict([('kernel_bandwidth', 2.0)])",0.34379459170676396,0.9
+CA_1_FOODS_3_228,7.5,2.5,SAA,0.042689732142857144,N/A,,0.75
+CA_1_FOODS_3_252,7.5,2.5,SAA,0.04421768707482993,N/A,,0.75
+CA_1_FOODS_3_377,7.5,2.5,SAA,0.04288063909774437,N/A,,0.75
+CA_1_FOODS_3_555,7.5,2.5,SAA,0.03920422335600907,N/A,,0.75
+CA_1_FOODS_3_586,7.5,2.5,SAA,0.027540950590762617,N/A,,0.75
+CA_1_FOODS_3_694,7.5,2.5,SAA,0.04108205782312926,N/A,,0.75
+CA_3_FOODS_3_228,7.5,2.5,SAA,0.04025554187192119,N/A,,0.75
+CA_3_FOODS_3_252,7.5,2.5,SAA,0.0657026397515528,N/A,,0.75
+CA_3_FOODS_3_377,7.5,2.5,SAA,0.03229843073593073,N/A,,0.75
+CA_3_FOODS_3_555,7.5,2.5,SAA,0.06015037593984962,N/A,,0.75
+CA_3_FOODS_3_586,7.5,2.5,SAA,0.05907787369914853,N/A,,0.75
+CA_3_FOODS_3_694,7.5,2.5,SAA,0.04041531385281387,N/A,,0.75
+TX_2_FOODS_3_228,7.5,2.5,SAA,0.03394001831501832,N/A,,0.75
+TX_2_FOODS_3_252,7.5,2.5,SAA,0.03891692546583852,N/A,,0.75
+TX_2_FOODS_3_377,7.5,2.5,SAA,0.04966517857142857,N/A,,0.75
+TX_2_FOODS_3_555,7.5,2.5,SAA,0.03036889097744361,N/A,,0.75
+TX_2_FOODS_3_586,7.5,2.5,SAA,0.030397641651597345,N/A,,0.75
+TX_2_FOODS_3_694,7.5,2.5,SAA,0.031798577481840194,N/A,,0.75
+WI_1_FOODS_3_228,7.5,2.5,SAA,0.06597222222222222,N/A,,0.75
+WI_1_FOODS_3_252,7.5,2.5,SAA,0.07743055555555556,N/A,,0.75
+WI_1_FOODS_3_377,7.5,2.5,SAA,0.07222576530612246,N/A,,0.75
+WI_1_FOODS_3_555,7.5,2.5,SAA,0.091991341991342,N/A,,0.75
+WI_1_FOODS_3_586,7.5,2.5,SAA,0.04414143374741201,N/A,,0.75
+WI_1_FOODS_3_694,7.5,2.5,SAA,0.02497586872586873,N/A,,0.75
+CA_1_FOODS_3_228,7.5,2.5,MLP,0.04856549972356655,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.137638895485376,0.75
+CA_1_FOODS_3_252,7.5,2.5,MLP,0.03287865242746892,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.25643662971724135,0.75
+CA_1_FOODS_3_377,7.5,2.5,MLP,0.02541650244230917,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.407273236194697,0.75
+CA_1_FOODS_3_555,7.5,2.5,MLP,0.03278060929869438,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.16385005255639395,0.75
+CA_1_FOODS_3_586,7.5,2.5,MLP,0.016166261986640566,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.4130100218086584,0.75
+CA_1_FOODS_3_694,7.5,2.5,MLP,0.032319665517638464,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.21329000468320147,0.75
+CA_3_FOODS_3_228,7.5,2.5,MLP,0.03305971566826405,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.17875367884878302,0.75
+CA_3_FOODS_3_252,7.5,2.5,MLP,0.06497244302460038,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.011113658898844525,0.75
+CA_3_FOODS_3_377,7.5,2.5,MLP,0.03595827616864949,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.11331341335563172,0.75
+CA_3_FOODS_3_555,7.5,2.5,MLP,0.04474466498653535,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.2561199445988498,0.75
+CA_3_FOODS_3_586,7.5,2.5,MLP,0.027861776829779562,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.5283889706040465,0.75
+CA_3_FOODS_3_694,7.5,2.5,MLP,0.031131829255403202,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.22970215278346318,0.75
+TX_2_FOODS_3_228,7.5,2.5,MLP,0.025420452429684184,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.2510183054781754,0.75
+TX_2_FOODS_3_252,7.5,2.5,MLP,0.04646254049228933,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.19389031728815254,0.75
+TX_2_FOODS_3_377,7.5,2.5,MLP,0.02306020031830682,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.5356867531415075,0.75
+TX_2_FOODS_3_555,7.5,2.5,MLP,0.039841265954447,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.3119104673278641,0.75
+TX_2_FOODS_3_586,7.5,2.5,MLP,0.02947574151142928,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.030328015269553643,0.75
+TX_2_FOODS_3_694,7.5,2.5,MLP,0.036064376956737296,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.1341506385728497,0.75
+WI_1_FOODS_3_228,7.5,2.5,MLP,0.062073412259720205,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.05909775101055692,0.75
+WI_1_FOODS_3_252,7.5,2.5,MLP,0.07717581471586811,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.003289926539461252,0.75
+WI_1_FOODS_3_377,7.5,2.5,MLP,0.04189664273705037,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.41992109658547483,0.75
+WI_1_FOODS_3_555,7.5,2.5,MLP,0.09510668238448519,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.03386558262663897,0.75
+WI_1_FOODS_3_586,7.5,2.5,MLP,0.04817526863793747,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.09138431963057747,0.75
+WI_1_FOODS_3_694,7.5,2.5,MLP,0.03502179543419456,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 144), ('layer2', 72), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.4022253167082339,0.75
+CA_1_FOODS_3_228,7.5,2.5,LGBM,0.04399631528889043,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",-0.03060649670185156,0.75
+CA_1_FOODS_3_252,7.5,2.5,LGBM,0.03476362201539223,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.2138073174980526,0.75
+CA_1_FOODS_3_377,7.5,2.5,LGBM,0.02476597524568424,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.42244388687324885,0.75
+CA_1_FOODS_3_555,7.5,2.5,LGBM,0.03360082017519991,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.14292855976064878,0.75
+CA_1_FOODS_3_586,7.5,2.5,LGBM,0.020825338254447656,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.24384097833454643,0.75
+CA_1_FOODS_3_694,7.5,2.5,LGBM,0.02992299578265747,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.27162860459704674,0.75
+CA_3_FOODS_3_228,7.5,2.5,LGBM,0.03470152815918801,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.1379689219040715,0.75
+CA_3_FOODS_3_252,7.5,2.5,LGBM,0.054129275231716255,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.17614763369630093,0.75
+CA_3_FOODS_3_377,7.5,2.5,LGBM,0.03708648324785097,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",-0.14824412217011296,0.75
+CA_3_FOODS_3_555,7.5,2.5,LGBM,0.04862820923475362,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.19155602147222106,0.75
+CA_3_FOODS_3_586,7.5,2.5,LGBM,0.032876338611690974,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.4435084312764491,0.75
+CA_3_FOODS_3_694,7.5,2.5,LGBM,0.0315900050205532,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.2183654657341283,0.75
+TX_2_FOODS_3_228,7.5,2.5,LGBM,0.024861536341645864,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.26748606583265344,0.75
+TX_2_FOODS_3_252,7.5,2.5,LGBM,0.044854010725407956,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",-0.15255792148280167,0.75
+TX_2_FOODS_3_377,7.5,2.5,LGBM,0.025154131022478522,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.4935258113226796,0.75
+TX_2_FOODS_3_555,7.5,2.5,LGBM,0.0357262266951126,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",-0.176408671678137,0.75
+TX_2_FOODS_3_586,7.5,2.5,LGBM,0.03281341294960585,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",-0.0794723263632382,0.75
+TX_2_FOODS_3_694,7.5,2.5,LGBM,0.034410843470638934,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",-0.08215040406416207,0.75
+WI_1_FOODS_3_228,7.5,2.5,LGBM,0.05204877483021249,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.2110501499420423,0.75
+WI_1_FOODS_3_252,7.5,2.5,LGBM,0.0700407362167002,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.09543802554216774,0.75
+WI_1_FOODS_3_377,7.5,2.5,LGBM,0.04621696556908297,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",0.3601041764916373,0.75
+WI_1_FOODS_3_555,7.5,2.5,LGBM,0.09397196784674997,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",-0.02153056812231724,0.75
+WI_1_FOODS_3_586,7.5,2.5,LGBM,0.045091921624274035,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",-0.02153278215431209,0.75
+WI_1_FOODS_3_694,7.5,2.5,LGBM,0.03387921066703766,"OrderedDict([('learning_rate', 0.01), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 31)])",-0.35647776815656074,0.75
+CA_1_FOODS_3_228,7.5,2.5,RFW,0.04363791619772532,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",-0.02221105655325184,0.75
+CA_1_FOODS_3_252,7.5,2.5,RFW,0.02357960029216964,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.46673827031554815,0.75
+CA_1_FOODS_3_377,7.5,2.5,RFW,0.024334804953841303,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.4324990143367202,0.75
+CA_1_FOODS_3_555,7.5,2.5,RFW,0.03275000142507343,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.16463078154426358,0.75
+CA_1_FOODS_3_586,7.5,2.5,RFW,0.019306496522871915,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.2989894644614257,0.75
+CA_1_FOODS_3_694,7.5,2.5,RFW,0.026883615514981828,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.3456117599871954,0.75
+CA_3_FOODS_3_228,7.5,2.5,RFW,0.030727104548233266,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.23669877191080968,0.75
+CA_3_FOODS_3_252,7.5,2.5,RFW,0.03380420697895253,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.4854969738388082,0.75
+CA_3_FOODS_3_377,7.5,2.5,RFW,0.03506124427881166,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",-0.0855401788857626,0.75
+CA_3_FOODS_3_555,7.5,2.5,RFW,0.034600434162322016,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.4247677820513964,0.75
+CA_3_FOODS_3_586,7.5,2.5,RFW,0.024062704095936048,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.592695156591547,0.75
+CA_3_FOODS_3_694,7.5,2.5,RFW,0.02705867329956874,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.3304846425760266,0.75
+TX_2_FOODS_3_228,7.5,2.5,RFW,0.02215453285061634,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.3472445228229871,0.75
+TX_2_FOODS_3_252,7.5,2.5,RFW,0.027746315419278116,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.28703732149565675,0.75
+TX_2_FOODS_3_377,7.5,2.5,RFW,0.025517234026601388,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.4862147935318012,0.75
+TX_2_FOODS_3_555,7.5,2.5,RFW,0.02330738920751988,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.2325241898088618,0.75
+TX_2_FOODS_3_586,7.5,2.5,RFW,0.020291935072488547,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.33245034910719007,0.75
+TX_2_FOODS_3_694,7.5,2.5,RFW,0.02946835588709873,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.07328068672481425,0.75
+WI_1_FOODS_3_228,7.5,2.5,RFW,0.047274697977262845,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.28341510434464745,0.75
+WI_1_FOODS_3_252,7.5,2.5,RFW,0.058812806519649076,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.24044447185385953,0.75
+WI_1_FOODS_3_377,7.5,2.5,RFW,0.05064149737347678,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.2988444337164541,0.75
+WI_1_FOODS_3_555,7.5,2.5,RFW,0.06679826731341429,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.2738635412047671,0.75
+WI_1_FOODS_3_586,7.5,2.5,RFW,0.03411468386010838,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.22715052584560624,0.75
+WI_1_FOODS_3_694,7.5,2.5,RFW,0.02136048294110732,"OrderedDict([('max_depth', 10), ('max_features', None), ('min_samples_split', 2), ('n_estimators', 500)])",0.14475515644493997,0.75
+CA_1_FOODS_3_228,7.5,2.5,KNNW,0.039798152659754595,"OrderedDict([('n_neighbors', 32)])",0.06773477691136953,0.75
+CA_1_FOODS_3_252,7.5,2.5,KNNW,0.02634505553201994,"OrderedDict([('n_neighbors', 32)])",0.4041964364297028,0.75
+CA_1_FOODS_3_377,7.5,2.5,KNNW,0.02191480035993665,"OrderedDict([('n_neighbors', 32)])",0.4889348474964912,0.75
+CA_1_FOODS_3_555,7.5,2.5,KNNW,0.033188723620645816,"OrderedDict([('n_neighbors', 32)])",0.15344009446985318,0.75
+CA_1_FOODS_3_586,7.5,2.5,KNNW,0.019617241066546973,"OrderedDict([('n_neighbors', 32)])",0.2877064645282541,0.75
+CA_1_FOODS_3_694,7.5,2.5,KNNW,0.026155524261139863,"OrderedDict([('n_neighbors', 32)])",0.36333461255160726,0.75
+CA_3_FOODS_3_228,7.5,2.5,KNNW,0.03271332910726384,"OrderedDict([('n_neighbors', 32)])",0.1873583713927881,0.75
+CA_3_FOODS_3_252,7.5,2.5,KNNW,0.039375463901554275,"OrderedDict([('n_neighbors', 32)])",0.40070194971696427,0.75
+CA_3_FOODS_3_377,7.5,2.5,KNNW,0.029476439342486987,"OrderedDict([('n_neighbors', 32)])",0.08737239949879017,0.75
+CA_3_FOODS_3_555,7.5,2.5,KNNW,0.034328803171056195,"OrderedDict([('n_neighbors', 32)])",0.42928364728119073,0.75
+CA_3_FOODS_3_586,7.5,2.5,KNNW,0.02544396375284269,"OrderedDict([('n_neighbors', 32)])",0.5693148354929807,0.75
+CA_3_FOODS_3_694,7.5,2.5,KNNW,0.029104766781101132,"OrderedDict([('n_neighbors', 32)])",0.27985795465807706,0.75
+TX_2_FOODS_3_228,7.5,2.5,KNNW,0.025643692237687067,"OrderedDict([('n_neighbors', 32)])",0.24444082499684927,0.75
+TX_2_FOODS_3_252,7.5,2.5,KNNW,0.03677318385703835,"OrderedDict([('n_neighbors', 32)])",0.05508507116478034,0.75
+TX_2_FOODS_3_377,7.5,2.5,KNNW,0.028899637426740444,"OrderedDict([('n_neighbors', 32)])",0.41811067113799016,0.75
+TX_2_FOODS_3_555,7.5,2.5,KNNW,0.029968061784260407,"OrderedDict([('n_neighbors', 32)])",0.01319867733994362,0.75
+TX_2_FOODS_3_586,7.5,2.5,KNNW,0.02505850619361104,"OrderedDict([('n_neighbors', 32)])",0.17564308176209253,0.75
+TX_2_FOODS_3_694,7.5,2.5,KNNW,0.02857375013757429,"OrderedDict([('n_neighbors', 32)])",0.10141420150343405,0.75
+WI_1_FOODS_3_228,7.5,2.5,KNNW,0.04628495030280745,"OrderedDict([('n_neighbors', 32)])",0.2984175954100765,0.75
+WI_1_FOODS_3_252,7.5,2.5,KNNW,0.06763771998852161,"OrderedDict([('n_neighbors', 32)])",0.12647249521550563,0.75
+WI_1_FOODS_3_377,7.5,2.5,KNNW,0.05401955092417661,"OrderedDict([('n_neighbors', 32)])",0.25207367903656586,0.75
+WI_1_FOODS_3_555,7.5,2.5,KNNW,0.07637257989395127,"OrderedDict([('n_neighbors', 32)])",0.16978513150575336,0.75
+WI_1_FOODS_3_586,7.5,2.5,KNNW,0.03894978334133287,"OrderedDict([('n_neighbors', 32)])",0.11761399586128118,0.75
+WI_1_FOODS_3_694,7.5,2.5,KNNW,0.022262122897716115,"OrderedDict([('n_neighbors', 32)])",0.1086547121919269,0.75
+CA_1_FOODS_3_228,7.5,2.5,DTW,0.04336153976750884,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.015736983834978346,0.75
+CA_1_FOODS_3_252,7.5,2.5,DTW,0.02441411161438988,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.44786547579764424,0.75
+CA_1_FOODS_3_377,7.5,2.5,DTW,0.023671909605323317,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.44795809709448764,0.75
+CA_1_FOODS_3_555,7.5,2.5,DTW,0.0330954377595862,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.1558195794608579,0.75
+CA_1_FOODS_3_586,7.5,2.5,DTW,0.021482816805531303,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.21996821661134836,0.75
+CA_1_FOODS_3_694,7.5,2.5,DTW,0.029646658080957736,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.278355086091461,0.75
+CA_3_FOODS_3_228,7.5,2.5,DTW,0.03156488124680133,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.215887309448484,0.75
+CA_3_FOODS_3_252,7.5,2.5,DTW,0.0352076717757498,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.4641361152476722,0.75
+CA_3_FOODS_3_377,7.5,2.5,DTW,0.03956796160449826,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.22507381017990036,0.75
+CA_3_FOODS_3_555,7.5,2.5,DTW,0.031951524685381795,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.46880590210552764,0.75
+CA_3_FOODS_3_586,7.5,2.5,DTW,0.023135294734795732,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.608393239529723,0.75
+CA_3_FOODS_3_694,7.5,2.5,DTW,0.028419003896299904,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.2968258517106316,0.75
+TX_2_FOODS_3_228,7.5,2.5,DTW,0.024307669453670237,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.2838050578507144,0.75
+TX_2_FOODS_3_252,7.5,2.5,DTW,0.02807141317840738,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.27868368730596116,0.75
+TX_2_FOODS_3_377,7.5,2.5,DTW,0.025828307343150836,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.47995138473116516,0.75
+TX_2_FOODS_3_555,7.5,2.5,DTW,0.02323519210270853,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.23490152735684722,0.75
+TX_2_FOODS_3_586,7.5,2.5,DTW,0.020800688694154825,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.3157137342244515,0.75
+TX_2_FOODS_3_694,7.5,2.5,DTW,0.03246947530280253,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.021098359552262247,0.75
+WI_1_FOODS_3_228,7.5,2.5,DTW,0.046431539421839384,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.29619561297422414,0.75
+WI_1_FOODS_3_252,7.5,2.5,DTW,0.06015327567630179,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.22313258319395002,0.75
+WI_1_FOODS_3_377,7.5,2.5,DTW,0.047365133431360625,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.3442072475022212,0.75
+WI_1_FOODS_3_555,7.5,2.5,DTW,0.06416648337228974,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.30247258075299166,0.75
+WI_1_FOODS_3_586,7.5,2.5,DTW,0.03304122839001194,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.2514690714605723,0.75
+WI_1_FOODS_3_694,7.5,2.5,DTW,0.022462588834197095,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.10062832725688176,0.75
+CA_1_FOODS_3_228,7.5,2.5,GKW,0.04133314029217292,"OrderedDict([('kernel_bandwidth', 2.0)])",0.03177794243694276,0.75
+CA_1_FOODS_3_252,7.5,2.5,GKW,0.033103029031021476,"OrderedDict([('kernel_bandwidth', 2.0)])",0.2513622665292067,0.75
+CA_1_FOODS_3_377,7.5,2.5,GKW,0.025225193851375612,"OrderedDict([('kernel_bandwidth', 2.0)])",0.41173465736189274,0.75
+CA_1_FOODS_3_555,7.5,2.5,GKW,0.03355926261375797,"OrderedDict([('kernel_bandwidth', 2.0)])",0.14398858742819265,0.75
+CA_1_FOODS_3_586,7.5,2.5,GKW,0.01733773586298921,"OrderedDict([('kernel_bandwidth', 2.0)])",0.370474312211853,0.75
+CA_1_FOODS_3_694,7.5,2.5,GKW,0.029040644440586127,"OrderedDict([('kernel_bandwidth', 2.0)])",0.29310638319007953,0.75
+CA_3_FOODS_3_228,7.5,2.5,GKW,0.02963806665789087,"OrderedDict([('kernel_bandwidth', 2.0)])",0.2637518890644013,0.75
+CA_3_FOODS_3_252,7.5,2.5,GKW,0.03799502260775884,"OrderedDict([('kernel_bandwidth', 2.0)])",0.4217123885519246,0.75
+CA_3_FOODS_3_377,7.5,2.5,GKW,0.03175640543120201,"OrderedDict([('kernel_bandwidth', 2.0)])",0.01678178451331802,0.75
+CA_3_FOODS_3_555,7.5,2.5,GKW,0.035426992925013376,"OrderedDict([('kernel_bandwidth', 2.0)])",0.41102624262165255,0.75
+CA_3_FOODS_3_586,7.5,2.5,GKW,0.029294629732263284,"OrderedDict([('kernel_bandwidth', 2.0)])",0.5041353403908053,0.75
+CA_3_FOODS_3_694,7.5,2.5,GKW,0.030044409375371287,"OrderedDict([('kernel_bandwidth', 2.0)])",0.2566082875221942,0.75
+TX_2_FOODS_3_228,7.5,2.5,GKW,0.024120440625805116,"OrderedDict([('kernel_bandwidth', 2.0)])",0.289321520043732,0.75
+TX_2_FOODS_3_252,7.5,2.5,GKW,0.03129102882405109,"OrderedDict([('kernel_bandwidth', 2.0)])",0.19595321445630332,0.75
+TX_2_FOODS_3_377,7.5,2.5,GKW,0.029162338677617045,"OrderedDict([('kernel_bandwidth', 2.0)])",0.41282122572708146,0.75
+TX_2_FOODS_3_555,7.5,2.5,GKW,0.026918456690572152,"OrderedDict([('kernel_bandwidth', 2.0)])",0.1136173951638293,0.75
+TX_2_FOODS_3_586,7.5,2.5,GKW,0.022508266031150196,"OrderedDict([('kernel_bandwidth', 2.0)])",0.2595390692104095,0.75
+TX_2_FOODS_3_694,7.5,2.5,GKW,0.027037899964858857,"OrderedDict([('kernel_bandwidth', 2.0)])",0.1497135373335523,0.75
+WI_1_FOODS_3_228,7.5,2.5,GKW,0.048654238511542006,"OrderedDict([('kernel_bandwidth', 2.0)])",0.26250417414083693,0.75
+WI_1_FOODS_3_252,7.5,2.5,GKW,0.07495257080625052,"OrderedDict([('kernel_bandwidth', 2.0)])",0.03200267299550896,0.75
+WI_1_FOODS_3_377,7.5,2.5,GKW,0.054644244750284295,"OrderedDict([('kernel_bandwidth', 2.0)])",0.24342449652586517,0.75
+WI_1_FOODS_3_555,7.5,2.5,GKW,0.07334541693094328,"OrderedDict([('kernel_bandwidth', 2.0)])",0.20269217359774605,0.75
+WI_1_FOODS_3_586,7.5,2.5,GKW,0.03847894306377471,"OrderedDict([('kernel_bandwidth', 2.0)])",0.1282806244137752,0.75
+WI_1_FOODS_3_694,7.5,2.5,GKW,0.02113327553297845,"OrderedDict([('kernel_bandwidth', 2.0)])",0.15385223373272783,0.75
+CA_1_FOODS_3_228,5.0,5.0,SAA,0.053070142251815985,N/A,,0.5
+CA_1_FOODS_3_252,5.0,5.0,SAA,0.0504603778557428,N/A,,0.5
+CA_1_FOODS_3_377,5.0,5.0,SAA,0.04132152414935647,N/A,,0.5
+CA_1_FOODS_3_555,5.0,5.0,SAA,0.04765267688996503,N/A,,0.5
+CA_1_FOODS_3_586,5.0,5.0,SAA,0.03471299313659451,N/A,,0.5
+CA_1_FOODS_3_694,5.0,5.0,SAA,0.04937737806987203,N/A,,0.5
+CA_3_FOODS_3_228,5.0,5.0,SAA,0.042352008015362784,N/A,,0.5
+CA_3_FOODS_3_252,5.0,5.0,SAA,0.07947327788890059,N/A,,0.5
+CA_3_FOODS_3_377,5.0,5.0,SAA,0.04353767701225329,N/A,,0.5
+CA_3_FOODS_3_555,5.0,5.0,SAA,0.07642650057346756,N/A,,0.5
+CA_3_FOODS_3_586,5.0,5.0,SAA,0.0798690730080336,N/A,,0.5
+CA_3_FOODS_3_694,5.0,5.0,SAA,0.045156467825959355,N/A,,0.5
+TX_2_FOODS_3_228,5.0,5.0,SAA,0.033696529459241335,N/A,,0.5
+TX_2_FOODS_3_252,5.0,5.0,SAA,0.0400732971891778,N/A,,0.5
+TX_2_FOODS_3_377,5.0,5.0,SAA,0.049756608151735306,N/A,,0.5
+TX_2_FOODS_3_555,5.0,5.0,SAA,0.038476089588377727,N/A,,0.5
+TX_2_FOODS_3_586,5.0,5.0,SAA,0.04077144696110583,N/A,,0.5
+TX_2_FOODS_3_694,5.0,5.0,SAA,0.03995157384987893,N/A,,0.5
+WI_1_FOODS_3_228,5.0,5.0,SAA,0.07425343018563359,N/A,,0.5
+WI_1_FOODS_3_252,5.0,5.0,SAA,0.07020446596717785,N/A,,0.5
+WI_1_FOODS_3_377,5.0,5.0,SAA,0.10300645682001616,N/A,,0.5
+WI_1_FOODS_3_555,5.0,5.0,SAA,0.09324785384107417,N/A,,0.5
+WI_1_FOODS_3_586,5.0,5.0,SAA,0.050053514405025104,N/A,,0.5
+WI_1_FOODS_3_694,5.0,5.0,SAA,0.027918657155945287,N/A,,0.5
+CA_1_FOODS_3_228,5.0,5.0,MLP,0.047281512894483686,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.10907506766922637,0.5
+CA_1_FOODS_3_252,5.0,5.0,MLP,0.029417298332117852,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.41702183808023296,0.5
+CA_1_FOODS_3_377,5.0,5.0,MLP,0.03061520221858238,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.25909794353364457,0.5
+CA_1_FOODS_3_555,5.0,5.0,MLP,0.03348711996079149,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.2972667613591421,0.5
+CA_1_FOODS_3_586,5.0,5.0,MLP,0.018649770195012672,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.4627438169440927,0.5
+CA_1_FOODS_3_694,5.0,5.0,MLP,0.03351261297308617,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.32129622343122877,0.5
+CA_3_FOODS_3_228,5.0,5.0,MLP,0.04005672993080409,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.054195259967983134,0.5
+CA_3_FOODS_3_252,5.0,5.0,MLP,0.04247795005784586,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.4655065050012437,0.5
+CA_3_FOODS_3_377,5.0,5.0,MLP,0.03529925164012915,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.1892251938431514,0.5
+CA_3_FOODS_3_555,5.0,5.0,MLP,0.042086623688285814,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.4493189747994726,0.5
+CA_3_FOODS_3_586,5.0,5.0,MLP,0.033380121602965517,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.582064491976663,0.5
+CA_3_FOODS_3_694,5.0,5.0,MLP,0.03703935779020412,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.1797552028878775,0.5
+TX_2_FOODS_3_228,5.0,5.0,MLP,0.030940967661182844,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.081775833959149,0.5
+TX_2_FOODS_3_252,5.0,5.0,MLP,0.034607248548020005,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.13640127028613847,0.5
+TX_2_FOODS_3_377,5.0,5.0,MLP,0.03722900161203285,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.2517777438023685,0.5
+TX_2_FOODS_3_555,5.0,5.0,MLP,0.029762121022223937,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.22647749964658503,0.5
+TX_2_FOODS_3_586,5.0,5.0,MLP,0.029881428506704215,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.2670991408470299,0.5
+TX_2_FOODS_3_694,5.0,5.0,MLP,0.028782268473560697,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.27957109820723813,0.5
+WI_1_FOODS_3_228,5.0,5.0,MLP,0.0511913203803573,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.31058645705149257,0.5
+WI_1_FOODS_3_252,5.0,5.0,MLP,0.057470186673172816,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.181388450415086,0.5
+WI_1_FOODS_3_377,5.0,5.0,MLP,0.07178190218542524,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.30313201325961325,0.5
+WI_1_FOODS_3_555,5.0,5.0,MLP,0.06698098579712493,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.281688714130803,0.5
+WI_1_FOODS_3_586,5.0,5.0,MLP,0.04141948797686509,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.1724959082452202,0.5
+WI_1_FOODS_3_694,5.0,5.0,MLP,0.028851338965779866,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 144), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.033407115701335366,0.5
+CA_1_FOODS_3_228,5.0,5.0,LGBM,0.04786087759638406,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.09815810612894427,0.5
+CA_1_FOODS_3_252,5.0,5.0,LGBM,0.02740719408755004,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.45685713717994125,0.5
+CA_1_FOODS_3_377,5.0,5.0,LGBM,0.026830794358510823,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.3506823644372111,0.5
+CA_1_FOODS_3_555,5.0,5.0,LGBM,0.033963805500806514,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.28726342951871386,0.5
+CA_1_FOODS_3_586,5.0,5.0,LGBM,0.02161012723509807,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.3774628667121007,0.5
+CA_1_FOODS_3_694,5.0,5.0,LGBM,0.03449214056999115,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.3014586452690411,0.5
+CA_3_FOODS_3_228,5.0,5.0,LGBM,0.03804536994361752,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.10168675048850273,0.5
+CA_3_FOODS_3_252,5.0,5.0,LGBM,0.043809110919364076,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.44875671316078236,0.5
+CA_3_FOODS_3_377,5.0,5.0,LGBM,0.03923613392958869,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.09880047301223649,0.5
+CA_3_FOODS_3_555,5.0,5.0,LGBM,0.04635213184814634,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.39350707542092955,0.5
+CA_3_FOODS_3_586,5.0,5.0,LGBM,0.031968069866875976,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.599744072857081,0.5
+CA_3_FOODS_3_694,5.0,5.0,LGBM,0.034473857416247165,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.23656877794084274,0.5
+TX_2_FOODS_3_228,5.0,5.0,LGBM,0.029121039450786694,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.1357852004904263,0.5
+TX_2_FOODS_3_252,5.0,5.0,LGBM,0.03761016334921469,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.06146571439667581,0.5
+TX_2_FOODS_3_377,5.0,5.0,LGBM,0.03171578987889421,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.36258135236679934,0.5
+TX_2_FOODS_3_555,5.0,5.0,LGBM,0.03094995240234419,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.19560556352137504,0.5
+TX_2_FOODS_3_586,5.0,5.0,LGBM,0.027973068291574144,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.31390543194949094,0.5
+TX_2_FOODS_3_694,5.0,5.0,LGBM,0.031226611193124493,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.2183884592266413,0.5
+WI_1_FOODS_3_228,5.0,5.0,LGBM,0.05158306575549849,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.30531066879279767,0.5
+WI_1_FOODS_3_252,5.0,5.0,LGBM,0.054449482881207024,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.22441568166527504,0.5
+WI_1_FOODS_3_377,5.0,5.0,LGBM,0.06710030864846415,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.34858152857632074,0.5
+WI_1_FOODS_3_555,5.0,5.0,LGBM,0.07175379046051925,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.23050464429120343,0.5
+WI_1_FOODS_3_586,5.0,5.0,LGBM,0.0393118132814993,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",0.21460433400551382,0.5
+WI_1_FOODS_3_694,5.0,5.0,LGBM,0.0295111411224824,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 63)])",-0.05704013476156722,0.5
+CA_1_FOODS_3_228,5.0,5.0,RFW,0.04637012728824226,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.12624829479036226,0.5
+CA_1_FOODS_3_252,5.0,5.0,RFW,0.03205922709488133,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.3646653382871422,0.5
+CA_1_FOODS_3_377,5.0,5.0,RFW,0.026393131791233294,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.361274001030663,0.5
+CA_1_FOODS_3_555,5.0,5.0,RFW,0.03682210535698764,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.2272814926638077,0.5
+CA_1_FOODS_3_586,5.0,5.0,RFW,0.024306863455145333,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.29977621464393445,0.5
+CA_1_FOODS_3_694,5.0,5.0,RFW,0.03734993729818511,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.24358200540067865,0.5
+CA_3_FOODS_3_228,5.0,5.0,RFW,0.038483055773406556,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.09135227403037893,0.5
+CA_3_FOODS_3_252,5.0,5.0,RFW,0.04350315052032303,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.45260656567937063,0.5
+CA_3_FOODS_3_377,5.0,5.0,RFW,0.04121280810490161,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.053399011313749356,0.5
+CA_3_FOODS_3_555,5.0,5.0,RFW,0.04525635749195799,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.40784469847008387,0.5
+CA_3_FOODS_3_586,5.0,5.0,RFW,0.031028194578541887,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.6115117728307561,0.5
+CA_3_FOODS_3_694,5.0,5.0,RFW,0.03558058744681946,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.21205999583596646,0.5
+TX_2_FOODS_3_228,5.0,5.0,RFW,0.02992543084402979,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.11191356129933183,0.5
+TX_2_FOODS_3_252,5.0,5.0,RFW,0.03739249872840722,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.06689737677723595,0.5
+TX_2_FOODS_3_377,5.0,5.0,RFW,0.03155522107533133,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.3658084373616851,0.5
+TX_2_FOODS_3_555,5.0,5.0,RFW,0.03005467706584011,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.21887391916982724,0.5
+TX_2_FOODS_3_586,5.0,5.0,RFW,0.028363368874176727,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.30433254180961167,0.5
+TX_2_FOODS_3_694,5.0,5.0,RFW,0.03265651385715969,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.18259756224200285,0.5
+WI_1_FOODS_3_228,5.0,5.0,RFW,0.05308596406046319,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.28507054922919695,0.5
+WI_1_FOODS_3_252,5.0,5.0,RFW,0.05670847234547586,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.19223839161473955,0.5
+WI_1_FOODS_3_377,5.0,5.0,RFW,0.05166613048125529,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.49841852563153544,0.5
+WI_1_FOODS_3_555,5.0,5.0,RFW,0.07274404169641505,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.21988508367822113,0.5
+WI_1_FOODS_3_586,5.0,5.0,RFW,0.04031149082770593,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.19463215906256381,0.5
+WI_1_FOODS_3_694,5.0,5.0,RFW,0.028541023143872097,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",-0.022292117577520143,0.5
+CA_1_FOODS_3_228,5.0,5.0,KNNW,0.04875731958693942,"OrderedDict([('n_neighbors', 32)])",0.08126646136376214,0.5
+CA_1_FOODS_3_252,5.0,5.0,KNNW,0.03411270523246893,"OrderedDict([('n_neighbors', 32)])",0.32397047580596683,0.5
+CA_1_FOODS_3_377,5.0,5.0,KNNW,0.02513776804073587,"OrderedDict([('n_neighbors', 32)])",0.39165438453152124,0.5
+CA_1_FOODS_3_555,5.0,5.0,KNNW,0.03675933804827468,"OrderedDict([('n_neighbors', 32)])",0.22859867593260708,0.5
+CA_1_FOODS_3_586,5.0,5.0,KNNW,0.026386651151688752,"OrderedDict([('n_neighbors', 32)])",0.2398624040324575,0.5
+CA_1_FOODS_3_694,5.0,5.0,KNNW,0.03630972724017838,"OrderedDict([('n_neighbors', 32)])",0.26464853624269247,0.5
+CA_3_FOODS_3_228,5.0,5.0,KNNW,0.03959079713390058,"OrderedDict([('n_neighbors', 32)])",0.06519669340024203,0.5
+CA_3_FOODS_3_252,5.0,5.0,KNNW,0.05062760336763172,"OrderedDict([('n_neighbors', 32)])",0.36296067417268973,0.5
+CA_3_FOODS_3_377,5.0,5.0,KNNW,0.03623754473705438,"OrderedDict([('n_neighbors', 32)])",0.1676739039876738,0.5
+CA_3_FOODS_3_555,5.0,5.0,KNNW,0.04585708891433884,"OrderedDict([('n_neighbors', 32)])",0.3999844481920619,0.5
+CA_3_FOODS_3_586,5.0,5.0,KNNW,0.03612597008130545,"OrderedDict([('n_neighbors', 32)])",0.5476851211523173,0.5
+CA_3_FOODS_3_694,5.0,5.0,KNNW,0.03865904603482243,"OrderedDict([('n_neighbors', 32)])",0.1438868473100926,0.5
+TX_2_FOODS_3_228,5.0,5.0,KNNW,0.03141471822764889,"OrderedDict([('n_neighbors', 32)])",0.06771650577109078,0.5
+TX_2_FOODS_3_252,5.0,5.0,KNNW,0.04056304703868918,"OrderedDict([('n_neighbors', 32)])",-0.012221351470016906,0.5
+TX_2_FOODS_3_377,5.0,5.0,KNNW,0.03379211904133244,"OrderedDict([('n_neighbors', 32)])",0.32085163566050046,0.5
+TX_2_FOODS_3_555,5.0,5.0,KNNW,0.03396741760695501,"OrderedDict([('n_neighbors', 32)])",0.11718113845915956,0.5
+TX_2_FOODS_3_586,5.0,5.0,KNNW,0.031935901438992255,"OrderedDict([('n_neighbors', 32)])",0.21670914771659433,0.5
+TX_2_FOODS_3_694,5.0,5.0,KNNW,0.03380803704175693,"OrderedDict([('n_neighbors', 32)])",0.15377458798511423,0.5
+WI_1_FOODS_3_228,5.0,5.0,KNNW,0.04816907988491841,"OrderedDict([('n_neighbors', 32)])",0.35128815241941413,0.5
+WI_1_FOODS_3_252,5.0,5.0,KNNW,0.05955917231354467,"OrderedDict([('n_neighbors', 32)])",0.15163271320388771,0.5
+WI_1_FOODS_3_377,5.0,5.0,KNNW,0.06739571496027853,"OrderedDict([('n_neighbors', 32)])",0.3457136859096174,0.5
+WI_1_FOODS_3_555,5.0,5.0,KNNW,0.08933311633375389,"OrderedDict([('n_neighbors', 32)])",0.041982065496030785,0.5
+WI_1_FOODS_3_586,5.0,5.0,KNNW,0.0467819721895809,"OrderedDict([('n_neighbors', 32)])",0.0653608893267994,0.5
+WI_1_FOODS_3_694,5.0,5.0,KNNW,0.029743842507028107,"OrderedDict([('n_neighbors', 32)])",-0.06537511245214556,0.5
+CA_1_FOODS_3_228,5.0,5.0,DTW,0.04567168769625936,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.13940898293528625,0.5
+CA_1_FOODS_3_252,5.0,5.0,DTW,0.033099249959835854,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.34405465503130606,0.5
+CA_1_FOODS_3_377,5.0,5.0,DTW,0.026409820481374417,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.3608701270089594,0.5
+CA_1_FOODS_3_555,5.0,5.0,DTW,0.03857970045563892,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.1903980432259148,0.5
+CA_1_FOODS_3_586,5.0,5.0,DTW,0.026161314355431734,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.2463538291703108,0.5
+CA_1_FOODS_3_694,5.0,5.0,DTW,0.03700095711154441,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.2506496181472865,0.5
+CA_3_FOODS_3_228,5.0,5.0,DTW,0.040298155317723114,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.04849481273460887,0.5
+CA_3_FOODS_3_252,5.0,5.0,DTW,0.04728985715605239,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.4049590200348714,0.5
+CA_3_FOODS_3_377,5.0,5.0,DTW,0.04392009009253693,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",-0.008783497570989285,0.5
+CA_3_FOODS_3_555,5.0,5.0,DTW,0.041813644869336704,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.45289075705956305,0.5
+CA_3_FOODS_3_586,5.0,5.0,DTW,0.032586950523082824,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.5919953832467157,0.5
+CA_3_FOODS_3_694,5.0,5.0,DTW,0.035798398072140705,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.20723653120714025,0.5
+TX_2_FOODS_3_228,5.0,5.0,DTW,0.030273461224663335,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.10158518665011118,0.5
+TX_2_FOODS_3_252,5.0,5.0,DTW,0.03781095076337461,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.056455210439089076,0.5
+TX_2_FOODS_3_377,5.0,5.0,DTW,0.03273416317033221,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.3421142560500162,0.5
+TX_2_FOODS_3_555,5.0,5.0,DTW,0.03243848125407681,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.1569184498448788,0.5
+TX_2_FOODS_3_586,5.0,5.0,DTW,0.03270030397292024,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.1979606707577759,0.5
+TX_2_FOODS_3_694,5.0,5.0,DTW,0.03873890168047777,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.030353551876525997,0.5
+WI_1_FOODS_3_228,5.0,5.0,DTW,0.050064746621303786,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.32575846669787634,0.5
+WI_1_FOODS_3_252,5.0,5.0,DTW,0.05606453336740736,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.20141072800669435,0.5
+WI_1_FOODS_3_377,5.0,5.0,DTW,0.07723798237329736,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.2501636814063435,0.5
+WI_1_FOODS_3_555,5.0,5.0,DTW,0.06811391903750444,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.2695390163767891,0.5
+WI_1_FOODS_3_586,5.0,5.0,DTW,0.040075329571345616,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",0.19935033438286864,0.5
+WI_1_FOODS_3_694,5.0,5.0,DTW,0.032332158197554015,"OrderedDict([('max_depth', 6), ('min_samples_split', 2)])",-0.15808428811443997,0.5
+CA_1_FOODS_3_228,5.0,5.0,GKW,0.04731840891933048,"OrderedDict([('kernel_bandwidth', 2.0)])",0.10837983635306137,0.5
+CA_1_FOODS_3_252,5.0,5.0,GKW,0.036210984520714605,"OrderedDict([('kernel_bandwidth', 2.0)])",0.28238776522372977,0.5
+CA_1_FOODS_3_377,5.0,5.0,GKW,0.030027178479114746,"OrderedDict([('kernel_bandwidth', 2.0)])",0.27332839005207943,0.5
+CA_1_FOODS_3_555,5.0,5.0,GKW,0.03919907376101963,"OrderedDict([('kernel_bandwidth', 2.0)])",0.1774003829515317,0.5
+CA_1_FOODS_3_586,5.0,5.0,GKW,0.028369635701301927,"OrderedDict([('kernel_bandwidth', 2.0)])",0.18273726527504197,0.5
+CA_1_FOODS_3_694,5.0,5.0,GKW,0.04033997358770812,"OrderedDict([('kernel_bandwidth', 2.0)])",0.18302722492424417,0.5
+CA_3_FOODS_3_228,5.0,5.0,GKW,0.040786183714040504,"OrderedDict([('kernel_bandwidth', 2.0)])",0.036971666154631766,0.5
+CA_3_FOODS_3_252,5.0,5.0,GKW,0.050020493189237104,"OrderedDict([('kernel_bandwidth', 2.0)])",0.37059984792419043,0.5
+CA_3_FOODS_3_377,5.0,5.0,GKW,0.037763466125596494,"OrderedDict([('kernel_bandwidth', 2.0)])",0.13262560804591617,0.5
+CA_3_FOODS_3_555,5.0,5.0,GKW,0.048532161019347334,"OrderedDict([('kernel_bandwidth', 2.0)])",0.36498255637527,0.5
+CA_3_FOODS_3_586,5.0,5.0,GKW,0.03894795490594945,"OrderedDict([('kernel_bandwidth', 2.0)])",0.512352485898617,0.5
+CA_3_FOODS_3_694,5.0,5.0,GKW,0.0396598583336981,"OrderedDict([('kernel_bandwidth', 2.0)])",0.12172363687625243,0.5
+TX_2_FOODS_3_228,5.0,5.0,GKW,0.03121313224089022,"OrderedDict([('kernel_bandwidth', 2.0)])",0.07369890188112649,0.5
+TX_2_FOODS_3_252,5.0,5.0,GKW,0.03517924241502399,"OrderedDict([('kernel_bandwidth', 2.0)])",0.1221275791470311,0.5
+TX_2_FOODS_3_377,5.0,5.0,GKW,0.03637410281338088,"OrderedDict([('kernel_bandwidth', 2.0)])",0.2689593570675838,0.5
+TX_2_FOODS_3_555,5.0,5.0,GKW,0.032906873443526156,"OrderedDict([('kernel_bandwidth', 2.0)])",0.14474485854544417,0.5
+TX_2_FOODS_3_586,5.0,5.0,GKW,0.03298703029891368,"OrderedDict([('kernel_bandwidth', 2.0)])",0.1909281431590628,0.5
+TX_2_FOODS_3_694,5.0,5.0,GKW,0.034249778878498456,"OrderedDict([('kernel_bandwidth', 2.0)])",0.14271765595031127,0.5
+WI_1_FOODS_3_228,5.0,5.0,GKW,0.053396045918367344,"OrderedDict([('kernel_bandwidth', 2.0)])",0.2808945555124225,0.5
+WI_1_FOODS_3_252,5.0,5.0,GKW,0.07061861389956473,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.005899167904510616,0.5
+WI_1_FOODS_3_377,5.0,5.0,GKW,0.0710167190961568,"OrderedDict([('kernel_bandwidth', 2.0)])",0.31056050961693826,0.5
+WI_1_FOODS_3_555,5.0,5.0,GKW,0.08457769325116264,"OrderedDict([('kernel_bandwidth', 2.0)])",0.0929797333962068,0.5
+WI_1_FOODS_3_586,5.0,5.0,GKW,0.04537253224779545,"OrderedDict([('kernel_bandwidth', 2.0)])",0.09351955028276115,0.5
+WI_1_FOODS_3_694,5.0,5.0,GKW,0.030161563293253753,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.08033717828118525,0.5
+CA_1_FOODS_3_228,2.5,7.5,SAA,0.04213169642857143,N/A,,0.25
+CA_1_FOODS_3_252,2.5,7.5,SAA,0.033041788143828965,N/A,,0.25
+CA_1_FOODS_3_377,2.5,7.5,SAA,0.023378759398496266,N/A,,0.25
+CA_1_FOODS_3_555,2.5,7.5,SAA,0.03339356575963718,N/A,,0.25
+CA_1_FOODS_3_586,2.5,7.5,SAA,0.02857310687432868,N/A,,0.25
+CA_1_FOODS_3_694,2.5,7.5,SAA,0.03326955782312927,N/A,,0.25
+CA_3_FOODS_3_228,2.5,7.5,SAA,0.03371305418719213,N/A,,0.25
+CA_3_FOODS_3_252,2.5,7.5,SAA,0.05879593685300207,N/A,,0.25
+CA_3_FOODS_3_377,2.5,7.5,SAA,0.03774350649350649,N/A,,0.25
+CA_3_FOODS_3_555,2.5,7.5,SAA,0.055862312030075176,N/A,,0.25
+CA_3_FOODS_3_586,2.5,7.5,SAA,0.059728299432355726,N/A,,0.25
+CA_3_FOODS_3_694,2.5,7.5,SAA,0.03165584415584416,N/A,,0.25
+TX_2_FOODS_3_228,2.5,7.5,SAA,0.02380952380952381,N/A,,0.25
+TX_2_FOODS_3_252,2.5,7.5,SAA,0.03207492236024844,N/A,,0.25
+TX_2_FOODS_3_377,2.5,7.5,SAA,0.028459821428571445,N/A,,0.25
+TX_2_FOODS_3_555,2.5,7.5,SAA,0.029017857142857144,N/A,,0.25
+TX_2_FOODS_3_586,2.5,7.5,SAA,0.03600625376732971,N/A,,0.25
+TX_2_FOODS_3_694,2.5,7.5,SAA,0.036357445520581115,N/A,,0.25
+WI_1_FOODS_3_228,2.5,7.5,SAA,0.05481150793650794,N/A,,0.25
+WI_1_FOODS_3_252,2.5,7.5,SAA,0.0443204365079365,N/A,,0.25
+WI_1_FOODS_3_377,2.5,7.5,SAA,0.09959608843537415,N/A,,0.25
+WI_1_FOODS_3_555,2.5,7.5,SAA,0.06287202380952381,N/A,,0.25
+WI_1_FOODS_3_586,2.5,7.5,SAA,0.03708915631469979,N/A,,0.25
+WI_1_FOODS_3_694,2.5,7.5,SAA,0.02681587837837837,N/A,,0.25
+CA_1_FOODS_3_228,2.5,7.5,MLP,0.044419954036787716,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.054312021641371944,0.25
+CA_1_FOODS_3_252,2.5,7.5,MLP,0.026697919096064327,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.19199533088675913,0.25
+CA_1_FOODS_3_377,2.5,7.5,MLP,0.029430760565993464,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.25886750722480456,0.25
+CA_1_FOODS_3_555,2.5,7.5,MLP,0.03732931986109071,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.11785965385615338,0.25
+CA_1_FOODS_3_586,2.5,7.5,MLP,0.02231411303167647,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.21905191725144746,0.25
+CA_1_FOODS_3_694,2.5,7.5,MLP,0.04162496697374326,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.2511427772810746,0.25
+CA_3_FOODS_3_228,2.5,7.5,MLP,0.04124698886995915,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.22347232739385636,0.25
+CA_3_FOODS_3_252,2.5,7.5,MLP,0.03214167805507002,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.4533350470215547,0.25
+CA_3_FOODS_3_377,2.5,7.5,MLP,0.038772427799556176,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.027260882775338002,0.25
+CA_3_FOODS_3_555,2.5,7.5,MLP,0.043851536000685934,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.2150067835166377,0.25
+CA_3_FOODS_3_586,2.5,7.5,MLP,0.0331840415912848,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.44441676882384995,0.25
+CA_3_FOODS_3_694,2.5,7.5,MLP,0.042768269464983875,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.3510386661759006,0.25
+TX_2_FOODS_3_228,2.5,7.5,MLP,0.03158170639050396,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.3264316684011661,0.25
+TX_2_FOODS_3_252,2.5,7.5,MLP,0.027343454817379553,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.14751298505815746,0.25
+TX_2_FOODS_3_377,2.5,7.5,MLP,0.04949894069157229,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.7392568964568136,0.25
+TX_2_FOODS_3_555,2.5,7.5,MLP,0.02772553146466537,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.04453553106383956,0.25
+TX_2_FOODS_3_586,2.5,7.5,MLP,0.030883747706647584,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.14226712097802396,0.25
+TX_2_FOODS_3_694,2.5,7.5,MLP,0.030865874364889145,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.15104392173491177,0.25
+WI_1_FOODS_3_228,2.5,7.5,MLP,0.0420844454745517,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.2321969042832921,0.25
+WI_1_FOODS_3_252,2.5,7.5,MLP,0.03500158671099802,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.21026078556942351,0.25
+WI_1_FOODS_3_377,2.5,7.5,MLP,0.10275429869094213,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.03171018365462497,0.25
+WI_1_FOODS_3_555,2.5,7.5,MLP,0.04703300213523318,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.2519247944407882,0.25
+WI_1_FOODS_3_586,2.5,7.5,MLP,0.02974978416373946,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.19788458083775473,0.25
+WI_1_FOODS_3_694,2.5,7.5,MLP,0.029358548611781287,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.09481957657792295,0.25
+CA_1_FOODS_3_228,2.5,7.5,LGBM,0.04902319575847318,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",-0.1635704211812441,0.25
+CA_1_FOODS_3_252,2.5,7.5,LGBM,0.026880805485388654,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.18646032810397295,0.25
+CA_1_FOODS_3_377,2.5,7.5,LGBM,0.029291622897334696,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",-0.2529160507643853,0.25
+CA_1_FOODS_3_555,2.5,7.5,LGBM,0.03851585919288281,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",-0.1533916284985939,0.25
+CA_1_FOODS_3_586,2.5,7.5,LGBM,0.024646164262682905,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.13743491839782784,0.25
+CA_1_FOODS_3_694,2.5,7.5,LGBM,0.042219357376330535,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",-0.2690086715543689,0.25
+CA_3_FOODS_3_228,2.5,7.5,LGBM,0.04151854325567573,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",-0.23152720086241763,0.25
+CA_3_FOODS_3_252,2.5,7.5,LGBM,0.035610672158458465,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.39433447165762414,0.25
+CA_3_FOODS_3_377,2.5,7.5,LGBM,0.044434123776051375,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",-0.17726538692678062,0.25
+CA_3_FOODS_3_555,2.5,7.5,LGBM,0.04534042767068718,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.1883539004565944,0.25
+CA_3_FOODS_3_586,2.5,7.5,LGBM,0.03470787261992507,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.41890405469800984,0.25
+CA_3_FOODS_3_694,2.5,7.5,LGBM,0.038553270498768735,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",-0.2178879296021301,0.25
+TX_2_FOODS_3_228,2.5,7.5,LGBM,0.037251942546182935,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",-0.5645815869396831,0.25
+TX_2_FOODS_3_252,2.5,7.5,LGBM,0.030559863974596948,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.04723498216566713,0.25
+TX_2_FOODS_3_377,2.5,7.5,LGBM,0.04534750508276088,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",-0.5933868452609303,0.25
+TX_2_FOODS_3_555,2.5,7.5,LGBM,0.025779030693721144,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.1116149422471483,0.25
+TX_2_FOODS_3_586,2.5,7.5,LGBM,0.027760222616458222,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.22901663705857467,0.25
+TX_2_FOODS_3_694,2.5,7.5,LGBM,0.029007097364162595,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.20216899320546755,0.25
+WI_1_FOODS_3_228,2.5,7.5,LGBM,0.05018644548287084,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.08438122992337016,0.25
+WI_1_FOODS_3_252,2.5,7.5,LGBM,0.0392926963655157,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.11344067293923155,0.25
+WI_1_FOODS_3_377,2.5,7.5,LGBM,0.09298138003874742,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.06641534321821163,0.25
+WI_1_FOODS_3_555,2.5,7.5,LGBM,0.04307036241387261,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.3149518688255054,0.25
+WI_1_FOODS_3_586,2.5,7.5,LGBM,0.0320505849581483,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",0.1358502553630352,0.25
+WI_1_FOODS_3_694,2.5,7.5,LGBM,0.027251150775827657,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 31)])",-0.016231890348974876,0.25
+CA_1_FOODS_3_228,2.5,7.5,RFW,0.03431389436100938,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.18555630867643969,0.25
+CA_1_FOODS_3_252,2.5,7.5,RFW,0.023590456116715196,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.2860417839970608,0.25
+CA_1_FOODS_3_377,2.5,7.5,RFW,0.019964156416214147,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.14605578183510237,0.25
+CA_1_FOODS_3_555,2.5,7.5,RFW,0.027475691174589582,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.17721601303807255,0.25
+CA_1_FOODS_3_586,2.5,7.5,RFW,0.018528358982787384,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.35154552620827995,0.25
+CA_1_FOODS_3_694,2.5,7.5,RFW,0.026694937686829793,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.19761669725976183,0.25
+CA_3_FOODS_3_228,2.5,7.5,RFW,0.032181331092149774,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.04543412431687277,0.25
+CA_3_FOODS_3_252,2.5,7.5,RFW,0.03479367700080368,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.4082299073183806,0.25
+CA_3_FOODS_3_377,2.5,7.5,RFW,0.031177127716274816,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.1739737344849338,0.25
+CA_3_FOODS_3_555,2.5,7.5,RFW,0.03407326061208534,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.39004922328060887,0.25
+CA_3_FOODS_3_586,2.5,7.5,RFW,0.0265976154735194,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.5546898919557877,0.25
+CA_3_FOODS_3_694,2.5,7.5,RFW,0.026025883614011414,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.17784900993687025,0.25
+TX_2_FOODS_3_228,2.5,7.5,RFW,0.021675636631202977,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.08962326148947508,0.25
+TX_2_FOODS_3_252,2.5,7.5,RFW,0.028370630131743336,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.11548873562032258,0.25
+TX_2_FOODS_3_377,2.5,7.5,RFW,0.023193132316141226,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.18505699783284213,0.25
+TX_2_FOODS_3_555,2.5,7.5,RFW,0.025193000924666586,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.13181042967302847,0.25
+TX_2_FOODS_3_586,2.5,7.5,RFW,0.02363408232694158,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.343611738125726,0.25
+TX_2_FOODS_3_694,2.5,7.5,RFW,0.025521222819452294,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.29804686621876897,0.25
+WI_1_FOODS_3_228,2.5,7.5,RFW,0.03876103351266034,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.29283037500883957,0.25
+WI_1_FOODS_3_252,2.5,7.5,RFW,0.040371628252212376,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.08909678168483315,0.25
+WI_1_FOODS_3_377,2.5,7.5,RFW,0.041281086115269774,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.5855149859418805,0.25
+WI_1_FOODS_3_555,2.5,7.5,RFW,0.05462878618469465,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.1311113771333774,0.25
+WI_1_FOODS_3_586,2.5,7.5,RFW,0.033500641258325574,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.09675375265821184,0.25
+WI_1_FOODS_3_694,2.5,7.5,RFW,0.023524333534177544,"OrderedDict([('max_depth', None), ('max_features', 'sqrt'), ('min_samples_split', 16), ('n_estimators', 500)])",0.1227461132451585,0.25
+CA_1_FOODS_3_228,2.5,7.5,KNNW,0.035567844140832375,"OrderedDict([('n_neighbors', 32)])",0.1557936860877932,0.25
+CA_1_FOODS_3_252,2.5,7.5,KNNW,0.025112484516526458,"OrderedDict([('n_neighbors', 32)])",0.23997804213218465,0.25
+CA_1_FOODS_3_377,2.5,7.5,KNNW,0.020815269781015628,"OrderedDict([('n_neighbors', 32)])",0.10965036996982491,0.25
+CA_1_FOODS_3_555,2.5,7.5,KNNW,0.02791977380236147,"OrderedDict([('n_neighbors', 32)])",0.16391756414021186,0.25
+CA_1_FOODS_3_586,2.5,7.5,KNNW,0.02292014981117761,"OrderedDict([('n_neighbors', 32)])",0.19784187585949686,0.25
+CA_1_FOODS_3_694,2.5,7.5,KNNW,0.028105370758180242,"OrderedDict([('n_neighbors', 32)])",0.15522259395220583,0.25
+CA_3_FOODS_3_228,2.5,7.5,KNNW,0.03199248198093642,"OrderedDict([('n_neighbors', 32)])",0.05103578562482691,0.25
+CA_3_FOODS_3_252,2.5,7.5,KNNW,0.04137687415136757,"OrderedDict([('n_neighbors', 32)])",0.29626303506625895,0.25
+CA_3_FOODS_3_377,2.5,7.5,KNNW,0.030666493072508107,"OrderedDict([('n_neighbors', 32)])",0.18750280719720447,0.25
+CA_3_FOODS_3_555,2.5,7.5,KNNW,0.037823134525866164,"OrderedDict([('n_neighbors', 32)])",0.32292214283034093,0.25
+CA_3_FOODS_3_586,2.5,7.5,KNNW,0.029801340611410886,"OrderedDict([('n_neighbors', 32)])",0.5010515803289881,0.25
+CA_3_FOODS_3_694,2.5,7.5,KNNW,0.026318943718662228,"OrderedDict([('n_neighbors', 32)])",0.1685913163745677,0.25
+TX_2_FOODS_3_228,2.5,7.5,KNNW,0.023663027426514393,"OrderedDict([('n_neighbors', 32)])",0.0061528480863956014,0.25
+TX_2_FOODS_3_252,2.5,7.5,KNNW,0.028846800196702264,"OrderedDict([('n_neighbors', 32)])",0.10064317934396316,0.25
+TX_2_FOODS_3_377,2.5,7.5,KNNW,0.02531580168999629,"OrderedDict([('n_neighbors', 32)])",0.11047222297111126,0.25
+TX_2_FOODS_3_555,2.5,7.5,KNNW,0.02595175482906414,"OrderedDict([('n_neighbors', 32)])",0.1056626028137897,0.25
+TX_2_FOODS_3_586,2.5,7.5,KNNW,0.025030392332342746,"OrderedDict([('n_neighbors', 32)])",0.3048320857235616,0.25
+TX_2_FOODS_3_694,2.5,7.5,KNNW,0.02795085264525218,"OrderedDict([('n_neighbors', 32)])",0.23122066897054572,0.25
+WI_1_FOODS_3_228,2.5,7.5,KNNW,0.03857089710884354,"OrderedDict([('n_neighbors', 32)])",0.2962992889463478,0.25
+WI_1_FOODS_3_252,2.5,7.5,KNNW,0.04389815970339485,"OrderedDict([('n_neighbors', 32)])",0.009527812400178748,0.25
+WI_1_FOODS_3_377,2.5,7.5,KNNW,0.05248420796890182,"OrderedDict([('n_neighbors', 32)])",0.473029425217259,0.25
+WI_1_FOODS_3_555,2.5,7.5,KNNW,0.0636090832907603,"OrderedDict([('n_neighbors', 32)])",-0.01172317092049524,0.25
+WI_1_FOODS_3_586,2.5,7.5,KNNW,0.034878341366806336,"OrderedDict([('n_neighbors', 32)])",0.059608121822313564,0.25
+WI_1_FOODS_3_694,2.5,7.5,KNNW,0.023721003518219017,"OrderedDict([('n_neighbors', 32)])",0.11541202628121816,0.25
+CA_1_FOODS_3_228,2.5,7.5,DTW,0.03386102518374313,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.19630520358585857,0.25
+CA_1_FOODS_3_252,2.5,7.5,DTW,0.023335547849259588,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.29375650773858497,0.25
+CA_1_FOODS_3_377,2.5,7.5,DTW,0.021306348536010426,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.0886450314647208,0.25
+CA_1_FOODS_3_555,2.5,7.5,DTW,0.02752231148753534,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.1758199263403739,0.25
+CA_1_FOODS_3_586,2.5,7.5,DTW,0.021438154818326553,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.24970865392354225,0.25
+CA_1_FOODS_3_694,2.5,7.5,DTW,0.027445144126599316,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.1750673612043252,0.25
+CA_3_FOODS_3_228,2.5,7.5,DTW,0.030580772992347818,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.09291003945985676,0.25
+CA_3_FOODS_3_252,2.5,7.5,DTW,0.03653473301976049,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.3786180648655646,0.25
+CA_3_FOODS_3_377,2.5,7.5,DTW,0.03633919369159274,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.03720673918188688,0.25
+CA_3_FOODS_3_555,2.5,7.5,DTW,0.031381818701034674,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.43822914661786083,0.25
+CA_3_FOODS_3_586,2.5,7.5,DTW,0.027565844623215024,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.538479332490719,0.25
+CA_3_FOODS_3_694,2.5,7.5,DTW,0.026328848845763225,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.16827841594922333,0.25
+TX_2_FOODS_3_228,2.5,7.5,DTW,0.023888245189265602,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.003306297949155157,0.25
+TX_2_FOODS_3_252,2.5,7.5,DTW,0.02968277087780269,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.07458011762517713,0.25
+TX_2_FOODS_3_377,2.5,7.5,DTW,0.021850105924945105,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.23224725848036065,0.25
+TX_2_FOODS_3_555,2.5,7.5,DTW,0.026939368365203314,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.07162792095299353,0.25
+TX_2_FOODS_3_586,2.5,7.5,DTW,0.024997312731513937,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.3057508039285314,0.25
+TX_2_FOODS_3_694,2.5,7.5,DTW,0.0297229688948895,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.18247917395450652,0.25
+WI_1_FOODS_3_228,2.5,7.5,DTW,0.037659521665732845,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.3129267359446388,0.25
+WI_1_FOODS_3_252,2.5,7.5,DTW,0.0363562219886191,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.17969621120250578,0.25
+WI_1_FOODS_3_377,2.5,7.5,DTW,0.06015012350416076,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.396059378946484,0.25
+WI_1_FOODS_3_555,2.5,7.5,DTW,0.04965083519455988,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.2102873076746925,0.25
+WI_1_FOODS_3_586,2.5,7.5,DTW,0.032142452075283365,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.13337332878224217,0.25
+WI_1_FOODS_3_694,2.5,7.5,DTW,0.026341400568527868,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.017693912657102295,0.25
+CA_1_FOODS_3_228,2.5,7.5,GKW,0.04024946416809467,"OrderedDict([('kernel_bandwidth', 2.0)])",0.04467496967913054,0.25
+CA_1_FOODS_3_252,2.5,7.5,GKW,0.027859495145175866,"OrderedDict([('kernel_bandwidth', 2.0)])",0.1568405734004129,0.25
+CA_1_FOODS_3_377,2.5,7.5,GKW,0.023325787520176527,"OrderedDict([('kernel_bandwidth', 2.0)])",0.0022658122022995997,0.25
+CA_1_FOODS_3_555,2.5,7.5,GKW,0.030836070739181588,"OrderedDict([('kernel_bandwidth', 2.0)])",0.0765864609626935,0.25
+CA_1_FOODS_3_586,2.5,7.5,GKW,0.02416754912610234,"OrderedDict([('kernel_bandwidth', 2.0)])",0.1541854642410092,0.25
+CA_1_FOODS_3_694,2.5,7.5,GKW,0.030989336310395663,"OrderedDict([('kernel_bandwidth', 2.0)])",0.06853777633162228,0.25
+CA_3_FOODS_3_228,2.5,7.5,GKW,0.03423966347716128,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.015620337660454897,0.25
+CA_3_FOODS_3_252,2.5,7.5,GKW,0.039102385250337025,"OrderedDict([('kernel_bandwidth', 2.0)])",0.3349474922374591,0.25
+CA_3_FOODS_3_377,2.5,7.5,GKW,0.026889520475642463,"OrderedDict([('kernel_bandwidth', 2.0)])",0.2875722747098598,0.25
+CA_3_FOODS_3_555,2.5,7.5,GKW,0.03796303045752748,"OrderedDict([('kernel_bandwidth', 2.0)])",0.3204178438391714,0.25
+CA_3_FOODS_3_586,2.5,7.5,GKW,0.031112253196852124,"OrderedDict([('kernel_bandwidth', 2.0)])",0.47910364948381323,0.25
+CA_3_FOODS_3_694,2.5,7.5,GKW,0.031224101672923586,"OrderedDict([('kernel_bandwidth', 2.0)])",0.013638634332260202,0.25
+TX_2_FOODS_3_228,2.5,7.5,GKW,0.023742936435237238,"OrderedDict([('kernel_bandwidth', 2.0)])",0.0027966697200361157,0.25
+TX_2_FOODS_3_252,2.5,7.5,GKW,0.02748112652049538,"OrderedDict([('kernel_bandwidth', 2.0)])",0.14322079374528152,0.25
+TX_2_FOODS_3_377,2.5,7.5,GKW,0.03359626893450801,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.18048066530663376,0.25
+TX_2_FOODS_3_555,2.5,7.5,GKW,0.025784328494614227,"OrderedDict([('kernel_bandwidth', 2.0)])",0.11143237187790977,0.25
+TX_2_FOODS_3_586,2.5,7.5,GKW,0.026233641884214128,"OrderedDict([('kernel_bandwidth', 2.0)])",0.271414292257829,0.25
+TX_2_FOODS_3_694,2.5,7.5,GKW,0.03006172587797957,"OrderedDict([('kernel_bandwidth', 2.0)])",0.173161770648537,0.25
+WI_1_FOODS_3_228,2.5,7.5,GKW,0.03719390135830353,"OrderedDict([('kernel_bandwidth', 2.0)])",0.32142167295619994,0.25
+WI_1_FOODS_3_252,2.5,7.5,GKW,0.046856594265869536,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.05722321253489637,0.25
+WI_1_FOODS_3_377,2.5,7.5,GKW,0.06432306501645949,"OrderedDict([('kernel_bandwidth', 2.0)])",0.35416073033633855,0.25
+WI_1_FOODS_3_555,2.5,7.5,GKW,0.06413674926605963,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.020115869983244217,0.25
+WI_1_FOODS_3_586,2.5,7.5,GKW,0.034222194542735805,"OrderedDict([('kernel_bandwidth', 2.0)])",0.07729919083728809,0.25
+WI_1_FOODS_3_694,2.5,7.5,GKW,0.02485791480356698,"OrderedDict([('kernel_bandwidth', 2.0)])",0.07301508260084066,0.25
+CA_1_FOODS_3_228,1.0,9.0,SAA,0.020999053030303028,N/A,,0.1
+CA_1_FOODS_3_252,1.0,9.0,SAA,0.016432547044791943,N/A,,0.1
+CA_1_FOODS_3_377,1.0,9.0,SAA,0.010748462064251537,N/A,,0.1
+CA_1_FOODS_3_555,1.0,9.0,SAA,0.018011750154607296,N/A,,0.1
+CA_1_FOODS_3_586,1.0,9.0,SAA,0.015729258210461217,N/A,,0.1
+CA_1_FOODS_3_694,1.0,9.0,SAA,0.015275200989486707,N/A,,0.1
+CA_3_FOODS_3_228,1.0,9.0,SAA,0.01977907150320943,N/A,,0.1
+CA_3_FOODS_3_252,1.0,9.0,SAA,0.03024185958968568,N/A,,0.1
+CA_3_FOODS_3_377,1.0,9.0,SAA,0.020238095238095243,N/A,,0.1
+CA_3_FOODS_3_555,1.0,9.0,SAA,0.029068409660514927,N/A,,0.1
+CA_3_FOODS_3_586,1.0,9.0,SAA,0.030614804621427138,N/A,,0.1
+CA_3_FOODS_3_694,1.0,9.0,SAA,0.01780303030303031,N/A,,0.1
+TX_2_FOODS_3_228,1.0,9.0,SAA,0.013702963702963701,N/A,,0.1
+TX_2_FOODS_3_252,1.0,9.0,SAA,0.01935935441370224,N/A,,0.1
+TX_2_FOODS_3_377,1.0,9.0,SAA,0.011830357142857146,N/A,,0.1
+TX_2_FOODS_3_555,1.0,9.0,SAA,0.01790769537480064,N/A,,0.1
+TX_2_FOODS_3_586,1.0,9.0,SAA,0.020894295577839887,N/A,,0.1
+TX_2_FOODS_3_694,1.0,9.0,SAA,0.021047032063981223,N/A,,0.1
+WI_1_FOODS_3_228,1.0,9.0,SAA,0.03196248196248196,N/A,,0.1
+WI_1_FOODS_3_252,1.0,9.0,SAA,0.021370851370851374,N/A,,0.1
+WI_1_FOODS_3_377,1.0,9.0,SAA,0.07527829313543598,N/A,,0.1
+WI_1_FOODS_3_555,1.0,9.0,SAA,0.030194805194805194,N/A,,0.1
+WI_1_FOODS_3_586,1.0,9.0,SAA,0.020181629964238664,N/A,,0.1
+WI_1_FOODS_3_694,1.0,9.0,SAA,0.01737744237744238,N/A,,0.1
+CA_1_FOODS_3_228,1.0,9.0,MLP,0.04188046321085021,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.9943977069067793,0.1
+CA_1_FOODS_3_252,1.0,9.0,MLP,0.024673849258742542,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.501523116987671,0.1
+CA_1_FOODS_3_377,1.0,9.0,MLP,0.029599491463019045,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.7538350404067962,0.1
+CA_1_FOODS_3_555,1.0,9.0,MLP,0.039199658190169004,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.176338104497967,0.1
+CA_1_FOODS_3_586,1.0,9.0,MLP,0.023378167112025037,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.4862854178639322,0.1
+CA_1_FOODS_3_694,1.0,9.0,MLP,0.04567766329028535,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.990315042121109,0.1
+CA_3_FOODS_3_228,1.0,9.0,MLP,0.041906319851738774,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.1187202768814952,0.1
+CA_3_FOODS_3_252,1.0,9.0,MLP,0.027752614850338284,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.08231123261336681,0.1
+CA_3_FOODS_3_377,1.0,9.0,MLP,0.04067489442028482,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.0098183125317197,0.1
+CA_3_FOODS_3_555,1.0,9.0,MLP,0.044732775056214126,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.538879339414873,0.1
+CA_3_FOODS_3_586,1.0,9.0,MLP,0.03362731380960416,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.09840040547142936,0.1
+CA_3_FOODS_3_694,1.0,9.0,MLP,0.0463717302405653,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.6047099539381349,0.1
+TX_2_FOODS_3_228,1.0,9.0,MLP,0.03208666197221484,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-1.3415855626381816,0.1
+TX_2_FOODS_3_252,1.0,9.0,MLP,0.02286368647121193,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.1810149234640479,0.1
+TX_2_FOODS_3_377,1.0,9.0,MLP,0.057133307251515324,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-3.8293814431469544,0.1
+TX_2_FOODS_3_555,1.0,9.0,MLP,0.02697927227494084,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.5065742246713414,0.1
+TX_2_FOODS_3_586,1.0,9.0,MLP,0.03235413913017301,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.548467571430703,0.1
+TX_2_FOODS_3_694,1.0,9.0,MLP,0.029266810534040556,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.3905433528619091,0.1
+WI_1_FOODS_3_228,1.0,9.0,MLP,0.03814572799640093,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.1934532506323181,0.1
+WI_1_FOODS_3_252,1.0,9.0,MLP,0.02519696742898739,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.1790343300667292,0.1
+WI_1_FOODS_3_377,1.0,9.0,MLP,0.11925014624502062,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.5841239390281239,0.1
+WI_1_FOODS_3_555,1.0,9.0,MLP,0.03299472289393448,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.09272845713245381,0.1
+WI_1_FOODS_3_586,1.0,9.0,MLP,0.02501432461963306,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.23946007651303725,0.1
+WI_1_FOODS_3_694,1.0,9.0,MLP,0.027861391149858878,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 72), ('layer2', 18), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.6033079290209986,0.1
+CA_1_FOODS_3_228,1.0,9.0,LGBM,0.050291566312931704,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-1.3949444882279995,0.1
+CA_1_FOODS_3_252,1.0,9.0,LGBM,0.025123490830335188,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.5288859823041074,0.1
+CA_1_FOODS_3_377,1.0,9.0,LGBM,0.030558760198192512,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-1.8430821093771477,0.1
+CA_1_FOODS_3_555,1.0,9.0,LGBM,0.039734280008667536,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-1.2060199407387264,0.1
+CA_1_FOODS_3_586,1.0,9.0,LGBM,0.02625542041637719,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.6692090666370543,0.1
+CA_1_FOODS_3_694,1.0,9.0,LGBM,0.04646321566992959,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-2.0417416898087506,0.1
+CA_3_FOODS_3_228,1.0,9.0,LGBM,0.04415807439969973,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-1.2325655879516115,0.1
+CA_3_FOODS_3_252,1.0,9.0,LGBM,0.030728146031305113,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.01607991202317738,0.1
+CA_3_FOODS_3_377,1.0,9.0,LGBM,0.04716144213516582,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-1.3303300819728987,0.1
+CA_3_FOODS_3_555,1.0,9.0,LGBM,0.0456642533503363,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.5709236894498682,0.1
+CA_3_FOODS_3_586,1.0,9.0,LGBM,0.036326045748794764,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.18655161115646512,0.1
+CA_3_FOODS_3_694,1.0,9.0,LGBM,0.041281154101110426,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-1.3187712090836485,0.1
+TX_2_FOODS_3_228,1.0,9.0,LGBM,0.04118562156343728,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-2.0055995517619,0.1
+TX_2_FOODS_3_252,1.0,9.0,LGBM,0.02704070778668422,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.396777351601417,0.1
+TX_2_FOODS_3_377,1.0,9.0,LGBM,0.05147694953807668,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-3.351259130765726,0.1
+TX_2_FOODS_3_555,1.0,9.0,LGBM,0.023495142825841444,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.31201376470270725,0.1
+TX_2_FOODS_3_586,1.0,9.0,LGBM,0.028097082833820872,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.34472505804982156,0.1
+TX_2_FOODS_3_694,1.0,9.0,LGBM,0.028027405934623367,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.33165597170291705,0.1
+WI_1_FOODS_3_228,1.0,9.0,LGBM,0.04958167661809333,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.5512461352748839,0.1
+WI_1_FOODS_3_252,1.0,9.0,LGBM,0.03034427651125558,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.4198908590344439,0.1
+WI_1_FOODS_3_377,1.0,9.0,LGBM,0.10677191536372647,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.4183625971915854,0.1
+WI_1_FOODS_3_555,1.0,9.0,LGBM,0.027770470778056854,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",0.08028978498478379,0.1
+WI_1_FOODS_3_586,1.0,9.0,LGBM,0.028262951143589343,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.40042955864667884,0.1
+WI_1_FOODS_3_694,1.0,9.0,LGBM,0.02650415796653206,"OrderedDict([('learning_rate', 0.05), ('max_depth', 4), ('min_data_in_leaf', 100), ('n_estimators', 500), ('num_leaves', 63)])",-0.5252047678165257,0.1
+CA_1_FOODS_3_228,1.0,9.0,RFW,0.01747225893419185,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.16795014951492238,0.1
+CA_1_FOODS_3_252,1.0,9.0,RFW,0.011966317409003007,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.27179168412631705,0.1
+CA_1_FOODS_3_377,1.0,9.0,RFW,0.011206613781714187,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",-0.04262486248952979,0.1
+CA_1_FOODS_3_555,1.0,9.0,RFW,0.01205464091139353,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.33073461446443464,0.1
+CA_1_FOODS_3_586,1.0,9.0,RFW,0.011049809055864954,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.29749967175718783,0.1
+CA_1_FOODS_3_694,1.0,9.0,RFW,0.014171735312429535,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.07223902833204243,0.1
+CA_3_FOODS_3_228,1.0,9.0,RFW,0.018662252774193387,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.05646466917493198,0.1
+CA_3_FOODS_3_252,1.0,9.0,RFW,0.01909866441338841,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.36846924519475577,0.1
+CA_3_FOODS_3_377,1.0,9.0,RFW,0.01757153732987656,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.13175933193551148,0.1
+CA_3_FOODS_3_555,1.0,9.0,RFW,0.019854693838678633,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.31696662904650563,0.1
+CA_3_FOODS_3_586,1.0,9.0,RFW,0.0161612617404818,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.4721095907575833,0.1
+CA_3_FOODS_3_694,1.0,9.0,RFW,0.014973702066612237,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.15892396902433426,0.1
+TX_2_FOODS_3_228,1.0,9.0,RFW,0.01259214101783515,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.08106441126223674,0.1
+TX_2_FOODS_3_252,1.0,9.0,RFW,0.01502023280273381,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.2241356565019168,0.1
+TX_2_FOODS_3_377,1.0,9.0,RFW,0.015211849829557087,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",-0.2858318346493536,0.1
+TX_2_FOODS_3_555,1.0,9.0,RFW,0.014034103801678396,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.2163087707295427,0.1
+TX_2_FOODS_3_586,1.0,9.0,RFW,0.012562622541772202,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.3987534781935461,0.1
+TX_2_FOODS_3_694,1.0,9.0,RFW,0.014902623512568084,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.29193705472271103,0.1
+WI_1_FOODS_3_228,1.0,9.0,RFW,0.01889180133775999,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.40893822451161743,0.1
+WI_1_FOODS_3_252,1.0,9.0,RFW,0.020805914942654304,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.026434905114150586,0.1
+WI_1_FOODS_3_377,1.0,9.0,RFW,0.022041949369702902,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.7071938210654376,0.1
+WI_1_FOODS_3_555,1.0,9.0,RFW,0.027289095722124672,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.09623209866511839,0.1
+WI_1_FOODS_3_586,1.0,9.0,RFW,0.018081805449844536,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.1040463291674143,0.1
+WI_1_FOODS_3_694,1.0,9.0,RFW,0.013797495272621122,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 8), ('n_estimators', 250)])",0.2060111624636074,0.1
+CA_1_FOODS_3_228,1.0,9.0,KNNW,0.016180026343568278,"OrderedDict([('n_neighbors', 128)])",0.22948780974935268,0.1
+CA_1_FOODS_3_252,1.0,9.0,KNNW,0.014611034481352746,"OrderedDict([('n_neighbors', 128)])",0.11084785325574342,0.1
+CA_1_FOODS_3_377,1.0,9.0,KNNW,0.011095534135276348,"OrderedDict([('n_neighbors', 128)])",-0.03229039363493169,0.1
+CA_1_FOODS_3_555,1.0,9.0,KNNW,0.014957014860512445,"OrderedDict([('n_neighbors', 128)])",0.16959680585584114,0.1
+CA_1_FOODS_3_586,1.0,9.0,KNNW,0.012093346543943145,"OrderedDict([('n_neighbors', 128)])",0.2311559526754987,0.1
+CA_1_FOODS_3_694,1.0,9.0,KNNW,0.013631426983895401,"OrderedDict([('n_neighbors', 128)])",0.10761063024458062,0.1
+CA_3_FOODS_3_228,1.0,9.0,KNNW,0.017560774587806187,"OrderedDict([('n_neighbors', 128)])",0.11215374367008557,0.1
+CA_3_FOODS_3_252,1.0,9.0,KNNW,0.02050325890980853,"OrderedDict([('n_neighbors', 128)])",0.3220238706219841,0.1
+CA_3_FOODS_3_377,1.0,9.0,KNNW,0.01657194651746483,"OrderedDict([('n_neighbors', 128)])",0.18115087796056162,0.1
+CA_3_FOODS_3_555,1.0,9.0,KNNW,0.020138719388591235,"OrderedDict([('n_neighbors', 128)])",0.3071956937518098,0.1
+CA_3_FOODS_3_586,1.0,9.0,KNNW,0.020221867444722576,"OrderedDict([('n_neighbors', 128)])",0.33947422840747454,0.1
+CA_3_FOODS_3_694,1.0,9.0,KNNW,0.015799101515219027,"OrderedDict([('n_neighbors', 128)])",0.11256110637918693,0.1
+TX_2_FOODS_3_228,1.0,9.0,KNNW,0.012780120257487164,"OrderedDict([('n_neighbors', 128)])",0.06734626650707265,0.1
+TX_2_FOODS_3_252,1.0,9.0,KNNW,0.01578798660667059,"OrderedDict([('n_neighbors', 128)])",0.18447762930069067,0.1
+TX_2_FOODS_3_377,1.0,9.0,KNNW,0.013664170553334964,"OrderedDict([('n_neighbors', 128)])",-0.15500913356491752,0.1
+TX_2_FOODS_3_555,1.0,9.0,KNNW,0.014211293826287929,"OrderedDict([('n_neighbors', 128)])",0.20641414046579187,0.1
+TX_2_FOODS_3_586,1.0,9.0,KNNW,0.013593452456099442,"OrderedDict([('n_neighbors', 128)])",0.34941800715615356,0.1
+TX_2_FOODS_3_694,1.0,9.0,KNNW,0.015704155577176318,"OrderedDict([('n_neighbors', 128)])",0.25385415247921916,0.1
+WI_1_FOODS_3_228,1.0,9.0,KNNW,0.018146562927565286,"OrderedDict([('n_neighbors', 128)])",0.4322542614536008,0.1
+WI_1_FOODS_3_252,1.0,9.0,KNNW,0.022886824672538962,"OrderedDict([('n_neighbors', 128)])",-0.07093649548072234,0.1
+WI_1_FOODS_3_377,1.0,9.0,KNNW,0.03313015357658213,"OrderedDict([('n_neighbors', 128)])",0.5598976518107758,0.1
+WI_1_FOODS_3_555,1.0,9.0,KNNW,0.030638084164869878,"OrderedDict([('n_neighbors', 128)])",-0.014680636858056095,0.1
+WI_1_FOODS_3_586,1.0,9.0,KNNW,0.0178218520609825,"OrderedDict([('n_neighbors', 128)])",0.11692702261599441,0.1
+WI_1_FOODS_3_694,1.0,9.0,KNNW,0.015579647789617264,"OrderedDict([('n_neighbors', 128)])",0.10345564950103525,0.1
+CA_1_FOODS_3_228,1.0,9.0,DTW,0.01761309646162743,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.16124329815203753,0.1
+CA_1_FOODS_3_252,1.0,9.0,DTW,0.013286294595874354,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.19146468531880745,0.1
+CA_1_FOODS_3_377,1.0,9.0,DTW,0.01200701381724592,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.11709133320386544,0.1
+CA_1_FOODS_3_555,1.0,9.0,DTW,0.013840053050243701,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.2316097585495599,0.1
+CA_1_FOODS_3_586,1.0,9.0,DTW,0.011397807124847944,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.27537541997578185,0.1
+CA_1_FOODS_3_694,1.0,9.0,DTW,0.011227467548977842,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.26498724588270584,0.1
+CA_3_FOODS_3_228,1.0,9.0,DTW,0.017564833766432215,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.11194851772581571,0.1
+CA_3_FOODS_3_252,1.0,9.0,DTW,0.018609509871462312,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.3846439959727447,0.1
+CA_3_FOODS_3_377,1.0,9.0,DTW,0.02071382809635468,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.02350680005517236,0.1
+CA_3_FOODS_3_555,1.0,9.0,DTW,0.017702223444409,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.3910150692401032,0.1
+CA_3_FOODS_3_586,1.0,9.0,DTW,0.017307084425184936,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.43468251262097557,0.1
+CA_3_FOODS_3_694,1.0,9.0,DTW,0.01437841380224512,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.19236143749091272,0.1
+TX_2_FOODS_3_228,1.0,9.0,DTW,0.013493205181410076,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.015307529531604858,0.1
+TX_2_FOODS_3_252,1.0,9.0,DTW,0.015621912026987214,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.19305614778505864,0.1
+TX_2_FOODS_3_377,1.0,9.0,DTW,0.014652886935495633,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",-0.23858365039661167,0.1
+TX_2_FOODS_3_555,1.0,9.0,DTW,0.015444831170200988,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.13753105316194658,0.1
+TX_2_FOODS_3_586,1.0,9.0,DTW,0.013371551106231849,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.3600381952855365,0.1
+TX_2_FOODS_3_694,1.0,9.0,DTW,0.015499061461822302,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.263598714787603,0.1
+WI_1_FOODS_3_228,1.0,9.0,DTW,0.019841772481524026,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.37921677969769074,0.1
+WI_1_FOODS_3_252,1.0,9.0,DTW,0.019268629718945694,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.09836864313103555,0.1
+WI_1_FOODS_3_377,1.0,9.0,DTW,0.039616724088773765,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.4737297773543053,0.1
+WI_1_FOODS_3_555,1.0,9.0,DTW,0.025254732788714002,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.16360669904043945,0.1
+WI_1_FOODS_3_586,1.0,9.0,DTW,0.01631015183646763,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.1918317863636978,0.1
+WI_1_FOODS_3_694,1.0,9.0,DTW,0.013915428866188921,"OrderedDict([('max_depth', 6), ('min_samples_split', 64)])",0.19922457149088235,0.1
+CA_1_FOODS_3_228,1.0,9.0,GKW,0.023273688143360498,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.10832084236251127,0.1
+CA_1_FOODS_3_252,1.0,9.0,GKW,0.014156330127240435,"OrderedDict([('kernel_bandwidth', 2.0)])",0.13851881338583616,0.1
+CA_1_FOODS_3_377,1.0,9.0,GKW,0.013920962299697793,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.295158527469499,0.1
+CA_1_FOODS_3_555,1.0,9.0,GKW,0.015117458680327907,"OrderedDict([('kernel_bandwidth', 2.0)])",0.1606890751557003,0.1
+CA_1_FOODS_3_586,1.0,9.0,GKW,0.011662850004336487,"OrderedDict([('kernel_bandwidth', 2.0)])",0.25852510981225063,0.1
+CA_1_FOODS_3_694,1.0,9.0,GKW,0.018355754107801638,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.20167021831235799,0.1
+CA_3_FOODS_3_228,1.0,9.0,GKW,0.017365221440196987,"OrderedDict([('kernel_bandwidth', 2.0)])",0.12204061563864432,0.1
+CA_3_FOODS_3_252,1.0,9.0,GKW,0.018364785336726586,"OrderedDict([('kernel_bandwidth', 2.0)])",0.39273624089604275,0.1
+CA_3_FOODS_3_377,1.0,9.0,GKW,0.015275024525673553,"OrderedDict([('kernel_bandwidth', 2.0)])",0.24523408226083632,0.1
+CA_3_FOODS_3_555,1.0,9.0,GKW,0.01998315667378692,"OrderedDict([('kernel_bandwidth', 2.0)])",0.3125473011022326,0.1
+CA_3_FOODS_3_586,1.0,9.0,GKW,0.018492649327050692,"OrderedDict([('kernel_bandwidth', 2.0)])",0.3959572972708836,0.1
+CA_3_FOODS_3_694,1.0,9.0,GKW,0.017277302705049964,"OrderedDict([('kernel_bandwidth', 2.0)])",0.029530231035491794,0.1
+TX_2_FOODS_3_228,1.0,9.0,GKW,0.014882666601307517,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.08609107663976867,0.1
+TX_2_FOODS_3_252,1.0,9.0,GKW,0.014718474758210712,"OrderedDict([('kernel_bandwidth', 2.0)])",0.23972285213223787,0.1
+TX_2_FOODS_3_377,1.0,9.0,GKW,0.02174217053499522,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.8378287546561993,0.1
+TX_2_FOODS_3_555,1.0,9.0,GKW,0.013467868209641586,"OrderedDict([('kernel_bandwidth', 2.0)])",0.24792845043626843,0.1
+TX_2_FOODS_3_586,1.0,9.0,GKW,0.013713687685943872,"OrderedDict([('kernel_bandwidth', 2.0)])",0.3436635547317345,0.1
+TX_2_FOODS_3_694,1.0,9.0,GKW,0.015746210631631098,"OrderedDict([('kernel_bandwidth', 2.0)])",0.251856005931671,0.1
+WI_1_FOODS_3_228,1.0,9.0,GKW,0.016315192743764174,"OrderedDict([('kernel_bandwidth', 2.0)])",0.4895517574975814,0.1
+WI_1_FOODS_3_252,1.0,9.0,GKW,0.0221820406758295,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.037957743980407965,0.1
+WI_1_FOODS_3_377,1.0,9.0,GKW,0.04301440831516018,"OrderedDict([('kernel_bandwidth', 2.0)])",0.4285947977357648,0.1
+WI_1_FOODS_3_555,1.0,9.0,GKW,0.031150339505602663,"OrderedDict([('kernel_bandwidth', 2.0)])",-0.03164565244361506,0.1
+WI_1_FOODS_3_586,1.0,9.0,GKW,0.018196903515691497,"OrderedDict([('kernel_bandwidth', 2.0)])",0.09834321866291529,0.1
+WI_1_FOODS_3_694,1.0,9.0,GKW,0.017338007490589342,"OrderedDict([('kernel_bandwidth', 2.0)])",0.002269314781571441,0.1

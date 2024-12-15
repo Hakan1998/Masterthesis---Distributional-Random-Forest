@@ -24,7 +24,6 @@ ddop2==0.0.8
 debugpy==1.8.7
 decorator==5.1.1
 defusedxml==0.7.1
-drf==0.1
 exceptiongroup==1.2.2
 executing==2.1.0
 faiss-cpu==1.8.0.post1

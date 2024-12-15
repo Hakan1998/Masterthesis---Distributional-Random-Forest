@@ -1,5 +1,6 @@
 from scripts.shared_imports import *
 import scripts.config as config
+bin_sizes = config.bin_sizes
 
 
 # Pinball loss function for quantile regression
@@ -18,8 +19,6 @@ def get_grid(estimator_name, n_features):
     kernel_bandwidth_values = np.arange(1.0, np.sqrt(n_features / 2) + 0.5, 0.5).tolist()
 
     sqrt_n_features = math.sqrt(n_features)
-
-    bin_sizes = config.bin_sizes 
 
     layer1_values = [
         int(0.5 * n_features),
@@ -44,7 +43,7 @@ def get_grid(estimator_name, n_features):
         "RFW": {
             "max_depth": Categorical([None, 2, 4, 8, 10]),  # Diskrete Werte bleiben unverändert
             "min_samples_split": Categorical ([2, 4 ,8, 16, 32, 64]),  # Diskrete Werte mit feineren Abstufungen
-            "n_estimators": Categorical([10, 20, 50, 100]),  # Diskrete Werte für n_estimators mit kleineren Schritten
+            "n_estimators": Categorical([10, 20, 50, 100, 250, 500]),  # Diskrete Werte für n_estimators mit kleineren Schritten
             "max_features": Categorical([None, 'sqrt'])  # Diskrete Wahl bleibt unverändert
         },
         "KNNW": {
@@ -63,17 +62,17 @@ def get_grid(estimator_name, n_features):
             'early_stopping': Categorical([True])  # Diskret, da True oder False
         },
         "DRF": {
-            "min_node_size": Categorical([1, 2, 4, 8, 16, 32, 64, 128]),  # Kontinuierlicher Bereich für min_node_size
-            "num_trees": Categorical([50, 100, 250, 500]),  # Kontinuierlicher Bereich für Anzahl der Bäume
-            "num_features": Categorical([n_features, int(sqrt_n_features)])  # R Wrapper from drf doesnt accept "sqrt" etc. so we have to calculate it 
+            "min_node_size": Categorical([2, 4 ,8, 16, 32, 64]),  # Kontinuierlicher Bereich für min_node_size
+            "num_trees": Categorical([10, 20, 50, 100, 250, 500]),  # Kontinuierlicher Bereich für Anzahl der Bäume
+            "num_features": Categorical([n_features, int(sqrt_n_features)])  # Quadratwurzel von n_features als Option
         },
         "LevelSetKDEx_groupsplit": {"binSize": bin_sizes, "weightsByDistance": [True, False]},
         "LGBM": {
             'num_leaves': Categorical([31, 63, 127]),  # Diskrete Werte mit kleineren Schritten für num_leaves
             'min_data_in_leaf': Categorical([20, 50, 100, 500]),  # Diskrete Werte für min_data_in_leaf
-            'max_depth': Categorical([3,5,7, -1]),  # Diskrete Werte für max_depth
+            'max_depth': Categorical([ 2, 4, 8, 10 -1]),  # Diskrete Werte für max_depth
             'learning_rate': Categorical([0.01, 0.05, 0.1]),  # Diskrete Werte für learning_rate
-            'n_estimators': Categorical([100, 200, 500])  # Diskrete Werte für n_estimators
+            'n_estimators': Categorical([10, 20, 50, 100, 250, 500])  # Diskrete Werte für n_estimators
         }
     }
 

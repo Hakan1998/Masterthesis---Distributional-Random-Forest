@@ -1,0 +1,841 @@
+Variable,cu,co,Model,Pinball Loss,Best Params,delta C,sl
+Location_1_max_CO,9.0,1.0,SAA,0.088848797250859,,,0.9
+Location_1_max_CO,9.0,1.0,LS_KDEx_MLP,0.123840206185567,"{'binSize': 400, 'weightsByDistance': False}",-0.3938309804679949,0.9
+Location_1_max_CO,9.0,1.0,DRF,0.1283613974799541,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 100)])",-0.44471733384903,0.9
+Location_1_max_NO2,9.0,1.0,SAA,2.2273539518900347,,,0.9
+Location_1_max_NO2,9.0,1.0,LS_KDEx_MLP,1.7001288659793812,"{'binSize': 400, 'weightsByDistance': False}",0.2367046716860037,0.9
+Location_1_max_NO2,9.0,1.0,DRF,3.212818203110388,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 250)])",-0.4424372023962026,0.9
+Location_1_max_O3,9.0,1.0,SAA,0.0027195876288659,,,0.9
+Location_1_max_O3,9.0,1.0,LS_KDEx_MLP,0.001952147766323,"{'binSize': 400, 'weightsByDistance': False}",0.2821897902451352,0.9
+Location_1_max_O3,9.0,1.0,DRF,0.002398552121446,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 100)])",0.1180456566327896,0.9
+Location_1_max_PM10,9.0,1.0,SAA,3.04823883161512,,,0.9
+Location_1_max_PM10,9.0,1.0,LS_KDEx_MLP,2.498152920962199,"{'binSize': 100, 'weightsByDistance': False}",0.1804602398432986,0.9
+Location_1_max_PM10,9.0,1.0,DRF,2.637637667792307,"OrderedDict([('min_node_size', 8), ('num_features', 13), ('num_trees', 20)])",0.1347011131687652,0.9
+Location_1_max_PM2.5,9.0,1.0,SAA,1.1716680985108816,,,0.9
+Location_1_max_PM2.5,9.0,1.0,LS_KDEx_MLP,1.3431386025200456,"{'binSize': 100, 'weightsByDistance': False}",-0.146347335245444,0.9
+Location_1_max_PM2.5,9.0,1.0,DRF,1.2176113051546902,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 20)])",-0.0392117927442077,0.9
+Location_1_max_SO2,9.0,1.0,SAA,0.3659278350515463,,,0.9
+Location_1_max_SO2,9.0,1.0,LS_KDEx_MLP,0.3995103092783505,"{'binSize': 100, 'weightsByDistance': False}",-0.0917734892238344,0.9
+Location_1_max_SO2,9.0,1.0,DRF,0.3433601974238944,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 100)])",0.0616723721617759,0.9
+Location_2_max_CO,9.0,1.0,SAA,0.0613441330998248,,,0.9
+Location_2_max_CO,9.0,1.0,LS_KDEx_MLP,0.0538222416812609,"{'binSize': 400, 'weightsByDistance': False}",0.1226179430447504,0.9
+Location_2_max_CO,9.0,1.0,DRF,0.0605297723292469,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 100)])",0.0132752837056598,0.9
+Location_2_max_NO2,9.0,1.0,SAA,1.9885989492119085,,,0.9
+Location_2_max_NO2,9.0,1.0,LS_KDEx_MLP,2.1133296847635723,"{'binSize': 400, 'weightsByDistance': False}",-0.0627229213819584,0.9
+Location_2_max_NO2,9.0,1.0,DRF,2.2973999617601413,"OrderedDict([('min_node_size', 8), ('num_features', 13), ('num_trees', 50)])",-0.1552857164440382,0.9
+Location_2_max_O3,9.0,1.0,SAA,0.0029487302977232,,,0.9
+Location_2_max_O3,9.0,1.0,LS_KDEx_MLP,0.0017225919439579,"{'binSize': 400, 'weightsByDistance': False}",0.4158190915974996,0.9
+Location_2_max_O3,9.0,1.0,DRF,0.0024205922613407,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 500)])",0.1791069318175152,0.9
+Location_2_max_PM10,9.0,1.0,SAA,1.7785135726795094,,,0.9
+Location_2_max_PM10,9.0,1.0,LS_KDEx_MLP,1.6285938412142438,"{'binSize': 100, 'weightsByDistance': False}",0.084294960560462,0.9
+Location_2_max_PM10,9.0,1.0,DRF,1.5447053758199576,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 500)])",0.1314627003421156,0.9
+Location_2_max_PM2.5,9.0,1.0,SAA,1.0752765615878574,,,0.9
+Location_2_max_PM2.5,9.0,1.0,LS_KDEx_MLP,1.4017863397548158,"{'binSize': 400, 'weightsByDistance': False}",-0.3036519067102163,0.9
+Location_2_max_PM2.5,9.0,1.0,DRF,1.1307272194734357,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 500)])",-0.0515687404212494,0.9
+Location_2_max_SO2,9.0,1.0,SAA,0.7147351138353765,,,0.9
+Location_2_max_SO2,9.0,1.0,LS_KDEx_MLP,0.6175985113835376,"{'binSize': 100, 'weightsByDistance': False}",0.1359057370647276,0.9
+Location_2_max_SO2,9.0,1.0,DRF,0.5716332792949489,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 500)])",0.2002166002066437,0.9
+Location_3_max_CO,9.0,1.0,SAA,0.0510186335403726,,,0.9
+Location_3_max_CO,9.0,1.0,LS_KDEx_MLP,0.0531180124223602,"{'binSize': 100, 'weightsByDistance': False}",-0.0411492573654737,0.9
+Location_3_max_CO,9.0,1.0,DRF,0.0556149068322981,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 250)])",-0.0900900900900898,0.9
+Location_3_max_NO2,9.0,1.0,SAA,2.0906832298136644,,,0.9
+Location_3_max_NO2,9.0,1.0,LS_KDEx_MLP,2.1421987577639747,"{'binSize': 400, 'weightsByDistance': False}",-0.0246405228758168,0.9
+Location_3_max_NO2,9.0,1.0,DRF,2.4751180658010177,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 250)])",-0.1838800017645985,0.9
+Location_3_max_O3,9.0,1.0,SAA,0.0023793788819875,,,0.9
+Location_3_max_O3,9.0,1.0,LS_KDEx_MLP,0.0025468322981366,"{'binSize': 400, 'weightsByDistance': False}",-0.0703769447634956,0.9
+Location_3_max_O3,9.0,1.0,DRF,0.0023641008822767,"OrderedDict([('min_node_size', 8), ('num_features', 13), ('num_trees', 20)])",0.0064210033242199,0.9
+Location_3_max_PM10,9.0,1.0,SAA,2.226583850931677,,,0.9
+Location_3_max_PM10,9.0,1.0,LS_KDEx_MLP,2.691490683229813,"{'binSize': 100, 'weightsByDistance': False}",-0.2087982593171164,0.9
+Location_3_max_PM10,9.0,1.0,DRF,2.0468555873091474,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 250)])",0.0807192882259184,0.9
+Location_3_max_PM2.5,9.0,1.0,SAA,0.9476853002070392,,,0.9
+Location_3_max_PM2.5,9.0,1.0,LS_KDEx_MLP,0.9444368530020704,"{'binSize': 400, 'weightsByDistance': False}",0.0034277699614622,0.9
+Location_3_max_PM2.5,9.0,1.0,DRF,0.9444233670524148,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 100)])",0.003442000370705,0.9
+Location_3_max_SO2,9.0,1.0,SAA,0.5900993788819876,,,0.9
+Location_3_max_SO2,9.0,1.0,LS_KDEx_MLP,0.6672919254658385,"{'binSize': 100, 'weightsByDistance': False}",-0.1308127907711092,0.9
+Location_3_max_SO2,9.0,1.0,DRF,0.6050384385653146,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 500)])",-0.0253161759153699,0.9
+Location_4_max_CO,9.0,1.0,SAA,0.1619691470054446,,,0.9
+Location_4_max_CO,9.0,1.0,LS_KDEx_MLP,0.1194804900181488,"{'binSize': 400, 'weightsByDistance': False}",0.2623256204829404,0.9
+Location_4_max_CO,9.0,1.0,DRF,0.1383363221271569,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 50)])",0.1459094235860444,0.9
+Location_4_max_NO2,9.0,1.0,SAA,2.6262840290381115,,,0.9
+Location_4_max_NO2,9.0,1.0,LS_KDEx_MLP,2.102318511796733,"{'binSize': 100, 'weightsByDistance': False}",0.1995083210528768,0.9
+Location_4_max_NO2,9.0,1.0,DRF,2.0255210279941664,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 100)])",0.2287502015781504,0.9
+Location_4_max_O3,9.0,1.0,SAA,0.0032378856624319,,,0.9
+Location_4_max_O3,9.0,1.0,LS_KDEx_MLP,0.0023202359346642,"{'binSize': 400, 'weightsByDistance': False}",0.2834101705365525,0.9
+Location_4_max_O3,9.0,1.0,DRF,0.0025914117189525,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 50)])",0.1996592872256732,0.9
+Location_4_max_PM10,9.0,1.0,SAA,5.573570780399274,,,0.9
+Location_4_max_PM10,9.0,1.0,LS_KDEx_MLP,3.67361615245009,"{'binSize': 100, 'weightsByDistance': False}",0.3408864268182985,0.9
+Location_4_max_PM10,9.0,1.0,DRF,3.4813091437581427,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 500)])",0.3753898028888489,0.9
+Location_4_max_PM2.5,9.0,1.0,SAA,2.675910465819721,,,0.9
+Location_4_max_PM2.5,9.0,1.0,LS_KDEx_MLP,3.33856170598911,"{'binSize': 20, 'weightsByDistance': False}",-0.2476358041995983,0.9
+Location_4_max_PM2.5,9.0,1.0,DRF,2.448871708192046,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 100)])",0.0848454238389945,0.9
+Location_4_max_SO2,9.0,1.0,SAA,0.2829310344827586,,,0.9
+Location_4_max_SO2,9.0,1.0,LS_KDEx_MLP,0.2870553539019963,"{'binSize': 400, 'weightsByDistance': False}",-0.014577119214856,0.9
+Location_4_max_SO2,9.0,1.0,DRF,0.2753155407542286,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 500)])",0.0269164312160109,0.9
+Location_5_max_CO,9.0,1.0,SAA,0.05498224852071,,,0.9
+Location_5_max_CO,9.0,1.0,LS_KDEx_MLP,0.0488639053254437,"{'binSize': 400, 'weightsByDistance': False}",0.1112785191562634,0.9
+Location_5_max_CO,9.0,1.0,DRF,0.051775147928994,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 50)])",0.0583297460180801,0.9
+Location_5_max_NO2,9.0,1.0,SAA,1.9373964497041416,,,0.9
+Location_5_max_NO2,9.0,1.0,LS_KDEx_MLP,1.76091124260355,"{'binSize': 100, 'weightsByDistance': False}",0.0910940076965365,0.9
+Location_5_max_NO2,9.0,1.0,DRF,1.8854315466368148,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 500)])",0.0268220286432662,0.9
+Location_5_max_O3,9.0,1.0,SAA,0.0025007100591715,,,0.9
+Location_5_max_O3,9.0,1.0,LS_KDEx_MLP,0.0022973964497041,"{'binSize': 400, 'weightsByDistance': False}",0.0813023519946999,0.9
+Location_5_max_O3,9.0,1.0,DRF,0.0024869064935064,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 250)])",0.0055198584955817,0.9
+Location_5_max_PM10,9.0,1.0,SAA,1.4038461538461535,,,0.9
+Location_5_max_PM10,9.0,1.0,LS_KDEx_MLP,1.3347337278106508,"{'binSize': 400, 'weightsByDistance': False}",0.0492307692307691,0.9
+Location_5_max_PM10,9.0,1.0,DRF,1.3251474228506406,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 250)])",0.0560593700242011,0.9
+Location_5_max_PM2.5,9.0,1.0,SAA,0.852067061143984,,,0.9
+Location_5_max_PM2.5,9.0,1.0,LS_KDEx_MLP,0.8250355029585799,"{'binSize': 400, 'weightsByDistance': False}",0.0317246839105734,0.9
+Location_5_max_PM2.5,9.0,1.0,DRF,0.7879464309490455,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 250)])",0.0752530324418951,0.9
+Location_5_max_SO2,9.0,1.0,SAA,0.3246627218934911,,,0.9
+Location_5_max_SO2,9.0,1.0,LS_KDEx_MLP,0.2169704142011834,"{'binSize': 100, 'weightsByDistance': False}",0.3317051833491289,0.9
+Location_5_max_SO2,9.0,1.0,DRF,0.2147021616756068,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 100)])",0.3386916723194293,0.9
+Location_6_max_CO,9.0,1.0,SAA,0.0493740458015267,,,0.9
+Location_6_max_CO,9.0,1.0,LS_KDEx_MLP,0.0451679389312977,"{'binSize': 400, 'weightsByDistance': False}",0.0851886209029069,0.9
+Location_6_max_CO,9.0,1.0,DRF,0.0436564885496183,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 250)])",0.115800865800866,0.9
+Location_6_max_NO2,9.0,1.0,SAA,1.7533435114503817,,,0.9
+Location_6_max_NO2,9.0,1.0,LS_KDEx_MLP,1.9230458015267171,"{'binSize': 400, 'weightsByDistance': False}",-0.0967878165163176,0.9
+Location_6_max_NO2,9.0,1.0,DRF,1.9315731617834069,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 250)])",-0.1016513017381242,0.9
+Location_6_max_O3,9.0,1.0,SAA,0.0028214122137404,,,0.9
+Location_6_max_O3,9.0,1.0,LS_KDEx_MLP,0.0016515267175572,"{'binSize': 400, 'weightsByDistance': False}",0.4146453646460409,0.9
+Location_6_max_O3,9.0,1.0,DRF,0.0019433587786259,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 50)])",0.3112106167394921,0.9
+Location_6_max_PM10,9.0,1.0,SAA,2.216005089058524,,,0.9
+Location_6_max_PM10,9.0,1.0,LS_KDEx_MLP,2.4108524173027988,"{'binSize': 400, 'weightsByDistance': False}",-0.0879272927694658,0.9
+Location_6_max_PM10,9.0,1.0,DRF,2.2206488344208446,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 250)])",-0.002095548148896,0.9
+Location_6_max_PM2.5,9.0,1.0,SAA,0.8883276081424936,,,0.9
+Location_6_max_PM2.5,9.0,1.0,LS_KDEx_MLP,0.9145896946564884,"{'binSize': 400, 'weightsByDistance': False}",-0.0295635149389417,0.9
+Location_6_max_PM2.5,9.0,1.0,DRF,0.8269971901316924,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 50)])",0.069040315136714,0.9
+Location_6_max_SO2,9.0,1.0,SAA,0.3856106870229007,,,0.9
+Location_6_max_SO2,9.0,1.0,LS_KDEx_MLP,0.3708396946564885,"{'binSize': 400, 'weightsByDistance': False}",0.0383054538255962,0.9
+Location_6_max_SO2,9.0,1.0,DRF,0.3201111006104711,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 50)])",0.1698593649416662,0.9
+Location_1_max_CO,7.5,2.5,SAA,0.1536941580756013,,,0.75
+Location_1_max_CO,7.5,2.5,LS_KDEx_MLP,0.1400343642611684,"{'binSize': 400, 'weightsByDistance': False}",0.0888764673001675,0.75
+Location_1_max_CO,7.5,2.5,DRF,0.1370489690721649,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 100)])",0.10830072666294,0.75
+Location_1_max_NO2,7.5,2.5,SAA,4.564132302405498,,,0.75
+Location_1_max_NO2,7.5,2.5,LS_KDEx_MLP,3.16705326460481,"{'binSize': 400, 'weightsByDistance': False}",0.3060995924820946,0.75
+Location_1_max_NO2,7.5,2.5,DRF,5.474463306991844,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 250)])",-0.1994532463720566,0.75
+Location_1_max_O3,7.5,2.5,SAA,0.0053148625429553,,,0.75
+Location_1_max_O3,7.5,2.5,LS_KDEx_MLP,0.0039349226804123,"{'binSize': 400, 'weightsByDistance': False}",0.2596379212802069,0.75
+Location_1_max_O3,7.5,2.5,DRF,0.0050861254295532,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 20)])",0.043037258546836,0.75
+Location_1_max_PM10,7.5,2.5,SAA,4.664626288659794,,,0.75
+Location_1_max_PM10,7.5,2.5,LS_KDEx_MLP,4.071842783505154,"{'binSize': 100, 'weightsByDistance': False}",0.1270805994889151,0.75
+Location_1_max_PM10,7.5,2.5,DRF,4.225159641332321,"OrderedDict([('min_node_size', 8), ('num_features', 3), ('num_trees', 10)])",0.0942126164310018,0.75
+Location_1_max_PM2.5,7.5,2.5,SAA,1.6780963631156929,,,0.75
+Location_1_max_PM2.5,7.5,2.5,LS_KDEx_MLP,1.8562786368843067,"{'binSize': 20, 'weightsByDistance': False}",-0.1061811929785641,0.75
+Location_1_max_PM2.5,7.5,2.5,DRF,1.609908693841089,"OrderedDict([('min_node_size', 32), ('num_features', 3), ('num_trees', 20)])",0.0406339413953564,0.75
+Location_1_max_SO2,7.5,2.5,SAA,0.5378436426116838,,,0.75
+Location_1_max_SO2,7.5,2.5,LS_KDEx_MLP,0.5103951890034365,"{'binSize': 100, 'weightsByDistance': False}",0.0510342624391021,0.75
+Location_1_max_SO2,7.5,2.5,DRF,0.4797036082474227,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 50)])",0.108098394696909,0.75
+Location_2_max_CO,7.5,2.5,SAA,0.0826729422066549,,,0.75
+Location_2_max_CO,7.5,2.5,LS_KDEx_MLP,0.0785573555166374,"{'binSize': 100, 'weightsByDistance': False}",0.0497815437574472,0.75
+Location_2_max_CO,7.5,2.5,DRF,0.0860551663747811,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 500)])",-0.0409108963325832,0.75
+Location_2_max_NO2,7.5,2.5,SAA,3.635288966725044,,,0.75
+Location_2_max_NO2,7.5,2.5,LS_KDEx_MLP,3.6421519264448334,"{'binSize': 400, 'weightsByDistance': False}",-0.0018878718535468,0.75
+Location_2_max_NO2,7.5,2.5,DRF,3.988029611453447,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 500)])",-0.0970323536745361,0.75
+Location_2_max_O3,7.5,2.5,SAA,0.0054068520140105,,,0.75
+Location_2_max_O3,7.5,2.5,LS_KDEx_MLP,0.003248139229422,"{'binSize': 400, 'weightsByDistance': False}",0.3992550154867704,0.75
+Location_2_max_O3,7.5,2.5,DRF,0.0038487022943732,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 100)])",0.2881805745005938,0.75
+Location_2_max_PM10,7.5,2.5,SAA,2.773013353765324,,,0.75
+Location_2_max_PM10,7.5,2.5,LS_KDEx_MLP,2.6487977962638647,"{'binSize': 100, 'weightsByDistance': False}",0.0447944317804288,0.75
+Location_2_max_PM10,7.5,2.5,DRF,2.646703801573346,"OrderedDict([('min_node_size', 16), ('num_features', 13), ('num_trees', 10)])",0.0455495650680762,0.75
+Location_2_max_PM2.5,7.5,2.5,SAA,1.7360569906596617,,,0.75
+Location_2_max_PM2.5,7.5,2.5,LS_KDEx_MLP,2.0556005545826035,"{'binSize': 400, 'weightsByDistance': False}",-0.1840628306801857,0.75
+Location_2_max_PM2.5,7.5,2.5,DRF,1.6802312531651022,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 20)])",0.0321566272276273,0.75
+Location_2_max_SO2,7.5,2.5,SAA,0.8303250875656742,,,0.75
+Location_2_max_SO2,7.5,2.5,LS_KDEx_MLP,0.7558833187390543,"{'binSize': 400, 'weightsByDistance': False}",0.0896537632565894,0.75
+Location_2_max_SO2,7.5,2.5,DRF,0.7763492197619867,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 20)])",0.0650057051292194,0.75
+Location_3_max_CO,7.5,2.5,SAA,0.0894099378881987,,,0.75
+Location_3_max_CO,7.5,2.5,LS_KDEx_MLP,0.0745341614906832,"{'binSize': 100, 'weightsByDistance': False}",0.1663772143105243,0.75
+Location_3_max_CO,7.5,2.5,DRF,0.0753416149068322,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 10)])",0.1573463007988884,0.75
+Location_3_max_NO2,7.5,2.5,SAA,3.8722981366459615,,,0.75
+Location_3_max_NO2,7.5,2.5,LS_KDEx_MLP,3.817919254658385,"{'binSize': 100, 'weightsByDistance': False}",0.0140430514564351,0.75
+Location_3_max_NO2,7.5,2.5,DRF,4.511418165685246,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 10)])",-0.1650492824896134,0.75
+Location_3_max_O3,7.5,2.5,SAA,0.0041173913043478,,,0.75
+Location_3_max_O3,7.5,2.5,LS_KDEx_MLP,0.0047472049689441,"{'binSize': 400, 'weightsByDistance': False}",-0.152964248001207,0.75
+Location_3_max_O3,7.5,2.5,DRF,0.0047232919254658,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",-0.1471564338512596,0.75
+Location_3_max_PM10,7.5,2.5,SAA,3.356211180124224,,,0.75
+Location_3_max_PM10,7.5,2.5,LS_KDEx_MLP,4.019254658385093,"{'binSize': 100, 'weightsByDistance': False}",-0.1975571388914592,0.75
+Location_3_max_PM10,7.5,2.5,DRF,3.185667092744729,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 10)])",0.050814468526138,0.75
+Location_3_max_PM2.5,7.5,2.5,SAA,1.5012163561076606,,,0.75
+Location_3_max_PM2.5,7.5,2.5,LS_KDEx_MLP,1.6037318840579708,"{'binSize': 400, 'weightsByDistance': False}",-0.0682883100315476,0.75
+Location_3_max_PM2.5,7.5,2.5,DRF,1.519229279610231,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 10)])",-0.0119988857230903,0.75
+Location_3_max_SO2,7.5,2.5,SAA,0.7265527950310559,,,0.75
+Location_3_max_SO2,7.5,2.5,LS_KDEx_MLP,0.7553416149068323,"{'binSize': 100, 'weightsByDistance': False}",-0.0396238512502671,0.75
+Location_3_max_SO2,7.5,2.5,DRF,0.7185980330768337,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 100)])",0.0109486358164545,0.75
+Location_4_max_CO,7.5,2.5,SAA,0.207815335753176,,,0.75
+Location_4_max_CO,7.5,2.5,LS_KDEx_MLP,0.1616322595281306,"{'binSize': 400, 'weightsByDistance': False}",0.2222313192511325,0.75
+Location_4_max_CO,7.5,2.5,DRF,0.1925380531069051,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 20)])",0.0735137404123814,0.75
+Location_4_max_NO2,7.5,2.5,SAA,5.113259981851179,,,0.75
+Location_4_max_NO2,7.5,2.5,LS_KDEx_MLP,3.5067944646098,"{'binSize': 100, 'weightsByDistance': False}",0.3141763812016814,0.75
+Location_4_max_NO2,7.5,2.5,DRF,3.869350870469772,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 100)])",0.2432712429636853,0.75
+Location_4_max_O3,7.5,2.5,SAA,0.0057380898366606,,,0.75
+Location_4_max_O3,7.5,2.5,LS_KDEx_MLP,0.00436694646098,"{'binSize': 400, 'weightsByDistance': False}",0.2389546721489712,0.75
+Location_4_max_O3,7.5,2.5,DRF,0.0046405399274047,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 50)])",0.1912744380967442,0.75
+Location_4_max_PM10,7.5,2.5,SAA,8.023990471869329,,,0.75
+Location_4_max_PM10,7.5,2.5,LS_KDEx_MLP,6.071971415607986,"{'binSize': 100, 'weightsByDistance': False}",0.2432728532149647,0.75
+Location_4_max_PM10,7.5,2.5,DRF,5.589385236840227,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 500)])",0.3034157684464347,0.75
+Location_4_max_PM2.5,7.5,2.5,SAA,3.368761343012704,,,0.75
+Location_4_max_PM2.5,7.5,2.5,LS_KDEx_MLP,3.7023669086509376,"{'binSize': 20, 'weightsByDistance': False}",-0.099029148007228,0.75
+Location_4_max_PM2.5,7.5,2.5,DRF,3.210865019882148,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 10)])",0.046870735873901,0.75
+Location_4_max_SO2,7.5,2.5,SAA,0.41002722323049,,,0.75
+Location_4_max_SO2,7.5,2.5,LS_KDEx_MLP,0.4175703266787659,"{'binSize': 400, 'weightsByDistance': False}",-0.0183965917893107,0.75
+Location_4_max_SO2,7.5,2.5,DRF,0.41012182108871,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 100)])",-0.0002307111646751,0.75
+Location_5_max_CO,7.5,2.5,SAA,0.1012426035502958,,,0.75
+Location_5_max_CO,7.5,2.5,LS_KDEx_MLP,0.0816863905325443,"{'binSize': 100, 'weightsByDistance': False}",0.1931618936294563,0.75
+Location_5_max_CO,7.5,2.5,DRF,0.0854437869822485,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 100)])",0.1560490940970192,0.75
+Location_5_max_NO2,7.5,2.5,SAA,3.3318343195266267,,,0.75
+Location_5_max_NO2,7.5,2.5,LS_KDEx_MLP,3.0276331360946744,"{'binSize': 100, 'weightsByDistance': False}",0.0913014136534772,0.75
+Location_5_max_NO2,7.5,2.5,DRF,3.055769412374286,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 250)])",0.0828567331617986,0.75
+Location_5_max_O3,7.5,2.5,SAA,0.0046017751479289,,,0.75
+Location_5_max_O3,7.5,2.5,LS_KDEx_MLP,0.004294674556213,"{'binSize': 400, 'weightsByDistance': False}",0.0667352449530668,0.75
+Location_5_max_O3,7.5,2.5,DRF,0.0041994082840236,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 250)])",0.0874373151600875,0.75
+Location_5_max_PM10,7.5,2.5,SAA,2.246301775147929,,,0.75
+Location_5_max_PM10,7.5,2.5,LS_KDEx_MLP,2.124112426035503,"{'binSize': 400, 'weightsByDistance': False}",0.0543957853144548,0.75
+Location_5_max_PM10,7.5,2.5,DRF,2.050324835420989,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 100)])",0.0872442616104124,0.75
+Location_5_max_PM2.5,7.5,2.5,SAA,1.3933333333333335,,,0.75
+Location_5_max_PM2.5,7.5,2.5,LS_KDEx_MLP,1.3428155818540433,"{'binSize': 400, 'weightsByDistance': False}",0.0362567594348973,0.75
+Location_5_max_PM2.5,7.5,2.5,DRF,1.279006969269478,"OrderedDict([('min_node_size', 8), ('num_features', 3), ('num_trees', 100)])",0.0820524143998961,0.75
+Location_5_max_SO2,7.5,2.5,SAA,0.3485207100591716,,,0.75
+Location_5_max_SO2,7.5,2.5,LS_KDEx_MLP,0.3158579881656804,"{'binSize': 100, 'weightsByDistance': False}",0.0937181663837013,0.75
+Location_5_max_SO2,7.5,2.5,DRF,0.3124260355029585,"OrderedDict([('min_node_size', 32), ('num_features', 3), ('num_trees', 10)])",0.1035653650254669,0.75
+Location_6_max_CO,7.5,2.5,SAA,0.0615267175572519,,,0.75
+Location_6_max_CO,7.5,2.5,LS_KDEx_MLP,0.0577099236641221,"{'binSize': 400, 'weightsByDistance': False}",0.0620347394540942,0.75
+Location_6_max_CO,7.5,2.5,DRF,0.0560496183206106,"OrderedDict([('min_node_size', 8), ('num_features', 13), ('num_trees', 20)])",0.0890198511166252,0.75
+Location_6_max_NO2,7.5,2.5,SAA,3.3905343511450385,,,0.75
+Location_6_max_NO2,7.5,2.5,LS_KDEx_MLP,3.23942748091603,"{'binSize': 400, 'weightsByDistance': False}",0.0445672730547552,0.75
+Location_6_max_NO2,7.5,2.5,DRF,3.355897193771024,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 250)])",0.0102158402737658,0.75
+Location_6_max_O3,7.5,2.5,SAA,0.0050764312977099,,,0.75
+Location_6_max_O3,7.5,2.5,LS_KDEx_MLP,0.0030948473282442,"{'binSize': 400, 'weightsByDistance': False}",0.3903498054547846,0.75
+Location_6_max_O3,7.5,2.5,DRF,0.003417748091603,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 20)])",0.326741978534238,0.75
+Location_6_max_PM10,7.5,2.5,SAA,3.418575063613232,,,0.75
+Location_6_max_PM10,7.5,2.5,LS_KDEx_MLP,3.726113231552164,"{'binSize': 400, 'weightsByDistance': False}",-0.0899609229624116,0.75
+Location_6_max_PM10,7.5,2.5,DRF,3.430157651834635,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 250)])",-0.0033881333613778,0.75
+Location_6_max_PM2.5,7.5,2.5,SAA,1.424740776081425,,,0.75
+Location_6_max_PM2.5,7.5,2.5,LS_KDEx_MLP,1.430936704834606,"{'binSize': 400, 'weightsByDistance': False}",-0.0043488112765481,0.75
+Location_6_max_PM2.5,7.5,2.5,DRF,1.353478658789804,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 100)])",0.0500176021406636,0.75
+Location_6_max_SO2,7.5,2.5,SAA,0.5034923664122137,,,0.75
+Location_6_max_SO2,7.5,2.5,LS_KDEx_MLP,0.4893511450381679,"{'binSize': 400, 'weightsByDistance': False}",0.0280862676723648,0.75
+Location_6_max_SO2,7.5,2.5,DRF,0.4497185067201271,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 50)])",0.1068017377805913,0.75
+Location_1_max_CO,5.0,5.0,SAA,0.1390034364261168,,,0.5
+Location_1_max_CO,5.0,5.0,LS_KDEx_MLP,0.1262457044673539,"{'binSize': 100, 'weightsByDistance': False}",0.0917799752781212,0.5
+Location_1_max_CO,5.0,5.0,DRF,0.1232388316151202,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 250)])",0.1134116192830656,0.5
+Location_1_max_NO2,5.0,5.0,SAA,6.651890034364261,,,0.5
+Location_1_max_NO2,5.0,5.0,LS_KDEx_MLP,4.196219931271477,"{'binSize': 100, 'weightsByDistance': False}",0.3691687761533295,0.5
+Location_1_max_NO2,5.0,5.0,DRF,6.417746754486445,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 10)])",0.0351995115175101,0.5
+Location_1_max_O3,5.0,5.0,SAA,0.0072001718213058,,,0.5
+Location_1_max_O3,5.0,5.0,LS_KDEx_MLP,0.005594501718213,"{'binSize': 400, 'weightsByDistance': False}",0.2230044147476434,0.5
+Location_1_max_O3,5.0,5.0,DRF,0.0070360824742268,"OrderedDict([('min_node_size', 8), ('num_features', 13), ('num_trees', 20)])",0.0227896432406632,0.5
+Location_1_max_PM10,5.0,5.0,SAA,4.947379725085911,,,0.5
+Location_1_max_PM10,5.0,5.0,LS_KDEx_MLP,4.879295532646048,"{'binSize': 100, 'weightsByDistance': False}",0.013761667028435,0.5
+Location_1_max_PM10,5.0,5.0,DRF,4.590167336264402,"OrderedDict([('min_node_size', 16), ('num_features', 3), ('num_trees', 10)])",0.0722023391514193,0.5
+Location_1_max_PM2.5,5.0,5.0,SAA,1.68840206185567,,,0.5
+Location_1_max_PM2.5,5.0,5.0,LS_KDEx_MLP,1.9083046964490264,"{'binSize': 20, 'weightsByDistance': False}",-0.130243050255262,0.5
+Location_1_max_PM2.5,5.0,5.0,DRF,1.5777413814302716,"OrderedDict([('min_node_size', 32), ('num_features', 3), ('num_trees', 20)])",0.0655416638758275,0.5
+Location_1_max_SO2,5.0,5.0,SAA,0.5196735395189003,,,0.5
+Location_1_max_SO2,5.0,5.0,LS_KDEx_MLP,0.4952749140893471,"{'binSize': 400, 'weightsByDistance': False}",0.0469499090758801,0.5
+Location_1_max_SO2,5.0,5.0,DRF,0.4786512027491408,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 50)])",0.0789386675483549,0.5
+Location_2_max_CO,5.0,5.0,SAA,0.0833406304728546,,,0.5
+Location_2_max_CO,5.0,5.0,LS_KDEx_MLP,0.0802539404553415,"{'binSize': 100, 'weightsByDistance': False}",0.0370370370370369,0.5
+Location_2_max_CO,5.0,5.0,DRF,0.0799693520140105,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 50)])",0.0404517993170475,0.5
+Location_2_max_NO2,5.0,5.0,SAA,4.561252189141857,,,0.5
+Location_2_max_NO2,5.0,5.0,LS_KDEx_MLP,4.205385288966726,"{'binSize': 400, 'weightsByDistance': False}",0.0780195624838019,0.5
+Location_2_max_NO2,5.0,5.0,DRF,4.524229676879536,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 500)])",0.0081167431063019,0.5
+Location_2_max_O3,5.0,5.0,SAA,0.0069923380035026,,,0.5
+Location_2_max_O3,5.0,5.0,LS_KDEx_MLP,0.0043688704028021,"{'binSize': 400, 'weightsByDistance': False}",0.3751917598071445,0.5
+Location_2_max_O3,5.0,5.0,DRF,0.0051104971666117,"OrderedDict([('min_node_size', 64), ('num_features', 3), ('num_trees', 10)])",0.269128986034174,0.5
+Location_2_max_PM10,5.0,5.0,SAA,3.042961908931699,,,0.5
+Location_2_max_PM10,5.0,5.0,LS_KDEx_MLP,2.9659953298307062,"{'binSize': 100, 'weightsByDistance': False}",0.0252933100723609,0.5
+Location_2_max_PM10,5.0,5.0,DRF,2.9129939197233896,"OrderedDict([('min_node_size', 16), ('num_features', 13), ('num_trees', 10)])",0.0427110141690657,0.5
+Location_2_max_PM2.5,5.0,5.0,SAA,1.9113871862230007,,,0.5
+Location_2_max_PM2.5,5.0,5.0,LS_KDEx_MLP,2.0784989784004666,"{'binSize': 400, 'weightsByDistance': False}",-0.087429586941873,0.5
+Location_2_max_PM2.5,5.0,5.0,DRF,1.8904528180613176,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 10)])",0.0109524476843703,0.5
+Location_2_max_SO2,5.0,5.0,SAA,0.7106282837127846,,,0.5
+Location_2_max_SO2,5.0,5.0,LS_KDEx_MLP,0.6976795096322241,"{'binSize': 100, 'weightsByDistance': False}",0.0182215855705991,0.5
+Location_2_max_SO2,5.0,5.0,DRF,0.6907997831980016,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 20)])",0.0279027741637104,0.5
+Location_3_max_CO,5.0,5.0,SAA,0.0722360248447205,,,0.5
+Location_3_max_CO,5.0,5.0,LS_KDEx_MLP,0.071055900621118,"{'binSize': 400, 'weightsByDistance': False}",0.0163370593293207,0.5
+Location_3_max_CO,5.0,5.0,DRF,0.0725465838509316,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 10)])",-0.0042992261392948,0.5
+Location_3_max_NO2,5.0,5.0,SAA,4.497577639751553,,,0.5
+Location_3_max_NO2,5.0,5.0,LS_KDEx_MLP,4.390372670807453,"{'binSize': 100, 'weightsByDistance': False}",0.0238361574898841,0.5
+Location_3_max_NO2,5.0,5.0,DRF,4.474837622005324,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",0.0050560589649955,0.5
+Location_3_max_O3,5.0,5.0,SAA,0.0046540372670807,,,0.5
+Location_3_max_O3,5.0,5.0,LS_KDEx_MLP,0.0063186335403726,"{'binSize': 400, 'weightsByDistance': False}",-0.3576671560122781,0.5
+Location_3_max_O3,5.0,5.0,DRF,0.0057006211180124,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 20)])",-0.224876551448018,0.5
+Location_3_max_PM10,5.0,5.0,SAA,3.8335403726708073,,,0.5
+Location_3_max_PM10,5.0,5.0,LS_KDEx_MLP,4.384472049689441,"{'binSize': 100, 'weightsByDistance': False}",-0.1437135450421256,0.5
+Location_3_max_PM10,5.0,5.0,DRF,3.5369565217391306,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 10)])",0.0773655217109525,0.5
+Location_3_max_PM2.5,5.0,5.0,SAA,1.6079503105590065,,,0.5
+Location_3_max_PM2.5,5.0,5.0,LS_KDEx_MLP,1.7838198757763974,"{'binSize': 400, 'weightsByDistance': False}",-0.109375,0.5
+Location_3_max_PM2.5,5.0,5.0,DRF,1.635758255627577,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 10)])",-0.0172940325866806,0.5
+Location_3_max_SO2,5.0,5.0,SAA,0.642360248447205,,,0.5
+Location_3_max_SO2,5.0,5.0,LS_KDEx_MLP,0.6308695652173913,"{'binSize': 100, 'weightsByDistance': False}",0.0178882227808934,0.5
+Location_3_max_SO2,5.0,5.0,DRF,0.6182608695652174,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 100)])",0.0375169212918197,0.5
+Location_4_max_CO,5.0,5.0,SAA,0.2045372050816696,,,0.5
+Location_4_max_CO,5.0,5.0,LS_KDEx_MLP,0.1534709618874773,"{'binSize': 400, 'weightsByDistance': False}",0.2496672582076308,0.5
+Location_4_max_CO,5.0,5.0,DRF,0.1938974591651542,"OrderedDict([('min_node_size', 32), ('num_features', 3), ('num_trees', 10)])",0.0520186335403725,0.5
+Location_4_max_NO2,5.0,5.0,SAA,6.916719600725953,,,0.5
+Location_4_max_NO2,5.0,5.0,LS_KDEx_MLP,4.317944646098003,"{'binSize': 100, 'weightsByDistance': False}",0.3757236240074257,0.5
+Location_4_max_NO2,5.0,5.0,DRF,5.272166569746618,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 10)])",0.2377648836316465,0.5
+Location_4_max_O3,5.0,5.0,SAA,0.0065700998185117,,,0.5
+Location_4_max_O3,5.0,5.0,LS_KDEx_MLP,0.0060269963702359,"{'binSize': 400, 'weightsByDistance': False}",0.0826628914747418,0.5
+Location_4_max_O3,5.0,5.0,DRF,0.0058906533575317,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",0.103414937329512,0.5
+Location_4_max_PM10,5.0,5.0,SAA,7.921619782214156,,,0.5
+Location_4_max_PM10,5.0,5.0,LS_KDEx_MLP,7.281420145190562,"{'binSize': 100, 'weightsByDistance': False}",0.0808167590245858,0.5
+Location_4_max_PM10,5.0,5.0,DRF,6.286070780399274,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 250)])",0.2064664862465456,0.5
+Location_4_max_PM2.5,5.0,5.0,SAA,3.100983061101029,,,0.5
+Location_4_max_PM2.5,5.0,5.0,LS_KDEx_MLP,3.126436781609195,"{'binSize': 400, 'weightsByDistance': False}",-0.0082082746040956,0.5
+Location_4_max_PM2.5,5.0,5.0,DRF,2.987415581366556,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 10)])",0.0366230571069776,0.5
+Location_4_max_SO2,5.0,5.0,SAA,0.3985480943738657,,,0.5
+Location_4_max_SO2,5.0,5.0,LS_KDEx_MLP,0.435480943738657,"{'binSize': 400, 'weightsByDistance': False}",-0.0926684881602915,0.5
+Location_4_max_SO2,5.0,5.0,DRF,0.416659045985271,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 100)])",-0.045442323943007,0.5
+Location_5_max_CO,5.0,5.0,SAA,0.1024260355029585,,,0.5
+Location_5_max_CO,5.0,5.0,LS_KDEx_MLP,0.0935502958579881,"{'binSize': 400, 'weightsByDistance': False}",0.0866551126516461,0.5
+Location_5_max_CO,5.0,5.0,DRF,0.0930177514792899,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 100)])",0.0918544194107452,0.5
+Location_5_max_NO2,5.0,5.0,SAA,3.858934911242604,,,0.5
+Location_5_max_NO2,5.0,5.0,LS_KDEx_MLP,3.438224852071006,"{'binSize': 100, 'weightsByDistance': False}",0.1090223258096172,0.5
+Location_5_max_NO2,5.0,5.0,DRF,3.5064020850943924,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",0.0913549552549185,0.5
+Location_5_max_O3,5.0,5.0,SAA,0.0053461538461538,,,0.5
+Location_5_max_O3,5.0,5.0,LS_KDEx_MLP,0.0057242603550295,"{'binSize': 400, 'weightsByDistance': False}",-0.0707249584947427,0.5
+Location_5_max_O3,5.0,5.0,DRF,0.0057798816568047,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",-0.0811289429994464,0.5
+Location_5_max_PM10,5.0,5.0,SAA,2.604437869822485,,,0.5
+Location_5_max_PM10,5.0,5.0,LS_KDEx_MLP,2.5494082840236687,"{'binSize': 400, 'weightsByDistance': False}",0.0211291605134612,0.5
+Location_5_max_PM10,5.0,5.0,DRF,2.357988165680473,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 100)])",0.0946268317618992,0.5
+Location_5_max_PM2.5,5.0,5.0,SAA,1.5321104536489154,,,0.5
+Location_5_max_PM2.5,5.0,5.0,LS_KDEx_MLP,1.5384812623274162,"{'binSize': 400, 'weightsByDistance': False}",-0.0041581915085351,0.5
+Location_5_max_PM2.5,5.0,5.0,DRF,1.4399319165223274,"OrderedDict([('min_node_size', 8), ('num_features', 3), ('num_trees', 100)])",0.0601644202002884,0.5
+Location_5_max_SO2,5.0,5.0,SAA,0.3056213017751479,,,0.5
+Location_5_max_SO2,5.0,5.0,LS_KDEx_MLP,0.3038461538461538,"{'binSize': 100, 'weightsByDistance': False}",0.0058083252662148,0.5
+Location_5_max_SO2,5.0,5.0,DRF,0.2802958579881657,"OrderedDict([('min_node_size', 32), ('num_features', 3), ('num_trees', 10)])",0.0828654404646659,0.5
+Location_6_max_CO,5.0,5.0,SAA,0.0599236641221374,,,0.5
+Location_6_max_CO,5.0,5.0,LS_KDEx_MLP,0.0507251908396946,"{'binSize': 400, 'weightsByDistance': False}",0.1535031847133758,0.5
+Location_6_max_CO,5.0,5.0,DRF,0.0494274809160305,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 10)])",0.1751592356687898,0.5
+Location_6_max_NO2,5.0,5.0,SAA,4.094580152671756,,,0.5
+Location_6_max_NO2,5.0,5.0,LS_KDEx_MLP,3.6734351145038175,"{'binSize': 400, 'weightsByDistance': False}",0.1028542664852064,0.5
+Location_6_max_NO2,5.0,5.0,DRF,3.776013419224886,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 50)])",0.0778020508986743,0.5
+Location_6_max_O3,5.0,5.0,SAA,0.0062944656488549,,,0.5
+Location_6_max_O3,5.0,5.0,LS_KDEx_MLP,0.0041692748091603,"{'binSize': 400, 'weightsByDistance': False}",0.3376284752751416,0.5
+Location_6_max_O3,5.0,5.0,DRF,0.0037082061068702,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 50)])",0.410878331261559,0.5
+Location_6_max_PM10,5.0,5.0,SAA,3.625445292620866,,,0.5
+Location_6_max_PM10,5.0,5.0,LS_KDEx_MLP,4.322900763358779,"{'binSize': 400, 'weightsByDistance': False}",-0.1923778775968554,0.5
+Location_6_max_PM10,5.0,5.0,DRF,3.5674102989160046,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 100)])",0.0160076870620511,0.5
+Location_6_max_PM2.5,5.0,5.0,SAA,1.591548982188295,,,0.5
+Location_6_max_PM2.5,5.0,5.0,LS_KDEx_MLP,1.5505947837150122,"{'binSize': 400, 'weightsByDistance': False}",0.0257322890665754,0.5
+Location_6_max_PM2.5,5.0,5.0,DRF,1.5015263536357886,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 100)])",0.0565629016511514,0.5
+Location_6_max_SO2,5.0,5.0,SAA,0.4646946564885496,,,0.5
+Location_6_max_SO2,5.0,5.0,LS_KDEx_MLP,0.4519465648854961,"{'binSize': 400, 'weightsByDistance': False}",0.0274332648870636,0.5
+Location_6_max_SO2,5.0,5.0,DRF,0.4315010299285108,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 20)])",0.0714310485316644,0.5
+Location_1_max_CO,2.5,7.5,SAA,0.0849656357388316,,,0.25
+Location_1_max_CO,2.5,7.5,LS_KDEx_MLP,0.0770833333333333,"{'binSize': 100, 'weightsByDistance': False}",0.0927704752275027,0.25
+Location_1_max_CO,2.5,7.5,DRF,0.0705756013745704,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 50)])",0.1693629929221436,0.25
+Location_1_max_NO2,2.5,7.5,SAA,5.039390034364262,,,0.25
+Location_1_max_NO2,2.5,7.5,LS_KDEx_MLP,3.544050687285223,"{'binSize': 100, 'weightsByDistance': False}",0.2967302266508692,0.25
+Location_1_max_NO2,2.5,7.5,DRF,4.415459559491992,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 10)])",0.1238107133239551,0.25
+Location_1_max_O3,2.5,7.5,SAA,0.0056628006872852,,,0.25
+Location_1_max_O3,2.5,7.5,LS_KDEx_MLP,0.0054918384879725,"{'binSize': 400, 'weightsByDistance': False}",0.0301903967230524,0.25
+Location_1_max_O3,2.5,7.5,DRF,0.0062443789887088,"OrderedDict([('min_node_size', 8), ('num_features', 13), ('num_trees', 20)])",-0.1027015311927699,0.25
+Location_1_max_PM10,2.5,7.5,SAA,3.2327104810996565,,,0.25
+Location_1_max_PM10,2.5,7.5,LS_KDEx_MLP,3.8558848797250858,"{'binSize': 400, 'weightsByDistance': False}",-0.1927714845696442,0.25
+Location_1_max_PM10,2.5,7.5,DRF,3.074143761169989,"OrderedDict([('min_node_size', 16), ('num_features', 3), ('num_trees', 10)])",0.0490507024544086,0.25
+Location_1_max_PM2.5,2.5,7.5,SAA,1.1410044387170677,,,0.25
+Location_1_max_PM2.5,2.5,7.5,LS_KDEx_MLP,1.3836948739977089,"{'binSize': 100, 'weightsByDistance': False}",-0.2126989405523434,0.25
+Location_1_max_PM2.5,2.5,7.5,DRF,1.0297703390753692,"OrderedDict([('min_node_size', 32), ('num_features', 3), ('num_trees', 20)])",0.0974878763545991,0.25
+Location_1_max_SO2,2.5,7.5,SAA,0.3216924398625429,,,0.25
+Location_1_max_SO2,2.5,7.5,LS_KDEx_MLP,0.3304123711340206,"{'binSize': 100, 'weightsByDistance': False}",-0.0271064227533717,0.25
+Location_1_max_SO2,2.5,7.5,DRF,0.300359645018307,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 50)])",0.066314256105463,0.25
+Location_2_max_CO,2.5,7.5,SAA,0.0573445709281961,,,0.25
+Location_2_max_CO,2.5,7.5,LS_KDEx_MLP,0.0554290718038528,"{'binSize': 100, 'weightsByDistance': False}",0.0334033212445121,0.25
+Location_2_max_CO,2.5,7.5,DRF,0.05340411558669,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 50)])",0.0687154037029966,0.25
+Location_2_max_NO2,2.5,7.5,SAA,3.407486865148862,,,0.25
+Location_2_max_NO2,2.5,7.5,LS_KDEx_MLP,3.0578535464098078,"{'binSize': 400, 'weightsByDistance': False}",0.1026073856116772,0.25
+Location_2_max_NO2,2.5,7.5,DRF,3.352026848892983,"OrderedDict([('min_node_size', 8), ('num_features', 3), ('num_trees', 20)])",0.0162759295782218,0.25
+Location_2_max_O3,2.5,7.5,SAA,0.0054088222416812,,,0.25
+Location_2_max_O3,2.5,7.5,LS_KDEx_MLP,0.0037722197898423,"{'binSize': 400, 'weightsByDistance': False}",0.3025801882019631,0.25
+Location_2_max_O3,2.5,7.5,DRF,0.0037224168126094,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 10)])",0.3117879186481838,0.25
+Location_2_max_PM10,2.5,7.5,SAA,2.108225700525394,,,0.25
+Location_2_max_PM10,2.5,7.5,LS_KDEx_MLP,2.164523131932283,"{'binSize': 400, 'weightsByDistance': False}",-0.0267037022615077,0.25
+Location_2_max_PM10,2.5,7.5,DRF,2.109904042615294,"OrderedDict([('min_node_size', 16), ('num_features', 13), ('num_trees', 10)])",-0.0007960922255536,0.25
+Location_2_max_PM2.5,2.5,7.5,SAA,1.317828736135435,,,0.25
+Location_2_max_PM2.5,2.5,7.5,LS_KDEx_MLP,1.3989072533566842,"{'binSize': 400, 'weightsByDistance': False}",-0.061524320268667,0.25
+Location_2_max_PM2.5,2.5,7.5,DRF,1.306749883091279,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 10)])",0.0084068989697744,0.25
+Location_2_max_SO2,2.5,7.5,SAA,0.4217327057793344,,,0.25
+Location_2_max_SO2,2.5,7.5,LS_KDEx_MLP,0.4283548598949211,"{'binSize': 100, 'weightsByDistance': False}",-0.0157022541169753,0.25
+Location_2_max_SO2,2.5,7.5,DRF,0.408493551195799,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 20)])",0.0313922880585473,0.25
+Location_3_max_CO,2.5,7.5,SAA,0.0470186335403726,,,0.25
+Location_3_max_CO,2.5,7.5,LS_KDEx_MLP,0.0464906832298136,"{'binSize': 100, 'weightsByDistance': False}",0.0112285336856009,0.25
+Location_3_max_CO,2.5,7.5,DRF,0.0458695652173913,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 10)])",0.0244385733157198,0.25
+Location_3_max_NO2,2.5,7.5,SAA,3.122204968944099,,,0.25
+Location_3_max_NO2,2.5,7.5,LS_KDEx_MLP,3.039254658385093,"{'binSize': 400, 'weightsByDistance': False}",0.0265678619386282,0.25
+Location_3_max_NO2,2.5,7.5,DRF,3.1222504772660047,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 10)])",-1.457569966034633e-05,0.25
+Location_3_max_O3,2.5,7.5,SAA,0.0035947204968944,,,0.25
+Location_3_max_O3,2.5,7.5,LS_KDEx_MLP,0.0054906832298136,"{'binSize': 400, 'weightsByDistance': False}",-0.5274298056155511,0.25
+Location_3_max_O3,2.5,7.5,DRF,0.0043239130434782,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",-0.2028509719222462,0.25
+Location_3_max_PM10,2.5,7.5,SAA,2.776086956521739,,,0.25
+Location_3_max_PM10,2.5,7.5,LS_KDEx_MLP,3.20527950310559,"{'binSize': 400, 'weightsByDistance': False}",-0.1546034232017004,0.25
+Location_3_max_PM10,2.5,7.5,DRF,2.7223559903740373,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 10)])",0.0193549290743483,0.25
+Location_3_max_PM2.5,2.5,7.5,SAA,1.140248447204969,,,0.25
+Location_3_max_PM2.5,2.5,7.5,LS_KDEx_MLP,1.2762111801242235,"{'binSize': 400, 'weightsByDistance': False}",-0.1192395685804552,0.25
+Location_3_max_PM2.5,2.5,7.5,DRF,1.1496650375798652,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 10)])",-0.0082583671988141,0.25
+Location_3_max_SO2,2.5,7.5,SAA,0.3898447204968944,,,0.25
+Location_3_max_SO2,2.5,7.5,LS_KDEx_MLP,0.3720496894409938,"{'binSize': 100, 'weightsByDistance': False}",0.0456464590137815,0.25
+Location_3_max_SO2,2.5,7.5,DRF,0.3719254658385093,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",0.0459651079423246,0.25
+Location_4_max_CO,2.5,7.5,SAA,0.1234460072595281,,,0.25
+Location_4_max_CO,2.5,7.5,LS_KDEx_MLP,0.1031193284936479,"{'binSize': 100, 'weightsByDistance': False}",0.1646604796471562,0.25
+Location_4_max_CO,2.5,7.5,DRF,0.1202813067150635,"OrderedDict([('min_node_size', 32), ('num_features', 3), ('num_trees', 10)])",0.0256363135164936,0.25
+Location_4_max_NO2,2.5,7.5,SAA,5.153436932849365,,,0.25
+Location_4_max_NO2,2.5,7.5,LS_KDEx_MLP,3.575748638838476,"{'binSize': 100, 'weightsByDistance': False}",0.30614293229326,0.25
+Location_4_max_NO2,2.5,7.5,DRF,4.224465529382017,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 10)])",0.180262495800781,0.25
+Location_4_max_O3,2.5,7.5,SAA,0.004440222323049,,,0.25
+Location_4_max_O3,2.5,7.5,LS_KDEx_MLP,0.0058282667876588,"{'binSize': 400, 'weightsByDistance': False}",-0.3126069740707624,0.25
+Location_4_max_O3,2.5,7.5,DRF,0.0056179673321234,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",-0.2652446033976239,0.25
+Location_4_max_PM10,2.5,7.5,SAA,5.157724591651543,,,0.25
+Location_4_max_PM10,2.5,7.5,LS_KDEx_MLP,5.891504083484573,"{'binSize': 100, 'weightsByDistance': False}",-0.1422680639095677,0.25
+Location_4_max_PM10,2.5,7.5,DRF,4.407115219354991,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 250)])",0.1455311075569083,0.25
+Location_4_max_PM2.5,2.5,7.5,SAA,1.9496521476104047,,,0.25
+Location_4_max_PM2.5,2.5,7.5,LS_KDEx_MLP,1.93684777676951,"{'binSize': 400, 'weightsByDistance': False}",0.0065675155727593,0.25
+Location_4_max_PM2.5,2.5,7.5,DRF,1.924902980413416,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 10)])",0.0126941450695823,0.25
+Location_4_max_SO2,2.5,7.5,SAA,0.2556715063520871,,,0.25
+Location_4_max_SO2,2.5,7.5,LS_KDEx_MLP,0.2932509074410163,"{'binSize': 400, 'weightsByDistance': False}",-0.1469831410825199,0.25
+Location_4_max_SO2,2.5,7.5,DRF,0.2466651542649728,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 100)])",0.0352262644188109,0.25
+Location_5_max_CO,2.5,7.5,SAA,0.0697041420118343,,,0.25
+Location_5_max_CO,2.5,7.5,LS_KDEx_MLP,0.0658284023668639,"{'binSize': 400, 'weightsByDistance': False}",0.0556027164685908,0.25
+Location_5_max_CO,2.5,7.5,DRF,0.067189349112426,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 10)])",0.0360780984719864,0.25
+Location_5_max_NO2,2.5,7.5,SAA,2.630443786982248,,,0.25
+Location_5_max_NO2,2.5,7.5,LS_KDEx_MLP,2.41508875739645,"{'binSize': 400, 'weightsByDistance': False}",0.0818702268611724,0.25
+Location_5_max_NO2,2.5,7.5,DRF,2.4982435052127365,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",0.0502577863187021,0.25
+Location_5_max_O3,2.5,7.5,SAA,0.0039727810650887,,,0.25
+Location_5_max_O3,2.5,7.5,LS_KDEx_MLP,0.0047431952662721,"{'binSize': 400, 'weightsByDistance': False}",-0.193923145665773,0.25
+Location_5_max_O3,2.5,7.5,DRF,0.0046687655293424,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",-0.1751882252887613,0.25
+Location_5_max_PM10,2.5,7.5,SAA,1.8442307692307691,,,0.25
+Location_5_max_PM10,2.5,7.5,LS_KDEx_MLP,1.97707100591716,"{'binSize': 100, 'weightsByDistance': False}",-0.0720301596214003,0.25
+Location_5_max_PM10,2.5,7.5,DRF,1.948076923076923,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 10)])",-0.0563086548488007,0.25
+Location_5_max_PM2.5,2.5,7.5,SAA,1.0734072978303748,,,0.25
+Location_5_max_PM2.5,2.5,7.5,LS_KDEx_MLP,1.1609023668639054,"{'binSize': 100, 'weightsByDistance': False}",-0.0815115280195877,0.25
+Location_5_max_PM2.5,2.5,7.5,DRF,1.0475761560376946,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 100)])",0.0240646228555473,0.25
+Location_5_max_SO2,2.5,7.5,SAA,0.1775443786982248,,,0.25
+Location_5_max_SO2,2.5,7.5,LS_KDEx_MLP,0.1790236686390532,"{'binSize': 20, 'weightsByDistance': False}",-0.0083319446758871,0.25
+Location_5_max_SO2,2.5,7.5,DRF,0.1605917159763313,"OrderedDict([('min_node_size', 32), ('num_features', 3), ('num_trees', 10)])",0.0954840859856692,0.25
+Location_6_max_CO,2.5,7.5,SAA,0.0327862595419847,,,0.25
+Location_6_max_CO,2.5,7.5,LS_KDEx_MLP,0.0349045801526717,"{'binSize': 400, 'weightsByDistance': False}",-0.0646100116414434,0.25
+Location_6_max_CO,2.5,7.5,DRF,0.0321946564885496,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 10)])",0.0180442374854481,0.25
+Location_6_max_NO2,2.5,7.5,SAA,2.823740458015267,,,0.25
+Location_6_max_NO2,2.5,7.5,LS_KDEx_MLP,2.559923664122137,"{'binSize': 400, 'weightsByDistance': False}",0.0934281311670406,0.25
+Location_6_max_NO2,2.5,7.5,DRF,2.596547648010204,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 50)])",0.0804581063249527,0.25
+Location_6_max_O3,2.5,7.5,SAA,0.0049067748091603,,,0.25
+Location_6_max_O3,2.5,7.5,LS_KDEx_MLP,0.0039794847328244,"{'binSize': 400, 'weightsByDistance': False}",0.1889815841160571,0.25
+Location_6_max_O3,2.5,7.5,DRF,0.0031640267175572,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 20)])",0.3551718102794468,0.25
+Location_6_max_PM10,2.5,7.5,SAA,2.5744274809160306,,,0.25
+Location_6_max_PM10,2.5,7.5,LS_KDEx_MLP,3.0394402035623407,"{'binSize': 400, 'weightsByDistance': False}",-0.1806276254015317,0.25
+Location_6_max_PM10,2.5,7.5,DRF,2.440783971395617,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 100)])",0.0519119340168248,0.25
+Location_6_max_PM2.5,2.5,7.5,SAA,1.1413342875318064,,,0.25
+Location_6_max_PM2.5,2.5,7.5,LS_KDEx_MLP,1.0895722010178115,"{'binSize': 400, 'weightsByDistance': False}",0.0453522575107533,0.25
+Location_6_max_PM2.5,2.5,7.5,DRF,1.0725888084518098,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 100)])",0.0602325539773822,0.25
+Location_6_max_SO2,2.5,7.5,SAA,0.2834160305343511,,,0.25
+Location_6_max_SO2,2.5,7.5,LS_KDEx_MLP,0.285057251908397,"{'binSize': 400, 'weightsByDistance': False}",-0.0057908558346242,0.25
+Location_6_max_SO2,2.5,7.5,DRF,0.2632945898461166,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 20)])",0.0709961276724455,0.25
+Location_1_max_CO,1.0,9.0,SAA,0.0379037800687285,,,0.1
+Location_1_max_CO,1.0,9.0,LS_KDEx_MLP,0.0375085910652921,"{'binSize': 400, 'weightsByDistance': False}",0.0104261106074343,0.1
+Location_1_max_CO,1.0,9.0,DRF,0.0334192439862543,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 50)])",0.1183136899365366,0.1
+Location_1_max_NO2,1.0,9.0,SAA,2.4848109965635743,,,0.1
+Location_1_max_NO2,1.0,9.0,LS_KDEx_MLP,2.0142139175257734,"{'binSize': 400, 'weightsByDistance': False}",0.1893894866404823,0.1
+Location_1_max_NO2,1.0,9.0,DRF,2.084721744940817,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 10)])",0.1610139572692125,0.1
+Location_1_max_O3,1.0,9.0,SAA,0.0033871134020618,,,0.1
+Location_1_max_O3,1.0,9.0,LS_KDEx_MLP,0.0041615120274914,"{'binSize': 400, 'weightsByDistance': False}",-0.2286308527367722,0.1
+Location_1_max_O3,1.0,9.0,DRF,0.0036549880934992,"OrderedDict([('min_node_size', 8), ('num_features', 13), ('num_trees', 20)])",-0.0790864254129692,0.1
+Location_1_max_PM10,1.0,9.0,SAA,1.4877577319587632,,,0.1
+Location_1_max_PM10,1.0,9.0,LS_KDEx_MLP,2.1570876288659795,"{'binSize': 400, 'weightsByDistance': False}",-0.4498917280207881,0.1
+Location_1_max_PM10,1.0,9.0,DRF,1.4518470790378009,"OrderedDict([('min_node_size', 16), ('num_features', 3), ('num_trees', 10)])",0.0241374332322795,0.1
+Location_1_max_PM2.5,1.0,9.0,SAA,0.5676474799541811,,,0.1
+Location_1_max_PM2.5,1.0,9.0,LS_KDEx_MLP,0.7122880870561282,"{'binSize': 100, 'weightsByDistance': False}",-0.2548070980842232,0.1
+Location_1_max_PM2.5,1.0,9.0,DRF,0.4985698214343301,"OrderedDict([('min_node_size', 32), ('num_features', 3), ('num_trees', 20)])",0.121691121619049,0.1
+Location_1_max_SO2,1.0,9.0,SAA,0.14893470790378,,,0.1
+Location_1_max_SO2,1.0,9.0,LS_KDEx_MLP,0.1562285223367698,"{'binSize': 400, 'weightsByDistance': False}",-0.0489732348869405,0.1
+Location_1_max_SO2,1.0,9.0,DRF,0.1320207003763705,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 50)])",0.1135665941503503,0.1
+Location_2_max_CO,1.0,9.0,SAA,0.0301882661996497,,,0.1
+Location_2_max_CO,1.0,9.0,LS_KDEx_MLP,0.0267994746059544,"{'binSize': 400, 'weightsByDistance': False}",0.1122552574329223,0.1
+Location_2_max_CO,1.0,9.0,DRF,0.0236514886164623,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 20)])",0.2165337200870194,0.1
+Location_2_max_NO2,1.0,9.0,SAA,1.6777408056042031,,,0.1
+Location_2_max_NO2,1.0,9.0,LS_KDEx_MLP,1.5145096322241682,"{'binSize': 400, 'weightsByDistance': False}",0.0972922473094708,0.1
+Location_2_max_NO2,1.0,9.0,DRF,1.6264822326551314,"OrderedDict([('min_node_size', 8), ('num_features', 3), ('num_trees', 20)])",0.030552140579672,0.1
+Location_2_max_O3,1.0,9.0,SAA,0.0028163309982486,,,0.1
+Location_2_max_O3,1.0,9.0,LS_KDEx_MLP,0.0021023204903677,"{'binSize': 400, 'weightsByDistance': False}",0.2535250680139915,0.1
+Location_2_max_O3,1.0,9.0,DRF,0.0022277097569909,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 20)])",0.2090028628111434,0.1
+Location_2_max_PM10,1.0,9.0,SAA,0.9881676882661998,,,0.1
+Location_2_max_PM10,1.0,9.0,LS_KDEx_MLP,1.1172030064214828,"{'binSize': 400, 'weightsByDistance': False}",-0.1305803859886203,0.1
+Location_2_max_PM10,1.0,9.0,DRF,1.0168819322825453,"OrderedDict([('min_node_size', 16), ('num_features', 13), ('num_trees', 10)])",-0.0290580681369234,0.1
+Location_2_max_PM2.5,1.0,9.0,SAA,0.6439411850554582,,,0.1
+Location_2_max_PM2.5,1.0,9.0,LS_KDEx_MLP,0.6741699503794512,"{'binSize': 400, 'weightsByDistance': False}",-0.0469433638126277,0.1
+Location_2_max_PM2.5,1.0,9.0,DRF,0.6443118067542902,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 10)])",-0.0005755520961128,0.1
+Location_2_max_SO2,1.0,9.0,SAA,0.1827648861646235,,,0.1
+Location_2_max_SO2,1.0,9.0,LS_KDEx_MLP,0.1861405429071804,"{'binSize': 100, 'weightsByDistance': False}",-0.0184699414280067,0.1
+Location_2_max_SO2,1.0,9.0,DRF,0.1728890986892202,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 20)])",0.0540354752088855,0.1
+Location_3_max_CO,1.0,9.0,SAA,0.0217142857142857,,,0.1
+Location_3_max_CO,1.0,9.0,LS_KDEx_MLP,0.021639751552795,"{'binSize': 100, 'weightsByDistance': False}",0.0034324942791763,0.1
+Location_3_max_CO,1.0,9.0,DRF,0.0223195800059154,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 10)])",-0.027875395009262,0.1
+Location_3_max_NO2,1.0,9.0,SAA,1.5131055900621118,,,0.1
+Location_3_max_NO2,1.0,9.0,LS_KDEx_MLP,1.499304347826087,"{'binSize': 100, 'weightsByDistance': False}",0.0091211362423545,0.1
+Location_3_max_NO2,1.0,9.0,DRF,1.4881585921325056,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 10)])",0.0164872815839521,0.1
+Location_3_max_O3,1.0,9.0,SAA,0.001943602484472,,,0.1
+Location_3_max_O3,1.0,9.0,LS_KDEx_MLP,0.0033,"{'binSize': 400, 'weightsByDistance': False}",-0.697878051898249,0.1
+Location_3_max_O3,1.0,9.0,DRF,0.0024567701863354,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",-0.2640291448293492,0.1
+Location_3_max_PM10,1.0,9.0,SAA,1.3920496894409935,,,0.1
+Location_3_max_PM10,1.0,9.0,LS_KDEx_MLP,1.6737888198757764,"{'binSize': 400, 'weightsByDistance': False}",-0.20239157594146,0.1
+Location_3_max_PM10,1.0,9.0,DRF,1.4418633540372672,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 10)])",-0.0357844012136356,0.1
+Location_3_max_PM2.5,1.0,9.0,SAA,0.5636708074534162,,,0.1
+Location_3_max_PM2.5,1.0,9.0,LS_KDEx_MLP,0.6228819875776397,"{'binSize': 400, 'weightsByDistance': False}",-0.1050456744278296,0.1
+Location_3_max_PM2.5,1.0,9.0,DRF,0.5758405797101449,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 10)])",-0.0215902120454134,0.1
+Location_3_max_SO2,1.0,9.0,SAA,0.1719503105590062,,,0.1
+Location_3_max_SO2,1.0,9.0,LS_KDEx_MLP,0.1659254658385093,"{'binSize': 400, 'weightsByDistance': False}",0.0350382892645572,0.1
+Location_3_max_SO2,1.0,9.0,DRF,0.1679130434782609,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",0.0234792660020227,0.1
+Location_4_max_CO,1.0,9.0,SAA,0.0507123411978221,,,0.1
+Location_4_max_CO,1.0,9.0,LS_KDEx_MLP,0.0491606170598911,"{'binSize': 400, 'weightsByDistance': False}",0.0305985505949718,0.1
+Location_4_max_CO,1.0,9.0,DRF,0.0511070780399274,"OrderedDict([('min_node_size', 16), ('num_features', 13), ('num_trees', 10)])",-0.0077838418180191,0.1
+Location_4_max_NO2,1.0,9.0,SAA,2.458915607985481,,,0.1
+Location_4_max_NO2,1.0,9.0,LS_KDEx_MLP,1.9440607985480944,"{'binSize': 400, 'weightsByDistance': False}",0.2093828709555396,0.1
+Location_4_max_NO2,1.0,9.0,DRF,2.081106742681291,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 10)])",0.1536485693438328,0.1
+Location_4_max_O3,1.0,9.0,SAA,0.0024240925589836,,,0.1
+Location_4_max_O3,1.0,9.0,LS_KDEx_MLP,0.0042671960072595,"{'binSize': 400, 'weightsByDistance': False}",-0.7603271753982066,0.1
+Location_4_max_O3,1.0,9.0,DRF,0.0039704022988505,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",-0.6378922018205526,0.1
+Location_4_max_PM10,1.0,9.0,SAA,2.400204174228675,,,0.1
+Location_4_max_PM10,1.0,9.0,LS_KDEx_MLP,3.4896551724137934,"{'binSize': 400, 'weightsByDistance': False}",-0.4538993015188894,0.1
+Location_4_max_PM10,1.0,9.0,DRF,2.2804231919639077,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 250)])",0.0499044971052349,0.1
+Location_4_max_PM2.5,1.0,9.0,SAA,0.9060012099213552,,,0.1
+Location_4_max_PM2.5,1.0,9.0,LS_KDEx_MLP,0.9002366908650938,"{'binSize': 400, 'weightsByDistance': False}",0.0063625953179043,0.1
+Location_4_max_PM2.5,1.0,9.0,DRF,0.9048463766521844,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 10)])",0.0012746487052386,0.1
+Location_4_max_SO2,1.0,9.0,SAA,0.1148366606170599,,,0.1
+Location_4_max_SO2,1.0,9.0,LS_KDEx_MLP,0.13005444646098,"{'binSize': 400, 'weightsByDistance': False}",-0.1325167917819043,0.1
+Location_4_max_SO2,1.0,9.0,DRF,0.1184482758620689,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 20)])",-0.0314500197550378,0.1
+Location_5_max_CO,1.0,9.0,SAA,0.0337159763313609,,,0.1
+Location_5_max_CO,1.0,9.0,LS_KDEx_MLP,0.031775147928994,"{'binSize': 400, 'weightsByDistance': False}",0.0575640575640574,0.1
+Location_5_max_CO,1.0,9.0,DRF,0.0324260355029585,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 10)])",0.0382590382590382,0.1
+Location_5_max_NO2,1.0,9.0,SAA,1.2392899408284026,,,0.1
+Location_5_max_NO2,1.0,9.0,LS_KDEx_MLP,1.185396449704142,"{'binSize': 400, 'weightsByDistance': False}",0.0434873949579833,0.1
+Location_5_max_NO2,1.0,9.0,DRF,1.2148307034845496,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",0.0197364930820815,0.1
+Location_5_max_O3,1.0,9.0,SAA,0.0021844970414201,,,0.1
+Location_5_max_O3,1.0,9.0,LS_KDEx_MLP,0.0027459171597633,"{'binSize': 400, 'weightsByDistance': False}",-0.2570020044422776,0.1
+Location_5_max_O3,1.0,9.0,DRF,0.0028355325443786,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 10)])",-0.2980253534861041,0.1
+Location_5_max_PM10,1.0,9.0,SAA,0.9357988165680474,,,0.1
+Location_5_max_PM10,1.0,9.0,LS_KDEx_MLP,1.113550295857988,"{'binSize': 100, 'weightsByDistance': False}",-0.1899462535567497,0.1
+Location_5_max_PM10,1.0,9.0,DRF,1.1398224852071006,"OrderedDict([('min_node_size', 4), ('num_features', 3), ('num_trees', 10)])",-0.2180208662662028,0.1
+Location_5_max_PM2.5,1.0,9.0,SAA,0.5249546351084813,,,0.1
+Location_5_max_PM2.5,1.0,9.0,LS_KDEx_MLP,0.5523510848126233,"{'binSize': 400, 'weightsByDistance': False}",-0.0521882232709127,0.1
+Location_5_max_PM2.5,1.0,9.0,DRF,0.514025821097827,"OrderedDict([('min_node_size', 64), ('num_features', 3), ('num_trees', 20)])",0.0208185875116538,0.1
+Location_5_max_SO2,1.0,9.0,SAA,0.0730887573964497,,,0.1
+Location_5_max_SO2,1.0,9.0,LS_KDEx_MLP,0.0795976331360946,"{'binSize': 100, 'weightsByDistance': False}",-0.0890544041450775,0.1
+Location_5_max_SO2,1.0,9.0,DRF,0.0733846153846154,"OrderedDict([('min_node_size', 32), ('num_features', 3), ('num_trees', 10)])",-0.00404792746114,0.1
+Location_6_max_CO,1.0,9.0,SAA,0.0165038167938931,,,0.1
+Location_6_max_CO,1.0,9.0,LS_KDEx_MLP,0.0186946564885496,"{'binSize': 20, 'weightsByDistance': False}",-0.1327474560592045,0.1
+Location_6_max_CO,1.0,9.0,DRF,0.0160076335877862,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 10)])",0.030064754856614,0.1
+Location_6_max_NO2,1.0,9.0,SAA,1.3112366412213745,,,0.1
+Location_6_max_NO2,1.0,9.0,LS_KDEx_MLP,1.2417404580152671,"{'binSize': 100, 'weightsByDistance': False}",0.0530004890203292,0.1
+Location_6_max_NO2,1.0,9.0,DRF,1.2423991459134591,"OrderedDict([('min_node_size', 2), ('num_features', 3), ('num_trees', 50)])",0.0524981480412225,0.1
+Location_6_max_O3,1.0,9.0,SAA,0.0022885114503816,,,0.1
+Location_6_max_O3,1.0,9.0,LS_KDEx_MLP,0.0025330916030534,"{'binSize': 400, 'weightsByDistance': False}",-0.1068730299037676,0.1
+Location_6_max_O3,1.0,9.0,DRF,0.0014095196657128,"OrderedDict([('min_node_size', 2), ('num_features', 13), ('num_trees', 50)])",0.3840888733688751,0.1
+Location_6_max_PM10,1.0,9.0,SAA,1.2476081424936387,,,0.1
+Location_6_max_PM10,1.0,9.0,LS_KDEx_MLP,1.5924681933842242,"{'binSize': 400, 'weightsByDistance': False}",-0.2764169606983337,0.1
+Location_6_max_PM10,1.0,9.0,DRF,1.220426933328396,"OrderedDict([('min_node_size', 64), ('num_features', 13), ('num_trees', 100)])",0.021786655793152,0.1
+Location_6_max_PM2.5,1.0,9.0,SAA,0.5667868956743003,,,0.1
+Location_6_max_PM2.5,1.0,9.0,LS_KDEx_MLP,0.5516533078880407,"{'binSize': 100, 'weightsByDistance': False}",0.0267006663381929,0.1
+Location_6_max_PM2.5,1.0,9.0,DRF,0.536868956676954,"OrderedDict([('min_node_size', 32), ('num_features', 13), ('num_trees', 50)])",0.0527851635697279,0.1
+Location_6_max_SO2,1.0,9.0,SAA,0.1288167938931297,,,0.1
+Location_6_max_SO2,1.0,9.0,LS_KDEx_MLP,0.1302213740458015,"{'binSize': 400, 'weightsByDistance': False}",-0.0109037037037038,0.1
+Location_6_max_SO2,1.0,9.0,DRF,0.120587786259542,"OrderedDict([('min_node_size', 4), ('num_features', 13), ('num_trees', 20)])",0.0638814814814814,0.1
+Location_1_max_CO,9.0,1.0,LS_KDEx_LGBM,0.1416752577319588,"{'binSize': 20, 'weightsByDistance': True}",-0.5945658479984537,0.9
+Location_1_max_NO2,9.0,1.0,SAA,2.2273539518900347,N/A,,0.9
+Location_1_max_NO2,9.0,1.0,LS_KDEx_LGBM,3.2380756013745704,"{'binSize': 400, 'weightsByDistance': False}",-0.45377684522340145,0.9
+Location_1_max_O3,9.0,1.0,SAA,0.002719587628865979,N/A,,0.9
+Location_1_max_O3,9.0,1.0,LS_KDEx_LGBM,0.001898797250859106,"{'binSize': 400, 'weightsByDistance': False}",0.3018069244377054,0.9
+Location_1_max_PM10,9.0,1.0,LS_KDEx_LGBM,2.681099656357388,"{'binSize': 100, 'weightsByDistance': False}",0.12044304778546566,0.9
+Location_1_max_PM2.5,9.0,1.0,SAA,1.1716680985108816,N/A,,0.9
+Location_1_max_PM2.5,9.0,1.0,LS_KDEx_LGBM,1.5316451890034364,"{'binSize': 20, 'weightsByDistance': False}",-0.307234694663159,0.9
+Location_1_max_SO2,9.0,1.0,SAA,0.36592783505154636,N/A,,0.9
+Location_1_max_SO2,9.0,1.0,LS_KDEx_LGBM,0.4099484536082474,"{'binSize': 400, 'weightsByDistance': False}",-0.12029863361036774,0.9
+Location_2_max_CO,9.0,1.0,LS_KDEx_LGBM,0.07289404553415062,"{'binSize': 100, 'weightsByDistance': False}",-0.18828063664263794,0.9
+Location_2_max_NO2,9.0,1.0,SAA,1.9885989492119085,N/A,,0.9
+Location_2_max_NO2,9.0,1.0,LS_KDEx_LGBM,2.765030647985989,"{'binSize': 100, 'weightsByDistance': False}",-0.3904415714801541,0.9
+Location_2_max_O3,9.0,1.0,SAA,0.002948730297723292,N/A,,0.9
+Location_2_max_O3,9.0,1.0,LS_KDEx_LGBM,0.0017764886164623463,"{'binSize': 400, 'weightsByDistance': False}",0.39754116616430835,0.9
+Location_2_max_PM10,9.0,1.0,LS_KDEx_LGBM,1.5499087857559835,"{'binSize': 100, 'weightsByDistance': False}",0.12853699315834277,0.9
+Location_2_max_PM2.5,9.0,1.0,SAA,1.0752765615878574,N/A,,0.9
+Location_2_max_PM2.5,9.0,1.0,LS_KDEx_LGBM,1.3368615002918856,"{'binSize': 400, 'weightsByDistance': False}",-0.24327224088075217,0.9
+Location_2_max_SO2,9.0,1.0,SAA,0.7147351138353765,N/A,,0.9
+Location_2_max_SO2,9.0,1.0,LS_KDEx_LGBM,0.6149693520140105,"{'binSize': 100, 'weightsByDistance': False}",0.13958424581382023,0.9
+Location_3_max_CO,9.0,1.0,LS_KDEx_LGBM,0.05985093167701863,"{'binSize': 20, 'weightsByDistance': False}",-0.17311906501095664,0.9
+Location_3_max_NO2,9.0,1.0,SAA,2.0906832298136644,N/A,,0.9
+Location_3_max_NO2,9.0,1.0,LS_KDEx_LGBM,2.4503478260869564,"{'binSize': 400, 'weightsByDistance': False}",-0.1720320855614974,0.9
+Location_3_max_O3,9.0,1.0,SAA,0.0023793788819875773,N/A,,0.9
+Location_3_max_O3,9.0,1.0,LS_KDEx_LGBM,0.002304223602484472,"{'binSize': 400, 'weightsByDistance': False}",0.031586091677978434,0.9
+Location_3_max_PM10,9.0,1.0,LS_KDEx_LGBM,1.9535403726708074,"{'binSize': 100, 'weightsByDistance': False}",0.12262887748270468,0.9
+Location_3_max_PM2.5,9.0,1.0,SAA,0.9476853002070392,N/A,,0.9
+Location_3_max_PM2.5,9.0,1.0,LS_KDEx_LGBM,0.8842132505175979,"{'binSize': 400, 'weightsByDistance': False}",0.0669758723445163,0.9
+Location_3_max_SO2,9.0,1.0,SAA,0.5900993788819876,N/A,,0.9
+Location_3_max_SO2,9.0,1.0,LS_KDEx_LGBM,0.7000745341614906,"{'binSize': 100, 'weightsByDistance': False}",-0.18636717680988535,0.9
+Location_4_max_CO,9.0,1.0,LS_KDEx_LGBM,0.12240245009074409,"{'binSize': 20, 'weightsByDistance': True}",0.24428539413972794,0.9
+Location_4_max_NO2,9.0,1.0,SAA,2.6262840290381115,N/A,,0.9
+Location_4_max_NO2,9.0,1.0,LS_KDEx_LGBM,1.9318058076225044,"{'binSize': 400, 'weightsByDistance': False}",0.26443378314643406,0.9
+Location_4_max_O3,9.0,1.0,SAA,0.003237885662431941,N/A,,0.9
+Location_4_max_O3,9.0,1.0,LS_KDEx_LGBM,0.0018211887477313973,"{'binSize': 100, 'weightsByDistance': False}",0.4375376595714866,0.9
+Location_4_max_PM10,9.0,1.0,LS_KDEx_LGBM,3.361887477313974,"{'binSize': 400, 'weightsByDistance': False}",0.3968162225306595,0.9
+Location_4_max_PM2.5,9.0,1.0,SAA,2.6759104658197215,N/A,,0.9
+Location_4_max_PM2.5,9.0,1.0,LS_KDEx_LGBM,2.4285276769509974,"{'binSize': 100, 'weightsByDistance': False}",0.09244808151417072,0.9
+Location_4_max_SO2,9.0,1.0,SAA,0.2829310344827586,N/A,,0.9
+Location_4_max_SO2,9.0,1.0,LS_KDEx_LGBM,0.306551724137931,"{'binSize': 100, 'weightsByDistance': False}",-0.08348567946374175,0.9
+Location_5_max_CO,9.0,1.0,LS_KDEx_LGBM,0.07919526627218935,"{'binSize': 100, 'weightsByDistance': False}",-0.4403788204907446,0.9
+Location_5_max_NO2,9.0,1.0,SAA,1.9373964497041416,N/A,,0.9
+Location_5_max_NO2,9.0,1.0,LS_KDEx_LGBM,2.085159763313609,"{'binSize': 20, 'weightsByDistance': True}",-0.07626901227780847,0.9
+Location_5_max_O3,9.0,1.0,SAA,0.002500710059171598,N/A,,0.9
+Location_5_max_O3,9.0,1.0,LS_KDEx_LGBM,0.002115029585798816,"{'binSize': 20, 'weightsByDistance': False}",0.15422838483744283,0.9
+Location_5_max_PM10,9.0,1.0,LS_KDEx_LGBM,1.3282248520710058,"{'binSize': 20, 'weightsByDistance': False}",0.0538672286617492,0.9
+Location_5_max_PM2.5,9.0,1.0,SAA,0.852067061143984,N/A,,0.9
+Location_5_max_PM2.5,9.0,1.0,LS_KDEx_LGBM,0.9311499013806706,"{'binSize': 400, 'weightsByDistance': False}",-0.09281292968948951,0.9
+Location_5_max_SO2,9.0,1.0,SAA,0.3246627218934911,N/A,,0.9
+Location_5_max_SO2,9.0,1.0,LS_KDEx_LGBM,0.2536213017751479,"{'binSize': 100, 'weightsByDistance': False}",0.218816067653277,0.9
+Location_6_max_CO,9.0,1.0,LS_KDEx_LGBM,0.055259541984732825,"{'binSize': 100, 'weightsByDistance': False}",-0.11920222634508337,0.9
+Location_6_max_NO2,9.0,1.0,SAA,1.7533435114503817,N/A,,0.9
+Location_6_max_NO2,9.0,1.0,LS_KDEx_LGBM,2.31312213740458,"{'binSize': 100, 'weightsByDistance': False}",-0.31926352269165115,0.9
+Location_6_max_O3,9.0,1.0,SAA,0.0028214122137404573,N/A,,0.9
+Location_6_max_O3,9.0,1.0,LS_KDEx_LGBM,0.0017922137404580147,"{'binSize': 20, 'weightsByDistance': False}",0.3647813205990179,0.9
+Location_6_max_PM10,9.0,1.0,LS_KDEx_LGBM,2.4569338422391858,"{'binSize': 100, 'weightsByDistance': False}",-0.10872211186257763,0.9
+Location_6_max_PM2.5,9.0,1.0,SAA,0.8883276081424936,N/A,,0.9
+Location_6_max_PM2.5,9.0,1.0,LS_KDEx_LGBM,1.746717557251909,"{'binSize': 100, 'weightsByDistance': False}",-0.9662988533074208,0.9
+Location_6_max_SO2,9.0,1.0,SAA,0.3856106870229007,N/A,,0.9
+Location_6_max_SO2,9.0,1.0,LS_KDEx_LGBM,0.3565801526717557,"{'binSize': 100, 'weightsByDistance': False}",0.07528456893991875,0.9
+Location_1_max_CO,7.5,2.5,LS_KDEx_LGBM,0.12401202749140892,"{'binSize': 100, 'weightsByDistance': False}",0.19312465064281714,0.75
+Location_1_max_NO2,7.5,2.5,SAA,4.564132302405498,N/A,,0.75
+Location_1_max_NO2,7.5,2.5,LS_KDEx_LGBM,5.050622852233677,"{'binSize': 100, 'weightsByDistance': False}",-0.10658993157840269,0.75
+Location_1_max_O3,7.5,2.5,SAA,0.005314862542955327,N/A,,0.75
+Location_1_max_O3,7.5,2.5,LS_KDEx_LGBM,0.00402405498281787,"{'binSize': 100, 'weightsByDistance': False}",0.24286753414693285,0.75
+Location_1_max_PM10,7.5,2.5,LS_KDEx_LGBM,3.890786082474227,"{'binSize': 400, 'weightsByDistance': False}",0.1658954347675945,0.75
+Location_1_max_PM2.5,7.5,2.5,SAA,1.6780963631156929,N/A,,0.75
+Location_1_max_PM2.5,7.5,2.5,LS_KDEx_LGBM,1.832776703894616,"{'binSize': 20, 'weightsByDistance': False}",-0.0921760777144709,0.75
+Location_1_max_SO2,7.5,2.5,SAA,0.5378436426116838,N/A,,0.75
+Location_1_max_SO2,7.5,2.5,LS_KDEx_LGBM,0.521778350515464,"{'binSize': 400, 'weightsByDistance': False}",0.029869818704576168,0.75
+Location_2_max_CO,7.5,2.5,LS_KDEx_LGBM,0.08871497373029773,"{'binSize': 100, 'weightsByDistance': False}",-0.07308354296306119,0.75
+Location_2_max_NO2,7.5,2.5,SAA,3.6352889667250436,N/A,,0.75
+Location_2_max_NO2,7.5,2.5,LS_KDEx_LGBM,4.258110770577934,"{'binSize': 100, 'weightsByDistance': False}",-0.17132662892930295,0.75
+Location_2_max_O3,7.5,2.5,SAA,0.005406852014010508,N/A,,0.75
+Location_2_max_O3,7.5,2.5,LS_KDEx_LGBM,0.003192097197898424,"{'binSize': 400, 'weightsByDistance': False}",0.40962001740996423,0.75
+Location_2_max_PM10,7.5,2.5,LS_KDEx_LGBM,2.5038583625218913,"{'binSize': 100, 'weightsByDistance': False}",0.09706227735180639,0.75
+Location_2_max_PM2.5,7.5,2.5,SAA,1.7360569906596615,N/A,,0.75
+Location_2_max_PM2.5,7.5,2.5,LS_KDEx_LGBM,1.9580232049036776,"{'binSize': 100, 'weightsByDistance': False}",-0.12785652512460088,0.75
+Location_2_max_SO2,7.5,2.5,SAA,0.8303250875656742,N/A,,0.75
+Location_2_max_SO2,7.5,2.5,LS_KDEx_LGBM,0.7537926882661996,"{'binSize': 100, 'weightsByDistance': False}",0.09217160898251353,0.75
+Location_3_max_CO,7.5,2.5,LS_KDEx_LGBM,0.07614906832298136,"{'binSize': 100, 'weightsByDistance': False}",0.14831538728725246,0.75
+Location_3_max_NO2,7.5,2.5,SAA,3.8722981366459623,N/A,,0.75
+Location_3_max_NO2,7.5,2.5,LS_KDEx_LGBM,4.574751552795031,"{'binSize': 100, 'weightsByDistance': False}",-0.18140478634672164,0.75
+Location_3_max_O3,7.5,2.5,SAA,0.004117391304347826,N/A,,0.75
+Location_3_max_O3,7.5,2.5,LS_KDEx_LGBM,0.004091614906832298,"{'binSize': 400, 'weightsByDistance': False}",0.0062603710966964154,0.75
+Location_3_max_PM10,7.5,2.5,LS_KDEx_LGBM,3.118944099378882,"{'binSize': 100, 'weightsByDistance': False}",0.07069491995928567,0.75
+Location_3_max_PM2.5,7.5,2.5,SAA,1.5012163561076606,N/A,,0.75
+Location_3_max_PM2.5,7.5,2.5,LS_KDEx_LGBM,1.4485144927536233,"{'binSize': 400, 'weightsByDistance': False}",0.0351061078835313,0.75
+Location_3_max_SO2,7.5,2.5,SAA,0.7265527950310559,N/A,,0.75
+Location_3_max_SO2,7.5,2.5,LS_KDEx_LGBM,0.8366149068322981,"{'binSize': 100, 'weightsByDistance': False}",-0.15148536011968372,0.75
+Location_4_max_CO,7.5,2.5,LS_KDEx_LGBM,0.16161524500907443,"{'binSize': 20, 'weightsByDistance': False}",0.22231319251132575,0.75
+Location_4_max_NO2,7.5,2.5,SAA,5.113259981851179,N/A,,0.75
+Location_4_max_NO2,7.5,2.5,LS_KDEx_LGBM,3.862193738656987,"{'binSize': 400, 'weightsByDistance': False}",0.2446709628758721,0.75
+Location_4_max_O3,7.5,2.5,SAA,0.0057380898366606176,N/A,,0.75
+Location_4_max_O3,7.5,2.5,LS_KDEx_LGBM,0.003514519056261343,"{'binSize': 100, 'weightsByDistance': False}",0.387510625259454,0.75
+Location_4_max_PM10,7.5,2.5,LS_KDEx_LGBM,5.513271324863884,"{'binSize': 400, 'weightsByDistance': False}",0.3129015613624637,0.75
+Location_4_max_PM2.5,7.5,2.5,SAA,3.368761343012704,N/A,,0.75
+Location_4_max_PM2.5,7.5,2.5,LS_KDEx_LGBM,3.0878024803387776,"{'binSize': 100, 'weightsByDistance': False}",0.08340123685421519,0.75
+Location_4_max_SO2,7.5,2.5,SAA,0.41002722323049,N/A,,0.75
+Location_4_max_SO2,7.5,2.5,LS_KDEx_LGBM,0.42330989110707806,"{'binSize': 400, 'weightsByDistance': False}",-0.032394599977868754,0.75
+Location_5_max_CO,7.5,2.5,LS_KDEx_LGBM,0.0956508875739645,"{'binSize': 400, 'weightsByDistance': False}",0.055230859146697675,0.75
+Location_5_max_NO2,7.5,2.5,SAA,3.3318343195266267,N/A,,0.75
+Location_5_max_NO2,7.5,2.5,LS_KDEx_LGBM,3.1607100591715978,"{'binSize': 100, 'weightsByDistance': False}",0.05136037507991742,0.75
+Location_5_max_O3,7.5,2.5,SAA,0.004601775147928994,N/A,,0.75
+Location_5_max_O3,7.5,2.5,LS_KDEx_LGBM,0.003527218934911243,"{'binSize': 400, 'weightsByDistance': False}",0.23350906519223347,0.75
+Location_5_max_PM10,7.5,2.5,LS_KDEx_LGBM,2.0912721893491124,"{'binSize': 400, 'weightsByDistance': False}",0.06901547579848533,0.75
+Location_5_max_PM2.5,7.5,2.5,SAA,1.3933333333333335,N/A,,0.75
+Location_5_max_PM2.5,7.5,2.5,LS_KDEx_LGBM,1.3388264299802761,"{'binSize': 100, 'weightsByDistance': False}",0.039119787095495795,0.75
+Location_5_max_SO2,7.5,2.5,SAA,0.3485207100591716,N/A,,0.75
+Location_5_max_SO2,7.5,2.5,LS_KDEx_LGBM,0.3432248520710059,"{'binSize': 100, 'weightsByDistance': False}",0.015195246179966149,0.75
+Location_6_max_CO,7.5,2.5,LS_KDEx_LGBM,0.057786259541984734,"{'binSize': 100, 'weightsByDistance': False}",0.06079404466501237,0.75
+Location_6_max_NO2,7.5,2.5,SAA,3.3905343511450385,N/A,,0.75
+Location_6_max_NO2,7.5,2.5,LS_KDEx_LGBM,3.348206106870229,"{'binSize': 100, 'weightsByDistance': False}",0.012484239913544859,0.75
+Location_6_max_O3,7.5,2.5,SAA,0.005076431297709923,N/A,,0.75
+Location_6_max_O3,7.5,2.5,LS_KDEx_LGBM,0.0033028625954198473,"{'binSize': 100, 'weightsByDistance': False}",0.34937313208398324,0.75
+Location_6_max_PM10,7.5,2.5,LS_KDEx_LGBM,3.8679389312977097,"{'binSize': 100, 'weightsByDistance': False}",-0.13144771120208376,0.75
+Location_6_max_PM2.5,7.5,2.5,SAA,1.424740776081425,N/A,,0.75
+Location_6_max_PM2.5,7.5,2.5,LS_KDEx_LGBM,2.0082076972010183,"{'binSize': 100, 'weightsByDistance': False}",-0.40952496827131424,0.75
+Location_6_max_SO2,7.5,2.5,SAA,0.5034923664122137,N/A,,0.75
+Location_6_max_SO2,7.5,2.5,LS_KDEx_LGBM,0.45843511450381674,"{'binSize': 400, 'weightsByDistance': False}",0.08948944396012593,0.75
+Location_1_max_CO,5.0,5.0,LS_KDEx_LGBM,0.10253436426116838,"{'binSize': 100, 'weightsByDistance': False}",0.2623609394313968,0.5
+Location_1_max_NO2,5.0,5.0,SAA,6.651890034364261,N/A,,0.5
+Location_1_max_NO2,5.0,5.0,LS_KDEx_LGBM,4.959278350515464,"{'binSize': 100, 'weightsByDistance': False}",0.2544557524409773,0.5
+Location_1_max_O3,5.0,5.0,SAA,0.007200171821305842,N/A,,0.5
+Location_1_max_O3,5.0,5.0,LS_KDEx_LGBM,0.005543384879725086,"{'binSize': 400, 'weightsByDistance': False}",0.23010380622837368,0.5
+Location_1_max_PM10,5.0,5.0,LS_KDEx_LGBM,4.229166666666667,"{'binSize': 400, 'weightsByDistance': False}",0.14517039288039946,0.5
+Location_1_max_PM2.5,5.0,5.0,SAA,1.68840206185567,N/A,,0.5
+Location_1_max_PM2.5,5.0,5.0,LS_KDEx_LGBM,1.618692726231386,"{'binSize': 20, 'weightsByDistance': True}",0.0412871656574908,0.5
+Location_1_max_SO2,5.0,5.0,SAA,0.5196735395189003,N/A,,0.5
+Location_1_max_SO2,5.0,5.0,LS_KDEx_LGBM,0.4859536082474228,"{'binSize': 400, 'weightsByDistance': False}",0.0648867581418413,0.5
+Location_2_max_CO,5.0,5.0,LS_KDEx_LGBM,0.08060420315236429,"{'binSize': 100, 'weightsByDistance': False}",0.03283425269240858,0.5
+Location_2_max_NO2,5.0,5.0,SAA,4.561252189141857,N/A,,0.5
+Location_2_max_NO2,5.0,5.0,LS_KDEx_LGBM,4.379345446584939,"{'binSize': 100, 'weightsByDistance': False}",0.039880878104032735,0.5
+Location_2_max_O3,5.0,5.0,SAA,0.006992338003502629,N/A,,0.5
+Location_2_max_O3,5.0,5.0,LS_KDEx_LGBM,0.004593695271453591,"{'binSize': 100, 'weightsByDistance': False}",0.34303872765411236,0.5
+Location_2_max_PM10,5.0,5.0,LS_KDEx_LGBM,2.931607559836544,"{'binSize': 100, 'weightsByDistance': False}",0.03659406605396798,0.5
+Location_2_max_PM2.5,5.0,5.0,SAA,1.9113871862230007,N/A,,0.5
+Location_2_max_PM2.5,5.0,5.0,LS_KDEx_LGBM,1.9152181844716871,"{'binSize': 100, 'weightsByDistance': False}",-0.0020043025695157812,0.5
+Location_2_max_SO2,5.0,5.0,SAA,0.7106282837127846,N/A,,0.5
+Location_2_max_SO2,5.0,5.0,LS_KDEx_LGBM,0.677528458844133,"{'binSize': 100, 'weightsByDistance': True}",0.046578254239637906,0.5
+Location_3_max_CO,5.0,5.0,LS_KDEx_LGBM,0.07198757763975155,"{'binSize': 100, 'weightsByDistance': False}",0.0034393809114359186,0.5
+Location_3_max_NO2,5.0,5.0,SAA,4.497577639751553,N/A,,0.5
+Location_3_max_NO2,5.0,5.0,LS_KDEx_LGBM,4.743416149068324,"{'binSize': 100, 'weightsByDistance': False}",-0.05466020356023282,0.5
+Location_3_max_O3,5.0,5.0,SAA,0.004654037267080745,N/A,,0.5
+Location_3_max_O3,5.0,5.0,LS_KDEx_LGBM,0.005000621118012424,"{'binSize': 400, 'weightsByDistance': False}",-0.0744695048712134,0.5
+Location_3_max_PM10,5.0,5.0,LS_KDEx_LGBM,3.5422360248447204,"{'binSize': 100, 'weightsByDistance': False}",0.07598833441348019,0.5
+Location_3_max_PM2.5,5.0,5.0,SAA,1.6079503105590063,N/A,,0.5
+Location_3_max_PM2.5,5.0,5.0,LS_KDEx_LGBM,1.6642132505175982,"{'binSize': 400, 'weightsByDistance': False}",-0.0349904717758549,0.5
+Location_3_max_SO2,5.0,5.0,SAA,0.642360248447205,N/A,,0.5
+Location_3_max_SO2,5.0,5.0,LS_KDEx_LGBM,0.6701242236024846,"{'binSize': 100, 'weightsByDistance': False}",-0.04322181396248337,0.5
+Location_4_max_CO,5.0,5.0,LS_KDEx_LGBM,0.15205308529945555,"{'binSize': 100, 'weightsByDistance': False}",0.25659937888198747,0.5
+Location_4_max_NO2,5.0,5.0,SAA,6.916719600725953,N/A,,0.5
+Location_4_max_NO2,5.0,5.0,LS_KDEx_LGBM,4.3147459165154265,"{'binSize': 100, 'weightsByDistance': False}",0.3761860873957408,0.5
+Location_4_max_O3,5.0,5.0,SAA,0.006570099818511796,N/A,,0.5
+Location_4_max_O3,5.0,5.0,LS_KDEx_LGBM,0.005318738656987296,"{'binSize': 100, 'weightsByDistance': False}",0.1904630364973584,0.5
+Location_4_max_PM10,5.0,5.0,LS_KDEx_LGBM,6.965857531760435,"{'binSize': 400, 'weightsByDistance': False}",0.12065237624754788,0.5
+Location_4_max_PM2.5,5.0,5.0,SAA,3.100983061101029,N/A,,0.5
+Location_4_max_PM2.5,5.0,5.0,LS_KDEx_LGBM,2.9120046884452506,"{'binSize': 100, 'weightsByDistance': False}",0.06094143983768818,0.5
+Location_4_max_SO2,5.0,5.0,SAA,0.3985480943738657,N/A,,0.5
+Location_4_max_SO2,5.0,5.0,LS_KDEx_LGBM,0.43929219600725955,"{'binSize': 100, 'weightsByDistance': False}",-0.1022313296903461,0.5
+Location_5_max_CO,5.0,5.0,LS_KDEx_LGBM,0.10828402366863905,"{'binSize': 400, 'weightsByDistance': False}",-0.05719237435008662,0.5
+Location_5_max_NO2,5.0,5.0,SAA,3.8589349112426037,N/A,,0.5
+Location_5_max_NO2,5.0,5.0,LS_KDEx_LGBM,3.474497041420118,"{'binSize': 400, 'weightsByDistance': False}",0.09962279195289514,0.5
+Location_5_max_O3,5.0,5.0,SAA,0.005346153846153846,N/A,,0.5
+Location_5_max_O3,5.0,5.0,LS_KDEx_LGBM,0.004776331360946745,"{'binSize': 100, 'weightsByDistance': False}",0.10658550083010532,0.5
+Location_5_max_PM10,5.0,5.0,LS_KDEx_LGBM,2.483136094674556,"{'binSize': 400, 'weightsByDistance': False}",0.04657503123935014,0.5
+Location_5_max_PM2.5,5.0,5.0,SAA,1.5321104536489154,N/A,,0.5
+Location_5_max_PM2.5,5.0,5.0,LS_KDEx_LGBM,1.4863412228796846,"{'binSize': 100, 'weightsByDistance': False}",0.029873323206055735,0.5
+Location_5_max_SO2,5.0,5.0,SAA,0.3056213017751479,N/A,,0.5
+Location_5_max_SO2,5.0,5.0,LS_KDEx_LGBM,0.33106508875739643,"{'binSize': 100, 'weightsByDistance': False}",-0.08325266214908034,0.5
+Location_6_max_CO,5.0,5.0,LS_KDEx_LGBM,0.04977099236641221,"{'binSize': 20, 'weightsByDistance': False}",0.16942675159235676,0.5
+Location_6_max_NO2,5.0,5.0,SAA,4.094580152671756,N/A,,0.5
+Location_6_max_NO2,5.0,5.0,LS_KDEx_LGBM,3.788625954198473,"{'binSize': 100, 'weightsByDistance': False}",0.07472175096478317,0.5
+Location_6_max_O3,5.0,5.0,SAA,0.006294465648854961,N/A,,0.5
+Location_6_max_O3,5.0,5.0,LS_KDEx_LGBM,0.0031822519083969467,"{'binSize': 100, 'weightsByDistance': False}",0.49443652790831627,0.5
+Location_6_max_PM10,5.0,5.0,LS_KDEx_LGBM,4.186323155216286,"{'binSize': 400, 'weightsByDistance': False}",-0.1547059236384054,0.5
+Location_6_max_PM2.5,5.0,5.0,SAA,1.5915489821882953,N/A,,0.5
+Location_6_max_PM2.5,5.0,5.0,LS_KDEx_LGBM,1.6075795165394402,"{'binSize': 100, 'weightsByDistance': False}",-0.010072284629973227,0.5
+Location_6_max_SO2,5.0,5.0,SAA,0.46469465648854963,N/A,,0.5
+Location_6_max_SO2,5.0,5.0,LS_KDEx_LGBM,0.43217557251908395,"{'binSize': 400, 'weightsByDistance': False}",0.06997946611909656,0.5
+Location_1_max_CO,2.5,7.5,LS_KDEx_LGBM,0.06458333333333333,"{'binSize': 100, 'weightsByDistance': False}",0.23988877654196172,0.25
+Location_1_max_NO2,2.5,7.5,SAA,5.039390034364262,N/A,,0.25
+Location_1_max_NO2,2.5,7.5,LS_KDEx_LGBM,3.6220790378006877,"{'binSize': 100, 'weightsByDistance': False}",0.28124653716000236,0.25
+Location_1_max_O3,2.5,7.5,SAA,0.0056628006872852235,N/A,,0.25
+Location_1_max_O3,2.5,7.5,LS_KDEx_LGBM,0.006289948453608247,"{'binSize': 100, 'weightsByDistance': False}",-0.11074869149662447,0.25
+Location_1_max_PM10,2.5,7.5,LS_KDEx_LGBM,2.8317225085910653,"{'binSize': 20, 'weightsByDistance': False}",0.1240407932764177,0.25
+Location_1_max_PM2.5,2.5,7.5,SAA,1.1410044387170675,N/A,,0.25
+Location_1_max_PM2.5,2.5,7.5,LS_KDEx_LGBM,1.0344752290950745,"{'binSize': 20, 'weightsByDistance': False}",0.09336441297439058,0.25
+Location_1_max_SO2,2.5,7.5,SAA,0.3216924398625429,N/A,,0.25
+Location_1_max_SO2,2.5,7.5,LS_KDEx_LGBM,0.3293599656357388,"{'binSize': 400, 'weightsByDistance': False}",-0.023834957938309698,0.25
+Location_2_max_CO,2.5,7.5,LS_KDEx_LGBM,0.0526707530647986,"{'binSize': 100, 'weightsByDistance': False}",0.08150410383661,0.25
+Location_2_max_NO2,2.5,7.5,SAA,3.407486865148862,N/A,,0.25
+Location_2_max_NO2,2.5,7.5,LS_KDEx_LGBM,3.0911011383537654,"{'binSize': 400, 'weightsByDistance': False}",0.09285016767959708,0.25
+Location_2_max_O3,2.5,7.5,SAA,0.005408822241681262,N/A,,0.25
+Location_2_max_O3,2.5,7.5,LS_KDEx_LGBM,0.0038723730297723293,"{'binSize': 100, 'weightsByDistance': False}",0.2840635434584641,0.25
+Location_2_max_PM10,2.5,7.5,LS_KDEx_LGBM,2.153212565674256,"{'binSize': 400, 'weightsByDistance': False}",-0.021338732915384906,0.25
+Location_2_max_PM2.5,2.5,7.5,SAA,1.317828736135435,N/A,,0.25
+Location_2_max_PM2.5,2.5,7.5,LS_KDEx_LGBM,1.3310420315236426,"{'binSize': 400, 'weightsByDistance': False}",-0.0100265649290332,0.25
+Location_2_max_SO2,2.5,7.5,SAA,0.42173270577933447,N/A,,0.25
+Location_2_max_SO2,2.5,7.5,LS_KDEx_LGBM,0.4064634413309982,"{'binSize': 20, 'weightsByDistance': False}",0.03620602395567041,0.25
+Location_3_max_CO,2.5,7.5,LS_KDEx_LGBM,0.044968944099378884,"{'binSize': 100, 'weightsByDistance': False}",0.043593130779392086,0.25
+Location_3_max_NO2,2.5,7.5,SAA,3.122204968944099,N/A,,0.25
+Location_3_max_NO2,2.5,7.5,LS_KDEx_LGBM,3.108136645962733,"{'binSize': 100, 'weightsByDistance': False}",0.0045058934699356845,0.25
+Location_3_max_O3,2.5,7.5,SAA,0.00359472049689441,N/A,,0.25
+Location_3_max_O3,2.5,7.5,LS_KDEx_LGBM,0.005052484472049689,"{'binSize': 100, 'weightsByDistance': False}",-0.4055291576673863,0.25
+Location_3_max_PM10,2.5,7.5,LS_KDEx_LGBM,2.9524844720496892,"{'binSize': 20, 'weightsByDistance': True}",-0.06354178319722559,0.25
+Location_3_max_PM2.5,2.5,7.5,SAA,1.140248447204969,N/A,,0.25
+Location_3_max_PM2.5,2.5,7.5,LS_KDEx_LGBM,1.1374068322981365,"{'binSize': 400, 'weightsByDistance': False}",0.002492101536115121,0.25
+Location_3_max_SO2,2.5,7.5,SAA,0.3898447204968944,N/A,,0.25
+Location_3_max_SO2,2.5,7.5,LS_KDEx_LGBM,0.39083850931677017,"{'binSize': 100, 'weightsByDistance': False}",-0.0025491914283437556,0.25
+Location_4_max_CO,2.5,7.5,LS_KDEx_LGBM,0.1033405172413793,"{'binSize': 20, 'weightsByDistance': False}",0.16286869429385298,0.25
+Location_4_max_NO2,2.5,7.5,SAA,5.153436932849365,N/A,,0.25
+Location_4_max_NO2,2.5,7.5,LS_KDEx_LGBM,3.6088929219600727,"{'binSize': 400, 'weightsByDistance': False}",0.29971144131869776,0.25
+Location_4_max_O3,2.5,7.5,SAA,0.004440222323049002,N/A,,0.25
+Location_4_max_O3,2.5,7.5,LS_KDEx_LGBM,0.006480149727767696,"{'binSize': 100, 'weightsByDistance': False}",-0.4594201047387918,0.25
+Location_4_max_PM10,2.5,7.5,LS_KDEx_LGBM,4.777733666061706,"{'binSize': 100, 'weightsByDistance': False}",0.07367414037672781,0.25
+Location_4_max_PM2.5,2.5,7.5,SAA,1.9496521476104052,N/A,,0.25
+Location_4_max_PM2.5,2.5,7.5,LS_KDEx_LGBM,1.8709429824561403,"{'binSize': 100, 'weightsByDistance': False}",0.04037087603074985,0.25
+Location_4_max_SO2,2.5,7.5,SAA,0.25567150635208713,N/A,,0.25
+Location_4_max_SO2,2.5,7.5,LS_KDEx_LGBM,0.30128176043557164,"{'binSize': 20, 'weightsByDistance': False}",-0.17839396628216475,0.25
+Location_5_max_CO,2.5,7.5,LS_KDEx_LGBM,0.06494082840236687,"{'binSize': 400, 'weightsByDistance': False}",0.0683361629881154,0.25
+Location_5_max_NO2,2.5,7.5,SAA,2.630443786982248,N/A,,0.25
+Location_5_max_NO2,2.5,7.5,LS_KDEx_LGBM,2.442603550295858,"{'binSize': 400, 'weightsByDistance': False}",0.07141009346635308,0.25
+Location_5_max_O3,2.5,7.5,SAA,0.003972781065088758,N/A,,0.25
+Location_5_max_O3,2.5,7.5,LS_KDEx_LGBM,0.004259763313609467,"{'binSize': 400, 'weightsByDistance': False}",-0.0722371164730411,0.25
+Location_5_max_PM10,2.5,7.5,LS_KDEx_LGBM,2.158431952662722,"{'binSize': 100, 'weightsByDistance': False}",-0.17036977620919225,0.25
+Location_5_max_PM2.5,2.5,7.5,SAA,1.0734072978303748,N/A,,0.25
+Location_5_max_PM2.5,2.5,7.5,LS_KDEx_LGBM,1.0557297830374754,"{'binSize': 20, 'weightsByDistance': False}",0.01646859941108103,0.25
+Location_5_max_SO2,2.5,7.5,SAA,0.17754437869822487,N/A,,0.25
+Location_5_max_SO2,2.5,7.5,LS_KDEx_LGBM,0.19236686390532542,"{'binSize': 400, 'weightsByDistance': False}",-0.08348608565239113,0.25
+Location_6_max_CO,2.5,7.5,LS_KDEx_LGBM,0.03173664122137405,"{'binSize': 20, 'weightsByDistance': False}",0.032013969732246794,0.25
+Location_6_max_NO2,2.5,7.5,SAA,2.823740458015267,N/A,,0.25
+Location_6_max_NO2,2.5,7.5,LS_KDEx_LGBM,2.6138358778625954,"{'binSize': 400, 'weightsByDistance': False}",0.07433564921197044,0.25
+Location_6_max_O3,2.5,7.5,SAA,0.004906774809160306,N/A,,0.25
+Location_6_max_O3,2.5,7.5,LS_KDEx_LGBM,0.0028260496183206106,"{'binSize': 400, 'weightsByDistance': False}",0.42405149446745627,0.25
+Location_6_max_PM10,2.5,7.5,LS_KDEx_LGBM,2.8716921119592875,"{'binSize': 400, 'weightsByDistance': False}",-0.11546824808500111,0.25
+Location_6_max_PM2.5,2.5,7.5,SAA,1.1413342875318064,N/A,,0.25
+Location_6_max_PM2.5,2.5,7.5,LS_KDEx_LGBM,1.1226860687022902,"{'binSize': 100, 'weightsByDistance': False}",0.01633896311819738,0.25
+Location_6_max_SO2,2.5,7.5,SAA,0.2834160305343511,N/A,,0.25
+Location_6_max_SO2,2.5,7.5,LS_KDEx_LGBM,0.2719465648854962,"{'binSize': 400, 'weightsByDistance': False}",0.04046865530940669,0.25
+Location_1_max_CO,1.0,9.0,LS_KDEx_LGBM,0.029716494845360826,"{'binSize': 100, 'weightsByDistance': False}",0.21600181323662748,0.1
+Location_1_max_NO2,1.0,9.0,SAA,2.4848109965635743,N/A,,0.1
+Location_1_max_NO2,1.0,9.0,LS_KDEx_LGBM,1.8366580756013744,"{'binSize': 400, 'weightsByDistance': False}",0.26084596448525765,0.1
+Location_1_max_O3,1.0,9.0,SAA,0.0033871134020618567,N/A,,0.1
+Location_1_max_O3,1.0,9.0,LS_KDEx_LGBM,0.004925773195876289,"{'binSize': 100, 'weightsByDistance': False}",-0.45426875665804256,0.1
+Location_1_max_PM10,1.0,9.0,LS_KDEx_LGBM,1.3437714776632304,"{'binSize': 20, 'weightsByDistance': False}",0.09678071315143655,0.1
+Location_1_max_PM2.5,1.0,9.0,SAA,0.5676474799541811,N/A,,0.1
+Location_1_max_PM2.5,1.0,9.0,LS_KDEx_LGBM,0.5056214203894616,"{'binSize': 100, 'weightsByDistance': False}",0.10926862490383304,0.1
+Location_1_max_SO2,1.0,9.0,SAA,0.14893470790378008,N/A,,0.1
+Location_1_max_SO2,1.0,9.0,LS_KDEx_LGBM,0.1493556701030928,"{'binSize': 100, 'weightsByDistance': False}",-0.0028264882325796936,0.1
+Location_2_max_CO,1.0,9.0,LS_KDEx_LGBM,0.02529334500875657,"{'binSize': 100, 'weightsByDistance': False}",0.16214648295866563,0.1
+Location_2_max_NO2,1.0,9.0,SAA,1.6777408056042031,N/A,,0.1
+Location_2_max_NO2,1.0,9.0,LS_KDEx_LGBM,1.6413244308231172,"{'binSize': 100, 'weightsByDistance': False}",0.021705602354930686,0.1
+Location_2_max_O3,1.0,9.0,SAA,0.002816330998248687,N/A,,0.1
+Location_2_max_O3,1.0,9.0,LS_KDEx_LGBM,0.002388047285464098,"{'binSize': 100, 'weightsByDistance': False}",0.15207151185386725,0.1
+Location_2_max_PM10,1.0,9.0,LS_KDEx_LGBM,1.0010252481027437,"{'binSize': 20, 'weightsByDistance': False}",-0.0130115161517812,0.1
+Location_2_max_PM2.5,1.0,9.0,SAA,0.6439411850554582,N/A,,0.1
+Location_2_max_PM2.5,1.0,9.0,LS_KDEx_LGBM,0.6593264740221833,"{'binSize': 400, 'weightsByDistance': False}",-0.023892382291715197,0.1
+Location_2_max_SO2,1.0,9.0,SAA,0.1827648861646235,N/A,,0.1
+Location_2_max_SO2,1.0,9.0,LS_KDEx_LGBM,0.17374562171628724,"{'binSize': 20, 'weightsByDistance': False}",0.0493490004431828,0.1
+Location_3_max_CO,1.0,9.0,LS_KDEx_LGBM,0.021366459627329196,"{'binSize': 20, 'weightsByDistance': False}",0.016018306636155666,0.1
+Location_3_max_NO2,1.0,9.0,SAA,1.5131055900621118,N/A,,0.1
+Location_3_max_NO2,1.0,9.0,LS_KDEx_LGBM,1.5513043478260868,"{'binSize': 100, 'weightsByDistance': False}",-0.025245269077623922,0.1
+Location_3_max_O3,1.0,9.0,SAA,0.0019436024844720497,N/A,,0.1
+Location_3_max_O3,1.0,9.0,LS_KDEx_LGBM,0.0025258385093167705,"{'binSize': 400, 'weightsByDistance': False}",-0.2995653841237378,0.1
+Location_3_max_PM10,1.0,9.0,LS_KDEx_LGBM,1.8426708074534164,"{'binSize': 100, 'weightsByDistance': False}",-0.32371051222559366,0.1
+Location_3_max_PM2.5,1.0,9.0,SAA,0.5636708074534162,N/A,,0.1
+Location_3_max_PM2.5,1.0,9.0,LS_KDEx_LGBM,0.6199855072463768,"{'binSize': 400, 'weightsByDistance': False}",-0.0999070717310735,0.1
+Location_3_max_SO2,1.0,9.0,SAA,0.17195031055900623,N/A,,0.1
+Location_3_max_SO2,1.0,9.0,LS_KDEx_LGBM,0.1756273291925466,"{'binSize': 100, 'weightsByDistance': False}",-0.021384193035688392,0.1
+Location_4_max_CO,1.0,9.0,LS_KDEx_LGBM,0.05105943738656988,"{'binSize': 20, 'weightsByDistance': False}",-0.006844412633085772,0.1
+Location_4_max_NO2,1.0,9.0,SAA,2.458915607985481,N/A,,0.1
+Location_4_max_NO2,1.0,9.0,LS_KDEx_LGBM,1.9809777676950997,"{'binSize': 100, 'weightsByDistance': False}",0.194369354823829,0.1
+Location_4_max_O3,1.0,9.0,SAA,0.0024240925589836663,N/A,,0.1
+Location_4_max_O3,1.0,9.0,LS_KDEx_LGBM,0.004177767695099818,"{'binSize': 400, 'weightsByDistance': False}",-0.7234357160237328,0.1
+Location_4_max_PM10,1.0,9.0,LS_KDEx_LGBM,2.4232531760435574,"{'binSize': 20, 'weightsByDistance': False}",-0.009602933809699454,0.1
+Location_4_max_PM2.5,1.0,9.0,SAA,0.9060012099213551,N/A,,0.1
+Location_4_max_PM2.5,1.0,9.0,LS_KDEx_LGBM,0.9016545674531156,"{'binSize': 100, 'weightsByDistance': False}",0.004797612211375424,0.1
+Location_4_max_SO2,1.0,9.0,SAA,0.1148366606170599,N/A,,0.1
+Location_4_max_SO2,1.0,9.0,LS_KDEx_LGBM,0.14362522686025408,"{'binSize': 100, 'weightsByDistance': False}",-0.2506914263137099,0.1
+Location_5_max_CO,1.0,9.0,LS_KDEx_LGBM,0.030710059171597637,"{'binSize': 100, 'weightsByDistance': False}",0.08915408915408907,0.1
+Location_5_max_NO2,1.0,9.0,SAA,1.2392899408284026,N/A,,0.1
+Location_5_max_NO2,1.0,9.0,LS_KDEx_LGBM,1.178473372781065,"{'binSize': 400, 'weightsByDistance': False}",0.04907372039725011,0.1
+Location_5_max_O3,1.0,9.0,SAA,0.0021844970414201183,N/A,,0.1
+Location_5_max_O3,1.0,9.0,LS_KDEx_LGBM,0.002525443786982249,"{'binSize': 100, 'weightsByDistance': False}",-0.15607562706538847,0.1
+Location_5_max_PM10,1.0,9.0,LS_KDEx_LGBM,1.2740236686390534,"{'binSize': 100, 'weightsByDistance': True}",-0.3614290230793551,0.1
+Location_5_max_PM2.5,1.0,9.0,SAA,0.5249546351084813,N/A,,0.1
+Location_5_max_PM2.5,1.0,9.0,LS_KDEx_LGBM,0.5366587771203156,"{'binSize': 100, 'weightsByDistance': False}",-0.022295530373621197,0.1
+Location_5_max_SO2,1.0,9.0,SAA,0.07308875739644971,N/A,,0.1
+Location_5_max_SO2,1.0,9.0,LS_KDEx_LGBM,0.08094674556213019,"{'binSize': 100, 'weightsByDistance': False}",-0.10751295336787581,0.1
+Location_6_max_CO,1.0,9.0,LS_KDEx_LGBM,0.01665648854961832,"{'binSize': 400, 'weightsByDistance': False}",-0.009250693802035137,0.1
+Location_6_max_NO2,1.0,9.0,SAA,1.3112366412213743,N/A,,0.1
+Location_6_max_NO2,1.0,9.0,LS_KDEx_LGBM,1.2307557251908396,"{'binSize': 400, 'weightsByDistance': False}",0.061377872994434646,0.1
+Location_6_max_O3,1.0,9.0,SAA,0.0022885114503816795,N/A,,0.1
+Location_6_max_O3,1.0,9.0,LS_KDEx_LGBM,0.0014804961832061067,"{'binSize': 20, 'weightsByDistance': False}",0.35307460097733456,0.1
+Location_6_max_PM10,1.0,9.0,LS_KDEx_LGBM,1.3459033078880407,"{'binSize': 400, 'weightsByDistance': False}",-0.07878688992678096,0.1
+Location_6_max_PM2.5,1.0,9.0,SAA,0.5667868956743003,N/A,,0.1
+Location_6_max_PM2.5,1.0,9.0,LS_KDEx_LGBM,0.5299866412213741,"{'binSize': 400, 'weightsByDistance': False}",0.06492784983877464,0.1
+Location_6_max_SO2,1.0,9.0,SAA,0.12881679389312978,N/A,,0.1
+Location_6_max_SO2,1.0,9.0,LS_KDEx_LGBM,0.1286412213740458,"{'binSize': 400, 'weightsByDistance': False}",0.0013629629629631212,0.1

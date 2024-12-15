@@ -132,7 +132,7 @@ def create_cv_folds_alldata(X_train_scaled_withID, kFolds=5, testLength=None, gr
     global cvFolds_FULLDATA
 
         # Prüfe, ob die Zahl 16 in der groupFeature-Spalte vorhanden ist
-    if 16 in X_train_scaled_withID[groupFeature].values:
+    if "16" in X_train_scaled_withID[groupFeature].values:
         print("Wage Dataset, no time series split using basic KFold Cross Validation")
         kf = KFold(n_splits=5)  # Anzahl der gewünschten Folds
         cvFolds_FULLDATA = list(kf.split(X_train_scaled_withID))  # list() um die Folds zu erstellen
@@ -163,10 +163,7 @@ def bayesian_search_model_alldata(model_name, model, param_grid, X_train, y_trai
 
     max_combinations = calculate_n_iter(param_grid)
 
-    if model_name == "LGBM":
-        n_iter = 80  # Higher number of iterations for LGBM since we have more params here
-    else: 
-        n_iter = min(max_combinations, 50)  # Dynamically set n_iter to the smaller of max_combinations or 50
+    n_iter = min(max_combinations, 50)  # Dynamically set n_iter to the smaller of max_combinations or 50
 
 
     # Create Bayesian search object with optimized settings

@@ -1,0 +1,211 @@
+Variable,cu,co,Model,Pinball Loss,Best Params,delta C,sl
+pollutant_max_O3_Location 1,9.0,1.0,SAA,0.022147670250896048,N/A,,0.9
+pollutant_max_O3_Location 2,9.0,1.0,SAA,0.03059481580016996,N/A,,0.9
+pollutant_max_O3_Location 4,9.0,1.0,SAA,0.026469627389486255,N/A,,0.9
+pollutant_max_PM10_Location 1,9.0,1.0,SAA,0.049227959355075276,N/A,,0.9
+pollutant_max_PM10_Location 2,9.0,1.0,SAA,0.05195734956352302,N/A,,0.9
+pollutant_max_PM10_Location 4,9.0,1.0,SAA,0.044082141224035025,N/A,,0.9
+pollutant_max_O3_Location 1,9.0,1.0,MLP,0.03955056398295249,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 40), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.7857663372675667,0.9
+pollutant_max_O3_Location 2,9.0,1.0,MLP,0.038776003544455144,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 40), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.2674043798047556,0.9
+pollutant_max_O3_Location 4,9.0,1.0,MLP,0.030348097835298952,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 40), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",-0.14652531328617147,0.9
+pollutant_max_PM10_Location 1,9.0,1.0,MLP,0.0393081570342594,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 40), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.20150748580223599,0.9
+pollutant_max_PM10_Location 2,9.0,1.0,MLP,0.013592860174591272,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 40), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.7383842653872741,0.9
+pollutant_max_PM10_Location 4,9.0,1.0,MLP,0.03155710616903109,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 40), ('learning_rate_init', 0.001), ('max_iter', 500), ('solver', 'adam')])",0.28412946166450914,0.9
+pollutant_max_O3_Location 1,9.0,1.0,LGBM,0.01847119094026477,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 127)])",0.16599846706145238,0.9
+pollutant_max_O3_Location 2,9.0,1.0,LGBM,0.019108407232455348,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 127)])",0.3754364348109853,0.9
+pollutant_max_O3_Location 4,9.0,1.0,LGBM,0.02509988044653002,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 127)])",0.051747873999174576,0.9
+pollutant_max_PM10_Location 1,9.0,1.0,LGBM,0.019581672420855296,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 127)])",0.6022245756803553,0.9
+pollutant_max_PM10_Location 2,9.0,1.0,LGBM,0.01170524158714,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 127)])",0.7747144208572614,0.9
+pollutant_max_PM10_Location 4,9.0,1.0,LGBM,0.028535194649461488,"OrderedDict([('learning_rate', 0.1), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 50), ('num_leaves', 127)])",0.3526812932148775,0.9
+pollutant_max_O3_Location 1,9.0,1.0,RFW,0.016591636798088408,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 100)])",0.25086311065078526,0.9
+pollutant_max_O3_Location 2,9.0,1.0,RFW,0.019112810848760296,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 100)])",0.3752925013964581,0.9
+pollutant_max_O3_Location 4,9.0,1.0,RFW,0.02154924581839904,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 100)])",0.18588782904596501,0.9
+pollutant_max_PM10_Location 1,9.0,1.0,RFW,0.013103850385038501,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 100)])",0.7338128462623847,0.9
+pollutant_max_PM10_Location 2,9.0,1.0,RFW,0.007482094858970431,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 100)])",0.8559954477696591,0.9
+pollutant_max_PM10_Location 4,9.0,1.0,RFW,0.01639038578337,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 16), ('n_estimators', 100)])",0.6281853528831438,0.9
+pollutant_max_O3_Location 1,9.0,1.0,KNNW,0.025786379928315405,"OrderedDict([('n_neighbors', 32)])",-0.16429311237700683,0.9
+pollutant_max_O3_Location 2,9.0,1.0,KNNW,0.02854820234268188,"OrderedDict([('n_neighbors', 32)])",0.06689412581711662,0.9
+pollutant_max_O3_Location 4,9.0,1.0,KNNW,0.0339512395459976,"OrderedDict([('n_neighbors', 32)])",-0.28264894123455053,0.9
+pollutant_max_PM10_Location 1,9.0,1.0,KNNW,0.013522992299229921,"OrderedDict([('n_neighbors', 32)])",0.7252985401712424,0.9
+pollutant_max_PM10_Location 2,9.0,1.0,KNNW,0.008745839145770245,"OrderedDict([('n_neighbors', 32)])",0.8316727235080075,0.9
+pollutant_max_PM10_Location 4,9.0,1.0,KNNW,0.020268989789603963,"OrderedDict([('n_neighbors', 32)])",0.5401995178366552,0.9
+pollutant_max_O3_Location 1,9.0,1.0,DTW,0.017598088410991634,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.20542033488693223,0.9
+pollutant_max_O3_Location 2,9.0,1.0,DTW,0.025416620478143585,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.1692507435196785,0.9
+pollutant_max_O3_Location 4,9.0,1.0,DTW,0.025207679958183984,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.047675300174550905,0.9
+pollutant_max_PM10_Location 1,9.0,1.0,DTW,0.010927832783278326,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.7780157267040626,0.9
+pollutant_max_PM10_Location 2,9.0,1.0,DTW,0.007799900479738693,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.849878784324775,0.9
+pollutant_max_PM10_Location 4,9.0,1.0,DTW,0.017189648652365237,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.6100541358686797,0.9
+pollutant_max_O3_Location 1,9.0,1.0,GKW,0.030969653524492224,"OrderedDict([('kernel_bandwidth', 1.5)])",-0.39832556533747643,0.9
+pollutant_max_O3_Location 2,9.0,1.0,GKW,0.03370608386079712,"OrderedDict([('kernel_bandwidth', 1.5)])",-0.10169265541418548,0.9
+pollutant_max_O3_Location 4,9.0,1.0,GKW,0.03733399465618604,"OrderedDict([('kernel_bandwidth', 1.5)])",-0.4104465509406874,0.9
+pollutant_max_PM10_Location 1,9.0,1.0,GKW,0.041117354531152034,"OrderedDict([('kernel_bandwidth', 1.5)])",0.16475606403715493,0.9
+pollutant_max_PM10_Location 2,9.0,1.0,GKW,0.032149715844547525,"OrderedDict([('kernel_bandwidth', 1.5)])",0.3812287171184261,0.9
+pollutant_max_PM10_Location 4,9.0,1.0,GKW,0.03254670130571524,"OrderedDict([('kernel_bandwidth', 1.5)])",0.26168057172391357,0.9
+pollutant_max_O3_Location 1,7.5,2.5,SAA,0.028554360812425322,N/A,,0.75
+pollutant_max_O3_Location 2,7.5,2.5,SAA,0.045577679858108844,N/A,,0.75
+pollutant_max_O3_Location 4,7.5,2.5,SAA,0.04097945601851852,N/A,,0.75
+pollutant_max_PM10_Location 1,7.5,2.5,SAA,0.09083367046382056,N/A,,0.75
+pollutant_max_PM10_Location 2,7.5,2.5,SAA,0.09763530939267853,N/A,,0.75
+pollutant_max_PM10_Location 4,7.5,2.5,SAA,0.07889755315627328,N/A,,0.75
+pollutant_max_O3_Location 1,7.5,2.5,MLP,0.04041609134310986,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 40), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.41540872193234146,0.75
+pollutant_max_O3_Location 2,7.5,2.5,MLP,0.03804381193194143,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 40), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.16529731108783163,0.75
+pollutant_max_O3_Location 4,7.5,2.5,MLP,0.0417987888041556,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 40), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.019993744799023938,0.75
+pollutant_max_PM10_Location 1,7.5,2.5,MLP,0.0346167817902444,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 40), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.618899229619567,0.75
+pollutant_max_PM10_Location 2,7.5,2.5,MLP,0.014457819425981617,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 40), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.851920176051946,0.75
+pollutant_max_PM10_Location 4,7.5,2.5,MLP,0.03471317507393336,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 40), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.5600221593035137,0.75
+pollutant_max_O3_Location 1,7.5,2.5,LGBM,0.0284087846401939,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 250), ('num_leaves', 31)])",0.005098211554715459,0.75
+pollutant_max_O3_Location 2,7.5,2.5,LGBM,0.029775798841516547,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 250), ('num_leaves', 31)])",0.346702181106767,0.75
+pollutant_max_O3_Location 4,7.5,2.5,LGBM,0.041141606036214445,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 250), ('num_leaves', 31)])",-0.003956861155566704,0.75
+pollutant_max_PM10_Location 1,7.5,2.5,LGBM,0.027565989261661625,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 250), ('num_leaves', 31)])",0.6965223455035732,0.75
+pollutant_max_PM10_Location 2,7.5,2.5,LGBM,0.01914472240669847,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 250), ('num_leaves', 31)])",0.8039159959057385,0.75
+pollutant_max_PM10_Location 4,7.5,2.5,LGBM,0.0359033491290317,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 500), ('n_estimators', 250), ('num_leaves', 31)])",0.5449371027018096,0.75
+pollutant_max_O3_Location 1,7.5,2.5,RFW,0.032176821983273596,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",-0.12686192468619262,0.75
+pollutant_max_O3_Location 2,7.5,2.5,RFW,0.035949682222961236,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.2112436979047907,0.75
+pollutant_max_O3_Location 4,7.5,2.5,RFW,0.040156903375149336,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.020072317284970054,0.75
+pollutant_max_PM10_Location 1,7.5,2.5,RFW,0.019663366336633663,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.7835233758998469,0.75
+pollutant_max_PM10_Location 2,7.5,2.5,RFW,0.012507194662765245,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.8718988576923266,0.75
+pollutant_max_PM10_Location 4,7.5,2.5,RFW,0.02611606375481298,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.6689876591852653,0.75
+pollutant_max_O3_Location 1,7.5,2.5,KNNW,0.04215770609318996,"OrderedDict([('n_neighbors', 8)])",-0.4764016736401675,0.75
+pollutant_max_O3_Location 2,7.5,2.5,KNNW,0.04522780179580978,"OrderedDict([('n_neighbors', 8)])",0.007676522003496,0.75
+pollutant_max_O3_Location 4,7.5,2.5,KNNW,0.05170997610513739,"OrderedDict([('n_neighbors', 8)])",-0.26185120860974287,0.75
+pollutant_max_PM10_Location 1,7.5,2.5,KNNW,0.019907040704070407,"OrderedDict([('n_neighbors', 8)])",0.7808407322700951,0.75
+pollutant_max_PM10_Location 2,7.5,2.5,KNNW,0.013713275322377599,"OrderedDict([('n_neighbors', 8)])",0.8595459428799032,0.75
+pollutant_max_PM10_Location 4,7.5,2.5,KNNW,0.03210113491817932,"OrderedDict([('n_neighbors', 8)])",0.5931288914043222,0.75
+pollutant_max_O3_Location 1,7.5,2.5,DTW,0.033524492234169645,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",-0.17405857740585762,0.75
+pollutant_max_O3_Location 2,7.5,2.5,DTW,0.04270359900971807,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.06305895467558431,0.75
+pollutant_max_O3_Location 4,7.5,2.5,DTW,0.046618316905615284,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",-0.13760214104717683,0.75
+pollutant_max_PM10_Location 1,7.5,2.5,DTW,0.01736963696369637,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.8087753486674881,0.75
+pollutant_max_PM10_Location 2,7.5,2.5,DTW,0.012996467172490441,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.8668876326266344,0.75
+pollutant_max_PM10_Location 4,7.5,2.5,DTW,0.027584667646452146,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.6503735978755275,0.75
+pollutant_max_O3_Location 1,7.5,2.5,GKW,0.060348864994026294,"OrderedDict([('kernel_bandwidth', 1.5)])",-1.113472803347281,0.75
+pollutant_max_O3_Location 2,7.5,2.5,GKW,0.06305772641614012,"OrderedDict([('kernel_bandwidth', 1.5)])",-0.3835220795014065,0.75
+pollutant_max_O3_Location 4,7.5,2.5,GKW,0.06616888744906076,"OrderedDict([('kernel_bandwidth', 1.5)])",-0.6146843779273008,0.75
+pollutant_max_PM10_Location 1,7.5,2.5,GKW,0.021775536155766113,"OrderedDict([('kernel_bandwidth', 1.5)])",0.7602702164893864,0.75
+pollutant_max_PM10_Location 2,7.5,2.5,GKW,0.017709537207462017,"OrderedDict([('kernel_bandwidth', 1.5)])",0.818615444375393,0.75
+pollutant_max_PM10_Location 4,7.5,2.5,GKW,0.035687235715759075,"OrderedDict([('kernel_bandwidth', 1.5)])",0.5476762676648164,0.75
+pollutant_max_O3_Location 1,5.0,5.0,SAA,0.07687665755822896,N/A,,0.5
+pollutant_max_O3_Location 2,5.0,5.0,SAA,0.04270622855434863,N/A,,0.5
+pollutant_max_O3_Location 4,5.0,5.0,SAA,0.0746853079125117,N/A,,0.5
+pollutant_max_PM10_Location 1,5.0,5.0,SAA,0.06920352035203518,N/A,,0.5
+pollutant_max_PM10_Location 2,5.0,5.0,SAA,0.08079446797772559,N/A,,0.5
+pollutant_max_PM10_Location 4,5.0,5.0,SAA,0.05865982106023101,N/A,,0.5
+pollutant_max_O3_Location 1,5.0,5.0,MLP,0.03748732444032445,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 20), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.5123705214169816,0.5
+pollutant_max_O3_Location 2,5.0,5.0,MLP,0.03829983513180005,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 20), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.1031791748349058,0.5
+pollutant_max_O3_Location 4,5.0,5.0,MLP,0.06547823999493788,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 20), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.1232781677536795,0.5
+pollutant_max_PM10_Location 1,5.0,5.0,MLP,0.028075263561074877,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 20), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.5943087372108055,0.5
+pollutant_max_PM10_Location 2,5.0,5.0,MLP,0.014502299436051207,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 20), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.8205038067699217,0.5
+pollutant_max_PM10_Location 4,5.0,5.0,MLP,0.03944518258349404,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 20), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.32756046863845134,0.5
+pollutant_max_O3_Location 1,5.0,5.0,LGBM,0.04134394611135374,"OrderedDict([('learning_rate', 0.05), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 63)])",0.46220416671941744,0.5
+pollutant_max_O3_Location 2,5.0,5.0,LGBM,0.045664628631302946,"OrderedDict([('learning_rate', 0.05), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 63)])",-0.06927326942929213,0.5
+pollutant_max_O3_Location 4,5.0,5.0,LGBM,0.056349381066016675,"OrderedDict([('learning_rate', 0.05), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 63)])",0.24550915513362015,0.5
+pollutant_max_PM10_Location 1,5.0,5.0,LGBM,0.02079507738103829,"OrderedDict([('learning_rate', 0.05), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 63)])",0.6995083880812035,0.5
+pollutant_max_PM10_Location 2,5.0,5.0,LGBM,0.01448516685088252,"OrderedDict([('learning_rate', 0.05), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 63)])",0.820715858233314,0.5
+pollutant_max_PM10_Location 4,5.0,5.0,LGBM,0.03059139616567362,"OrderedDict([('learning_rate', 0.05), ('max_depth', 8), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 63)])",0.4784948945844406,0.5
+pollutant_max_O3_Location 1,5.0,5.0,RFW,0.044043010752688155,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 100)])",0.4270951397785667,0.5
+pollutant_max_O3_Location 2,5.0,5.0,RFW,0.0454610538373425,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 100)])",-0.064506405183685,0.5
+pollutant_max_O3_Location 4,5.0,5.0,RFW,0.0535790957287933,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 100)])",0.28260193033471537,0.5
+pollutant_max_PM10_Location 1,5.0,5.0,RFW,0.020271727172717274,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 100)])",0.7070708676437858,0.5
+pollutant_max_PM10_Location 2,5.0,5.0,RFW,0.014953911628276228,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 100)])",0.8149141642668047,0.5
+pollutant_max_PM10_Location 4,5.0,5.0,RFW,0.029992322148881558,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 100)])",0.48870757518871566,0.5
+pollutant_max_O3_Location 1,5.0,5.0,KNNW,0.06019115890083631,"OrderedDict([('n_neighbors', 8)])",0.2170424571952091,0.5
+pollutant_max_O3_Location 2,5.0,5.0,KNNW,0.05591582603554669,"OrderedDict([('n_neighbors', 8)])",-0.309313136007487,0.5
+pollutant_max_O3_Location 4,5.0,5.0,KNNW,0.07381739097968937,"OrderedDict([('n_neighbors', 8)])",0.011620986203056516,0.5
+pollutant_max_PM10_Location 1,5.0,5.0,KNNW,0.021349834983498347,"OrderedDict([('n_neighbors', 8)])",0.6914920675293295,0.5
+pollutant_max_PM10_Location 2,5.0,5.0,KNNW,0.015398882027377997,"OrderedDict([('n_neighbors', 8)])",0.8094067278019165,0.5
+pollutant_max_PM10_Location 4,5.0,5.0,KNNW,0.03423608962458746,"OrderedDict([('n_neighbors', 8)])",0.41636218785198187,0.5
+pollutant_max_O3_Location 1,5.0,5.0,DTW,0.048138590203106325,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.37382045822368726,0.5
+pollutant_max_O3_Location 2,5.0,5.0,DTW,0.05122307209104683,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",-0.1994286038594939,0.5
+pollutant_max_O3_Location 4,5.0,5.0,DTW,0.06599322356630824,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.11638278784879064,0.5
+pollutant_max_PM10_Location 1,5.0,5.0,DTW,0.020028602860286026,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.7105840460369439,0.5
+pollutant_max_PM10_Location 2,5.0,5.0,DTW,0.015714490263459335,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.8055004178282145,0.5
+pollutant_max_PM10_Location 4,5.0,5.0,DTW,0.031796832026952694,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.4579452945431901,0.5
+pollutant_max_O3_Location 1,5.0,5.0,GKW,0.08236081242532856,"OrderedDict([('kernel_bandwidth', 1.5)])",-0.07133706174654786,0.5
+pollutant_max_O3_Location 2,5.0,5.0,GKW,0.07482827701626164,"OrderedDict([('kernel_bandwidth', 1.5)])",-0.7521630813414952,0.5
+pollutant_max_O3_Location 4,5.0,5.0,GKW,0.07209947410231615,"OrderedDict([('kernel_bandwidth', 1.5)])",0.03462305883808714,0.5
+pollutant_max_PM10_Location 1,5.0,5.0,GKW,0.0226017601760176,"OrderedDict([('kernel_bandwidth', 1.5)])",0.6734015833147871,0.5
+pollutant_max_PM10_Location 2,5.0,5.0,GKW,0.016791917593821235,"OrderedDict([('kernel_bandwidth', 1.5)])",0.7921650081481986,0.5
+pollutant_max_PM10_Location 4,5.0,5.0,GKW,0.03534783239328638,"OrderedDict([('kernel_bandwidth', 1.5)])",0.39740981553639987,0.5
+pollutant_max_O3_Location 1,2.5,7.5,SAA,0.07237844967292428,N/A,,0.25
+pollutant_max_O3_Location 2,2.5,7.5,SAA,0.051030440797654765,N/A,,0.25
+pollutant_max_O3_Location 4,2.5,7.5,SAA,0.06992607757919608,N/A,,0.25
+pollutant_max_PM10_Location 1,2.5,7.5,SAA,0.020423542354235415,N/A,,0.25
+pollutant_max_PM10_Location 2,2.5,7.5,SAA,0.019769285240379693,N/A,,0.25
+pollutant_max_PM10_Location 4,2.5,7.5,SAA,0.025675590019939493,N/A,,0.25
+pollutant_max_O3_Location 1,2.5,7.5,MLP,0.04010202308256443,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 20), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.4459397339431269,0.25
+pollutant_max_O3_Location 2,2.5,7.5,MLP,0.03619729240382865,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 20), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.2906725507749839,0.25
+pollutant_max_O3_Location 4,2.5,7.5,MLP,0.08903980931255918,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 20), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.27334196904889296,0.25
+pollutant_max_PM10_Location 1,2.5,7.5,MLP,0.02915537288589039,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 20), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.4275375143158835,0.25
+pollutant_max_PM10_Location 2,2.5,7.5,MLP,0.012861010728186354,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 20), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",0.3494448296027852,0.25
+pollutant_max_PM10_Location 4,2.5,7.5,MLP,0.04760634751900984,"OrderedDict([('alpha', 0.001), ('early_stopping', True), ('layer1', 60), ('layer2', 20), ('learning_rate_init', 0.001), ('max_iter', 1000), ('solver', 'adam')])",-0.8541481415632151,0.25
+pollutant_max_O3_Location 1,2.5,7.5,LGBM,0.059023196043156936,"OrderedDict([('learning_rate', 0.05), ('max_depth', 8), ('min_data_in_leaf', 50), ('n_estimators', 100), ('num_leaves', 63)])",0.18451975263520115,0.25
+pollutant_max_O3_Location 2,2.5,7.5,LGBM,0.06615997358882292,"OrderedDict([('learning_rate', 0.05), ('max_depth', 8), ('min_data_in_leaf', 50), ('n_estimators', 100), ('num_leaves', 63)])",-0.29648054288144565,0.25
+pollutant_max_O3_Location 4,2.5,7.5,LGBM,0.08134583013815841,"OrderedDict([('learning_rate', 0.05), ('max_depth', 8), ('min_data_in_leaf', 50), ('n_estimators', 100), ('num_leaves', 63)])",-0.1633117851638206,0.25
+pollutant_max_PM10_Location 1,2.5,7.5,LGBM,0.022923804602335045,"OrderedDict([('learning_rate', 0.05), ('max_depth', 8), ('min_data_in_leaf', 50), ('n_estimators', 100), ('num_leaves', 63)])",-0.12242059701171915,0.25
+pollutant_max_PM10_Location 2,2.5,7.5,LGBM,0.018637902021257563,"OrderedDict([('learning_rate', 0.05), ('max_depth', 8), ('min_data_in_leaf', 50), ('n_estimators', 100), ('num_leaves', 63)])",0.057229343669503385,0.25
+pollutant_max_PM10_Location 4,2.5,7.5,LGBM,0.03192372564581228,"OrderedDict([('learning_rate', 0.05), ('max_depth', 8), ('min_data_in_leaf', 50), ('n_estimators', 100), ('num_leaves', 63)])",-0.2433492519946192,0.25
+pollutant_max_O3_Location 1,2.5,7.5,RFW,0.04318757467144564,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.40330892874040825,0.25
+pollutant_max_O3_Location 2,2.5,7.5,RFW,0.03860090344751137,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.24357103634336286,0.25
+pollutant_max_O3_Location 4,2.5,7.5,RFW,0.05043822804659497,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.27869215902364586,0.25
+pollutant_max_PM10_Location 1,2.5,7.5,RFW,0.01378932893289329,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.3248316725020196,0.25
+pollutant_max_PM10_Location 2,2.5,7.5,RFW,0.010587761417894366,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.46443377749093495,0.25
+pollutant_max_PM10_Location 4,2.5,7.5,RFW,0.022346521761551153,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 32), ('n_estimators', 500)])",0.1296588805088026,0.25
+pollutant_max_O3_Location 1,2.5,7.5,KNNW,0.0645089605734767,"OrderedDict([('n_neighbors', 32)])",0.10872696410339722,0.25
+pollutant_max_O3_Location 2,2.5,7.5,KNNW,0.043645844880464114,"OrderedDict([('n_neighbors', 32)])",0.14470962432936751,0.25
+pollutant_max_O3_Location 4,2.5,7.5,KNNW,0.06855772102747909,"OrderedDict([('n_neighbors', 32)])",0.019568615873916784,0.25
+pollutant_max_PM10_Location 1,2.5,7.5,KNNW,0.014611111111111111,"OrderedDict([('n_neighbors', 32)])",0.2845946673848637,0.25
+pollutant_max_PM10_Location 2,2.5,7.5,KNNW,0.0108031582797455,"OrderedDict([('n_neighbors', 32)])",0.45353824640662566,0.25
+pollutant_max_PM10_Location 4,2.5,7.5,KNNW,0.024004207061331134,"OrderedDict([('n_neighbors', 32)])",0.06509618502672665,0.25
+pollutant_max_O3_Location 1,2.5,7.5,DTW,0.04840621266427718,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.33120683182600363,0.25
+pollutant_max_O3_Location 2,2.5,7.5,DTW,0.03957201714517978,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.22454094993828833,0.25
+pollutant_max_O3_Location 4,2.5,7.5,DTW,0.064453125,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.0782676902332694,0.25
+pollutant_max_PM10_Location 1,2.5,7.5,DTW,0.014999449944994499,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.26558039321303495,0.25
+pollutant_max_PM10_Location 2,2.5,7.5,DTW,0.012602444200605628,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.3625240342597442,0.25
+pollutant_max_PM10_Location 4,2.5,7.5,DTW,0.024913355593371836,"OrderedDict([('max_depth', 10), ('min_samples_split', 64)])",0.02968712407293117,0.25
+pollutant_max_O3_Location 1,2.5,7.5,GKW,0.05505964252339211,"OrderedDict([('kernel_bandwidth', 1.5)])",0.2392812671146628,0.25
+pollutant_max_O3_Location 2,2.5,7.5,GKW,0.04136801327705104,"OrderedDict([('kernel_bandwidth', 1.5)])",0.18934634640756998,0.25
+pollutant_max_O3_Location 4,2.5,7.5,GKW,0.043945286508237515,"OrderedDict([('kernel_bandwidth', 1.5)])",0.37154652413519895,0.25
+pollutant_max_PM10_Location 1,2.5,7.5,GKW,0.01503997066373304,"OrderedDict([('kernel_bandwidth', 1.5)])",0.2635963731035098,0.25
+pollutant_max_PM10_Location 2,2.5,7.5,GKW,0.011781393184421533,"OrderedDict([('kernel_bandwidth', 1.5)])",0.40405568329008246,0.25
+pollutant_max_PM10_Location 4,2.5,7.5,GKW,0.023665557499970426,"OrderedDict([('kernel_bandwidth', 1.5)])",0.07828573825988372,0.25
+pollutant_max_O3_Location 1,1.0,9.0,SAA,0.03198853046594982,N/A,,0.1
+pollutant_max_O3_Location 2,1.0,9.0,SAA,0.023399567675424015,N/A,,0.1
+pollutant_max_O3_Location 4,1.0,9.0,SAA,0.03099005002986858,N/A,,0.1
+pollutant_max_PM10_Location 1,1.0,9.0,SAA,0.009035546565409223,N/A,,0.1
+pollutant_max_PM10_Location 2,1.0,9.0,SAA,0.007846349670716983,N/A,,0.1
+pollutant_max_PM10_Location 4,1.0,9.0,SAA,0.01195228656350178,N/A,,0.1
+pollutant_max_O3_Location 1,1.0,9.0,MLP,0.04155854589683289,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 60), ('layer2', 5), ('learning_rate_init', 0.0005), ('max_iter', 500), ('solver', 'adam')])",-0.29917021168164837,0.1
+pollutant_max_O3_Location 2,1.0,9.0,MLP,0.06826571860528978,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 60), ('layer2', 5), ('learning_rate_init', 0.0005), ('max_iter', 500), ('solver', 'adam')])",-1.9173923019521242,0.1
+pollutant_max_O3_Location 4,1.0,9.0,MLP,0.09676652834610976,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 60), ('layer2', 5), ('learning_rate_init', 0.0005), ('max_iter', 500), ('solver', 'adam')])",-2.122503134162256,0.1
+pollutant_max_PM10_Location 1,1.0,9.0,MLP,0.016127235163731605,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 60), ('layer2', 5), ('learning_rate_init', 0.0005), ('max_iter', 500), ('solver', 'adam')])",-0.7848654806861921,0.1
+pollutant_max_PM10_Location 2,1.0,9.0,MLP,0.0175340252516023,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 60), ('layer2', 5), ('learning_rate_init', 0.0005), ('max_iter', 500), ('solver', 'adam')])",-1.2346729354976707,0.1
+pollutant_max_PM10_Location 4,1.0,9.0,MLP,0.03260216213845117,"OrderedDict([('alpha', 0.0001), ('early_stopping', True), ('layer1', 60), ('layer2', 5), ('learning_rate_init', 0.0005), ('max_iter', 500), ('solver', 'adam')])",-1.7276924766853474,0.1
+pollutant_max_O3_Location 1,1.0,9.0,LGBM,0.06434187156594368,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 63)])",-1.011404419919582,0.1
+pollutant_max_O3_Location 2,1.0,9.0,LGBM,0.06839637963269661,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 63)])",-1.9229762097071403,0.1
+pollutant_max_O3_Location 4,1.0,9.0,LGBM,0.08411635507582021,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 63)])",-1.7143020096691637,0.1
+pollutant_max_PM10_Location 1,1.0,9.0,LGBM,0.019663510663588922,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 63)])",-1.176239203820467,0.1
+pollutant_max_PM10_Location 2,1.0,9.0,LGBM,0.014357942212144387,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 63)])",-0.8298881409439389,0.1
+pollutant_max_PM10_Location 4,1.0,9.0,LGBM,0.03158043214766469,"OrderedDict([('learning_rate', 0.05), ('max_depth', 9), ('min_data_in_leaf', 100), ('n_estimators', 250), ('num_leaves', 63)])",-1.6422084159277603,0.1
+pollutant_max_O3_Location 1,1.0,9.0,RFW,0.030829151732377543,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 10)])",0.0362435759531492,0.1
+pollutant_max_O3_Location 2,1.0,9.0,RFW,0.022003750508073752,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 10)])",0.059651408381200755,0.1
+pollutant_max_O3_Location 4,1.0,9.0,RFW,0.033940505525686976,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 10)])",-0.09520654187310806,0.1
+pollutant_max_PM10_Location 1,1.0,9.0,RFW,0.006987312064539788,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 10)])",0.2266862868828201,0.1
+pollutant_max_PM10_Location 2,1.0,9.0,RFW,0.005236651242443832,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 10)])",0.33260032216161506,0.1
+pollutant_max_PM10_Location 4,1.0,9.0,RFW,0.011992595743949397,"OrderedDict([('max_depth', None), ('max_features', None), ('min_samples_split', 64), ('n_estimators', 10)])",-0.0033725078656252627,0.1
+pollutant_max_O3_Location 1,1.0,9.0,KNNW,0.050198149922519135,"OrderedDict([('n_neighbors', 128)])",-0.5692546419396332,0.1
+pollutant_max_O3_Location 2,1.0,9.0,KNNW,0.026689588750195274,"OrderedDict([('n_neighbors', 128)])",-0.14060178890512942,0.1
+pollutant_max_O3_Location 4,1.0,9.0,KNNW,0.048097338295657516,"OrderedDict([('n_neighbors', 128)])",-0.5520251903207876,0.1
+pollutant_max_PM10_Location 1,1.0,9.0,KNNW,0.007429702970297029,"OrderedDict([('n_neighbors', 128)])",0.17772511972433902,0.1
+pollutant_max_PM10_Location 2,1.0,9.0,KNNW,0.0056405801662640495,"OrderedDict([('n_neighbors', 128)])",0.28112046964781456,0.1
+pollutant_max_PM10_Location 4,1.0,9.0,KNNW,0.011866792147964796,"OrderedDict([('n_neighbors', 128)])",0.00715297571579776,0.1
+pollutant_max_O3_Location 1,1.0,9.0,DTW,0.040375627240143375,"OrderedDict([('max_depth', 8), ('min_samples_split', 32)])",-0.26219074937253506,0.1
+pollutant_max_O3_Location 2,1.0,9.0,DTW,0.023183405387429332,"OrderedDict([('max_depth', 8), ('min_samples_split', 32)])",0.009237875288683695,0.1
+pollutant_max_O3_Location 4,1.0,9.0,DTW,0.05453535692951015,"OrderedDict([('max_depth', 8), ('min_samples_split', 32)])",-0.7597698899146119,0.1
+pollutant_max_PM10_Location 1,1.0,9.0,DTW,0.007554235423542358,"OrderedDict([('max_depth', 8), ('min_samples_split', 32)])",0.16394261610446104,0.1
+pollutant_max_PM10_Location 2,1.0,9.0,DTW,0.005783445612602502,"OrderedDict([('max_depth', 8), ('min_samples_split', 32)])",0.2629125828808465,0.1
+pollutant_max_PM10_Location 4,1.0,9.0,DTW,0.014552500171892191,"OrderedDict([('max_depth', 8), ('min_samples_split', 32)])",-0.2175494701014431,0.1
+pollutant_max_O3_Location 1,1.0,9.0,GKW,0.026473492080390838,"OrderedDict([('kernel_bandwidth', 1.5)])",0.17240674408064682,0.1
+pollutant_max_O3_Location 2,1.0,9.0,GKW,0.019879978208163354,"OrderedDict([('kernel_bandwidth', 1.5)])",0.1504125852272561,0.1
+pollutant_max_O3_Location 4,1.0,9.0,GKW,0.02260665194123579,"OrderedDict([('kernel_bandwidth', 1.5)])",0.2705190240271562,0.1
+pollutant_max_PM10_Location 1,1.0,9.0,GKW,0.006756068940227356,"OrderedDict([('kernel_bandwidth', 1.5)])",0.25227888636072004,0.1
+pollutant_max_PM10_Location 2,1.0,9.0,GKW,0.005734624686695474,"OrderedDict([('kernel_bandwidth', 1.5)])",0.269134702459487,0.1
+pollutant_max_PM10_Location 4,1.0,9.0,GKW,0.011341331125720099,"OrderedDict([('kernel_bandwidth', 1.5)])",0.05111619726783745,0.1
