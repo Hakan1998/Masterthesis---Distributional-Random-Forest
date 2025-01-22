@@ -67,9 +67,9 @@ warnings.filterwarnings("ignore")  # Suppress all Python warnings
 rpy2_logger.setLevel(logging.CRITICAL)  # Only show critical messages from R
 
 # Set R options to suppress warnings and messages
-ro.r('while (sink.number() > 0) sink(NULL)')  # Close open sinks to avoid "sink stack full" errors
-ro.r('options(warn=-1)')  # Disable all warnings in R
-ro.r('suppressMessages(suppressWarnings(library("drf")))')  # Suppress R package messages and warnings
+ro.r('while (sink.number() > 0) sink(NULL)') 
+ro.r('options(warn=-1)')  
+ro.r('suppressMessages(suppressWarnings(library("drf")))')  
 
 # Set environment variables for R libraries
 os.environ['R_LIBS_USER'] = '/usr/lib/R/site-library'

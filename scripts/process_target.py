@@ -18,7 +18,7 @@ def process_target_singleID(column, cu, co, tau, y_train, X_train_features, X_te
     X_train_scaled, X_test_scaled, y_train_col, y_test_col, X_train_scaled_withID = preprocess_per_instance_singleID(
         column, X_train_features, X_test_features, y_train, y_test
     )
-
+    
     create_cv_folds_singleID(X_train_scaled_withID)
 
     saa_model = SampleAverageApproximationNewsvendor(cu, co)
@@ -56,6 +56,7 @@ def process_target_singleID(column, cu, co, tau, y_train, X_train_features, X_te
 def process_target_alldata(column, cu, co, tau, y_train, X_train_features, X_test_features, y_test, random_state):
     table_rows = []
     global cvFolds_FULLDATA
+
     # Preprocess data for this specific column
     X_train_scaled, X_test_scaled, y_train_col, y_test_col, X_train_scaled_withID, X_test_scaled_withID = preprocess_per_instance_alldata(
         column, X_train_features, X_test_features, y_train, y_test
@@ -67,17 +68,14 @@ def process_target_alldata(column, cu, co, tau, y_train, X_train_features, X_tes
     saa_model = SampleAverageApproximationNewsvendor(cu, co)
     saa_pred = saa_model.fit(y_train_col).predict(X_test_scaled.shape[0])
 
-
-    # Ensure id_for_CV, y_true, and y_pred are 1-D arrays
     id_for_CV = X_test_scaled_withID['id_for_CV'].values.flatten()
     y_true = y_test_col.values.flatten()
     y_pred = saa_pred.flatten()  # Flatten y_pred to ensure it's 1-D
 
-    # Create DataFrame for SAA predictions
     saa_predictions_df = pd.DataFrame({
         'id_for_CV': id_for_CV,
         'y_true': y_true,
-        'y_pred': y_pred  # Use the flattened y_pred here
+        'y_pred': y_pred 
     })
 
     saa_pinball_losses_per_id = {}
@@ -100,7 +98,6 @@ def process_target_alldata(column, cu, co, tau, y_train, X_train_features, X_tes
         ('GKW', GaussianWeightedNewsvendor(cu=cu, co=co), get_grid('GKW', n_features)),
     ]
 
-    # Limit the number of threads for numerical libraries
     with threadpool_limits(limits=1):
         for model_name, model, param_grid in other_models:
             print(f"Running model {model_name} for column {column}, cu={cu}, co={co}")

@@ -37,7 +37,7 @@ def train_and_evaluate_singleID(model_name, model, param_grid, X_train_scaled, X
         print("Performing LevelSetKDEx TimeSeries cross-validation...")
 
         CV = QuantileCrossValidation(estimator=model, parameterGrid=param_grid, cvFolds=cvFolds, 
-                                     probs=[tau], refitPerProb=True, n_jobs=4)
+                                     probs=[tau], refitPerProb=True, n_jobs=1)
         CV.fit(X=X_train_scaled, y=y_train.to_numpy())
     
         fold_scores_raw = CV.cvResults_raw
@@ -91,10 +91,6 @@ def bayesian_search_model_singleID(model_name, model, param_grid, X_train, y_tra
 
 
     n_iter = min(max_combinations, 50)  # Dynamically set n_iter to the smaller of max_combinations or 50
-
-    if model_name == "DRF":
-        n_jobs = 10
-
 
     # Create Bayesian search object with optimized settings
     bayes_search = BayesSearchCV(
@@ -151,7 +147,6 @@ def bayesian_search_model_singleID(model_name, model, param_grid, X_train, y_tra
     # Define the preprocessing function
 
 def preprocess_per_instance_singleID(column, X_train_features, X_test_features, y_train, y_test):
-    """Preprocess training and test data for the given column."""
 
     drop_columns = ['label', 'id', 'demand', 'dayIndex']
 
@@ -166,18 +161,17 @@ def preprocess_per_instance_singleID(column, X_train_features, X_test_features, 
     # Extract corresponding target data
     y_train_col, y_test_col = y_train[column], y_test[column]
 
-    # dropna because we may have targets with different lenths in the data, its easier for implementation reasons to drop them here when we prepare each ID Data
+    # dropna because we may have targets with different lenths in the data
+    # its easier for implementation reasons to drop them here when we prepare each ID Data
     y_train_col = y_train_col.dropna()
     y_test_col = y_test_col.dropna()
 
-
     # Scale the features
     scaler = StandardScaler()
-
     X_train_scaled = scaler.fit_transform(X_train)
     X_test_scaled = scaler.transform(X_test)
 
-    # Retain the id and dayIndex columns for later
+    # Retain the id and dayIndex columns for creating CV Folds 
     X_train_scaled_withID = pd.DataFrame(
         np.hstack((X_train_scaled, X_train_features.get_group(column)[['id', 'dayIndex']].values)),
         columns=list(X_train.columns) + ['id', 'dayIndex'])
@@ -221,13 +215,13 @@ def create_cv_folds_singleID(X_train_scaled_withID, kFolds=5, testLength=None, g
         if testLength is None:
             testLength = int( 0.06 * (len(X_train_scaled_withID)))
 
-    print(f"Test length for column: {testLength} 6 % of the actual ID: {int(len(X_train_scaled_withID))}")
-    cvFolds = groupedTimeSeriesSplit(
-        data=X_train_scaled_withID, 
-        kFolds=kFolds, 
-        testLength=testLength, 
-        groupFeature=groupFeature, 
-        timeFeature=timeFeature
+        print(f"Test length for column: {testLength} 6 % of the actual ID: {int(len(X_train_scaled_withID))}")
+        cvFolds = groupedTimeSeriesSplit(
+            data=X_train_scaled_withID, 
+            kFolds=kFolds, 
+            testLength=testLength, 
+            groupFeature=groupFeature, 
+            timeFeature=timeFeature
     )
 
 
@@ -236,7 +230,7 @@ def create_cv_folds_singleID(X_train_scaled_withID, kFolds=5, testLength=None, g
 levelset_calculations = config.levelset_calculations
 if levelset_calculations == True :
 # Define the folder where results are stored
-    results_folder = "results"
+    results_folder = "Results/results_by_file"
     dataset_name = config.dataset_name  # Get the dataset name from config.py
     filename = os.path.join(results_folder, f"results_basic_Models_{dataset_name}.csv")
     result_table = pd.read_csv(filename)

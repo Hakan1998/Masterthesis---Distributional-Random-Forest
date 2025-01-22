@@ -21,6 +21,8 @@ Additionally, download links to all preprocessed datasets are provided below for
 
 ## Accessing Preprocessed Datasets
 
+This folder contains the preprocessed AIr and Wage datasets as well as the preprocessing. 
+
 To download the preprocessed datasets used in this work use the following `file_id` mappings and generate the corresponding download URL:
 
 ```python

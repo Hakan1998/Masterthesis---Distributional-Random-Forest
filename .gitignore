@@ -18,6 +18,11 @@ __pycache__/
 config.json
 config.yaml
 .env
+# Ignore virtual environments
+.venv/
+
+*.so
+*.csv
 
 # IP-Adress-Dateien (falls du konkrete Dateien hast, in denen die IPs gespeichert sind)
 ip_address.txt
@@ -32,6 +37,7 @@ echo "wage.csv" >> .gitignore
 # Oder spezifische Dateien ignorieren
 m5.csv
 bakery.csv
+subset_bakery.csv
 air.csv
 yaz.csv
 wage.csvvenv/

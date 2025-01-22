@@ -20,7 +20,7 @@ def get_dataset_settings_singleID(data):
             'drop_columns': [col for col in data.columns if col.startswith('item_') or col.startswith('store_') or col.startswith('state_')]
         },
         'air': {
-            'file_id': '1SKPpNxulcusNTjRwCC0p3C_XW7aNBNJZ',
+            'file_id': '1SKPpNxulcusNTjRwCC0p3C_XW7aNBNJZ', 
             'backscaling_columns': [] ,
             'bool_columns': [],
             'drop_columns': ["counts", "location", "target"]
@@ -73,7 +73,7 @@ def get_dataset_settings_alldata(data):
             'file_id': '1r_bDn9Z3Q_XgeTTkJL7352nUG3jkUM0z',
             'backscaling_columns': [col for col in data.columns if col.startswith('demand_')] + ['demand'],
             'bool_columns': ['is_schoolholiday', 'is_holiday', 'is_holiday_next2days'],
-            'drop_columns': [''date', "store_50", "store_71", "store_24", "store_38", "store_27", "store_29", "store_70", "store_17", "store_26", "store_45", "store_48", "store_31", "store_43", "store_3", "store_20", "store_49"],
+            'drop_columns': ['date', "store_50", "store_71", "store_24", "store_38", "store_27", "store_29", "store_70", "store_17", "store_26", "store_45", "store_48", "store_31", "store_43", "store_3", "store_20", "store_49"],
             'drop_keywords': ["50.0", "71.0", "24.0", "38.0", "27.0", "29.0", "70.0", "17.0", "26.0", "45.0", "48.0", "31.0", "43.0", "3.0", "20.0", "49.0"]
         },
         'yaz': {
@@ -88,7 +88,8 @@ def get_dataset_settings_alldata(data):
             'backscaling_columns': [col for col in data.columns if col.startswith('demand_')] + ['demand'],
             'bool_columns': [],
             'drop_columns': ["item_FOODS_3_080", "item_FOODS_3_226", "item_FOODS_3_668", "item_FOODS_3_714", "store_CA_2", "store_CA_4", "store_TX_1", "store_TX_3", "store_WI_2", "store_WI_3"],
-            'drop_keywords': ["080", "226", "668", "714", "CA_2", "CA_4", "TX_1", "TX_3", "WI_2", "WI_3"]
+            'drop_keywords': ["080", "226", "668", "714", "CA_2", "CA_4", "TX_1", "TX_3", "WI_2", "WI_3"
+]
         },
         'subset_air': {
             'file_id': '1DMOaV92n3BFEGeCubaxEys2eLzg2Cic3',

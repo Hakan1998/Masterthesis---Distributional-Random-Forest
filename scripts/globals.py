@@ -1,3 +1,5 @@
+# globals.py
+
 import pandas as pd
 
 global_cv_results = []

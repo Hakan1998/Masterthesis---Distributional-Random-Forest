@@ -37,42 +37,42 @@ def get_grid(estimator_name, n_features):
     grids = {
 
         "DTW": {
-            "max_depth": Categorical([None, 2, 4, 6, 8, 10]),  # Diskrete Werte bleiben unverändert
-            "min_samples_split": Categorical([2, 4, 8, 16, 32, 64])  # Diskrete Werte mit kleineren Abstufungen
+            "max_depth": Categorical([None, 2, 4, 6, 8, 10]),  
+            "min_samples_split": Categorical([2, 4, 8, 16, 32, 64])  
         },
         "RFW": {
-            "max_depth": Categorical([None, 2, 4, 8, 10]),  # Diskrete Werte bleiben unverändert
-            "min_samples_split": Categorical ([2, 4 ,8, 16, 32, 64]),  # Diskrete Werte mit feineren Abstufungen
-            "n_estimators": Categorical([10, 20, 50, 100, 250, 500]),  # Diskrete Werte für n_estimators mit kleineren Schritten
-            "max_features": Categorical([None, 'sqrt'])  # Diskrete Wahl bleibt unverändert
+            "max_depth": Categorical([None, 2, 4, 8, 10]),  
+            "min_samples_split": Categorical ([2, 4 ,8, 16, 32, 64]),  
+            "n_estimators": Categorical([10, 20, 50, 100, 250, 500]),  
+            "max_features": Categorical([None, 'sqrt'])  
         },
         "KNNW": {
-            "n_neighbors": Categorical([1, 2, 4, 8, 16, 32, 64, 128])  # Kontinuierlicher Bereich für Anzahl der Nachbarn
+            "n_neighbors": Categorical([1, 2, 4, 8, 16, 32, 64, 128])  
         },
         "GKW": {
-            "kernel_bandwidth": Categorical(kernel_bandwidth_values)  # Kontinuierlicher Bereich für Kernel-Bandbreite
+            "kernel_bandwidth": Categorical(kernel_bandwidth_values)  
         },
         "MLP": {    
-            'layer1': Categorical(layer1_values),  # Kontinuierlicher Bereich für Layergrößen
-            'layer2': Categorical(layer2_values),  # Kontinuierlicher Bereich für Layergrößen
-            'solver': Categorical(['adam']),  # Solver bleibt diskret
-            'alpha': Categorical([0.0001, 0.001]),  # Kontinuierlicher Bereich für alpha
-            'learning_rate_init': Categorical([0.0005, 0.001]),  # Lernrate als kontinuierlicher Bereich
-            'max_iter': Categorical([500, 1000]),  # Diskrete Werte für max_iter
-            'early_stopping': Categorical([True])  # Diskret, da True oder False
+            'layer1': Categorical(layer1_values),  
+            'layer2': Categorical(layer2_values),  
+            'solver': Categorical(['adam']),  
+            'alpha': Categorical([0.0001, 0.001]),  
+            'learning_rate_init': Categorical([0.0005, 0.001]),  
+            'max_iter': Categorical([500, 1000]),  
+            'early_stopping': Categorical([True])  
         },
         "DRF": {
-            "min_node_size": Categorical([2, 4 ,8, 16, 32, 64]),  # Kontinuierlicher Bereich für min_node_size
-            "num_trees": Categorical([10, 20, 50, 100, 250, 500]),  # Kontinuierlicher Bereich für Anzahl der Bäume
-            "num_features": Categorical([n_features, int(sqrt_n_features)])  # Quadratwurzel von n_features als Option
+            "min_node_size": Categorical([2, 4 ,8, 16, 32, 64]),  
+            "num_trees": Categorical([10, 20, 50, 100, 250, 500]),  
+            "num_features": Categorical([n_features, int(sqrt_n_features)]) 
         },
         "LevelSetKDEx_groupsplit": {"binSize": bin_sizes, "weightsByDistance": [True, False]},
         "LGBM": {
-            'num_leaves': Categorical([31, 63, 127]),  # Diskrete Werte mit kleineren Schritten für num_leaves
-            'min_data_in_leaf': Categorical([20, 50, 100, 500]),  # Diskrete Werte für min_data_in_leaf
-            'max_depth': Categorical([ 2, 4, 8, 10 -1]),  # Diskrete Werte für max_depth
-            'learning_rate': Categorical([0.01, 0.05, 0.1]),  # Diskrete Werte für learning_rate
-            'n_estimators': Categorical([10, 20, 50, 100, 250, 500])  # Diskrete Werte für n_estimators
+            'num_leaves': Categorical([31, 63, 127]),  #
+            'min_data_in_leaf': Categorical([20, 50, 100, 500]),  
+            'max_depth': Categorical([ 2, 4, 8, 10 -1]),  
+            'learning_rate': Categorical([0.01, 0.05, 0.1]),  
+            'n_estimators': Categorical([10, 20, 50, 100, 250, 500])  
         }
     }
 
@@ -82,6 +82,7 @@ def append_result(table_rows, column, cu, co, model_name, pinball_loss_value, be
     """Append model evaluation results to the table_rows."""
     result_row = [column, cu, co, model_name, pinball_loss_value, best_params, delta, tau]
     table_rows.append(result_row)
+    
 
 # Function to calculate the number of hyperparameter combinations
 # to set dynamically the iterations for bayesopt if we have less than than our aimed iterations (50)

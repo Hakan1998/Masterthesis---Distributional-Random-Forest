@@ -11,13 +11,12 @@ cvFolds_FULLDATA = None  # Globale Initialisierung
 
 def preprocess_per_instance_alldata(column, X_train_features, X_test_features, y_train, y_test):
     """Preprocess training and test data for the given column."""
-    # Drop irrelevant columns
+
     drop_columns = ['label', 'id_for_CV', 'demand', 'dayIndex', 'dummyID']
 
     X_train = X_train_features.get_group(column).drop(columns=drop_columns, errors='ignore')
     X_test = X_test_features.get_group(column).drop(columns=drop_columns, errors='ignore')
 
-    # Extract corresponding target data
     y_train_col, y_test_col = y_train[column], y_test[column]
     y_train_col = y_train_col.dropna()
     y_test_col = y_test_col.dropna()
@@ -76,7 +75,9 @@ def evaluate_and_append_models_alldata(models, X_train_scaled, X_test_scaled, y_
 
 def train_and_evaluate_model_alldata(model_name, model, param_grid, X_train_scaled, X_test_scaled,
                              y_train, y_test, tau, cu, co, timeseries, column):
+    
     if timeseries and ("LS_KDEx_MLP" in model_name or "LS_KDEx_LGBM" in model_name):
+
         # Perform LevelSetKDEx time series cross-validation
         point_forecast_model = model.estimator
         if isinstance(point_forecast_model, LGBMRegressor):
@@ -91,7 +92,7 @@ def train_and_evaluate_model_alldata(model_name, model, param_grid, X_train_scal
         model.estimator = point_forecast_model
 
         CV = QuantileCrossValidation(estimator=model, parameterGrid=param_grid, cvFolds=cvFolds_FULLDATA,
-                                     probs=[tau], refitPerProb=True, n_jobs=n_jobs)
+                                     probs=[tau], refitPerProb=True, n_jobs=1)
         CV.fit(X=X_train_scaled, y=y_train.to_numpy())
 
         fold_scores_raw = CV.cvResults_raw
@@ -111,6 +112,7 @@ def train_and_evaluate_model_alldata(model_name, model, param_grid, X_train_scal
         predictions = best_model.predict(X_test_scaled, probs=[tau])[tau]
         best_params = CV.bestParams_perProb[tau]
     else:
+
         # Perform Bayesian search for other models
         model, best_params = bayesian_search_model_alldata(
             model_name, model, param_grid, X_train_scaled, y_train, tau, cu, co, n_points, n_initial_points, n_jobs, column
@@ -120,7 +122,6 @@ def train_and_evaluate_model_alldata(model_name, model, param_grid, X_train_scal
         else:
             predictions = model.predict(X_test_scaled).flatten()
 
-    # Calculate pinball loss
     pinball_loss_value = pinball_loss(y_test.values.flatten(), predictions, tau)
 
     return pinball_loss_value, best_params, predictions  # Return all three values
@@ -131,16 +132,18 @@ def train_and_evaluate_model_alldata(model_name, model, param_grid, X_train_scal
 def create_cv_folds_alldata(X_train_scaled_withID, kFolds=5, testLength=None, groupFeature='id_for_CV', timeFeature='dayIndex'):   ###########
     global cvFolds_FULLDATA
 
-        # Prüfe, ob die Zahl 16 in der groupFeature-Spalte vorhanden ist
+        # check if we have 16 in the IDs to idenify the Wage dataset since it is no timeseries we use basic KFold
     if "16" in X_train_scaled_withID[groupFeature].values:
         print("Wage Dataset, no time series split using basic KFold Cross Validation")
-        kf = KFold(n_splits=5)  # Anzahl der gewünschten Folds
-        cvFolds_FULLDATA = list(kf.split(X_train_scaled_withID))  # list() um die Folds zu erstellen
-    else:
+        kf = KFold(n_splits=5)  
+        cvFolds_FULLDATA = list(kf.split(X_train_scaled_withID))  
+
+    else: # GroupTimeSeries Split
         amount_groups = X_train_scaled_withID[groupFeature].nunique()
         datapoints_per_group = len(X_train_scaled_withID) / amount_groups
 
-        # Wenn keine Testlänge angegeben wurde, setze sie auf 6% der Datenpunkte pro Gruppe
+        # Wenn keine Testlänge angegeben wurde, setze sie auf 6% der Datenpunkte pro Gruppe. 
+        # Resultiert bei 5 Folds in ein 70/30 split für den letzen Fold
         if testLength is None:
             testLength = int(0.06 * datapoints_per_group)
 
@@ -171,19 +174,19 @@ def bayesian_search_model_alldata(model_name, model, param_grid, X_train, y_trai
         estimator=model,
         random_state=42,
         search_spaces=param_grid,
-        n_iter=n_iter,  # Number of iterations
-        cv=cvFolds_FULLDATA,  # Cross-validation folds
-        n_jobs=n_jobs,  # Use all available CPU cores
-        n_points=n_points,  # Number of hyperparameter sets to evaluate in parallel
+        n_iter=n_iter, 
+        cv=cvFolds_FULLDATA,  
+        n_jobs=n_jobs,  
+        n_points=n_points, 
         scoring=scorer,
         verbose=1,
         iid = False,
         optimizer_kwargs={
-            'n_initial_points': n_initial_points  # Number of initial random points
+            'n_initial_points': n_initial_points  
         }
     )
     
-    # Fit the model with Bayesian optimization
+    # Fit the model 
     try:
         bayes_search.fit(X_train, y_train)
     except Exception as e:
@@ -212,7 +215,8 @@ def bayesian_search_model_alldata(model_name, model, param_grid, X_train, y_trai
 
     print(f"Cross-validation results for {model_name} with cu={cu}, co={co}:")
 
-    # Append the results to the global list for further aggregation
+    # Append the results to the global list
+
     if model_name == 'DRF':
         globals.drf_cv_results.append(cv_results_df)
     else:
@@ -220,11 +224,13 @@ def bayesian_search_model_alldata(model_name, model, param_grid, X_train, y_trai
 
     return best_model, bayes_search.best_params_
 
+
 levelset_calculations = config.levelset_calculations
+
 if levelset_calculations == True :
 # Define the folder where results are stored
-    results_folder = "results"
-    dataset_name = config.dataset_name  # Get the dataset name from config.py
+    results_folder = "Results/results_by_file"
+    dataset_name = config.dataset_name 
     filename = os.path.join(results_folder, f"results_basic_Models_{dataset_name}.csv")
     result_table = pd.read_csv(filename)
 
@@ -232,7 +238,7 @@ if levelset_calculations == True :
 def get_pre_tuned_params_alldata(column, cu, co, model_name):
     """Fetch the pre-tuned parameters for DLNW or RF models from the result table."""
     params_row = result_table[
-       # (result_table['Variable'] == column) &
+       # (result_table['Variable'] == column) & Full Data training has the same parameter on all IDs since we trained on the whole dataset
         (result_table['cu'] == cu) &
         (result_table['co'] == co) &
         (result_table['Model'] == model_name)
