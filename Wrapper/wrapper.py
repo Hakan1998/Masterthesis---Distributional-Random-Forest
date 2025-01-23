@@ -2,15 +2,14 @@ from scripts.shared_imports import *
 
 ############################
 
-# # The DRFWrapper class is a wrapper for the DRF model, which allows it to be used in Scikit-learn pipelines and GridSearchCV.
+# # The DRFWrapper class is a wrapper for the DRF model, which allows it to be used in Scikit-learn pipelines.
 # Since the DRF is not compatible with Scikit-learn, we need to create a wrapper class to use it in our Bayesian optimization framework.
-# Further: DRF doesnt run with n_jobs, so we need to set the number of threads in the model itself!
 
 # important:
-#  
-# the number of threads should be set to the number of threads should be uses similiar to the n_jobs parameter in GridSearchCV etc.
-# if dont set and pass the num_threads argument in the initialisating it will use the default value num_thread = NULL 
-# which means it will use all available threads and all available kernels
+# DRF doesnt run with n_jobs, so we need to set the number of threads in the model Initialization.
+# the number of threads should be set to the desired number of paralles processes 
+# otherweise it will use the default value num_thread = NULL (which means all available) and will lead to overload
+
 
 # The python package doesnt contain the passed arguments
 # for an overview of all arguments see the source R Package: https://github.com/lorismichel/drf/blob/master/r-package/drf/R/drf.R
@@ -71,9 +70,13 @@ class DRFWrapper(BaseEstimator, RegressorMixin):
 
 
 
-    # BayesSearchCV requires parameters to be Categorical, Integer, or Real types,
-    # typically defined by bounds or a list of values
-    # However, hidden_layer_sizes must be an array, which is not directly supported.
+
+    
+# The standard MLP Regressor expects an array-like structure for its layer sizes, 
+# which is not directly supported by BayesSearchCV.
+# BayesSearchCV requires parameters to be defined as Categorical, Integer, or Real types.
+# This issue is resolved by using the wrapper function defined below.
+
 
 class MLPRegressorWrapper(BaseEstimator, RegressorMixin):
     def __init__(self, layer1=50, layer2=25, layer3=10, activation='relu',
