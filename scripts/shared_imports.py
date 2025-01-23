@@ -18,7 +18,6 @@ import seaborn as sns
 import importlib
 from scipy.stats import norm
 from sklearn.base import BaseEstimator, RegressorMixin
-from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import make_scorer
 from sklearn.model_selection import GridSearchCV, KFold
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
@@ -43,6 +42,7 @@ from ddop2.newsvendor import (
     RandomForestWeightedNewsvendor, GaussianWeightedNewsvendor, 
     LinearRegressionNewsvendor
 )
+
 from drf import drf
 from dddex.levelSetKDEx_univariate import LevelSetKDEx
 from dddex.loadData import loadDataYaz

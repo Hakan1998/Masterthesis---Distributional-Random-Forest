@@ -1,5 +1,0 @@
-install.packages("drf")
-quit()
-.libPaths()
-install.packages("drf", lib="/usr/local/lib/R/site-library")
-quit()

@@ -1,3 +1,5 @@
+#get_data.py
+
 # Funktion zur dynamischen Erstellung von Dataset-Einstellungen basierend auf den geladenen Daten
 def get_dataset_settings_singleID(data):
     return {

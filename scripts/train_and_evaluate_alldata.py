@@ -1,4 +1,4 @@
-# train_and_evaluation_.py
+# train_and_evaluation_alldata.py
 
 from scripts.shared_imports import *
 import scripts.config as config
