@@ -18,7 +18,7 @@ dataset_name = "subset_bakery"               # Name of the dataset to use
 # Available dataset names: 
 # for ID-based Training:
 # air, bakery, m5, wage, yaz
-#subset_air,, subset_bakery,subset_m5, wage, yaz
+# subset_air, subset_bakery, subset_m5, wage, yaz
 # ==========================
 # Model Settings
 # ==========================
