@@ -12,12 +12,13 @@ timeseries = True                  # Flag indicating if dataset is time series
 # ==========================
 # Variable Parameters
 # ==========================
-bin_sizes = [20, 100, 400, 800]   # Bin sizes to use for training. Add 800 for full dataset
-dataset_name = "yaz"               # Name of the dataset to use
+bin_sizes = [20, 100, 400]   # Bin sizes to use for training. Add 800 for full dataset
+dataset_name = "subset_bakery"               # Name of the dataset to use
 
 # Available dataset names: 
-# air, subset_air, bakery, subset_bakery, m5, subset_m5, wage, yaz
-
+# for ID-based Training:
+# air, bakery, m5, wage, yaz
+#subset_air,, subset_bakery,subset_m5, wage, yaz
 # ==========================
 # Model Settings
 # ==========================

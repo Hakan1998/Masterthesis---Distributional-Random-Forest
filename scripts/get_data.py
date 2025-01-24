@@ -48,21 +48,16 @@ def preprocess_data_singleID(data, demand_columns, bool_columns, drop_columns):
     data.drop(columns=drop_columns, inplace=True, errors='ignore')
     data[bool_columns] = data[bool_columns].astype(int)
 
-    # 4. Pivot für das Zielvariable (demand) für 'y'
     y = data.pivot_table(index=['dayIndex', 'label'], columns='id', values='demand').reset_index().set_index('dayIndex')
     
-    #5. Aufteilung in Trainings- und Testdaten basierend auf dem 'label'
     train_data = data[data['label'] == 'train']
     test_data = data[data['label'] == 'test']
 
-    # 6. Aufteilen der Zielvariablen in Trainings- und Testdaten
     y_train = y[y['label'] == 'train'].drop(columns=['label'])
     y_test = y[y['label'] == 'test'].drop(columns=['label'])
 
-    # 7. Gruppierung der Daten nach 'id' für die Trainings- und Testdatensätze
     X_train_features = train_data.groupby('id')
     X_test_features = test_data.groupby('id')
-
 
     return y, train_data, test_data, X_train_features, X_test_features, y_train, y_test
 
@@ -126,24 +121,20 @@ def preprocess_data_alldata(data, dataset_name, bool_columns, drop_columns, drop
     data['id_for_CV'] = data['id']
     data['id_for_CV'] = data['id_for_CV'].astype(str)      
     data = drop_rows_by_keywords(data, "id_for_CV", drop_keywords)
-                                      ########################
-    data["dummyID"] = "dummyID"                                           #########################
-    data.drop(columns=['id', 'index'], inplace=True)                               #########################
-
-    y = data[["demand", "label", "id_for_CV"]].set_index('id_for_CV')                      ####################
-    y.rename(columns={'demand': 'dummyID'}, inplace=True)                 ##################
+                                     
+    data["dummyID"] = "dummyID"                                        
+    data.drop(columns=['id', 'index'], inplace=True)    
+                            
+    y = data[["demand", "label", "id_for_CV"]].set_index('id_for_CV')                      
+    y.rename(columns={'demand': 'dummyID'}, inplace=True)                 
 
     train_data = data[data['label'] == 'train']
     test_data = data[data['label'] == 'test']
 
-
-    # 6. Aufteilen der Zielvariablen in Trainings- und Testdaten
     y_train = y[y['label'] == 'train'].drop(columns=['label'])
     y_test = y[y['label'] == 'test'].drop(columns=['label'])
 
-    # 7. Gruppierung der Daten nach 'id' für die Trainings- und Testdatensätze
-    X_train_features = train_data.groupby('dummyID')                      #####
-    X_test_features = test_data.groupby('dummyID')                        #####
-    display(train_data)
+    X_train_features = train_data.groupby('dummyID')                      
+    X_test_features = test_data.groupby('dummyID')                        
 
     return y, train_data, test_data, X_train_features, X_test_features, y_train, y_test, data, dataset_name

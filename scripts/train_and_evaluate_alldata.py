@@ -132,7 +132,8 @@ def train_and_evaluate_model_alldata(model_name, model, param_grid, X_train_scal
 def create_cv_folds_alldata(X_train_scaled_withID, kFolds=5, testLength=None, groupFeature='id_for_CV', timeFeature='dayIndex'):   ###########
     global cvFolds_FULLDATA
 
-        # check if we have 16 in the IDs to idenify the Wage dataset since it is no timeseries we use basic KFold
+        # check if we have 16 in the IDs column to idenify the Wage dataset since it is no timeseries we use basic KFold
+        # not the cleanest approach but easiest
     if "16" in X_train_scaled_withID[groupFeature].values:
         print("Wage Dataset, no time series split using basic KFold Cross Validation")
         kf = KFold(n_splits=5)  
@@ -142,13 +143,12 @@ def create_cv_folds_alldata(X_train_scaled_withID, kFolds=5, testLength=None, gr
         amount_groups = X_train_scaled_withID[groupFeature].nunique()
         datapoints_per_group = len(X_train_scaled_withID) / amount_groups
 
-        # Wenn keine Testlänge angegeben wurde, setze sie auf 6% der Datenpunkte pro Gruppe. 
-        # Resultiert bei 5 Folds in ein 70/30 split für den letzen Fold
+        # setze Testlänge auf 6% der Datenpunkte pro Gruppe. 
+        # Resultiert bei 5 Folds in ein 70/30 train/validate verhältnis im split für den letzen Fold
         if testLength is None:
             testLength = int(0.06 * datapoints_per_group)
 
         print(f"Test length for column: {testLength} (6% of {int(datapoints_per_group)} Datapoints per Group)")
-
 
         cvFolds_FULLDATA = groupedTimeSeriesSplit(
             data=X_train_scaled_withID,
@@ -163,11 +163,10 @@ def bayesian_search_model_alldata(model_name, model, param_grid, X_train, y_trai
 
 
     scorer = pinball_loss_scorer(tau)
-
     max_combinations = calculate_n_iter(param_grid)
-
-    n_iter = min(max_combinations, 50)  # Dynamically set n_iter to the smaller of max_combinations or 50
-
+    n_iter = min(max_combinations, 50)  
+    # Dynamically set n_iter to the smaller of max_combinations or 50 
+    # to avoid redundant iteration where we have less than 50 hyperparameter combinations
 
     # Create Bayesian search object with optimized settings
     bayes_search = BayesSearchCV(

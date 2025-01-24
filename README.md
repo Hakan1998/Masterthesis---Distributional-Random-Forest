@@ -36,7 +36,7 @@ To reproduce the results or explore the analysis:
 
 ### General Workflow
 
-After the initial preprocessing, we process each target variable individually, column by column. Each variable is then scaled, and the results for each target (ID) are calculated. First, the DDOP models are applied, together with point forecaster tuning for the LSx models, followed by the DRF and LXs models.
+After the initial preprocessing, we process each target variable individually, column by column. Each variable is then scaled, and the results for each target (ID) are calculated. First, the DDOP models are applied, together with point forecaster tuning for the LSx models, followed by the DRF and LSx models.
 
 This process is executed twice: first, we train the models using only the target variable and then on the entire dataset. During this, all results are collected in global tables.
 
